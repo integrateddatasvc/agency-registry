@@ -17,7 +17,7 @@ Several initiaives readilly collect and maintain basic information about agencie
 
 ## How this works?
 - Each agency has a dedicated directory that contains one of more files with some information (metadata) about it.
-- A metadata file has a well defined structure and content (schema) and is typically stored in a YAML, JSON, or XML format
+- A metadata file has a well defined structure and content (schema) and is typically stored in a YAML
 - File follow specific naming conventions to indentify its origin and schema
 
 The following files are manually maintained in this projects:
@@ -27,20 +27,25 @@ The following files are manually maintained in this projects:
 - catalogs.yaml: data catalogs and access using web bsed user interfaces
 - apis.yaml:  data catalog and access using web services
 
-The ids.yaml file is used by scripts to automatically harvest metadata from registries.
+The ids.yaml file is used by scripts to automatically harvest and updated metadata from external sources.
 
-The following files are harvested from various registries:
+The following files are harvested and stored in the external directory:
 
 - ror.json
 - (add)
 
-The following files are generated from the available metadata:
+The following files are generated from the available metadata and stored in the docs directory:
 
 - (todo)
 
+### How to add an agency
+
+- Create a directory in the relevant group under the registry
+- Create an ids.yaml file, with at least the ROR identifier
+- Run the updater script in the utils directory: `python updater.py <group>/<agency>`
 
 ## Identifers and basic information
-Below list of sources we have identified and can use to compile basic agency profile information. Note that only a few provide public API end point, and all seem to lack OpenAPI / Postman docs. ROR seem like a good starting point for identifiers. 
+Below list of sources we have identified and can be used to compile basic agency profile information. Note that only a few provide public API end point, and all seem to lack OpenAPI / Postman docs. ROR seem like a good starting point for identifiers. 
 
 ### [Crossref Funder ID](https://www.crossref.org/services/funder-registry/)
 The Funder Registry and associated funding metadata allows everyone to have transparency into research funding and its outcomes. It’s an open and unique registry of persistent identifiers for grant-giving organizations around the world.
