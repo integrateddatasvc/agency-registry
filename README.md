@@ -2,7 +2,7 @@
 
 **THIS PROJECT IS IN EARLY STAGE**
 
-This project aims at compiling information around government agencies, data archives, research centers, and other organizations producing and providing access to statistical and scientific data, with a focus on access.
+This project aims at compiling information around government agencies, data archives, research centers, and other organizations producing and publishing statistical and scientific data, with a focus on documenting coverage and data access mechanisms.
 
 This includes:
 - Organization profile: web site, location, contact information
@@ -16,11 +16,11 @@ This includes:
 Several initiaives readilly collect and maintain basic information about agencies and assign them unique identifiers. We can leverage these to harvest/aggregate what we need, and add the additional metadata elements that we want to capture.
 
 ## How this works?
-- Each agency has a dedicated directory that contains one of more files with some information (metadata) about it.
-- A metadata file has a well defined structure and content (schema) and is typically stored in a YAML
-- File follow specific naming conventions to indentify its origin and schema
+- Each agency has a dedicated directory that contains files storing various pieces of information (metadata) about it.
+- A metadata file has a well defined structure and content (schema) and is typically stored in a YAML, JSON, or XML.
+- The files follow specific naming conventions to indentify its origin and schema (content)
 
-The following files are manually maintained in this projects:
+The following files are maintained in this project:
 
 - ids.yaml: list of know unique identifiers for the agency
 - geo.yaml: level and geographical coverage of the agency
@@ -29,10 +29,10 @@ The following files are manually maintained in this projects:
 
 The ids.yaml file is used by scripts to automatically harvest and updated metadata from external sources.
 
-The following files are harvested and stored in the external directory:
+The following files are harvested and stored in the ```<agency>/external``` directory:
 
 - ror.json
-- (add)
+- isni.xml
 
 The following files are generated from the available metadata and stored in the docs directory:
 
@@ -41,11 +41,13 @@ The following files are generated from the available metadata and stored in the 
 ### How to add an agency
 
 - Create a directory in the relevant group under the registry
-- Create an ids.yaml file, with at least the ROR identifier
+- Create an ids.yaml file, with at least its ROR identifier
 - Run the updater script in the utils directory: `python updater.py <group>/<agency>`
+  - This will further populate the ids and add metadata files from other registries
+- (to be continued)
 
 ## Identifers and basic information
-Below list of sources we have identified and can be used to compile basic agency profile information. Note that only a few provide public API end point, and all seem to lack OpenAPI / Postman docs. ROR seem like a good starting point for identifiers. 
+Below list of sources we have identified and can be used to compile basic agency profile information. Note that only a few provide public API end point, and all seem to lack OpenAPI / Postman docs. Some offer a full database download. ROR seem like a good starting point for identifiers. 
 
 ### [Crossref Funder ID](https://www.crossref.org/services/funder-registry/)
 The Funder Registry and associated funding metadata allows everyone to have transparency into research funding and its outcomes. It’s an open and unique registry of persistent identifiers for grant-giving organizations around the world.
@@ -57,7 +59,7 @@ See also: [API Docs](https://www.crossref.org/education/retrieve-metadata/rest-a
 ### [ISNI: International Standard Name Identifier](https://isni.org/)
 ISNI is the ISO certified global standard number for identifying the millions of contributors to creative works and those active in their distribution, including researchers, inventors, writers, artists, visual creators, performers, producers, publishers, aggregators, and more.
 
-See also: [Technical documentation](https://isni.org/page/technical-documentation/)
+See also: [Technical documentation](https://isni.org/page/technical-documentation/) | [Search API Guidelines](https://isni.oclc.org:2443/isni/docs/ISNI%20SRU%20search%20API%20guidelines.pdf)
 
 ### [GRID: Global Research Identifier Database](https://www.grid.ac/). 
 
