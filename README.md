@@ -96,7 +96,7 @@ The free encyclopedia...
 | LinkedIn  |[us-census-bureau](https://www.linkedin.com/company/us-census-bureau)|[statcan](https://www.linkedin.com/company/statcan)|[eurostat](https://www.linkedin.com/company/eurostat)|
 | ROR       |[01qn7cs15]((https://ror.org/05k71ja87)) ([api](http://api.ror.org/organizations/https://ror.org/01qn7cs15))|[05k71ja87](https://ror.org/05k71ja87) ([api](http://api.ror.org/organizations/https://ror.org/05k71ja87))|[033d3q980](https://ror.org/033d3q980) ([api](http://api.ror.org/organizations/https://ror.org/033d3q980))|
 | Twitter  |[uscensusbureau](https://twitter.com/uscensusbureau)|[StatCan_eng](https://twitter.com/StatCan_eng) / [StatCan_fra](https://twitter.com/StatCan_fra)|[EU_Eurostat](https://twitter.com/EU_Eurostat)|
-| Wikidata  |[Q637413](https://www.wikidata.org/wiki/Q637413)|[Q1155740](https://www.wikidata.org/wiki/Q1155740)|[Q217659](https://www.wikidata.org/wiki/Q217659)|
+| Wikidata  |[Q637413](https://www.wikidata.org/wiki/Q637413)|[Q1155740](https://www.wikidata.org/wiki/Q1155740) / [json](https://www.wikidata.org/wiki/Special:EntityData/Q1155740.json)|[Q217659](https://www.wikidata.org/wiki/Q217659)|
 | Wikipedia |[United\_States_Census](https://en.wikipedia.org/wiki/United_States_Census)|[Statistics_Canada](https://en.wikipedia.org/wiki/Statistics_Canada)|[Eurostat](https://en.wikipedia.org/wiki/Eurostat)|
 
 ## Geo Coverage
