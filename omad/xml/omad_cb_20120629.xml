@@ -1,0 +1,5019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Omad xsi:schemaLocation="openmetadata:omad:1_0 file:omad.xsd" xmlns="openmetadata:omad:1_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Organization entityType="public" id="ae-cb" primaryLocationId="hq">
+    <Name>Central Bank of United Arab Emirates</Name>
+    <Location id="hq" countryCode="AE">
+      <MapLocation accuracy="city">
+        <Longitude>54.3666667</Longitude>
+        <Latitude>24.4666667</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Abu Dhabi</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.centralbank.ae/en/index.php</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ar">
+      <Url>http://www.centralbank.ae/index.php</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>United Arab Emirates</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ng-cb" primaryLocationId="hq">
+    <Name>Central Bank of Nigeria</Name>
+    <Location id="hq" countryCode="NG">
+      <MapLocation accuracy="street">
+        <Longitude>7.4833333</Longitude>
+        <Latitude>9.0666667</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Plot 33, Abubakar Tafawa Balewa Way</Line>
+        <City>Abuja</City>
+        <State>Federal Capital Territory</State>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cenbank.org/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Nigeria</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="gh-cb" primaryLocationId="hq">
+    <Name>Bank of Ghana</Name>
+    <Abbreviation>BOG</Abbreviation>
+    <Location id="hq" countryCode="GH">
+      <MapLocation accuracy="street">
+        <Longitude>-0.2058486</Longitude>
+        <Latitude>5.5441697</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>One Thorpe Road</Line>
+        <City>Accra</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bog.gov.gh/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Ghana</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="et-cb" primaryLocationId="hq">
+    <Name>National Bank of Ethiopia</Name>
+    <Abbreviation>NBE</Abbreviation>
+    <Location id="hq" countryCode="ET">
+      <MapLocation accuracy="street">
+        <Longitude>38.7495761</Longitude>
+        <Latitude>9.0168925</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Sudan Avenue</Line>
+        <City>Addis Ababa</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nbe.gov.et/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Ethiopia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="dz-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Algeria</Name>
+    <Name xml:lang="fr">Banque D'Algerie</Name>
+    <Location id="hq" countryCode="DZ">
+      <MapLocation accuracy="street">
+        <Longitude>3.0475244</Longitude>
+        <Latitude>36.7541579</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Joly Building</Line>
+        <Line>38 Franklin Roosevelt Street</Line>
+        <City>Algiers</City>
+        <Postal>16000</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="fr">
+      <Url>http://www.bank-of-algeria.dz/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Algeria</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="jo-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Jordan</Name>
+    <Abbreviation>CBJ</Abbreviation>
+    <Location id="hq" countryCode="JO">
+      <MapLocation accuracy="street">
+        <Longitude>35.9131043</Longitude>
+        <Latitude>31.96386</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>King Hussein Street 37</Line>
+        <City>Amman</City>
+        <Postal>11118</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbj.gov.jo/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Jordan</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="nl-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Netherlands Bank</Name>
+    <Name xml:lang="nl">De Nederlandsche Bank</Name>
+    <Abbreviation>DNB</Abbreviation>
+    <Location id="hq" countryCode="NL">
+      <MapLocation accuracy="street">
+        <Longitude>4.9013701</Longitude>
+        <Latitude>52.361056</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Achtergracht 4</Line>
+        <City>Amsterdam</City>
+        <Postal>1017</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.dnb.nl/en/home/index.jsp</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Netherlands</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="tr-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Republic of Turkey</Name>
+    <Name xml:lang="tr">Turkiye Cumhuriyet Merkez Bankasi</Name>
+    <Location id="hq" countryCode="TR">
+      <MapLocation accuracy="street">
+        <Longitude>29.1880382</Longitude>
+        <Latitude>41.0235026</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Istiklal Cad. 10 Ulus</Line>
+        <City>Ankara</City>
+        <Postal>06100</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.tcmb.gov.tr/yeni/eng/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="tr">
+      <Url>http://www.tcmb.gov.tr/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Turkey</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="mg-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Madagascar</Name>
+    <Name xml:lang="fr">Banque Central de Madagascar</Name>
+    <Location id="hq" countryCode="MG">
+      <MapLocation accuracy="street">
+        <Longitude>47.531612</Longitude>
+        <Latitude>-18.914872</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>BP 550 Antaninarenina</Line>
+        <City>Antananarivo</City>
+        <Postal>101</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.banque-centrale.mg/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Madagascar</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ws-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Samoa</Name>
+    <Abbreviation>CBS</Abbreviation>
+    <Location id="hq" countryCode="WS">
+      <Address>
+        <Line/>
+        <City/>
+        <Postal/>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbs.gov.ws/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Samoa</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="tm-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Turkmenistan</Name>
+    <Name xml:lang="tk">Turkmenistanyn Merkezi Banky</Name>
+    <Abbreviation>CBT</Abbreviation>
+    <Location id="hq" countryCode="TM">
+      <MapLocation accuracy="street">
+        <Longitude>58.3666667</Longitude>
+        <Latitude>37.9333333</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Bitarap Turkmenistan Sayoly 36</Line>
+        <City>Asgabat</City>
+        <Postal>744000</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="tm">
+      <Url>http://www.cbt.tm/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Turkmenistan</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="kz-cb" primaryLocationId="hq">
+    <Name xml:lang="en">The National Bank of Kazakhstan</Name>
+    <Location id="hq" countryCode="KZ">
+      <MapLocation accuracy="street">
+        <Longitude>76.9223069</Longitude>
+        <Latitude>43.2280159</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>21 Koktem-3</Line>
+        <City>Almaty</City>
+        <Postal>050040</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nationalbank.kz/?switch=eng</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Kazakhstan</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="py-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Paraguay</Name>
+    <Name xml:lang="es">Banco Central Del Paraguay</Name>
+    <Abbreviation>BCP</Abbreviation>
+    <Location id="hq" countryCode="PY">
+      <MapLocation accuracy="street">
+        <Longitude>-57.5830051</Longitude>
+        <Latitude>-25.2799598</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Federacion Rusa y Cabo 1 Marecos</Line>
+        <Line>Santo Domingo</Line>
+        <City>Asuncion</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bcp.gov.py/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Paraguay</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="gr-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Greece</Name>
+    <Location id="hq" countryCode="GR">
+      <MapLocation accuracy="street">
+        <Longitude>23.7361497</Longitude>
+        <Latitude>37.9753357</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>21 E. Venizelos Avenue</Line>
+        <City>Athens</City>
+        <Postal>GR 102 50</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bankofgreece.gr/Pages/en/default.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Greece</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="iq-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Iraq</Name>
+    <Location id="hq" countryCode="IQ">
+      <MapLocation accuracy="street">
+        <Longitude>44.3886223</Longitude>
+        <Latitude>33.3430841</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>64 Al-Rashid Street</Line>
+        <City>Baghdad</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbi.iq/?pid=Home&amp;lang=en</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ar">
+      <Url>http://www.cbi.iq/?pid=Home&amp;lang=ar</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Iraq</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="az-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of the Republic of Azerbaijan</Name>
+    <Name xml:lang="az">Azerbaycan Respublikasinin Merkezi Banki</Name>
+    <Abbreviation>CBAR</Abbreviation>
+    <Location id="hq" countryCode="AZ">
+      <MapLocation accuracy="street">
+        <Longitude>49.8439067</Longitude>
+        <Latitude>40.3802541</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>32 R. Behbudov Street</Line>
+        <City>Baku</City>
+        <Postal>AZ1014</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbar.az/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Azerbaijan</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="international" id="bceao" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Western African States</Name>
+    <Name xml:lang="fr">Banque Centrale des Etats de l'Afrique de l'Ouest</Name>
+    <Abbreviation>BCEAO</Abbreviation>
+    <Location id="hq">
+      <MapLocation accuracy="street">
+        <Longitude>-17.4466667</Longitude>
+        <Latitude>14.6927778</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Avenue Abdoulaye Fadiga</Line>
+        <City>Dakar</City>
+        <Postal>3108</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="fr">
+      <Url>http://www.bceao.int/</Url>
+    </WebSite>
+    <Operations scope="regional">
+      <Area>
+        <Description>Western Africa</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="th-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Thailand</Name>
+    <Location id="hq" countryCode="TH">
+      <MapLocation accuracy="street">
+        <Longitude>100.4991667</Longitude>
+        <Latitude>13.7644444</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>273 Samsen Road</Line>
+        <Line>Bangkhunprom, Phra Nakhon District</Line>
+        <City>Bangkok</City>
+        <Postal>10200</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bot.or.th/english/Pages/BOTDefault.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Thailand</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="gm-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Gambia</Name>
+    <Abbreviation>CBG</Abbreviation>
+    <Location id="hq" countryCode="GM">
+      <MapLocation accuracy="street">
+        <Longitude>-16.5731013</Longitude>
+        <Latitude>13.4507269</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>1-2 Ecowas Avenue</Line>
+        <City>Banjul</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbg.gm/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>The Gambia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="cn-cb" primaryLocationId="hq">
+    <Name xml:lang="en">The People's Bank of China</Name>
+    <Location id="hq" countryCode="CN">
+      <MapLocation accuracy="street">
+        <Longitude>116.355664</Longitude>
+        <Latitude>39.8798463</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>32 Cheng Fang Street</Line>
+        <Line>XiCheng District</Line>
+        <City>Beijing</City>
+        <Postal>100800</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.pbc.gov.cn/publish/english/963/index.html</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="zh">
+      <Url>http://www.pbc.gov.cn/publish/main/index.html</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>China</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="lb-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Lebanon</Name>
+    <Name xml:lang="fr">Banque du Liban</Name>
+    <Abbreviation>BDL</Abbreviation>
+    <Location id="hq" countryCode="LB">
+      <MapLocation accuracy="street">
+        <Longitude>35.4954794</Longitude>
+        <Latitude>33.8886289</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Masref Lubnan street</Line>
+        <Line>Hamra Area</Line>
+        <City>Beirut</City>
+        <Postal>11-5544</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bdl.gov.lb/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Lebanon</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="rs-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of Serbia</Name>
+    <Name xml:lang="sr">Narodna Banka Srbije</Name>
+    <Location id="hq" countryCode="RS">
+      <MapLocation accuracy="street">
+        <Longitude>20.4575864</Longitude>
+        <Latitude>44.8217467</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>12 Kralja Petra St.</Line>
+        <City>Belgrade</City>
+        <Postal>11 000</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nbs.rs/internet/english/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="sr">
+      <Url>http://www.nbs.rs/internet/latinica/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Serbia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="bz-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Belize</Name>
+    <Location id="hq" countryCode="BZ">
+      <MapLocation accuracy="street">
+        <Longitude>-88.186654</Longitude>
+        <Latitude>17.497713</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>PO Box 852</Line>
+        <City>Belize City</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>https://www.centralbank.org.bz/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Belize</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="de-cb" primaryLocationId="hq">
+    <Name xml:lang="de">Deutsche Bundesbank</Name>
+    <Location id="hq" countryCode="DE">
+      <Address>
+        <Line>Wilhelm-Epstein-Straße 14-16</Line>
+        <City>Frankfurt</City>
+        <Postal>D-60006</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bundesbank.de/Navigation/EN/Home/home_node.html</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Germany</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ch-cb" primaryLocationId="hq">
+    <Name xml:lang="en">The Swiss National Bank</Name>
+    <Name xml:lang="fr">Banque Nationale Suisse</Name>
+    <Name xml:lang="de">Schweizerische Nationalbank</Name>
+    <Abbreviation>SNB</Abbreviation>
+    <Location id="hq" countryCode="CH">
+      <MapLocation accuracy="street">
+        <Longitude>8.5405443</Longitude>
+        <Latitude>47.3678689</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Borsenstrasse 15</Line>
+        <City>Zurich</City>
+        <Postal>CH 8022</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.snb.ch/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Switzerland</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="kg-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of the Kyrgyz Republic</Name>
+    <Location id="hq" countryCode="KG">
+      <MapLocation accuracy="street">
+        <Longitude>74.581265</Longitude>
+        <Latitude>42.8756835</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>#101 T. Umetaliev Str.</Line>
+        <City>Bishkek</City>
+        <Postal>720040</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nbkr.kg/index.jsp?lang=ENG</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Kyrgyzstan</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="co-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Colombia</Name>
+    <Name xml:lang="es">Banco de la Republica Colombia</Name>
+    <Location id="hq" countryCode="CO">
+      <MapLocation accuracy="street">
+        <Longitude>-77.0334179</Longitude>
+        <Latitude>38.9059849</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Carrera 7a N 14-78</Line>
+        <City>Bogota</City>
+        <State>DC</State>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.banrep.gov.co/index_eng.html</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.banrep.gov.co/index.html</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Colombia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="br-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Brazil</Name>
+    <Name xml:lang="pt">Banco Central do Brasil</Name>
+    <Abbreviation>BCB</Abbreviation>
+    <Location id="hq" countryCode="BR">
+      <MapLocation accuracy="street">
+        <Longitude>-47.9218204</Longitude>
+        <Latitude>-15.826691</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>SBS Quadra 3 Bloco B - Ed. Sede</Line>
+        <City>Brasilia</City>
+        <State>DF</State>
+        <Postal>70074-900</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bcb.gov.br/?english</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="pt">
+      <Url>http://www.bcb.gov.br/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Brazil</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="sk-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of Slovakia</Name>
+    <Name xml:lang="sk">Narodna Banka Slovenska</Name>
+    <Location id="hq" countryCode="SK">
+      <MapLocation accuracy="street">
+        <Longitude>17.1146049</Longitude>
+        <Latitude>48.1531481</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Imricha Karvasa 1</Line>
+        <City>Bratislava</City>
+        <Postal>813 25</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nbs.sk/en/home</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="sk">
+      <Url>http://www.nbs.sk/sk/titulna-stranka</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Slovakia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="bb-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Barbados</Name>
+    <Location id="hq" countryCode="BB">
+      <MapLocation accuracy="street">
+        <Longitude>-59.613352</Longitude>
+        <Latitude>13.098938</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>P.O. Box 1016</Line>
+        <City>Bridgetown</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.centralbank.org.bb/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Barbados</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="be-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of Belgium</Name>
+    <Name xml:lang="fr">Banque Nationale de Belgique</Name>
+    <Name xml:lang="nl">Nationale Bank van Belgie</Name>
+    <Abbreviation>NBB</Abbreviation>
+    <Location id="hq" countryCode="BE">
+      <MapLocation accuracy="street">
+        <Longitude>4.3588133</Longitude>
+        <Latitude>50.8490542</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Boulevard de Berlaimont 14</Line>
+        <City>Brussels</City>
+        <Postal>1000</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nbb.be/pub/Home.htm?l=en</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Belgium</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ro-cb" primaryLocationId="hq">
+    <Name xml:lang="ro">Banca Nationala a Romaniei</Name>
+    <Name xml:lang="en">National Bank of Romania</Name>
+    <Abbreviation>BNRO</Abbreviation>
+    <Location id="hq" countryCode="RO">
+      <MapLocation accuracy="street">
+        <Longitude>26.1049747</Longitude>
+        <Latitude>44.4321863</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>25 Lipscani Street, Sector 3</Line>
+        <City>Bucharest</City>
+        <Postal>030031</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="ro">
+      <Url>http://www.bnro.ro/Home.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Romania</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="hu-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Hungary</Name>
+    <Name xml:lang="hu">Magyar Nemzeti Bank</Name>
+    <Location id="hq" countryCode="HU">
+      <MapLocation accuracy="street">
+        <Longitude>19.0497501</Longitude>
+        <Latitude>47.5033539</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>1054 Szabadsag ter 8/9</Line>
+        <City>Budapest</City>
+        <Postal>1850</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="hu">
+      <Url>http://www.mnb.hu/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://english.mnb.hu/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Hungary</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ar-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Argentina</Name>
+    <Name xml:lang="es">Banco Central de la Republica Argentina</Name>
+    <Abbreviation>BCRA</Abbreviation>
+    <Location id="hq" countryCode="AR">
+      <MapLocation accuracy="street">
+        <Longitude>-58.3723844</Longitude>
+        <Latitude>-34.6047579</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Reconquista 266</Line>
+        <City>Buenos Aires</City>
+        <Postal>1003</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bcra.gov.ar/index_i.htm</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bcra.gov.ar/index.htm</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Argentina</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="bi-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Burundi</Name>
+    <Name xml:lang="fr">Banque de la Republique du Burundi</Name>
+    <Abbreviation>BRB</Abbreviation>
+    <Location id="hq" countryCode="BI">
+      <MapLocation accuracy="street">
+        <Longitude>29.359349</Longitude>
+        <Latitude>-3.376217</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>BP 705</Line>
+        <City>Bujumbura</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.brb.bi/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Burundi</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="eg-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Egypt</Name>
+    <Abbreviation>CBE</Abbreviation>
+    <Location id="hq" countryCode="EG">
+      <MapLocation accuracy="street">
+        <Longitude>31.2464422</Longitude>
+        <Latitude>30.0629332</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>54 Elgomhoreya Street</Line>
+        <City>Cairo</City>
+        <Postal>11511</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbe.org.eg/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Egypt</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ve-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Venezuela</Name>
+    <Name xml:lang="es">Banco Central de Venezuela</Name>
+    <Abbreviation>BCV</Abbreviation>
+    <Location id="hq" countryCode="VE">
+      <MapLocation accuracy="street">
+        <Longitude>-66.902061</Longitude>
+        <Latitude>10.491016</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>2017 Av. Urdaneta esq. Las Carmelitas</Line>
+        <City>Caracas</City>
+        <Postal>1010</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bcv.org.ve/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bcv.org.ve/EnglishVersion/Index.asp</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Venezuela</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="md-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of Moldova</Name>
+    <Name xml:lang="ro">Banca Nationala a Moldovei</Name>
+    <Abbreviation>BNM</Abbreviation>
+    <Location id="hq" countryCode="MD">
+      <MapLocation accuracy="street">
+        <Longitude>28.7527525</Longitude>
+        <Latitude>47.0934675</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>7 Renasterii Ave.</Line>
+        <City>Chisinau</City>
+        <Postal>MD-2006</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="ro">
+      <Url>http://www.bnm.md/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bnm.md/en/home</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ru">
+      <Url>http://www.bnm.md/ru/home</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Moldova</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="lk-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Sri Lanka</Name>
+    <Location id="hq" countryCode="LK">
+      <MapLocation accuracy="street">
+        <Longitude>79.8424557</Longitude>
+        <Latitude>6.9330115</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>30 Janadhipathi Mawatha</Line>
+        <City>Colombo</City>
+        <Postal>01</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbsl.gov.lk/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Sri Lanka</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="gn-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Republic of Guinea</Name>
+    <Name xml:lang="fr">Banque Centrale de la Republique de Guinee</Name>
+    <Abbreviation>BCRG</Abbreviation>
+    <Location id="hq" countryCode="GN">
+      <MapLocation accuracy="street">
+        <Longitude>-13.67847</Longitude>
+        <Latitude>9.537029</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>12 Boulevard du Commerce</Line>
+        <City>Conakry</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="fr">
+      <Url>http://www.bcrg-guinee.org/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Guinea</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="dk-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of Denmark</Name>
+    <Name xml:lang="da">Danmarks Nationalbank</Name>
+    <Location id="hq" countryCode="DK">
+      <MapLocation accuracy="street">
+        <Longitude>12.5863113</Longitude>
+        <Latitude>55.6762564</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Havnegade 5</Line>
+        <City>Copenhagen</City>
+        <Postal>DK-1093</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="da">
+      <Url>http://www.nationalbanken.dk/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nationalbanken.dk/dnuk/specialdocuments.nsf</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Denmark</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="sy-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Syria</Name>
+    <Name xml:lang="fr">Banque Centrale de Syrie</Name>
+    <Location id="hq" countryCode="SY">
+      <MapLocation accuracy="street">
+        <Longitude>36.3064</Longitude>
+        <Latitude>33.5111</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>29 Ayar Street</Line>
+        <City>Damascus</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.banquecentrale.gov.sy/main-eg.htm</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="fr">
+      <Url>http://www.banquecentrale.gov.sy/main-fr.htm</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ar">
+      <Url>http://www.banquecentrale.gov.sy/main-ar.htm</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Syria</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="tz-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Tanzania</Name>
+    <Abbreviation>BOT</Abbreviation>
+    <Location id="hq" countryCode="TZ">
+      <MapLocation accuracy="street">
+        <Longitude>39.2918219</Longitude>
+        <Latitude>-6.8131753</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>10 Mirambo Street</Line>
+        <City>Dar es Salam</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bot-tz.org/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Tanzania</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="bd-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bangladesh Bank</Name>
+    <Location id="hq" countryCode="BD">
+      <MapLocation accuracy="street">
+        <Longitude>90.417231</Longitude>
+        <Latitude>23.7329724</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Motijheel</Line>
+        <City>Dhaka</City>
+        <Postal>1000</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bangladesh-bank.org/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Bangladesh</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="qa-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Qatar Central Bank</Name>
+    <Abbreviation>QCB</Abbreviation>
+    <Location id="hq" countryCode="QA">
+      <MapLocation accuracy="street">
+        <Longitude>51.183884</Longitude>
+        <Latitude>25.354826</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Abdullah Bin Jassem Street</Line>
+        <Line>Al Corniche Area</Line>
+        <City>Qatar</City>
+        <Postal>1234</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.qcb.gov.qa/English/Pages/default.aspx</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ar">
+      <Url>http://www.qcb.gov.qa/arabic/pages/default.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Qatar</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ie-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Ireland</Name>
+    <Name xml:lang="ga">Banc Ceannais na hEireann</Name>
+    <Location id="hq" countryCode="IE">
+      <MapLocation accuracy="street">
+        <Longitude>-6.2647803</Longitude>
+        <Latitude>53.3441752</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Dame Street</Line>
+        <City>Dublin</City>
+        <Postal>2</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.centralbank.ie/Pages/home.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Ireland</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="sl-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Sierra Leone</Name>
+    <Location id="hq" countryCode="SL">
+      <MapLocation accuracy="street">
+        <Longitude>-13.2331302</Longitude>
+        <Latitude>8.4891139</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Siaka Stevens Street</Line>
+        <City>Freetown</City>
+        <State>Western Area</State>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bsl.gov.sl/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Sierra Leone</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="bw-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Botswana</Name>
+    <Location id="hq" countryCode="BW">
+      <MapLocation accuracy="street">
+        <Longitude>25.9117634</Longitude>
+        <Latitude>-24.655179</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>17938 Khama Crescent</Line>
+        <City>Gaborone</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bankofbotswana.bw/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Botswana</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ky-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Cayman Islands Monetary Authority</Name>
+    <Abbreviation>CIMA</Abbreviation>
+    <Location id="hq" countryCode="KY">
+      <MapLocation accuracy="street">
+        <Longitude>-81.2408689</Longitude>
+        <Latitude>19.3221698</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>80e Shedden Road</Line>
+        <Line>Elizabethan Square</Line>
+        <City>Grand Cayman</City>
+        <Postal>KY1-1001</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cimoney.com.ky/</Url>
+    </WebSite>
+    <Operations scope="subnational">
+      <Area>
+        <Description>Cayman Islands</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="gt-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Guatemala</Name>
+    <Name xml:lang="es">Banco de Guatemala</Name>
+    <Location id="hq" countryCode="GT">
+      <MapLocation accuracy="street">
+        <Longitude>-90.5189207</Longitude>
+        <Latitude>14.6420589</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>7a. Av. 22-01, Zona 1</Line>
+        <City>Guatemala</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.banguat.gob.gt/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.banguat.gob.gt/default.asp?lang=2</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Guatemala</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="gy-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Guyana</Name>
+    <Abbreviation>BOG</Abbreviation>
+    <Location id="hq" countryCode="GY">
+      <MapLocation accuracy="street">
+        <Longitude>-97.6772311</Longitude>
+        <Latitude>30.6326942</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>1, Church Street, Avenue of the Republic</Line>
+        <City>Georgetown</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bankofguyana.org.gy/bog/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Guyana</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="bm-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bermuda Monetary Authority</Name>
+    <Abbreviation>BMA</Abbreviation>
+    <Location id="hq" countryCode="BM">
+      <MapLocation accuracy="street">
+        <Longitude>-64.783963</Longitude>
+        <Latitude>32.2931549</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>26 Burnaby Street</Line>
+        <City>Hamilton</City>
+        <Postal>HM 11</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bma.bm/</Url>
+    </WebSite>
+    <Operations scope="subnational">
+      <Area>
+        <Description>Bermuda</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="vn-cb" primaryLocationId="hq">
+    <Name xml:lang="en">The State Bank of Vietnam</Name>
+    <Abbreviation>SBV</Abbreviation>
+    <Location id="hq" countryCode="VN">
+      <MapLocation accuracy="street">
+        <Longitude>105.8559446</Longitude>
+        <Latitude>21.0275534</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>49 Ly Thai To</Line>
+        <City>Ha Noi</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.sbv.gov.vn/wps/portal/!ut/p/c4/04_SB8K8xLLM9MSSzPy8xBz9CP0os3hnd0cPE3MfAwN3r0BnA093r2ALEydDAwMDc_2CbEdFALpR3bI!/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Viet Nam</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="zw-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Reserve Bank of Zimbabwe</Name>
+    <Abbreviation>RBZ</Abbreviation>
+    <Location id="hq" countryCode="ZW">
+      <MapLocation accuracy="street">
+        <Longitude>31.0769087</Longitude>
+        <Latitude>-17.8212224</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>80 Samora Machel Avenue</Line>
+        <City>Harare</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.rbz.co.zw/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Zimbabwe</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="cu-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Cuba</Name>
+    <Name xml:lang="es">Banco Central de Cuba</Name>
+    <Abbreviation>BCC</Abbreviation>
+    <Location id="hq" countryCode="CU">
+      <MapLocation accuracy="street">
+        <Longitude>-82.3515575</Longitude>
+        <Latitude>23.1370792</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Cuba Street 402</Line>
+        <City>Ciudad de la Habana</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bc.gov.cu/english/home.asp</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bc.gov.cu/Espanol/default.asp</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Cuba</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="fi-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Finland</Name>
+    <Name xml:lang="fi">Suomen Pankki</Name>
+    <Name xml:lang="sv">Finlands Bank</Name>
+    <Abbreviation/>
+    <Location id="hq" countryCode="FI">
+      <MapLocation accuracy="city">
+        <Longitude>24.9435553</Longitude>
+        <Latitude>60.1665856</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Helsinki</City>
+        <Postal>FIN-00101</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.suomenpankki.fi/en/Pages/default.aspx</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="sv">
+      <Url>http://www.suomenpankki.fi/sv/Pages/default.aspx</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="fi">
+      <Url>http://www.suomenpankki.fi/fi/Pages/default.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Finland</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="hk-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Hong Kong Monetary Authority</Name>
+    <Abbreviation>HKMA</Abbreviation>
+    <Location id="hq" countryCode="HK">
+      <MapLocation accuracy="street">
+        <Longitude>114.159283</Longitude>
+        <Latitude>22.285297</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>2 International Finance Centre, 55th Floor</Line>
+        <Line>8 Finance Street</Line>
+        <City>Hong Kong</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.hkma.gov.hk/eng/index.shtml</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="zh">
+      <Url>http://www.hkma.gov.hk/chi/index.shtml</Url>
+    </WebSite>
+    <Operations scope="subnational">
+      <Area>
+        <Description>Hong Kong</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="sb-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Solomon Islands</Name>
+    <Location id="hq" countryCode="SB">
+      <MapLocation accuracy="city">
+        <Longitude>159.9483229</Longitude>
+        <Latitude>-9.430384</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Honiara</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbsi.com.sb/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Solomon Islands</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="pk-cb" primaryLocationId="hq">
+    <Name xml:lang="en">State Bank of Pakistan</Name>
+    <Location id="hq" countryCode="PK">
+      <MapLocation accuracy="street">
+        <Longitude>67.0080645</Longitude>
+        <Latitude>24.8498013</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>I.I. Chundrigar Road</Line>
+        <City>Karachi</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.sbp.org.pk/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Pakistan</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="id-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank Indonesia</Name>
+    <Name xml:lang="id">Bank Sentral Republik Indonesia</Name>
+    <Location id="hq" countryCode="ID">
+      <MapLocation accuracy="street">
+        <Longitude>106.845172</Longitude>
+        <Latitude>-6.211544</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Jalan MH Thamrin 2</Line>
+        <City>Jakarta</City>
+        <Postal>10110</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bi.go.id/web/en</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="id">
+      <Url>http://www.bi.go.id/web/id</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Indonesia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="il-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Israel</Name>
+    <Location id="hq" countryCode="IL">
+      <MapLocation accuracy="city">
+        <Longitude>35.21371</Longitude>
+        <Latitude>31.768319</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Jersusalem</City>
+        <Postal>91007</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="he">
+      <Url>http://www.bankisrael.org.il/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bankisrael.org.il/firsteng.htm</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Israel</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="af-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Afghanistan</Name>
+    <Location id="hq" countryCode="AF">
+      <MapLocation accuracy="street">
+        <Longitude>69.1717029</Longitude>
+        <Latitude>34.528455</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Ibni Sina Watt</Line>
+        <City>Kabul</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.centralbank.gov.af/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Afghanistan</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ug-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Uganda</Name>
+    <Abbreviation>BOU</Abbreviation>
+    <Location id="hq" countryCode="UG">
+      <MapLocation accuracy="street">
+        <Longitude>32.5810719</Longitude>
+        <Latitude>0.3137471</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Plot 37/45 Kampala Road</Line>
+        <City>Uganda</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bou.or.ug/bou/home.html</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Uganda</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="np-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Nepal Rastra Bank</Name>
+    <Abbreviation>NRB</Abbreviation>
+    <Location id="hq" countryCode="NP">
+      <MapLocation accuracy="street">
+        <Longitude>85.3284831</Longitude>
+        <Latitude>27.725443</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Baluwatar</Line>
+        <City>Kathmandu</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nrb.org.np/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Nepal</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="sd-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Sudan</Name>
+    <Abbreviation>CBOS</Abbreviation>
+    <Location id="hq" countryCode="SD">
+      <MapLocation accuracy="street">
+        <Longitude>32.532241</Longitude>
+        <Latitude>15.550101</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Al Baladiyya Street</Line>
+        <Line>Al Moghren Area</Line>
+        <City>Khartoum</City>
+        <Postal>313</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="ar">
+      <Url>http://www.bankofsudan.org/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Sudan</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="rw-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of Rwanda</Name>
+    <Name xml:lang="fr">Banque Nationale du Rwanda</Name>
+    <Abbreviation>NBR</Abbreviation>
+    <Location id="hq" countryCode="RW">
+      <MapLocation accuracy="city">
+        <Longitude>30.058769</Longitude>
+        <Latitude>-1.950106</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Kigali</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bnr.rw/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="fr">
+      <Url>http://www.bnr.rw/Default.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Rwanda</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="jm-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Jamaica</Name>
+    <Abbreviation>BOJ</Abbreviation>
+    <Location id="hq" countryCode="JM">
+      <MapLocation accuracy="street">
+        <Longitude>-76.7900374</Longitude>
+        <Latitude>17.9646753</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Nethersole Place</Line>
+        <City>Kingston</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.boj.org.jm/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Jamaica</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="my-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Malaysia</Name>
+    <Name xml:lang="ms">Bank Negara Malaysia</Name>
+    <Abbreviation>BNM</Abbreviation>
+    <Location id="hq" countryCode="MY">
+      <MapLocation accuracy="street">
+        <Longitude>101.689456</Longitude>
+        <Latitude>3.155774</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Jalan Dato'Onn</Line>
+        <City>Kuala Lumpur</City>
+        <Postal>50480</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bnm.gov.my/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ms">
+      <Url>http://www.bnm.gov.my/index.php?&amp;lang=bm</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Malaysia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="kw-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Kuwait</Name>
+    <Abbreviation>CBK</Abbreviation>
+    <Location id="hq" countryCode="KW">
+      <MapLocation accuracy="city">
+        <Longitude>14.60121</Longitude>
+        <Latitude>48.16345</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Safat</City>
+        <Postal>13006</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbk.gov.kw/WWW/index.html</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Kuwait</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ua-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of Ukraine</Name>
+    <Location id="hq" countryCode="UA">
+      <MapLocation accuracy="street">
+        <Longitude>30.530952</Longitude>
+        <Latitude>50.447372</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>9 Instytutska St.</Line>
+        <City>Kyiv</City>
+        <Postal>01601</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bank.gov.ua/control/en/index</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="uk">
+      <Url>http://www.bank.gov.ua/control/uk/index</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Ukraine</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="bo-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Bolivia</Name>
+    <Name xml:lang="es">Banco Central de Bolivia</Name>
+    <Abbreviation>BCB</Abbreviation>
+    <Location id="hq" countryCode="BO">
+      <MapLocation accuracy="street">
+        <Longitude>-68.1343449</Longitude>
+        <Latitude>-16.4976296</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Calle Ayacucho y Mercado</Line>
+        <City>La Paz</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bcb.gob.bo/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Bolivia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="mw-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Reserve Bank of Malawi</Name>
+    <Abbreviation>RBM</Abbreviation>
+    <Location id="hq" countryCode="MW">
+      <MapLocation accuracy="street">
+        <Longitude>33.7887157</Longitude>
+        <Latitude>-13.9615083</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Convention Drive City Centre</Line>
+        <City>Lilongwe</City>
+        <Postal>3</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.rbm.mw/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Malawi</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="pe-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Reserve Bank of Peru</Name>
+    <Name xml:lang="es">Banco Central de Reserva del Peru</Name>
+    <Abbreviation>BCRP</Abbreviation>
+    <Location id="hq" countryCode="PE">
+      <MapLocation accuracy="street">
+        <Longitude>-77.029721</Longitude>
+        <Latitude>-12.0498604</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Jr. Antonio Miro Quesada 441-445</Line>
+        <City>Lima</City>
+        <Postal>1</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bcrp.gob.pe/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bcrp.gob.pe/home.html</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Peru</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="pt-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Portugal</Name>
+    <Name xml:lang="pt">Banco de Portugal</Name>
+    <Location id="hq" countryCode="PT">
+      <MapLocation accuracy="street">
+        <Longitude>-9.3507085</Longitude>
+        <Latitude>38.7158653</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>R. Francisco Ribeiro 2</Line>
+        <City>Lisbon</City>
+        <Postal>1150-165</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bportugal.pt/en-us/pages/inicio.aspx</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="pt">
+      <Url>http://www.bportugal.pt/pt-PT/Paginas/inicio.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Portugal</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="si-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Slovenia</Name>
+    <Name xml:lang="sl">Banka Slovenije</Name>
+    <Abbreviation>BSI</Abbreviation>
+    <Location id="hq" countryCode="SI">
+      <MapLocation accuracy="street">
+        <Longitude>14.5036139</Longitude>
+        <Latitude>46.0526157</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Slovenska 35</Line>
+        <City>Ljubljana</City>
+        <Postal>1505</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bsi.si/en/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="sl">
+      <Url>http://www.bsi.si/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Slovenia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="uk-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of England</Name>
+    <Location id="hq" countryCode="GB">
+      <MapLocation accuracy="street">
+        <Longitude>-0.0864582</Longitude>
+        <Latitude>51.5140874</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Threadneedle Street</Line>
+        <City>London</City>
+        <Postal>EC2R 8AH</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bankofengland.co.uk/Pages/home.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>United Kingdom</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ao-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of Angola</Name>
+    <Name xml:lang="pt">Banco Nacional de Angola</Name>
+    <Abbreviation>BNA</Abbreviation>
+    <Location id="hq" countryCode="AO">
+      <MapLocation accuracy="street">
+        <Longitude>13.2339589</Longitude>
+        <Latitude>-8.8105044</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Av. 4 de Fevereiro 151</Line>
+        <City>Luanda</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="pt">
+      <Url>http://www.bna.ao/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Angola</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="zm-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Zambia</Name>
+    <Location id="hq" countryCode="ZM">
+      <MapLocation accuracy="street">
+        <Longitude>28.2816845</Longitude>
+        <Latitude>-15.4165268</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Bank Square, Cairo Road</Line>
+        <City>Lusaka</City>
+        <Postal>10101</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.boz.zm/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Zambia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="lu-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Luxembourg</Name>
+    <Name xml:lang="fr">Banque Centrale du Luxembourg</Name>
+    <Abbreviation/>
+    <Location id="hq" countryCode="LU">
+      <MapLocation accuracy="street">
+        <Longitude>6.1295741</Longitude>
+        <Latitude>49.614526</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>2, Boulevard Royal</Line>
+        <City>Luxembourg</City>
+        <Postal>L-2983</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bcl.lu/en/index.php</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="fr">
+      <Url>http://www.bcl.lu/fr/index.php</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Luxembourg</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="mo-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Monetary Authority of Macao</Name>
+    <Name xml:lang="pt">Autoridade Monetaria de Macau</Name>
+    <Location id="hq" countryCode="MO">
+      <MapLocation accuracy="city">
+        <Longitude>113.543873</Longitude>
+        <Latitude>22.198745</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Macao</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="zh">
+      <Url>http://www.amcm.gov.mo/cIndex.htm</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.amcm.gov.mo/eIndex.htm</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="pt">
+      <Url>http://www.amcm.gov.mo/pIndex.htm</Url>
+    </WebSite>
+    <Operations scope="subnational">
+      <Area>
+        <Description>Macao</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="es-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Spain</Name>
+    <Name xml:lang="es">Banco de Espana</Name>
+    <Abbreviation>BDE</Abbreviation>
+    <Location id="hq" countryCode="ES">
+      <MapLocation accuracy="street">
+        <Longitude>-3.6954592</Longitude>
+        <Latitude>40.4189504</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>C/ Alcala 48</Line>
+        <City>Madrid</City>
+        <Postal>28014</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bde.es/webbde/en/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bde.es/webbde/es/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Spain</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ni-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Nicaragua</Name>
+    <Name xml:lang="es">Banco Central de Nicaragua</Name>
+    <Abbreviation>BCN</Abbreviation>
+    <Location id="hq" countryCode="NI">
+      <MapLocation accuracy="street">
+        <Longitude>-86.2431521</Longitude>
+        <Latitude>12.1344795</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Km 7 Carretera Sur</Line>
+        <City>Managua</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bcn.gob.ni/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bcn.gob.ni/en/index.php</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Nicaragua</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="bh-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Bahrain</Name>
+    <Abbreviation>CBB</Abbreviation>
+    <Location id="hq" countryCode="BH">
+      <MapLocation accuracy="street">
+        <Longitude>50.5724153</Longitude>
+        <Latitude>26.2349853</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>King Faisal Highway</Line>
+        <Line>Block 317, Road 1702, Building 96</Line>
+        <City>Manama</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbb.gov.bh/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ar">
+      <Url>http://www.cbb.gov.bh/arabic.html</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Bahrain</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ph-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of the Philippines</Name>
+    <Name xml:lang="tl">Bangko Sentral ng Pilipinas</Name>
+    <Abbreviation>BSP</Abbreviation>
+    <Location id="hq" countryCode="PH">
+      <MapLocation accuracy="street">
+        <Longitude>120.9842195</Longitude>
+        <Latitude>14.5995124</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>A. Mabini St. cor. P. Ocampo St.</Line>
+        <City>Manila</City>
+        <Postal>1004</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bsp.gov.ph/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Philippines</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="mz-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Mozambique</Name>
+    <Name xml:lang="pt">Banco de Mocambique</Name>
+    <Location id="hq" countryCode="MZ">
+      <MapLocation accuracy="street">
+        <Longitude>32.5773543</Longitude>
+        <Latitude>-25.9765432</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Avenue 25 de Setembro N 1695</Line>
+        <City>Maputo</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bancomoc.mz/Default_en.aspx</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="pt">
+      <Url>http://www.bancomoc.mz/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Mozambique</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ls-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Lesotho</Name>
+    <Location id="hq" countryCode="LS">
+      <MapLocation accuracy="city">
+        <Longitude>27.4832633</Longitude>
+        <Latitude>-29.3141863</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Maseru</City>
+        <Postal>100</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.centralbank.org.ls/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Lesotho</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="sz-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Swaziland</Name>
+    <Location id="hq" countryCode="SZ">
+      <MapLocation accuracy="street">
+        <Longitude>31.14969</Longitude>
+        <Latitude>-26.3268351</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Mahlokohla Street</Line>
+        <City>Mbabane</City>
+        <Postal>H100</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.centralbank.org.sz/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Swaziland</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="mx-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Mexico</Name>
+    <Name xml:lang="es">Banco de Mexico</Name>
+    <Location id="hq" countryCode="MX">
+      <MapLocation accuracy="city">
+        <Longitude>-99.133208</Longitude>
+        <Latitude>19.4326077</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Mexico City</City>
+        <State>DF</State>
+        <Postal>06059</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.banxico.org.mx/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.banxico.org.mx/indexEn.html</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Mexico</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="uy-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Uruguay</Name>
+    <Name xml:lang="es">Banco Central del Uruguay</Name>
+    <Abbreviation>BCU</Abbreviation>
+    <Location id="hq" countryCode="UY">
+      <MapLocation accuracy="street">
+        <Longitude>-56.2276562</Longitude>
+        <Latitude>-34.8096861</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Casilla de Correo 1467</Line>
+        <Line>Correo Central</Line>
+        <City>Montevideo</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bcu.gub.uy/Paginas/Default.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Uruguay</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ru-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of the Russian Federation</Name>
+    <Location id="hq" countryCode="RU">
+      <MapLocation accuracy="street">
+        <Longitude>37.6208775</Longitude>
+        <Latitude>55.7623572</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>12 Neglinnaya Street</Line>
+        <City>Moscow</City>
+        <Postal>107016</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbr.ru/eng/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ru">
+      <Url>http://www.cbr.ru/daily.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Russian Federation</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="om-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Oman</Name>
+    <Location id="hq" countryCode="OM">
+      <MapLocation accuracy="city">
+        <Longitude>58.5433333</Longitude>
+        <Latitude>23.6002778</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Ruwi</City>
+        <Postal>112</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbo.gov.om/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Oman</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ke-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Kenya</Name>
+    <Location id="hq" countryCode="KE">
+      <MapLocation accuracy="street">
+        <Longitude>36.8242943</Longitude>
+        <Latitude>-1.2908428</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Haile Selassie Avenue</Line>
+        <City>Nairboi</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.centralbank.go.ke/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Kenya</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="bs-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of the Bahamas</Name>
+    <Location id="hq" countryCode="BS">
+      <MapLocation accuracy="city">
+        <Longitude>-77.345</Longitude>
+        <Latitude>25.06</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Nassau</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.centralbankbahamas.com/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Bahamas</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="in-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Reserve Bank of India</Name>
+    <Location id="hq" countryCode="IN">
+      <MapLocation accuracy="city">
+        <Longitude>72.8776559</Longitude>
+        <Latitude>19.0759837</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Mumbai</City>
+        <State>Maharashtra</State>
+        <Postal>400001</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.rbi.org.in/home.aspx</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="hi">
+      <Url>http://www.rbi.org.in/hindi/Home.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>India</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Profile>
+      <Uses specification="sdmx" version=""/>
+    </Profile>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="cy-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Cypus</Name>
+    <Location id="hq" countryCode="CY">
+      <MapLocation accuracy="street">
+        <Longitude>14.507268</Longitude>
+        <Latitude>37.8108701</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>80, Kennedy Ave</Line>
+        <City>Nicosia</City>
+        <Postal>CY-1395</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="el">
+      <Url>http://www.centralbank.gov.cy/nqcontent.cfm?a_id=1</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.centralbank.gov.cy/nqcontent.cfm?a_id=1&amp;lang=en</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Cyprus</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="to-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Reserve Bank of Tonga</Name>
+    <Location id="hq" countryCode="TO">
+      <MapLocation accuracy="city">
+        <Longitude>-175.2</Longitude>
+        <Latitude>-21.1333333</Latitude>
+      </MapLocation>
+      <Address>
+        <City>Nuku'alofa</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.reservebank.to/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Tonga</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="aw-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Centrale Bank van Aruba</Name>
+    <Abbreviation>CBA</Abbreviation>
+    <Location id="hq" countryCode="AW">
+      <MapLocation accuracy="street">
+        <Longitude>-70.056825</Longitude>
+        <Latitude>12.5497391</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>JE Irausquin Blvd. 8</Line>
+        <City>Oranjestad</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbaruba.org/cba/home.do</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Aruba</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="no-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Norway</Name>
+    <Name xml:lang="no">Norges Bank</Name>
+    <Abbreviation/>
+    <Location id="hq" countryCode="NO">
+      <MapLocation accuracy="street">
+        <Longitude>10.742395</Longitude>
+        <Latitude>59.9086922</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Bankplassen 2</Line>
+        <City>Oslo</City>
+        <Postal>0151</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="no">
+      <Url>http://www.norges-bank.no/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.norges-bank.no/en/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Norway</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ca-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Canada</Name>
+    <Name xml:lang="fr">Banque du Canada</Name>
+    <Location id="hq" countryCode="CA">
+      <MapLocation accuracy="street">
+        <Longitude>-75.702919</Longitude>
+        <Latitude>45.4209911</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>234 Wellington Street</Line>
+        <City>Ottawa</City>
+        <State>Ontario</State>
+        <Postal>K1A 0G9</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bankofcanada.ca/?page_moved=1</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="fr">
+      <Url><![CDATA[http://www.banqueducanada.ca/?page_moved=1&__utma=1.627645401.1340133835.1340133835.1340133835.1&__utmb=1.2.9.1340133835&__utmc=1&__utmx=-&__utmz=1.1340133835.1.1.utmcsr=bis.org|utmccn=(referral)|utmcmd=referral|utmcct=/cbanks.htm&__utmv=-&__utmk=100592670]]></Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Canada</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="sr-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Suriname</Name>
+    <Name xml:lang="nl">Centrale Bank of Suriname</Name>
+    <Location id="hq" countryCode="SR">
+      <MapLocation accuracy="street">
+        <Longitude>-55.1555571</Longitude>
+        <Latitude>5.8245557</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Waterkant 20</Line>
+        <City>Paramaribo</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="nl">
+      <Url>http://www.cbvs.sr/?lang=nl</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbvs.sr/?lang=en</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Suriname</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="fr-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of France</Name>
+    <Name xml:lang="fr">Banque de France</Name>
+    <Location id="hq" countryCode="FR">
+      <MapLocation accuracy="street">
+        <Longitude>2.3399299</Longitude>
+        <Latitude>48.8641533</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>31 Rue Croix Des Petits Champs</Line>
+        <City>Paris</City>
+        <Postal>75049</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.banque-france.fr/en/home.html</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="fr">
+      <Url>http://www.banque-france.fr/accueil.html</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>France</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="kh-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of Cambodia</Name>
+    <Location id="hq" countryCode="KH">
+      <MapLocation accuracy="street">
+        <Longitude>104.9261958</Longitude>
+        <Latitude>11.56346</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>22-24 Norodom Blvd</Line>
+        <City>Phnom Penh</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://nbc.org.kh/english/index.php</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="km">
+      <Url>http://nbc.org.kh/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Cambodia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="me-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Montenegro</Name>
+    <Name xml:lang="hr">Centralna Banka Crne Gore</Name>
+    <Abbreviation>CBCG</Abbreviation>
+    <Location id="hq" countryCode="ME">
+      <MapLocation accuracy="street">
+        <Longitude>19.268646</Longitude>
+        <Latitude>42.442575</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Bulevar Sv. Petra Cetinjskog br. 6</Line>
+        <City>Podgorica</City>
+        <Postal>81000</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cb-mn.org/eng/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="hr">
+      <Url>http://www.cb-mn.org/index.php</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Montenegro</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ht-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of the Republic of Haiti</Name>
+    <Name xml:lang="fr">Banque de la Republique d'Haiti</Name>
+    <Abbreviation>BRH</Abbreviation>
+    <Location id="hq" countryCode="HT">
+      <MapLocation accuracy="street">
+        <Longitude>-72.336408</Longitude>
+        <Latitude>18.539269</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Angle Rues Pavee et du Quai</Line>
+        <City>Port-au-Prince</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="fr">
+      <Url>http://www.brh.net/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Haiti</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="pg-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Papua New Guinea</Name>
+    <Location id="hq" countryCode="PG">
+      <MapLocation accuracy="street">
+        <Longitude>147.1504991</Longitude>
+        <Latitude>-9.4784603</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Douglas Street</Line>
+        <City>Port Moresby</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bankpng.gov.pg/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Papua New Guinea</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="tt-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Trinidad and Tobago</Name>
+    <Location id="hq" countryCode="TT">
+      <MapLocation accuracy="street">
+        <Longitude>-61.509589</Longitude>
+        <Latitude>10.6500225</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Eric Williams Plaza, Independence Square</Line>
+        <City>Port of Spain</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.central-bank.org.tt/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Trinidad and Tobago</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="vu-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Reserve Bank of Vanuatu</Name>
+    <Location id="hq" countryCode="VU">
+      <MapLocation accuracy="street">
+        <Longitude>168.3220289</Longitude>
+        <Latitude>-17.734818</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>P.O. Box 062</Line>
+        <City>Port Vila</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.rbv.gov.vu/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Vanuatu</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="cz-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Czech National Bank</Name>
+    <Name xml:lang="cs">Ceska Narodni Banka</Name>
+    <Abbreviation>CNB</Abbreviation>
+    <Location id="hq" countryCode="CZ">
+      <Address>
+        <Line>Na Příkopě 28</Line>
+        <City>Prague</City>
+        <Postal>115 03</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cnb.cz/en/index.html</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="cs">
+      <Url>http://www.cnb.cz/cs/index.html</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Czech Republic</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="cv-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Cape Verde</Name>
+    <Name xml:lang="pt">Banco de Cabo Verde</Name>
+    <Abbreviation/>
+    <Location id="hq" countryCode="CV">
+      <MapLocation accuracy="street">
+        <Longitude>-23.512669</Longitude>
+        <Latitude>14.930464</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Avenida Amilcar Cabral c.p. 101</Line>
+        <City>Cidade da Praia</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="pt">
+      <Url>http://www.bcv.cv/vPT/Paginas/Homepage.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Cape Verde</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="za-cb" primaryLocationId="hq">
+    <Name xml:lang="en">South African Reserve Bank</Name>
+    <Location id="hq" countryCode="ZA">
+      <MapLocation accuracy="street">
+        <Longitude>28.196228</Longitude>
+        <Latitude>-25.745429</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>370 Church Street</Line>
+        <City>Pretoria</City>
+        <Postal>0002</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.resbank.co.za/pages/default.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>South Africa</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="xk-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of the Republic of Kosovo</Name>
+    <Name xml:lang="sq">Banka Qendrore e Republikes se Kosoves</Name>
+    <Name xml:lang="sr">Centralna Banka Republika Kosova</Name>
+    <Abbreviation>BQK</Abbreviation>
+    <Location id="hq" countryCode="XK">
+      <MapLocation accuracy="street">
+        <Longitude>21.1570286</Longitude>
+        <Latitude>42.6602298</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Garibaldi Str. No. 33</Line>
+        <City>Prishtine</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bqk-kos.org/?cid=2,1</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="sq">
+      <Url>http://www.bqk-kos.org/?cid=1,1</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="sr">
+      <Url>http://www.bqk-kos.org/?cid=3,1</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Kosovo</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ec-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Equador</Name>
+    <Name xml:lang="sp">Banco Central del Equador</Name>
+    <Abbreviation/>
+    <Location id="hq" countryCode="EC">
+      <MapLocation accuracy="street">
+        <Longitude>-78.5166667</Longitude>
+        <Latitude>-0.2166667</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Casilla 339</Line>
+        <City>Quito</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="sp">
+      <Url>http://www.bce.fin.ec/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Equador</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ma-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank al-Maghrib</Name>
+    <Location id="hq" countryCode="MA">
+      <MapLocation accuracy="street">
+        <Longitude>-6.8559355</Longitude>
+        <Latitude>33.997776</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>277 Mohammed 5 Street</Line>
+        <City>Rabat</City>
+        <Postal>445</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bkam.ma/wps/portal/net/kcxml/04_Sj9SPykssy0xPLMnMz0vM0Y_QjzKL94o38vEASZnFe8QbebvqR2KIuSDEfD3yc1P1g9KK9L31A_QLckMjyh0dFQFwKCQ9/delta/base64xml/L0lKWWttUSEhL3dITUFDc0FFVUFOby80SUVhREFBIS9lbg!!?langue=en</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="fr">
+      <Url>http://www.bkam.ma/wps/portal/net/kcxml/04_Sj9SPykssy0xPLMnMz0vM0Y_QjzKL94o38vEASZnFe8QbebvqR2KIuSDEfD3yc1P1g1Lz9L31A_QLckMjyh0dFQFI7x5g/delta/base64xml/L0lKWWttUSEhL3dITUFDc0FFVUFOby80SUVhREFBIS9mcg!!?langue=fr</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ar">
+      <Url>http://www.bkam.ma/wps/portal/net/kcxml/04_Sj9SPykssy0xPLMnMz0vM0Y_QjzKL94o38vEASZnFe8QbebvqR2KIuSDEfD3yc1P1gxKL9L31A_QLckMjyh0dFQFqJyWm/delta/base64xml/L0lKWWttUSEhL3dITUFDc0FFVUFOby80SUVhREFBIS9hcg!!?Lien=V</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Morocco</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="mm-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Mynamar</Name>
+    <Abbreviation>CBM</Abbreviation>
+    <Location id="hq" countryCode="MM">
+      <MapLocation accuracy="street">
+        <Longitude>96.1659559</Longitude>
+        <Latitude>16.8346372</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Office No. 26(A), Settmu Road</Line>
+        <Line>Yankin Township</Line>
+        <City>Yangon</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbm.gov.mm/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbm.gov.mm/?q=my</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Myanmar</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="is-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Iceland</Name>
+    <Name xml:lang="is">Seðlabanki Íslands</Name>
+    <Location id="hq" countryCode="IS">
+      <MapLocation accuracy="street">
+        <Longitude>-21.89521</Longitude>
+        <Latitude>64.135338</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Kalkofnsvegi 1</Line>
+        <City>Reykjavik</City>
+        <Postal>150</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.sedlabanki.is/?pageid=194</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.sedlabanki.is/?Pageid=1</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Iceland</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="lv-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Latvia</Name>
+    <Name xml:lang="lv">Latvijas Banka</Name>
+    <Location id="hq" countryCode="LV">
+      <MapLocation accuracy="street">
+        <Longitude>24.1026536</Longitude>
+        <Latitude>56.9525534</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>K Valdemara iela 2A</Line>
+        <City>Riga</City>
+        <Postal>LV-1050</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="lv">
+      <Url>http://www.bank.lv/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bank.lv/en/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Latvia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="sa-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Saudia Arabian Monetary Agency</Name>
+    <Abbreviation>SAMA</Abbreviation>
+    <Location id="hq" countryCode="SA">
+      <MapLocation accuracy="street">
+        <Longitude>46.7102735</Longitude>
+        <Latitude>24.6842362</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Al-Ma'ather Street</Line>
+        <City>Riyadh</City>
+        <Postal>11169</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.sama.gov.sa/sites/SAMAEN/Pages/Home.aspx</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ar">
+      <Url>http://www.sama.gov.sa/Pages/Home.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Saudi Arabia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="it-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Italy</Name>
+    <Name xml:lang="it">Banca D'Italia</Name>
+    <Location id="hq" countryCode="IT">
+      <MapLocation accuracy="street">
+        <Longitude>12.4885188</Longitude>
+        <Latitude>41.8973944</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Via Nazionale 91</Line>
+        <City>Rome</City>
+        <Postal>00184</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bancaditalia.it/;internal&amp;action=_setlanguage.action?LANGUAGE=en</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="it">
+      <Url>http://www.bancaditalia.it/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Italy</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="cr-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Costa Rica</Name>
+    <Name xml:lang="es">Banco Central de Costa Rica</Name>
+    <Abbreviation>BCCR</Abbreviation>
+    <Location id="hq" countryCode="CR">
+      <MapLocation accuracy="street">
+        <Longitude>-98.9962048</Longitude>
+        <Latitude>19.6783051</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Apartado Postal 10058</Line>
+        <City>San Jose</City>
+        <Postal>1000</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bccr.fi.cr/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Costa Rica</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="sm-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of the Republic of San Marino</Name>
+    <Name xml:lang="it">Banca Centrale della Repubblica di San Marino</Name>
+    <Location id="hq" countryCode="SM">
+      <MapLocation accuracy="street">
+        <Longitude>12.4508276</Longitude>
+        <Latitude>43.9282937</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Via del Voltone 120</Line>
+        <City>San Marino</City>
+        <Postal>7890 RSM</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="it">
+      <Url>http://www.bcsm.sm/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bcsm.sm/index.php?lang=en</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>San Marino</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="sv-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Reserve Bank of El Salvador</Name>
+    <Name xml:lang="es">Banco Central de Reserva de El Salvador</Name>
+    <Abbreviation>BCR</Abbreviation>
+    <Location id="hq" countryCode="SV">
+      <MapLocation accuracy="street">
+        <Longitude>-89.23372</Longitude>
+        <Latitude>13.7108286</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Alameda Juan Pablo II 4</Line>
+        <Line>15 Avenida Norte</Line>
+        <City>San Salvador</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bcr.gob.sv/esp/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>El Salvador</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ye-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Yemen</Name>
+    <Location id="hq" countryCode="YE">
+      <MapLocation accuracy="street">
+        <Longitude>44.207456</Longitude>
+        <Latitude>15.352029</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Ali Abdul Mughini Street</Line>
+        <City>Sanaa</City>
+        <Postal>59</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.centralbank.gov.ye/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ar">
+      <Url>http://www.centralbank.gov.ye/ar/default.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Yemen</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="do-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of the Dominican Republic</Name>
+    <Name xml:lang="es">Banco Central de la Republica Dominica</Name>
+    <Abbreviation/>
+    <Location id="hq" countryCode="DO">
+      <MapLocation accuracy="street">
+        <Longitude>-69.8641223</Longitude>
+        <Latitude>18.5348483</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Apartado Postal 1347</Line>
+        <Line>Calle Pedro Henriquez Urena</Line>
+        <City>Santo Domingo</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bancentral.gov.do/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bancentral.gov.do/english/index-e.asp</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Dominican Republic</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ba-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Bosnia and Herzegovina</Name>
+    <Name xml:lang="hr">Centralna Banka Bosne I Hercegovine</Name>
+    <Location id="hq" countryCode="BA">
+      <MapLocation accuracy="street">
+        <Longitude>18.25</Longitude>
+        <Latitude>43.85</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>25 Marsala Tita</Line>
+        <City>Sarajevo</City>
+        <Postal>71000</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbbh.ba/?lang=en</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Bosnia and Herzegovina</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="kr-cb" primaryLocationId="hq">
+    <Name xml:lang="en">The Bank of Korea</Name>
+    <Location id="hq" countryCode="KR">
+      <MapLocation accuracy="street">
+        <Longitude>126.9779692</Longitude>
+        <Latitude>37.566535</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>110, 3-GA, Namdaemoon-Ro</Line>
+        <Line>Chung-Gu</Line>
+        <City>Seoul</City>
+        <Postal>100-794</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://eng.bok.or.kr/eng/engMain.action</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ko">
+      <Url>http://eng.bok.or.kr/main/korMain.action</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>South Korea</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="sg-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Monetary Authority of Singapore</Name>
+    <Abbreviation>MAS</Abbreviation>
+    <Location id="hq" countryCode="SG">
+      <MapLocation accuracy="street">
+        <Longitude>103.819836</Longitude>
+        <Latitude>1.352083</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>10 Senthon Way MAS Building</Line>
+        <City>Singapore</City>
+        <Postal>079117</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.mas.gov.sg/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Singapore</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="mk-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of the Republic of Macedonia</Name>
+    <Location id="hq" countryCode="MK">
+      <MapLocation accuracy="street">
+        <Longitude>21.411699</Longitude>
+        <Latitude>42.0051068</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>P.O. Box 401</Line>
+        <City>Skopje</City>
+        <Postal>91000</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nbrm.mk/?ItemID=41989BA5CE65DA48AC1B50206D0DE89D</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="mk">
+      <Url>http://www.nbrm.mk/?ItemID=73362446CDCE464EBDA30329D494E212</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Macedonia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="bg-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bulgarian National Bank</Name>
+    <Abbreviation>BNB</Abbreviation>
+    <Location id="hq" countryCode="BG">
+      <MapLocation accuracy="street">
+        <Longitude>23.3260106</Longitude>
+        <Latitude>42.6964917</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>1, Knyaz Alexander I Sq.</Line>
+        <City>Sofia</City>
+        <Postal>1000</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="bg">
+      <Url>http://www.bnb.bg/?toLang=_BG</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bnb.bg/?toLang=_EN</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Bulgaria</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="se-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Swedish Central Bank</Name>
+    <Name xml:lang="sv">Sveriges Riksbank</Name>
+    <Location id="hq" countryCode="SE">
+      <MapLocation accuracy="street">
+        <Longitude>18.06491</Longitude>
+        <Latitude>59.32893</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>11 Brunkeberstorg</Line>
+        <City>Stockholm</City>
+        <Postal>S-103 37</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.riksbank.se/en/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="sv">
+      <Url>http://www.riksbank.se/sv/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Sweden</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="fj-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Reserve Bank of Fiji</Name>
+    <Location id="hq" countryCode="FJ">
+      <MapLocation accuracy="street">
+        <Longitude>178.4251678</Longitude>
+        <Latitude>-18.1401474</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Reserve Bank Bldg, Pratt St.</Line>
+        <City>Suva</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.reservebank.gov.fj/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Fiji</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="au-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Reserve Bank of Australia</Name>
+    <Location id="hq" countryCode="AU">
+      <MapLocation accuracy="street">
+        <Longitude>151.2121658</Longitude>
+        <Latitude>-33.8681532</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>65 Martin Place</Line>
+        <City>Sydney</City>
+        <State>NSW</State>
+        <Postal>2001</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.rba.gov.au/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Australia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ee-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Estonia</Name>
+    <Name xml:lang="et">Eesti Pank</Name>
+    <Location id="hq" countryCode="EE">
+      <MapLocation accuracy="street">
+        <Longitude>24.7483217</Longitude>
+        <Latitude>59.432869</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>13 Estonia Pst</Line>
+        <City>Tallinn</City>
+        <Postal>15095</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.eestipank.info/frontpage/en/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.eestipank.info/frontpage/et/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Estonia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="uz-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of the Republic of Uzbekistan</Name>
+    <Name xml:lang="uz">Ozbekiston Respublikasi Markaziy Banki</Name>
+    <Abbreviation/>
+    <Location id="hq" countryCode="UZ">
+      <MapLocation accuracy="street">
+        <Longitude>69.268967</Longitude>
+        <Latitude>41.305229</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>6, Prospekt Uzbekistan</Line>
+        <City>Tashkent</City>
+        <Postal>700001</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="uz">
+      <Url>http://www.cbu.uz/uz_lat/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ru">
+      <Url>http://www.cbu.uz/ru/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Uzbekistan</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ge-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of Georgia</Name>
+    <Location id="hq" countryCode="GE">
+      <MapLocation accuracy="street">
+        <Longitude>44.792998</Longitude>
+        <Latitude>41.709981</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>3/5, ul. Leonidze</Line>
+        <City>Tbilisi</City>
+        <Postal>380005</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="ka">
+      <Url>http://www.nbg.gov.ge/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nbg.gov.ge/?lng=eng</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Georgia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="hn-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Honduras</Name>
+    <Name xml:lang="es">Banco Central de Honduras</Name>
+    <Abbreviation>BCH</Abbreviation>
+    <Location id="hq" countryCode="HN">
+      <MapLocation accuracy="street">
+        <Longitude>-87.2167</Longitude>
+        <Latitude>14.0833</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Avenida Juan Ramon Molina</Line>
+        <Line>Primera Calle, Septima Avenida</Line>
+        <City>Tegucigalpa</City>
+        <State>MDC</State>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="es">
+      <Url>http://www.bch.hn/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bch.hn/eng/index.php</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Honduras</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ir-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of the Islamic Republic of Iran</Name>
+    <Name xml:lang="fa">Bank Markazi Jomhouri Islami Iran</Name>
+    <Location id="hq" countryCode="IR">
+      <MapLocation accuracy="street">
+        <Longitude>51.4316278</Longitude>
+        <Latitude>35.7603318</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Mirdamad Building N 144</Line>
+        <City>Tehran</City>
+        <Postal>15875/7177</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" verifiedState="invalid" xml:lang="en">
+      <Url>www.cbi.ir</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Iran</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="bt-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Royal Monetary Authority of Bhutan</Name>
+    <Location id="hq" countryCode="BT">
+      <MapLocation accuracy="street">
+        <Longitude>89.667328</Longitude>
+        <Latitude>27.44261</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>P.O. Box 154</Line>
+        <City>Thumphu</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.rma.org.bt/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Bhutan</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="al-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Albania</Name>
+    <Name xml:lang="sq">Banka e Shqipërisë</Name>
+    <Location id="hq" countryCode="AL">
+      <MapLocation accuracy="street">
+        <Longitude>19.8318</Longitude>
+        <Latitude>41.33165</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Sheshi Avni Rustemi nr. 24</Line>
+        <City>Tirana</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="sq">
+      <Url>http://www.bankofalbania.org/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bankofalbania.org/web/Welcome_to_Bank_of_Albania_webpage_5186_2.php?kc=0,0,0,0,0</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Albania</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="jp-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Japan</Name>
+    <Location id="hq" countryCode="JP">
+      <MapLocation accuracy="street">
+        <Longitude>139.7718614</Longitude>
+        <Latitude>35.6706505</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>2-1-1 Nihonbashi-Hongokucho, Chuo-ku</Line>
+        <City>Tokyo</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="ja">
+      <Url>http://www.boj.or.jp/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.boj.or.jp/en/index.htm/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Japan</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="ly-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Libya</Name>
+    <Abbreviation>CBL</Abbreviation>
+    <Location id="hq" countryCode="LY">
+      <MapLocation accuracy="street">
+        <Longitude>13.1653064</Longitude>
+        <Latitude>32.8761812</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Al Jalaa Street</Line>
+        <City>Tripoli</City>
+        <Postal>1103</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="ar">
+      <Url>http://cbl.gov.ly/ar/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbl.gov.ly/eg/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Libya</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="tn-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Tunisia</Name>
+    <Name xml:lang="fr">Banque Centrale de Tunisie</Name>
+    <Location id="hq" countryCode="TN">
+      <MapLocation accuracy="street">
+        <Longitude>10.1845867</Longitude>
+        <Latitude>36.8043717</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>25 Rue Hedi Nouira</Line>
+        <City>Tunis</City>
+        <Postal>1080</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.bct.gov.tn/bct/siteprod/english/index1_an.jsp</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="fr">
+      <Url>http://www.bct.gov.tn/bct/siteprod/english/index1_an.jsp</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ar">
+      <Url>http://www.bct.gov.tn/bct/siteprod/arabe/index1.jsp</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Tunisia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="mn-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Mongolia</Name>
+    <Location id="hq" countryCode="MN">
+      <MapLocation accuracy="street">
+        <Longitude>106.9227093</Longitude>
+        <Latitude>47.9217898</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Baga Toiruu-3, 15160</Line>
+        <City>Ulaanbaatar</City>
+        <Postal>46</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.mongolbank.mn/eng/default.aspx</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.mongolbank.mn/default.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Mongolia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="mt-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Malta</Name>
+    <Name xml:lang="mt">Bank Centrali Ta'Malta</Name>
+    <Location id="hq" countryCode="MT">
+      <MapLocation accuracy="street">
+        <Longitude>14.514106</Longitude>
+        <Latitude>35.89779</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Pjazza Kastilja</Line>
+        <City>Valletta</City>
+        <State>VLT</State>
+        <Postal>1060</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.centralbankmalta.org/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Malta</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="sc-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Seychelles</Name>
+    <Abbreviation>CBS</Abbreviation>
+    <Location id="hq" countryCode="SC">
+      <MapLocation accuracy="street">
+        <Longitude>55.4379022</Longitude>
+        <Latitude>-4.622651</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Independence Avenue, Victoria</Line>
+        <City>Mahe</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cbs.sc/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Seychelles</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="at-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Austrian National Bank</Name>
+    <Name xml:lang="de">Oesterreichische Nationalbank</Name>
+    <Location id="hq" countryCode="AT">
+      <MapLocation accuracy="street">
+        <Longitude>16.3545177</Longitude>
+        <Latitude>48.2161558</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Otto-Wagner-Platz 3</Line>
+        <City>Vienna</City>
+        <Postal>1090</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.oenb.at/en/welcome_to_the_oenb.jsp</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="de">
+      <Url>http://www.oenb.at/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Austria</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="lt-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Lithuania</Name>
+    <Name xml:lang="lt">Lietuvos Bankas</Name>
+    <Location id="hq" countryCode="LT">
+      <MapLocation accuracy="street">
+        <Longitude>25.2822722</Longitude>
+        <Latitude>54.6863015</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Totoriu g. 4</Line>
+        <City>Vilnius</City>
+        <Postal>2629</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.lbank.lt/en_index.htm</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="lt">
+      <Url>http://www.lbank.lt/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Lithuania</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="pl-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of Poland</Name>
+    <Name xml:lang="pl">Narodowy Bank Polski</Name>
+    <Location id="hq" countryCode="PL">
+      <MapLocation accuracy="street">
+        <Longitude>21.0122287</Longitude>
+        <Latitude>52.2296756</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>ul. Świętokrzyska 11/21</Line>
+        <City>Warsaw</City>
+        <Postal>00-919</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="pl">
+      <Url>http://www.nbp.pl/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nbp.pl/Homen.aspx?f=/srodeken.htm</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Poland</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="nz-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Reserve Bank of New Zealand</Name>
+    <Location id="hq" countryCode="NZ">
+      <MapLocation accuracy="street">
+        <Longitude>174.775217</Longitude>
+        <Latitude>-41.2789975</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>2 The Terrace</Line>
+        <City>Wellington</City>
+        <Postal>6011</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.rbnz.govt.nz/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>New Zealand</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="an-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Curaçao and Sint Maarten</Name>
+    <Name xml:lang="nl">Centrale Bank van Curaçao en Sint Maarten</Name>
+    <Location id="hq" countryCode="AN">
+      <MapLocation accuracy="street">
+        <Longitude>-68.9286411</Longitude>
+        <Latitude>12.1070066</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Simon Bolivar Plein 1</Line>
+        <City>Curacao</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.centralbank.an/</Url>
+    </WebSite>
+    <Operations scope="subnational">
+      <Area>
+        <Description>Netherlands Antilles</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="na-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Bank of Namibia</Name>
+    <Abbreviation>BON</Abbreviation>
+    <Location id="hq" countryCode="NA">
+      <MapLocation accuracy="street">
+        <Longitude>17.0902251</Longitude>
+        <Latitude>-22.5755298</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>71 Robert Mugabe Ave</Line>
+        <City>Windhoek</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>https://www.bon.com.na/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Namibia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="am-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Armenia</Name>
+    <Location id="hq" countryCode="AM">
+      <MapLocation accuracy="street">
+        <Longitude>44.5107972</Longitude>
+        <Latitude>40.176391</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Vazgen Sargsyan Str. 6</Line>
+        <City>Yerevan</City>
+        <Postal>0010</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="hy">
+      <Url>http://www.cba.am/am/SitePages/Default.aspx</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.cba.am/en/sitepages/default.aspx</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Armenia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="hr-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Croatian National Bank</Name>
+    <Name xml:lang="hr">Hrvatska Narodna Banka</Name>
+    <Abbreviation>HNB</Abbreviation>
+    <Location id="hq" countryCode="HR">
+      <MapLocation accuracy="street">
+        <Longitude>16.0515655</Longitude>
+        <Latitude>45.7907063</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Trg Hrvatskih Velikana 3</Line>
+        <City>Zagreb</City>
+        <Postal>10002</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="hr">
+      <Url>http://www.hnb.hr/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.hnb.hr/eindex.htm</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Croatia</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="mu-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Central Bank of Mauritius</Name>
+    <Location id="hq" countryCode="MU">
+      <MapLocation accuracy="street">
+        <Longitude>57.5034548</Longitude>
+        <Latitude>-20.1621489</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Sir William Newton Street</Line>
+        <City>Port Louis</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>https://www.bom.mu/?id=Home</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Mauritius</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="by-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of the Republic of Belarus</Name>
+    <Abbreviation>NBRB</Abbreviation>
+    <Location id="hq" countryCode="BY">
+      <MapLocation accuracy="street">
+        <Longitude>27.5666667</Longitude>
+        <Latitude>53.9</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>20 Nezavisimosty Ave.</Line>
+        <City>Minsk</City>
+        <Postal>220008</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nbrb.by/engl/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="be">
+      <Url>http://www.nbrb.by/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Belarus</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="tj-cb" primaryLocationId="hq">
+    <Name xml:lang="en">National Bank of Tajikistan</Name>
+    <Abbreviation>NBT</Abbreviation>
+    <Location id="hq" countryCode="TJ">
+      <MapLocation accuracy="street">
+        <Longitude>68.7867576</Longitude>
+        <Latitude>38.5917574</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>Avenue Rudaki 107A</Line>
+        <City>Dushanbe</City>
+        <Postal>734003</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.nbt.tj/en/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="ru">
+      <Url>http://www.nbt.tj/ru/</Url>
+    </WebSite>
+    <WebSite verifiedBy="akr" xml:lang="tg">
+      <Url>http://www.nbt.tj/tj/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>Tajikistan</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="kn-cb" primaryLocationId="hq">
+    <Name xml:lang="en">Eastern Caribbean Central Bank</Name>
+    <Abbreviation>ECCB</Abbreviation>
+    <Location id="hq" countryCode="KN">
+      <MapLocation accuracy="street">
+        <Longitude>-62.7176924</Longitude>
+        <Latitude>17.3026058</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>P.O. Box 89</Line>
+        <City>Basseterre</City>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.eccb-centralbank.org/</Url>
+    </WebSite>
+    <Operations scope="regional">
+      <Area>
+        <Description>Eastern Caribbean</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+  <Organization entityType="public" id="us-cb" primaryLocationId="hq">
+    <Name xml:lang="en">The Federal Reserve</Name>
+    <Location id="hq" countryCode="US">
+      <MapLocation accuracy="street">
+        <Longitude>-76.9762234</Longitude>
+        <Latitude>38.8920028</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>20th St and Constitution Ave, NW</Line>
+        <City>Washington</City>
+        <State>DC</State>
+        <Postal>20551</Postal>
+      </Address>
+    </Location>
+    <WebSite verifiedBy="akr" xml:lang="en">
+      <Url>http://www.federalreserve.gov/</Url>
+    </WebSite>
+    <Operations scope="national">
+      <Area>
+        <Description>United States of America</Description>
+      </Area>
+      <Sector>
+        <Description>Banking</Description>
+      </Sector>
+    </Operations>
+    <Tags>
+      <Tag>Central Bank</Tag>
+    </Tags>
+  </Organization>
+</Omad>

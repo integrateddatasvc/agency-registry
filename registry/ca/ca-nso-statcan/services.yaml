@@ -1,0 +1,65 @@
+- catalog_en:
+  - name: Data Catalog
+  - type: catalog
+  - protocol: html
+  - endpoint: https://www150.statcan.gc.ca/n1/en/type/data
+  - lang: en
+- catalog_fr:
+  - name: Catalogue des données
+  - type: catalog
+  - protocol: html
+  - endpoint: https://www150.statcan.gc.ca/n1/fr/type/data
+  - lang: fr
+- census_feed_en:
+  - name: The Census provides a portrait of the Canadian population.
+  - type: news
+  - protocol: atom
+  - description: The Census provides a portrait of the Canadian population.
+  - endpoint: http://www12.statcan.gc.ca/census-recensement/feeds/censusnews-nouvellesrecensement-eng.atom
+- census_feed_fr:
+  - name: Fil du programme du recensement
+  - type: news
+  - protocol: atom
+  - description: Le recensement brosse un portrait de la population canadienne.
+  - endpoint: http://www12.statcan.gc.ca/census-recensement/feeds/censusnews-nouvellesrecensement-fra.atom
+- the_daily_en:
+  - name: The Daily
+  - type: news
+  - protocol: http
+  - endpoint: https://www150.statcan.gc.ca/n1/dai-quo/index-eng.htm?HPA=1
+  - lang: en
+- the_daily_fr:
+  - name: Le Quotidien
+  - type: news
+  - protocol: http
+  - endpoint: https://www150.statcan.gc.ca/n1/dai-quo/index-fra.htm?HPA=1
+  - lang: fr
+- the_daily_feed_en:
+  - name: The Daily (all subjects)
+  - type: news
+  - description: The Daily is Statistics Canada's official release bulletin. These feeds provide the latest releases by subject (100 days).
+  - protocol: atom
+  - endpoint: https://www150.statcan.gc.ca/n1/rss/dai-quo/0-eng.atom
+  - lang: en
+- the_daily_feed_fr:
+  - name: Fils du Quotidien (tous les sujets)
+  - type: news
+  - description: Le Quotidien est le bulletin de diffusion officielle de Statistique Canada. Ces fils fournissent les derniers communiqués par sujet (100 jours).
+  - protocol: atom
+  - endpoint: https://www150.statcan.gc.ca/n1/rss/dai-quo/0-fra.atom
+  - lang: fr
+- the_daily_feed_agr_en:
+  - name: "The Daily: Agriculture and food"
+  - type: news
+  - description: The Daily is Statistics Canada's official release bulletin. These feeds provide the latest releases by subject (100 days).
+  - protocol: atom
+  - endpoint: https://www150.statcan.gc.ca/n1/rss/dai-quo/32-eng.atom
+  - lang: en
+- the_daily_feed_agr_en:
+  - name: "Le Quotidien: Agriculture et alimentation"
+  - type: news
+  - description: Le Quotidien est le bulletin de diffusion officielle de Statistique Canada. Ces fils fournissent les derniers communiqués par sujet (100 jours).
+  - protocol: atom
+  - endpoint: https://www150.statcan.gc.ca/n1/rss/dai-quo/32-fra.atom
+  - lang: fr
+

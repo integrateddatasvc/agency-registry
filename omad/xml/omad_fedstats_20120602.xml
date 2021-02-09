@@ -1,0 +1,2199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Omad xmlns="openmetadata:omad:1_0" xsi:schemaLocation="openmetadata:omad:1_0 omad.xsd"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <Organization entityType="public" id="us-acf">
+        <Name>Administration for Children and Families</Name>
+        <Abbreviation xml:lang="en">ACF</Abbreviation>
+        <Location id="hq" countryCode="US"/>
+        <WebSite xml:lang="en">
+            <Url>http://www.acf.hhs.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>ACF FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=ACF</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-aoa">
+        <Name>Administration on Aging</Name>
+        <Abbreviation xml:lang="en">AOA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>One Massachusetts Ave NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20001</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.aoa.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>AoA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=AoA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-ahrq">
+        <Name>Agency for Healthcare Research and Quality</Name>
+        <Abbreviation xml:lang="en">AHCPR</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>540 Gaither Road</Line>
+                <City>Rockville</City>
+                <State>MD</State>
+                <Postal>20850</Postal>
+            </Address>
+        </Location>
+        <WebSite xml:lang="en">
+            <Url>http://www.ahrq.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>AHCPR FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=AHCPR</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-aid">
+        <Name>Agency for International Development</Name>
+        <Abbreviation xml:lang="en">USAID</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1300 Pennsylvania Ave, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20523</Postal>
+            </Address>
+        </Location>
+        <WebSite xml:lang="en">
+            <Url>http://www.usaid.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>AID FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=AID</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-atsdr">
+        <Name>Agency for Toxic Substances and Disease Registry</Name>
+        <Abbreviation xml:lang="en">ATSDR</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>4770 Buford Hwy NE</Line>
+                <City>Atlanta</City>
+                <State>GA</State>
+                <Postal>30341</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.atsdr.cdc.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>ATSDR FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=ATSDR</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-ars">
+        <Name>Agricultural Research Service</Name>
+        <Abbreviation xml:lang="en">ARS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1400 Independence Ave, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20250</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.ars.usda.gov/main/main.htm</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>ARS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=ARS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-corps">
+        <Name>Army Corps of Engineers</Name>
+        <Abbreviation xml:lang="en">USCORPS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>441 G Street, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20314</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.usace.army.mil/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>CORPS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=CORPS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-bbg">
+        <Name>Broadcasting Board of Governors</Name>
+        <Abbreviation xml:lang="en">BBG</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>330 Independence Ave, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20237</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.bbg.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>BBG FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=BBG</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-cbp">
+        <Name>Bureau of Customs and Border Protection</Name>
+        <Abbreviation xml:lang="en">CBP</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1300 Pennsylvania Ave, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20229</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.cbp.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>CBP FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=CBP</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-bea" primaryLocationId="hq">
+        <Name xml:lang="en">Bureau of Economic Analysis</Name>
+        <Abbreviation xml:lang="en">BEA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1441 L Street NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20230</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedOn="2012-03-15T00:00:00Z" verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.bea.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>BEA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=BEA</Url>
+        </WebSite>
+        <Operations scope="national">
+            <Area>
+                <Description>United States</Description>
+            </Area>
+            <Sector>
+                <Description>National Economics</Description>
+            </Sector>
+        </Operations>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-bjs" primaryLocationId="hq">
+        <Name xml:lang="en">Bureau of Justice Statistics</Name>
+        <Abbreviation xml:lang="en">BJS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>810 Seventh Street, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20531</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedOn="2012-03-15T00:00:00Z" verifiedBy="AKR" xml:lang="en">
+            <Url>http://bjs.ojp.usdoj.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>BJS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=BJS</Url>
+        </WebSite>
+        <Operations scope="national">
+            <Area>
+                <Description>United States</Description>
+            </Area>
+            <Sector>
+                <Description>National Justice Statistics</Description>
+            </Sector>
+        </Operations>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-bls" primaryLocationId="hq">
+        <Name xml:lang="en">Bureau of Labor Statistics</Name>
+        <Abbreviation xml:lang="en">BLS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>Postal Square Building, 2 Massachusetts Ave, NE</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20212</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedOn="2012-03-15T00:00:00Z" verifiedBy="AKR" xml:lang="en">
+            <Url>http://stats.bls.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>BLS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=BLS</Url>
+        </WebSite>
+        <Operations scope="national">
+            <Area>
+                <Description>United States</Description>
+            </Area>
+            <Sector>
+                <Description>National Labor Statistics</Description>
+            </Sector>
+        </Operations>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-bop">
+        <Name>Bureau of Prisons</Name>
+        <Abbreviation xml:lang="en">BOP</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>320 First St, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20534</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.bop.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>BOP FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=BOP</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-bor">
+        <Name>Bureau of Reclamation</Name>
+        <Abbreviation xml:lang="en">BOR</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1849 C Street, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20240</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.usbr.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>BOR FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=BOR</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-bts" primaryLocationId="hq">
+        <Name xml:lang="en">Bureau of Transportation Statistics</Name>
+        <Abbreviation xml:lang="en">BTS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>US Department of Transportation</Line>
+                <Line>1200 New Jersey Ave., SE</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20590</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedOn="2012-03-15T00:00:00Z" verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.bts.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>BTS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=BTS</Url>
+        </WebSite>
+        <Operations scope="national">
+            <Area>
+                <Description>United States</Description>
+            </Area>
+            <Sector>
+                <Description>National Transportation Statistics</Description>
+            </Sector>
+        </Operations>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-cen" primaryLocationId="hq">
+        <Name xml:lang="en">United States Census Bureau</Name>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>4600 Silver Hill Road</Line>
+                <City>Suitland</City>
+                <State>Maryland</State>
+                <Postal>20746</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedOn="2012-03-15T00:00:00Z" verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.census.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>CEN FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=CEN</Url>
+        </WebSite>
+        <Operations scope="national">
+            <Area>
+                <Description>United States</Description>
+            </Area>
+            <Sector>
+                <Description>Census</Description>
+            </Sector>
+        </Operations>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-cms">
+        <Name>Centers for Medicare and Medicaid Services</Name>
+        <Abbreviation xml:lang="en">CMS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>7500 Security Boulevard</Line>
+                <City>Baltimore</City>
+                <State>MD</State>
+                <Postal>21244</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.cms.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>CMS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=CMS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-cpsc">
+        <Name>Consumer Product Safety Commission</Name>
+        <Abbreviation xml:lang="en">CPSC</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>4330 East West Highway</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20814</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.cpsc.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>CPSC FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=CPSC</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-dmdc">
+        <Name>Defense Manpower Data Center, Statistical Information Analysis Division</Name>
+        <Abbreviation xml:lang="en">DMDC</Abbreviation>
+        <Location id="hq" countryCode="US"/>
+        <WebSite xml:lang="en" verifiedBy="AKR">
+            <Url/>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>DMDC FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=DMDC</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-va">
+        <Name>Department of Veterans Affairs</Name>
+        <Abbreviation xml:lang="en">VA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>810 Vermont Ave, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20420</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.va.gov/index.htm</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>VA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=VA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-dea">
+        <Name>Drug Enforcement Administration</Name>
+        <Abbreviation xml:lang="en">DEA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>8701 Morrissette Drive</Line>
+                <City>Springfield</City>
+                <State>VA</State>
+                <Postal>22152</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.justice.gov/dea/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>DEA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=DEA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-ers" primaryLocationId="hq">
+        <Name xml:lang="en">Economic Research Service</Name>
+        <Abbreviation xml:lang="en">ERS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>Economic Research Service</Line>
+                <Line>355 E Street, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20024</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedOn="2012-03-15T00:00:00Z" verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.ers.usda.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>ERS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=ERS</Url>
+        </WebSite>
+        <Operations scope="national">
+            <Area>
+                <Description>United States</Description>
+            </Area>
+            <Sector>
+                <Description>National Agriculture Statistics</Description>
+            </Sector>
+        </Operations>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-esa">
+        <Name>Economics and Statistics Administration</Name>
+        <Abbreviation xml:lang="en">ESA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1401 Constitution Ave, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20230</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>https://www.esa.doc.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>ESA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=ESA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-eta">
+        <Name>Employment and Training Administration</Name>
+        <Abbreviation xml:lang="en">ETA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>200 Constitution Ave, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20210</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.dol.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>ETA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=ETA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-esa-dol">
+        <Name>Employment Standards Administration</Name>
+        <Abbreviation xml:lang="en">ESA</Abbreviation>
+        <Location id="hq" countryCode="US"/>
+        <WebSite xml:lang="en">
+            <DisplayLabel>ESA/DOL FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=ESA/DOL</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-eia" primaryLocationId="hq">
+        <Name xml:lang="en">US Energy Information Administration</Name>
+        <Abbreviation xml:lang="en">EIA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>US Department of Energy</Line>
+                <Line>1000 Independence Ave. SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20585</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedOn="2012-03-15T00:00:00Z" verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.eia.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>EIA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=EIA</Url>
+        </WebSite>
+        <Operations scope="national">
+            <Area>
+                <Description>United States</Description>
+            </Area>
+            <Sector>
+                <Description>National Energy Statistics</Description>
+            </Sector>
+        </Operations>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-epa">
+        <Name>Environmental Protection Agency</Name>
+        <Abbreviation xml:lang="en">EPA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1200 Pennsylvania Ave, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20460</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.epa.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>EPA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=EPA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-eeoc">
+        <Name>Equal Employment Opportunity Commission</Name>
+        <Abbreviation xml:lang="en">EEOC</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>131 M Street, NE</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20507</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.eeoc.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>EEOC FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=EEOC</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-faa">
+        <Name>Federal Aviation Administration</Name>
+        <Abbreviation xml:lang="en">FAA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>800 Independence Ave, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20591</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.faa.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>FAA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=FAA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-fbi">
+        <Name>Federal Bureau of Investigation</Name>
+        <Abbreviation xml:lang="en">FBI</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>935 Pennsylvania Ave, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20535</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.fbi.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>FBI FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=FBI</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-fema">
+        <Name>Federal Emergency Management Agency</Name>
+        <Abbreviation xml:lang="en">FEMA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>500 C Street, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20472</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.fema.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>FEMA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=FEMA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-fhwa">
+        <Name>Federal Highway Administration</Name>
+        <Abbreviation xml:lang="en">FHWA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1200 New Jersey Ave, SE</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20590</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.fhwa.dot.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>FHWA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=FHWA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-fmcsa">
+        <Name>Federal Motor Carrier Safety Administration</Name>
+        <Abbreviation xml:lang="en">FMCSA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1200 New Jersey Ave</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20590</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.fmcsa.dot.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>FMCSA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=FMCSA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-fra">
+        <Name>Federal Railroad Administration</Name>
+        <Abbreviation xml:lang="en">FRA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1200 New Jersey Ave</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20590</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.fra.dot.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>FRA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=FRA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-fta">
+        <Name>Federal Transit Administration</Name>
+        <Abbreviation xml:lang="en">FTA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1200 New Jersey Ave</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20590</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.fta.dot.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>FTA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=FTA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-fws">
+        <Name>Fish and Wildlife Service</Name>
+        <Abbreviation xml:lang="en">FWS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1849 C Street, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20240</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.fws.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>FWS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=FWS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-fns">
+        <Name>Food and Nutrition Service</Name>
+        <Abbreviation xml:lang="en">FNS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>3101 Park Center Drive</Line>
+                <City>Alexandria</City>
+                <State>VA</State>
+                <Postal>22302</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.fns.usda.gov/fns/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>FNS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=FNS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-fas">
+        <Name>Foreign Agricultural Service</Name>
+        <Abbreviation xml:lang="en">FAS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1400 Independence Ave., SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20250</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.fas.usda.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>FAS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=FAS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-fs">
+        <Name>Forest Service</Name>
+        <Abbreviation xml:lang="en">FS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1400 Independence Ave., SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20250</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.fs.fed.us/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>FS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=FS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-hrsa">
+        <Name>Health Resources and Services Administration</Name>
+        <Abbreviation xml:lang="en">HRSA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>5600 Fishers Lane</Line>
+                <City>Rockville</City>
+                <State>MD</State>
+                <Postal>20857</Postal>
+            </Address>
+        </Location>
+        <WebSite xml:lang="en" verifiedBy="AKR">
+            <Url>http://www.hrsa.gov/index.html</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>HRSA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=HRSA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-ihs">
+        <Name>Indian Health Service</Name>
+        <Abbreviation xml:lang="en">IHS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>801 Thompson Ave</Line>
+                <Line>Ste. 400</Line>
+                <City>Rockville</City>
+                <State>MD</State>
+                <Postal>20852</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.ihs.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>IHS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=IHS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-imls">
+        <Name>Institute of Museum and Library Services</Name>
+        <Abbreviation xml:lang="en">IMLS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1800 M Street, NW</Line>
+                <Line>9th Floor</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20036</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.imls.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>IMLS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=IMLS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-child">
+        <Name>Interagency Forum on Child and Family Statistics</Name>
+        <Location id="hq" countryCode="US"/>
+        <WebSite xml:lang="en">
+            <DisplayLabel>CHILD FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=CHILD</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-ita">
+        <Name>International Trade Administration</Name>
+        <Abbreviation xml:lang="en">ITA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1401 Constitution Ave, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20230</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.ita.doc.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>ITA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=ITA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-marad">
+        <Name>Maritime Administration</Name>
+        <Abbreviation xml:lang="en">MARAD</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1200 New Jersey Ave, SE</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20590</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.marad.dot.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>MARAD FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=MARAD</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-msha">
+        <Name>Mine Safety and Health Administration</Name>
+        <Abbreviation xml:lang="en">MSHA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1100 Wilson Boulevard</Line>
+                <Line>21st Floor</Line>
+                <City>Arlington</City>
+                <State>VA</State>
+                <Postal>22209</Postal>
+            </Address>
+        </Location>
+        <WebSite xml:lang="en" verifiedBy="AKR">
+            <Url>http://www.msha.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>MSHA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=MSHA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-mms">
+        <Name>Minerals Management Service</Name>
+        <Abbreviation xml:lang="en">MMS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1849 C Street, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20240</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.boemre.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>MMS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=MMS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nasa">
+        <Name>National Aeronautics and Space Administration</Name>
+        <Abbreviation xml:lang="en">NASA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>300 E Street, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20024</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nasa.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NASA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NASA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nass">
+        <Name>National Agricultural Statistics Service </Name>
+        <Abbreviation xml:lang="en">NASS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1400 Independence Ave, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20250</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nass.usda.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NASS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NASS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nci">
+        <Name>National Cancer Institute</Name>
+        <Abbreviation xml:lang="en">NCI</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>6116 Executive Boulevard</Line>
+                <Line>Suite 300</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.cancer.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NCI FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NCI</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nccam">
+        <Name>National Center for Complementary and Alternative Medicine</Name>
+        <Abbreviation xml:lang="en">NCCAM</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>9000 Rockville Pike</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://nccam.nih.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NCCAM FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NCCAM</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-ncee">
+        <Name>National Center for Education Evaluation and Regional Assistance </Name>
+        <Abbreviation xml:lang="en">NCEE</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>US Department of Education</Line>
+                <Line>400 Maryland Ave. SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20202</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://ies.ed.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NCEE FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NCEE</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nces" primaryLocationId="hq">
+        <Name xml:lang="en">National Center for Education Statistics</Name>
+        <Abbreviation xml:lang="en">NCES</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>US Department of Education</Line>
+                <Line>400 Maryland Ave. SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20202</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedOn="2012-03-15T00:00:00Z" verifiedBy="AKR" xml:lang="en">
+            <Url>http://nces.ed.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NCES FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NCES</Url>
+        </WebSite>
+        <Operations scope="national">
+            <Area>
+                <Description>United States</Description>
+            </Area>
+            <Sector>
+                <Description>National Education Statistics</Description>
+            </Sector>
+        </Operations>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nchs">
+        <Name>National Center for Health Statistics</Name>
+        <Abbreviation xml:lang="en">NCHS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1600 Clifton Rd</Line>
+                <City>Atlanta</City>
+                <State>GA</State>
+                <Postal>30333</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.cdc.gov/nchs/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NCHS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NCHS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nei">
+        <Name>National Eye Institute</Name>
+        <Abbreviation xml:lang="en">NEI</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>31 Center Drive MSC 2510</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nei.nih.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NEI FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NEI</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nhlbi">
+        <Name>National Heart, Lung and Blood Institute</Name>
+        <Abbreviation xml:lang="en">NHLBI</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>31 Center Drive MSC 2486</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nhlbi.nih.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NHLBI FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NHLBI</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nhtsa">
+        <Name>National Highway Traffic Safety Administration</Name>
+        <Abbreviation xml:lang="en">NHTSA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1200 New Jersey Ave, SE</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20590</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nhtsa.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NHTSA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NHTSA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-niaid">
+        <Name>National Institute of Allergy and Infectious Disease</Name>
+        <Abbreviation xml:lang="en">NIAID</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>6610 Rockledge Drive, MSC 6612</Line>
+                <City>Bethesda</City>
+                <State>DC</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.niaid.nih.gov/Pages/default.aspx</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NIAID FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NIAID</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-niams">
+        <Name>National Institute of Arthritis and Musculoskeletal and Skin Disease</Name>
+        <Abbreviation xml:lang="en">NIAMS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1 AMS Circle</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.niams.nih.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NIAMS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NIAMS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nibib">
+        <Name>National Institute of Biomedical Imaging and Bioengineering</Name>
+        <Abbreviation xml:lang="en">NIBIB</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>9000 Rockville Pike</Line>
+                <Line>Building 31, Room 1C14</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nibib.nih.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NIBIB FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NIBIB</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nichd">
+        <Name>National Institute of Child Health and Human Development</Name>
+        <Abbreviation xml:lang="en">NICHD</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>31 Center Drive</Line>
+                <Line>Bldg 31 MSC 2425</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nichd.nih.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NICHD FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NICHD</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nidcr">
+        <Name>National Institute of Dental and Craniofacial Research</Name>
+        <Abbreviation xml:lang="en">NIDCR</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>National Institutes of Health</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite xml:lang="en" verifiedBy="AKR">
+            <Url>http://www.nidcr.nih.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NIDCR FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NIDCR</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-niddk">
+        <Name>National Institute of Diabetes and Digestive and Kidney Diseases</Name>
+        <Abbreviation xml:lang="en">NIDDK</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>31 Center Drive MSC 2560</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www2.niddk.nih.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NIDDK FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NIDDK</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nimh">
+        <Name>National Institute of Mental Health</Name>
+        <Abbreviation xml:lang="en">NIMH</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>6001 Executive Blvd</Line>
+                <Line>Room 8184 MSC 9663</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nimh.nih.gov/index.shtml</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NIMH FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NIMH</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nia">
+        <Name>National Institute on Aging</Name>
+        <Abbreviation xml:lang="en">NIA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>31 Center Drive MSC 2560</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nia.nih.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NIA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NIA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-niaaa">
+        <Name>National Institute on Alcohol Abuse and Alcoholism</Name>
+        <Abbreviation xml:lang="en">NIAAA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>31 Center Drive, MSC 2320</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.niaaa.nih.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NIAAA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NIAAA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nidcd">
+        <Name>National Institute on Deafness and Other Communication Disorders</Name>
+        <Abbreviation xml:lang="en">NIDCD</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>31 Center Drive, MSC 2320</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nidcd.nih.gov/Pages/default.aspx</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NIDCD FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NIDCD</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nidrr">
+        <Name>National Institute on Disability and Rehabilitation Research</Name>
+        <Abbreviation xml:lang="en">NIDRR</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>400 Maryland Ave, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20202</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.ed.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NIDRR FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NIDRR</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nida">
+        <Name>National Institute on Drug Abuse</Name>
+        <Abbreviation xml:lang="en">NIDA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>6001 Executive Blvd</Line>
+                <Line>Room 5213 MSC 9561</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.drugabuse.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NIDA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NIDA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nih">
+        <Name>National Institutes of Health</Name>
+        <Abbreviation xml:lang="en">NIH</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>9000 Rockville Pike</Line>
+                <City>Bethesda</City>
+                <State>MD</State>
+                <Postal>20892</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nih.gov/icd/od/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NIH FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NIH</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nmfs">
+        <Name>National Marine Fisheries Service</Name>
+        <Abbreviation xml:lang="en">NMFS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1315 East West Highway</Line>
+                <City>Silver Spring</City>
+                <State>MD</State>
+                <Postal>20910</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nmfs.noaa.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NMFS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NMFS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-noaa">
+        <Name>National Oceanic and Atmospheric Administration</Name>
+        <Abbreviation xml:lang="en">NOAA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1401 Constitution Ave, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20230</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.noaa.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NOAA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NOAA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nps">
+        <Name>National Park Service</Name>
+        <Abbreviation xml:lang="en">NPS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1849 C Street, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20240</Postal>
+            </Address>
+        </Location>
+        <WebSite xml:lang="en" verifiedBy="AKR">
+            <Url>http://www.nps.gov/index.htm</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NPS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NPS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-nrcs">
+        <Name>Natural Resources Conservation Service</Name>
+        <Abbreviation xml:lang="en">NRCS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1400 Independence Ave, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20250</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nrcs.usda.gov/wps/portal/nrcs/main/national/home</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>NRCS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=NRCS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-srs">
+        <Name>National Science Foundation, Science Resources Statistics</Name>
+        <Abbreviation xml:lang="en">NSF-SRS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>4201 Wilson Blvd</Line>
+                <City>Arlington</City>
+                <State>VA</State>
+                <Postal>22230</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.nsf.gov/statistics/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>SRS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=SRS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-osha">
+        <Name>Occupational Safety and Health Administration</Name>
+        <Abbreviation xml:lang="en">OSHA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>200 Constitution Ave, NW</Line>
+                <City>Washington</City>
+                <State>MD</State>
+                <Postal>20210</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.osha.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>OSHA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=OSHA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-ofheo">
+        <Name>Office of Federal Housing Enterprise Oversight</Name>
+        <Abbreviation xml:lang="en">OFHEO</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>400 7th Street, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20024</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.fhfa.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>OFHEO FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=OFHEO</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-eh">
+        <Name>Office of Health, Safety, and Security</Name>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1000 Independence Ave, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>205852</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.hss.doe.gov/index.html</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>EH FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=EH</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-ois">
+        <Name>Office of Immigration Statistics</Name>
+        <Abbreviation xml:lang="en">OIS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>12th and C Street, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20024</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.dhs.gov/xabout/structure/editorial_0875.shtm</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>OIS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=OIS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-omb">
+        <Name>Office of Management and Budget</Name>
+        <Abbreviation xml:lang="en">OMB</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1600 Pennsylvania Ave, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20500</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.whitehouse.gov/omb/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>OMB FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=OMB</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-opepd">
+        <Name>Office of Planning, Evaluation, and Policy</Name>
+        <Abbreviation xml:lang="en">OPEPD</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>400 Maryland Ave, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20202</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www2.ed.gov/about/offices/list/opepd/index.html?src=oc</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>OPEPD FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=OPEPD</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-pdr">
+        <Name>Office of Policy Development and Research</Name>
+        <Abbreviation xml:lang="en">PDR</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>451 7th St, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20410</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.huduser.org/portal/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>PDR FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=PDR</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-opa">
+        <Name>Office of Population Affairs</Name>
+        <Abbreviation xml:lang="en">OPA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>200 Independence Ave, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20201</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.hhs.gov/opa/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>OPA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=OPA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-pih">
+        <Name>Office of Public and Indian Housing</Name>
+        <Abbreviation xml:lang="en">PIH</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>451 7th St, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20410</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://portal.hud.gov/hudportal/HUD?src=/program_offices/public_indian_housing</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>PIH FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=PIH</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-housing">
+        <Name>Office of the Assistant Secretary for Housing</Name>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>451 7th St, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20410</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://portal.hud.gov/hudportal/HUD</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>HOUSING FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=HOUSING</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-oaspe">
+        <Name>Office of the Assistant Secretary for Planning and Evaluation</Name>
+        <Abbreviation xml:lang="en">OASPE</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>200 Independence Ave, SW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20201</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://aspe.hhs.gov/_/index.cfm</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>OASPE FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=OASPE</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-ost">
+        <Name>Office of the Secretary, Dept of Transportation</Name>
+        <Abbreviation xml:lang="en">OST</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1200 New Jersey Ave, SE</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20590</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.dot.gov/ost/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>OST FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=OST</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-pto">
+        <Name>Patent and Trademark Office</Name>
+        <Abbreviation xml:lang="en">PTO</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>600 Dulany Street</Line>
+                <City>Alexandria</City>
+                <State>VA</State>
+                <Postal>22314</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.uspto.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>PTO FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=PTO</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-phmsa">
+        <Name>Pipeline and Hazardous Materials Safety Administration</Name>
+        <Abbreviation xml:lang="en">PHMSA</Abbreviation>
+        <Location id="hq" countryCode="US"/>
+        <WebSite xml:lang="en">
+            <DisplayLabel>PHMSA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=PHMSA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-pd">
+        <Name>Preparedness Directorate</Name>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>1200 New Jersey Ave, SE</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20590</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.phmsa.dot.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>PD FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=PD</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-sba">
+        <Name>Small Business Administration</Name>
+        <Abbreviation xml:lang="en">SBA</Abbreviation>
+        <Location id="hq" countryCode="US"/>
+        <WebSite xml:lang="en">
+            <DisplayLabel>SBA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=SBA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-ssa">
+        <Name>Social Security Administration, Office of Policy</Name>
+        <Abbreviation xml:lang="en">SSA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>6401 Security Blvd</Line>
+                <City>Baltimore</City>
+                <State>MD</State>
+                <Postal>21235</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.ssa.gov/policy/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>SSA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=SSA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-soi">
+        <Name>Statistics of Income</Name>
+        <Abbreviation xml:lang="en">SOI</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>10th St and Pennsylvania Ave, NW</Line>
+                <City>Washington</City>
+                <State>DC</State>
+                <Postal>20004</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.irs.gov/taxstats/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>SOI FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=SOI</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-samhsa">
+        <Name>Substance Abuse and Mental Health Services Administration</Name>
+        <Abbreviation xml:lang="en">SAMHSA</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>7500 Security Blvd</Line>
+                <City>Washington</City>
+                <State>MD</State>
+                <Postal>21044</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.samhsa.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>SAMHSA FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=SAMHSA</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+    <Organization entityType="public" id="us-usgs">
+        <Name>United States Geological Survey</Name>
+        <Abbreviation xml:lang="en">USGS</Abbreviation>
+        <Location id="hq" countryCode="US">
+            <Address>
+                <Line>12201 Sunrise Valley Drive</Line>
+                <City>Reston</City>
+                <State>VA</State>
+                <Postal>20192</Postal>
+            </Address>
+        </Location>
+        <WebSite verifiedBy="AKR" xml:lang="en">
+            <Url>http://www.usgs.gov/</Url>
+        </WebSite>
+        <WebSite xml:lang="en">
+            <DisplayLabel>USGS FedSTATS Information Page</DisplayLabel>
+            <Url>http://www.fedstats.gov/key_stats/index.php?id=USGS</Url>
+        </WebSite>
+        <Operations scope="national"/>
+        <Tags>
+            <Tag>FedStats</Tag>
+        </Tags>
+    </Organization>
+</Omad>

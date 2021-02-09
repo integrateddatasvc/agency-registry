@@ -111,6 +111,30 @@ The following properties hold codes for their corresponding standards. This can 
 - fips
 
 
+## Services
+The services.yaml file documents web based services provided by the agency. 
+
+The ```name``` and ```description``` provide an overview of the service
+
+The ```type``` property informs on the nature of the service. Values can be:
+- catalog
+- blog
+- news
+- data
+
+The ```protocol``` property indicates how the service can be accessed or consumed. Values can be:
+- html (a web site intended for end-users)
+- atom
+- rest
+- soap
+- proprietary
+
+The ```endpoint``` property hold the service URL
+
+The ```lang``` property reflects the service language 9when relevant). This must be a valid ISO 639 code.
+
+
+
 ## Sponsors
 
 This project is supported by Integrated Data Management Services, Metadata Technology North America, and Postman.

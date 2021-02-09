@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Omad xsi:schemaLocation="openmetadata:omad:1_0 omad.xsd" xmlns="openmetadata:omad:1_0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Organization entityType="academic" id="us-icpsr" primaryLocationId="hq">
+    <Name>Interuniversity Consortium for Political and Social Research</Name>
+    <Abbreviation>ICPSR</Abbreviation>
+    <Location id="hq">
+      <MapLocation accuracy="street">
+        <Longitude>-83.7440973</Longitude>
+        <Latitude>42.2741556</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>330 Packard Street</Line>
+        <City>Ann Arbor</City>
+        <State>MI</State>
+        <Postal>48104</Postal>
+      </Address>
+    </Location>
+    <WebSite>
+      <Url>http://www.icpsr.umich.edu/icpsrweb/ICPSR/</Url>
+    </WebSite>
+    <Operations scope="national"/>
+    <Profile>
+      <Uses specification="ddi" version="codebook"/>
+    </Profile>
+  </Organization>
+  <Organization entityType="nonprofit" id="us-norc" primaryLocationId="hq">
+    <Name>NORC at Unievrsity of Chicago</Name>
+    <Abbreviation>NORC</Abbreviation>
+    <Location id="hq">
+      <MapLocation accuracy="street">
+        <Longitude>-87.597101</Longitude>
+        <Latitude>41.785611</Latitude>
+      </MapLocation>
+      <Address>
+        <Line>1155 East 60th Street</Line>
+        <Line>3rd Floor</Line>
+        <City>Chicago</City>
+        <State>IL</State>
+        <Postal>60637</Postal>
+      </Address>
+    </Location>
+    <WebSite>
+      <Url>http://www.norc.org/</Url>
+    </WebSite>
+    <Operations scope="national"/>
+    <Profile>
+      <Uses specification="ddi" version="codebook"/>
+      <Uses specification="ddi" version="lifecycle"/>
+    </Profile>
+  </Organization>
+</Omad>
