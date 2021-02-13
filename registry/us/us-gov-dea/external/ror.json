@@ -1,0 +1,39 @@
+{
+    "id": "https://ror.org/0568dpm54",
+    "name": "Drug Enforcement Administration",
+    "types": [
+        "Government"
+    ],
+    "links": [
+        "https://www.dea.gov/index.shtml"
+    ],
+    "aliases": [],
+    "acronyms": [
+        "DEA"
+    ],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Drug_Enforcement_Administration",
+    "labels": [],
+    "country": {
+        "country_name": "United States",
+        "country_code": "US"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0001 2187 6392"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q622899"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.484223.b",
+            "all": "grid.484223.b"
+        }
+    }
+}

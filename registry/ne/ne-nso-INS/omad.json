@@ -1,0 +1,62 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "ne-INS",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "fr",
+            "#text": "Institut National de la Statistique-Niger"
+        },
+        "Location": {
+            "@countryCode": "NE",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "2.112516",
+                "Latitude": "13.512668"
+            },
+            "Address": {
+                "Line": "182 Rue de la SIRBA BP",
+                "City": "Niamey",
+                "Postal": "13416"
+            }
+        },
+        "WebSite": {
+            "@verifiedBy": "AKR",
+            "@verifiedOn": "2012-03-15T00:00:00Z",
+            "@lang": "fr",
+            "Url": "http://www.stat-niger.org/statistique/"
+        },
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Niger"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Profile": {
+            "Uses": {
+                "@produces": "true",
+                "@specification": "ddi",
+                "@version": "C:1.2.2"
+            }
+        },
+        "Services": {
+            "IhsnNadaService": {
+                "WebSite": {
+                    "@verifiedState": "valid",
+                    "Url": "http://www.ins.ne/nada/index.php?page=catalog"
+                },
+                "Catalog": null
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

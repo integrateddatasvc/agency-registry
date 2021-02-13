@@ -1,0 +1,47 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "us-noaa",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": "National Oceanic and Atmospheric Administration",
+        "Abbreviation": {
+            "@lang": "en",
+            "#text": "NOAA"
+        },
+        "Location": {
+            "@countryCode": "US",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "-77.0319806",
+                "Latitude": "38.8921046"
+            },
+            "Address": {
+                "Line": "1401 Constitution Ave, NW",
+                "City": "Washington",
+                "State": "DC",
+                "Postal": "20230"
+            }
+        },
+        "WebSite": [
+            {
+                "@verifiedBy": "AKR",
+                "@lang": "en",
+                "Url": "http://www.noaa.gov/"
+            },
+            {
+                "@lang": "en",
+                "DisplayLabel": "NOAA FedSTATS Information Page",
+                "Url": "http://www.fedstats.gov/key_stats/index.php?id=NOAA"
+            }
+        ],
+        "Operations": {
+            "@scope": "national"
+        },
+        "Tags": {
+            "Tag": "FedStats"
+        }
+    }
+}

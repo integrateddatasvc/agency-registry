@@ -1,0 +1,39 @@
+{
+    "id": "https://ror.org/01mg0yh05",
+    "name": "Federal Transit Administration",
+    "types": [
+        "Government"
+    ],
+    "links": [
+        "https://www.transit.dot.gov/"
+    ],
+    "aliases": [],
+    "acronyms": [
+        "FTA"
+    ],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Federal_Transit_Administration",
+    "labels": [],
+    "country": {
+        "country_name": "United States",
+        "country_code": "US"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0001 2220 1688"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q5440472"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.505663.3",
+            "all": "grid.505663.3"
+        }
+    }
+}

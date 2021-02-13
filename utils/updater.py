@@ -23,10 +23,13 @@ def get_targets():
 # AGENCY
 #
 def get_agency_ids(agency):
-    # returns the agency known identifiers as key/value or kay/array pairs
-    with open(get_agency_ids_file(agency)) as f:
-        data = yaml.load(f, Loader=yaml.FullLoader) 
-        return data
+    # returns the agency known identifiers as key/value or key/array pairs
+    if os.path.isfile(get_agency_ids_file(agency)):
+        with open(get_agency_ids_file(agency)) as f:
+            data = yaml.load(f, Loader=yaml.FullLoader) 
+            return data
+    else:
+        return {}
 
 def get_agency_ids_file(agency):
     file = os.path.join(get_agency_dir(agency),'ids.yaml')
@@ -66,7 +69,6 @@ def save_agency_ids(agency, data):
 #
 
 def delete_crossref(agency):
-    # save the ROR metadata
     file = get_crossref_file()
     if os.path.isfile(ror_file):
         logging.info(f"Deleting CrossRef file {file}")
@@ -95,9 +97,6 @@ def harvest_crossref(agency):
         url = f"https://api.crossref.org/funders/{id}"
         response = requests.get(url)
         return response.json()
-    else:
-        logging.warning(f"CrossRef id not found for {agency}")
-        return        
 
 def save_crossref(agency, data):
     # save the CrossRef metadata
@@ -117,14 +116,13 @@ def harvest_isni(agency):
     # returns XML string
     id = get_agency_ids(agency).get('isni')
     if id:
+        print(f"ISNI:{id}")
         url = f"http://isni.oclc.org/sru/?query=pica.isn+%3D+%22{id}%22&operation=searchRetrieve&recordSchema=isni-b"
+        print(f"ISNI url {url}")
         response = requests.get(url)
         searchRetrieveResponse = ElementTree.fromstring(response.content)
         isni = searchRetrieveResponse.find('.//ISNIAssigned')
         return isni
-    else:
-        logging.warning(f"ISNI id not found for {agency}")
-        return        
 
 def save_isni(agency, xml):
     # save the ISNI metadata
@@ -155,7 +153,6 @@ def add_agency_ids_from_ror(agency):
     return agency_ids
 
 def delete_ror(agency):
-    # save the ROR metadata
     ror_file = get_ror_file()
     if os.path.isfile(ror_file):
         logging.info(f"Deleting ROR file {ror_file}")
@@ -184,9 +181,6 @@ def harvest_ror(agency):
         url = 'http://api.ror.org/organizations/https://ror.org/'+ror_id
         response = requests.get(url)
         return response.json()
-    else:
-        logging.warning(f"ROR id not found for {agency}")
-        return        
 
 def save_ror(agency, data):
     # save the ROR metadata
@@ -248,7 +242,7 @@ if __name__ ==  "__main__":
     script_dir = os.path.dirname(os.path.realpath(__file__))
     registry_dir = os.path.abspath(script_dir+"/../registry")
     parser = argparse.ArgumentParser()
-    parser.add_argument("targets",nargs='+', help="The agency names to harvest (use * for all)")
+    parser.add_argument("targets",nargs='+', help="The agency names to harvest or ALL")
     parser.add_argument("-r", "--registry", help="The registry or source to harvest")
     parser.add_argument("--registry-root", help="The root diretcoty of the registry", default=registry_dir)
     parser.add_argument("-ll","--loglevel", help="Python logging level", default="INFO")

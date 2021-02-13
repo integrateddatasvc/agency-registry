@@ -1,0 +1,45 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "ht-ihsi",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "fr",
+            "#text": "Institut Haitien de Statistique et d'Informatique"
+        },
+        "Location": {
+            "@countryCode": "HT",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "-72.3493581",
+                "Latitude": "18.5389471"
+            },
+            "Address": {
+                "Line": "1, angle rue Joseph Janvier et boulevard Harry Truman",
+                "City": "Port-au-Prince"
+            }
+        },
+        "WebSite": {
+            "@verifiedBy": "AKR",
+            "@verifiedOn": "2012-03-15T00:00:00Z",
+            "@lang": "fr",
+            "Url": "http://www.ihsi.ht/"
+        },
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Haiti"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

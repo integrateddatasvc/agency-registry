@@ -1,0 +1,44 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "lb-cas",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "en",
+            "#text": "Central Administration of Statistics"
+        },
+        "Location": {
+            "@countryCode": "LB",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "city",
+                "Longitude": "35.4954794",
+                "Latitude": "33.8886289"
+            },
+            "Address": {
+                "City": "Beirut"
+            }
+        },
+        "WebSite": {
+            "@verifiedBy": "AKR",
+            "@verifiedOn": "2012-03-15T00:00:00Z",
+            "@lang": "en",
+            "Url": "http://www.cas.gov.lb/"
+        },
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Lebanon"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

@@ -120,7 +120,12 @@ The ```type``` property informs on the nature of the service. Values can be:
 - catalog
 - blog
 - news
-- data
+- data: data access and querying services
+- calandar: data releases and publications
+
+## Social
+- twitter, faceboo0k, linkedin, youttube, pinterest (maybe move to social.yaml?)
+
 
 The ```protocol``` property indicates how the service can be accessed or consumed. Values can be:
 - html (a web site intended for end-users)

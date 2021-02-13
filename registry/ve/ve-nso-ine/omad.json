@@ -1,0 +1,45 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "ve-ine",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "sp",
+            "#text": "Instituto Nacional de Estadistica"
+        },
+        "Location": {
+            "@countryCode": "VE",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "-66.8513772",
+                "Latitude": "10.5072523"
+            },
+            "Address": {
+                "Line": "Av. Jose Felix Sosa, Torre Britanica, Mezzanina 2, Altamira",
+                "City": "Caracas"
+            }
+        },
+        "WebSite": {
+            "@verifiedBy": "AKR",
+            "@verifiedOn": "2012-03-15T00:00:00Z",
+            "@lang": "sp",
+            "Url": "http://www.ine.gov.ve/"
+        },
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Venezuela"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

@@ -1,9 +1,14 @@
 import argparse
+import json
 import os
 import re
+import requests
 import xml.etree.ElementTree as ET
+import xmltodict
+import yaml
 
 NS = {'omad':'openmetadata:omad:1_0'}
+
 
 def get_xml(file):
     global omad_dir
@@ -44,13 +49,54 @@ def get_organization_tags(organization):
     return tags
 
 def init_organization(group,id,organization):
-    path = os.path.join(registry_dir,f"{group}/{id}")
-    if not os.path.exists(path):
-        print(f"Init {path}")
-        os.makedirs(path)
+    organization_dir = os.path.join(registry_dir,f"{group}/{id}")
+    if not os.path.exists(organization_dir):
+        print(f"Init {organization_dir}")
+        os.makedirs(organization_dir)
+    omad_file = os.path.join(organization_dir,'omad.json')
+    if not os.path.isfile(omad_file):
+        omad_dict = xmltodict.parse(ET.tostring(organization), process_namespaces=True, namespaces={'openmetadata:omad:1_0':None,'http://www.w3.org/XML/1998/namespace':None})
+        with open(omad_file, 'w') as outfile:
+            json.dump(omad_dict,outfile, indent=4)
     return
 
 def init_ror(group,id,organization):
+    # ROR ID lookup
+    # http://api.ror.org/organizations?filter=types:Government,country.country_code:US&query=%22census%20bureau%22
+    print("-"*20)
+    name = organization.find("omad:Name",NS).text
+    print(f"{group} {id} {name}")
+    country_code = group.upper()
+    url = f"http://api.ror.org/organizations?filter=types:Government,country.country_code:{country_code}&query=%22{name}%22"
+    print(f"{url}")
+    # check current ids
+    ids = None
+    organization_dir = os.path.join(registry_dir,group,id)
+    ids_file = os.path.join(organization_dir,'ids.yaml')
+    if os.path.isfile(ids_file):
+        with open(ids_file) as f:
+            ids = yaml.load(f, Loader=yaml.FullLoader) 
+            if ids and "ror" in ids:
+                print("ROR id already set")
+                return
+    # lookup 
+    response = requests.get(url)
+    ror_json = response.json()
+    ror_results_count = ror_json['number_of_results']
+    if ror_results_count == 1:
+        print("Unique match found")
+        # save id
+        if not ids:
+            ids = {}
+        ror_id = ror_json['items'][0]['id'][16:]
+        ids['ror']=ror_id
+        with open(ids_file, 'w') as f:
+            yaml.dump(ids, f)
+            print("ROR id set")
+    elif ror_results_count > 1:
+        print(f"Too many matches ({ror_results_count})")
+    else:
+        print("No match found")
     return
 #
 # MAIN
@@ -59,18 +105,23 @@ def main():
     global args
     omad = get_xml(args.file)
     for action in args.actions:
-        if action == "init":
-            for organization in omad.findall("omad:Organization",NS):
-                omad_id = organization.get("id")
-                if args.tag and args.tag not in get_organization_tags(organization):
-                    continue
-                (group,id) = get_organization_group_and_id(organization)
-                if group and id:
+        count = 0
+        for organization in omad.findall("omad:Organization",NS):
+            count += 1
+            omad_id = organization.get("id")
+            if args.tag and args.tag not in get_organization_tags(organization):
+                continue
+            (group,id) = get_organization_group_and_id(organization)
+            if group and id:
+                if action == "init":
                     init_organization(group,id,organization)
+                elif action == "ror":
+                    init_ror(group,id,organization)
                 else:
-                    print(f"SKIPPED {omad_id}: no group/id")
-        else:
-            print(f"ERROR: unknown command {action}")
+                    print(f"ERROR: unknown command {action}")
+                    break
+            else:
+                print(f"SKIPPED {omad_id}: no group/id")
     return
 
 if __name__ ==  "__main__":
