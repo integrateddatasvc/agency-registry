@@ -9,7 +9,6 @@ import yaml
 
 NS = {'omad':'openmetadata:omad:1_0'}
 
-
 def get_xml(file):
     global omad_dir
     tree = ET.parse(os.path.join(omad_dir,"xml",file))
@@ -58,6 +57,9 @@ def init_organization(group,id,organization):
         omad_dict = xmltodict.parse(ET.tostring(organization), process_namespaces=True, namespaces={'openmetadata:omad:1_0':None,'http://www.w3.org/XML/1998/namespace':None})
         with open(omad_file, 'w') as outfile:
             json.dump(omad_dict,outfile, indent=4)
+    standards_file = os.path.join(organization_dir,'standards.json')
+    if not os.path.isfile(standards_file):
+        pass
     return
 
 def init_ror(group,id,organization):
