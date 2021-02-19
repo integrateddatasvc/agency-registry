@@ -121,11 +121,7 @@ The ```type``` property informs on the nature of the service. Values can be:
 - blog
 - news
 - data: data access and querying services
-- calandar: data releases and publications
-
-## Social
-- twitter, faceboo0k, linkedin, youttube, pinterest (maybe move to social.yaml?)
-
+- calendar: data releases and publications
 
 The ```protocol``` property indicates how the service can be accessed or consumed. Values can be:
 - html (a web site intended for end-users)
@@ -136,10 +132,17 @@ The ```protocol``` property indicates how the service can be accessed or consume
 
 The ```endpoint``` property hold the service URL
 
-The ```lang``` property reflects the service language 9when relevant). This must be a valid ISO 639 code.
+The ```lang``` property reflects the service language 9when relevant). This must be a valid ISO 639-1 code.
 
+## Social
+The social.yaml file documents social network sites the agency is leveraging.
+Valid tope level keys are: facebook, linkedin, twitter, pinterest, youtube
+
+Each network is a dictionary with the key representing the identifier. 
+The value is a dictionnary with the following properties
+- lang: the ISO 631-1 language code
 
 
 ## Sponsors
 
-This project is supported by Integrated Data Management Services, Metadata Technology North America, and Postman.
+This project is supported by [Integrated Data Management Services](http://www.integrateddatasvc.ca), [Metadata Technology North America](https://www.mtna.us), [API Evangelist](https://apievangelist.com), and [Postman](https://postman.com).

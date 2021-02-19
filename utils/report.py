@@ -7,28 +7,33 @@ import argparse
 import logging
 import os
 from registry import *
+import yaml
 
 def report_default(catalog, agency):
-    agency_dir = os.path.join(get_registry_root(),catalog,agency)
-    if os.path.isfile('identifiers.yaml'):
-        with open(get_agency_ids_file(agency)) as f:
-            ids = yaml.load(f, Loader=yaml.FullLoader)
-            for id in data:
-
+    ids_file = get_agency_ids_file(catalog, agency)
+    if os.path.isfile(ids_file):
+        with open(ids_file) as f:
+            data = yaml.load(f, Loader=yaml.FullLoader)
+            ids = []
+            for key,value in data.items():
+                ids.append(f"{key}={value}")
+            print(f"ids({len(ids)}): "+' | '.join(ids))
     return
 
 def main():
-    for catalog in sorted(os.listdir(get_registry_root())):
+    for catalog in sorted(os.listdir(get_registry_dir())):
         if args.catalogs and catalog not in args.catalogs:
             continue
-        catalog_dir = os.path.join(get_registry_root(), catalog)
+        catalog_dir = get_catalog_dir(catalog)
+        print("="*20)
         print(catalog)
         for agency in sorted(os.listdir(catalog_dir)):
             if args.agencies and agency not in args.agencies:
                 continue
+            print("-"*20)
             print(agency)
-            if "default" in reports:
-                report_default
+            if not args.reports:
+                report_default(catalog,agency)
     return
 
 if __name__ ==  "__main__":
@@ -37,7 +42,7 @@ if __name__ ==  "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-a","--agencies", nargs="*", help="Agencies to include")
     parser.add_argument("-c","--catalogs", nargs="*", help="Catalogs to include")
-    parser.add_argument("-r","--reports", nargs="*", help="Reports to run", default="default")
+    parser.add_argument("-r","--reports", nargs="*", help="Reports to run")
     parser.add_argument("-ll","--loglevel", help="Python logging level", default="INFO")
     args = parser.parse_args()
 
