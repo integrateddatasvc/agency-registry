@@ -9,16 +9,22 @@ import os
 from registry import *
 import yaml
 
+
 def report_default(catalog, agency):
-    ids_file = get_agency_ids_file(catalog, agency)
-    if os.path.isfile(ids_file):
-        with open(ids_file) as f:
-            data = yaml.load(f, Loader=yaml.FullLoader)
-            ids = []
-            for key,value in data.items():
-                ids.append(f"{key}={value}")
-            print(f"ids({len(ids)}): "+' | '.join(ids))
+    report_ids(catalog, agency)
     return
+
+def report_ids(catalog, agency):
+    data = get_agency_ids(catalog, agency)
+    ids = []
+    for key,value in data.items():
+        ids.append(f"{key}={value}")
+    print(f"ids({len(ids)}): "+' | '.join(ids))
+    return
+
+def report_services(catalog, agency):
+    return
+
 
 def main():
     for catalog in sorted(os.listdir(get_registry_dir())):
