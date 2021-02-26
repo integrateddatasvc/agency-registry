@@ -12,6 +12,7 @@ import yaml
 
 def report_default(catalog, agency):
     report_ids(catalog, agency)
+    report_services(catalog, agency)
     return
 
 def report_ids(catalog, agency):
@@ -22,15 +23,28 @@ def report_ids(catalog, agency):
     print(f"ids({len(ids)}): "+' | '.join(ids))
     return
 
-def report_services(catalog, agency):
+def report_services(catalog, agency, platform=None, protocol=None):
+    data = get_agency_services(catalog, agency)
+    service_stats = {}
+    for key, value in data.items():
+        service_key = f"{value.get('type')}/{value.get('protocol')}"
+        if service_key in service_stats:
+            service_stats[service_key] += 1
+        else:
+            service_stats[service_key] = 1
+    services = []
+    for service_key, service_count in service_stats.items():
+        services.append(f"{service_key}[{service_count}]")
+    print("services: "+' | '.join(sorted(services)))
     return
-
 
 def main():
     for catalog in sorted(os.listdir(get_registry_dir())):
         if args.catalogs and catalog not in args.catalogs:
             continue
         catalog_dir = get_catalog_dir(catalog)
+        if not os.path.isdir(catalog_dir):
+            continue
         print("="*20)
         print(catalog)
         for agency in sorted(os.listdir(catalog_dir)):

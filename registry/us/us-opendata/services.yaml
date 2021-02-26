@@ -1,0 +1,20 @@
+home:
+  type: www
+  name: Data.gov
+  protocol: html
+  endpoint: https://data.gov
+  lang: en-us
+catalog_home:
+  type: catalog
+  name: Data.gov
+  platform: ckan
+  protocol: html
+  endpoint: https://catalog.data.gov
+  lang: en-us
+catalog_api:
+  type: catalog
+  name: Data.gov
+  platform: ckan
+  protocol: rest
+  endpoint: http://catalog.data.gov/api/3/
+  lang: en-us

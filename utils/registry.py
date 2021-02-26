@@ -11,14 +11,16 @@ def get_agency_dir(catalog, agency):
     return os.path.join(get_registry_dir(), catalog, agency)
 
 def get_agency_ids(catalog, agency):
-    return load_yaml(get_agency_ids_file(catalog, agency))
+    data = load_yaml(get_agency_ids_file(catalog, agency))
+    return data
 
 def get_agency_ids_file(catalog, agency):
     file = os.path.join(get_agency_dir(catalog, agency),'ids.yaml')
     return file
 
 def get_agency_services(catalog, agency):
-    return load_yaml(get_agency_ids_file(agency, catalog))
+    data = load_yaml(get_agency_services_file(catalog, agency))
+    return data
 
 def get_agency_services_file(catalog, agency):
     file = os.path.join(get_agency_dir(catalog, agency),'services.yaml')
