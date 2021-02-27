@@ -1,0 +1,22 @@
+main_catalog:
+  type: catalog
+  name: CMS Data
+  protocol: html
+  endpoint: https://data.cms.gov/
+  lang: en-us
+provider_catalog:
+  type: catalog
+  name: Medicare provider data
+  protocol: html
+  endpoint: https://data.cms.gov/provider-data/
+  lang: en-us
+beta_catalog:
+  type: catalog
+  name: CMS Data (beta)
+  protocol: html
+  endpoint: https://data.cms.gov/beta/
+  lang: en-us
+
+
+  
+
