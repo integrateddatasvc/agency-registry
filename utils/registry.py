@@ -1,4 +1,5 @@
 import os
+import json
 import yaml
 
 
@@ -47,9 +48,14 @@ def get_agency_social_file(catalog, agency):
     return file
 
 def get_schema(schema):
-    schema_file = os.path.join(get_script_dir(),f"{schema}.schema.json")
-    with open(schema_file,"r") as f:
-        schema_json = json.load(f)
+    schema_file = get_schema_file(schema, format='yaml')
+    return load_yaml(schema_file)
+
+def get_schema_file(schema, format='yaml'):
+    return os.path.join(get_schema_dir(),f"{schema}.{format}")
+
+def get_schema_dir():
+    return os.path.join(get_script_dir(),'../schemas')
 
 def load_yaml(file):
     if os.path.isfile(file):

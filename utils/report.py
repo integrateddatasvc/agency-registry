@@ -42,8 +42,7 @@ def report_services(catalog, agency, platform=None, protocol=None):
 
 def validate(catalog, agency, schema):
     # load schema
-    schema_file = os.path.join(get_script_dir(),f"{schema}.schema.yaml")
-    schema_data = load_yaml(schema_file)
+    schema_data = get_schema(schema)
     # validate file if exists
     agency_file = os.path.join(get_agency_dir(catalog, agency), f"{schema}.yaml")
     if os.path.isfile(agency_file):
