@@ -1,5 +1,5 @@
 $schema: http://json-schema.org/schema#
-$id": "http://integrateddatasvc.ca/schemas/agency-registry/social.json"
+$id: "http://integrateddatasvc.ca/schemas/agency-registry/social.json"
 type: object
 properties:
   facebook:

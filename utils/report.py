@@ -1,4 +1,3 @@
-
 '''
 Registry reporting utilities
 '''
@@ -10,7 +9,6 @@ import logging
 import os
 from registry import *
 import yaml
-
 
 def report_default(catalog, agency):
     report_ids(catalog, agency)

@@ -1,0 +1,110 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://integrateddatasvc.ca/schemas/agency-registry/social.json",
+    "type": "object",
+    "properties": {
+        "facebook": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "lang": {
+                        "type": "string",
+                        "default": "en"
+                    },
+                    "page": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "id"
+                ]
+            }
+        },
+        "instagram": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "lang": {
+                        "type": "string",
+                        "default": "en"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "id"
+                ]
+            }
+        },
+        "linkedin": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "lang": {
+                        "type": "string",
+                        "default": "en"
+                    },
+                    "type": {
+                        "type": "string",
+                        "enum": [
+                            "company",
+                            "person"
+                        ],
+                        "default": "company"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "id"
+                ]
+            }
+        },
+        "twitter": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "lang": {
+                        "type": "string"
+                    }
+                },
+                "additionalProperties": false
+            }
+        },
+        "youtube": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "lang": {
+                        "type": "string",
+                        "default": "en"
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "id"
+                ]
+            }
+        }
+    },
+    "additionalProperties": false
+}
