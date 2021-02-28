@@ -25,6 +25,7 @@ The following files are maintained in this project:
 - ids.yaml: list of know unique identifiers for the agency
 - geo.yaml: level and geographical coverage of the agency
 - services.yaml: web sites, data catalog, data web services, newsfeed
+- social.yaml: social networkk account identifiers and info
 
 The ids.yaml file is used by scripts to automatically harvest and updated metadata from external sources.
 
