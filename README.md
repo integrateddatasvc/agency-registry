@@ -21,11 +21,12 @@ The term egancy is broad and can also include in some cases initiatives or proje
 - The files follow specific naming conventions to indentify its origin and schema (content)
 
 The following files are maintained in this project:
-
 - ids.yaml: list of know unique identifiers for the agency
 - geo.yaml: level and geographical coverage of the agency
 - services.yaml: web sites, data catalog, data web services, newsfeed
 - social.yaml: social networkk account identifiers and info
+
+JSON schemas for these files can be found in the project /schemas directory. **Note that the canonical version is maintained in YAML format**.
 
 The ids.yaml file is used by scripts to automatically harvest and updated metadata from external sources.
 
