@@ -1,30 +1,88 @@
 {
     "$schema": "http://json-schema.org/schema#",
     "$id": "http://integrateddatasvc.ca/schemas/agency-registry/services.json",
+    "definitions": {
+        "service": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "client": {
+                    "type": "string",
+                    "enum": [
+                        "atom",
+                        "html",
+                        "rest",
+                        "rss",
+                        "soap"
+                    ]
+                },
+                "platform": {
+                    "type": "string",
+                    "enum": [
+                        "ckan",
+                        "dataverse",
+                        "ihsn-nada",
+                        "nesstar",
+                        "mtna-rds",
+                        "other",
+                        "proprietary",
+                        "socrata",
+                        "statista"
+                    ]
+                },
+                "endpoint": {
+                    "type": "string"
+                },
+                "lang": {
+                    "type": "string",
+                    "default": "en",
+                    "pattern": "^[a-z]{2}(-[A-Z]{2})?$"
+                }
+            },
+            "additionalProperties": false
+        }
+    },
     "type": "object",
     "properties": {
         "apis": {
             "type": "array",
             "items": {
-                "type": "object"
+                "$ref": "#/definitions/service"
+            }
+        },
+        "blogs": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/service"
+            }
+        },
+        "calendars": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/service"
             }
         },
         "catalogs": {
             "type": "array",
             "items": {
-                "type": "object"
+                "$ref": "#/definitions/service"
             }
         },
         "news": {
             "type": "array",
             "items": {
-                "type": "object"
+                "$ref": "#/definitions/service"
             }
         },
         "sites": {
             "type": "array",
             "items": {
-                "type": "object"
+                "$ref": "#/definitions/service"
             }
         }
     },
