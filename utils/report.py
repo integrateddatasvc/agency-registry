@@ -71,6 +71,7 @@ def main():
                 validate(catalog, agency, 'ids')
                 validate(catalog, agency, 'geo')
                 validate(catalog, agency, 'social')
+                validate(catalog, agency, 'services')
     return
 
 if __name__ ==  "__main__":

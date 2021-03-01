@@ -1,27 +1,18 @@
-home_en:
-  type: www
-  name: Canada Open Data
-  protocol: html
-  endpoint: https://open.canada.ca/en/open-data
-  lang: en-ca
-home_fr:
-  type: www
-  name: Données ouvertes
-  protocol: html
-  endpoint: https://ouvert.canada.ca/fr/donnees-ouvertes
-  lang: en-ca
-catalog_home_en:
-  type: catalog
-  name: Open Government Portal
-  protocol: html
-  endpoint: https://search.open.canada.ca/en/od/
-  lang: en-ca
-catalog_home_fr:
-  type: catalog
-  name: Portail du gouvernement ouvert
-  protocol: html
-  endpoint: https://rechercher.ouvert.canada.ca/fr/od/
-  lang: fr-ca
-
-
-  
+sites:
+  - name: Canada Open Data
+    client: html
+    endpoint: https://open.canada.ca/en/open-data
+    lang: en
+  - name: Données ouvertes du Canada
+    client: html
+    endpoint: https://ouvert.canada.ca/fr/donnees-ouvertes
+    lang: en
+catalogs:
+  - name: Open Government Portal
+    client: html
+    endpoint: https://search.open.canada.ca/en/od/
+    lang: en
+  - name: Portail du gouvernement ouvert
+    client: html
+    endpoint: https://rechercher.ouvert.canada.ca/fr/od/
+    lang: fr

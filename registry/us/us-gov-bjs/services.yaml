@@ -1,6 +1,5 @@
-catalog_en:
-  name: Forthcoming Publications & Products
-  type: calendar
-  protocol: html
-  endpoint: https://www.bjs.gov/index.cfm?ty=fcp
-  lang: en
+calendars:
+  - name: Forthcoming Publications & Products
+    client: html
+    endpoint: https://www.bjs.gov/index.cfm?ty=fcp
+    lang: en

@@ -1,6 +1,5 @@
-press_release:
-  type: news
-  name: Press Releases
-  protocol: html
-  endpoint: https://www.mitre.org/news/press-releases
-  lang: en-us
+news:
+  - name: Press Releases
+    client: html
+    endpoint: https://www.mitre.org/news/press-releases
+    lang: en
