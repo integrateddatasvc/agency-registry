@@ -59,6 +59,19 @@ properties:
         lang:
           type: string
       additionalProperties: false
+  wikipedia:
+    type: array
+    items:
+      type: object
+      properties:
+        id:
+          type: string
+        lang:
+          type: string
+          default: en
+      additionalProperties: false
+      required:
+        - id
   youtube:
     type: array
     items:

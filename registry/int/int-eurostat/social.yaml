@@ -1,9 +1,14 @@
-facebook: 
-  - EurostatStatistics:
-    - lang: en
+facebook:
+  - id: EurostatStatistics
+    lang: en
 linkedin: 
-  - eurostat:
-    - lang: en
+  - id: eurostat
+    lang: en
 twitter: 
-  - EU_Eurostat:
-    - lang: en
+  - id: EU_Eurostat
+    lang: en
+wikipedia:
+  - id: Eurostat
+    lang: en
+  - id: Eurostat
+    lang: fr

@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://integrateddatasvc.ca/schemas/agency-registry/geo.json",
+    "type": "object",
+    "properties": {
+        "level": {
+            "type": "string",
+            "enum": [
+                "global",
+                "regional",
+                "national",
+                "subnational",
+                "city",
+                "other"
+            ]
+        },
+        "iso3166": {
+            "type": "array",
+            "items": {
+                "type": "string",
+                "pattern": "[a-zA-Z]{2}"
+            }
+        },
+        "geonames": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            }
+        }
+    },
+    "additionalProperties": false
+}

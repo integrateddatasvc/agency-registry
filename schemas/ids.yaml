@@ -1,0 +1,19 @@
+$schema: http://json-schema.org/schema#
+$id: "http://integrateddatasvc.ca/schemas/agency-registry/ids.json"
+type: object
+properties:
+  crossref:
+    type: string
+  fundref:
+    type: string
+  grid:
+    type: string
+  isni:
+    type: string
+  orgref:
+    type: string
+  ror:
+    type: string
+  wikidata:
+    type: string
+additionalProperties: false

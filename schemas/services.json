@@ -1,0 +1,32 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "$id": "http://integrateddatasvc.ca/schemas/agency-registry/services.json",
+    "type": "object",
+    "properties": {
+        "apis": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
+        },
+        "catalogs": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
+        },
+        "news": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
+        },
+        "sites": {
+            "type": "array",
+            "items": {
+                "type": "object"
+            }
+        }
+    },
+    "additionalProperties": false
+}

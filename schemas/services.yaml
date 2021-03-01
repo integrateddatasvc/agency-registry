@@ -1,0 +1,25 @@
+$schema: http://json-schema.org/schema#
+$id: "http://integrateddatasvc.ca/schemas/agency-registry/services.json"
+type: object
+properties:
+  api:
+    type: array
+    items: 
+      type: object
+  calendar:
+    type: array
+    items: 
+      type: object
+  catalog:
+    type: array
+    items: 
+      type: object
+  news:
+    type: array
+    items: 
+      type: object
+  site:
+    type: array
+    items: 
+      type: object
+additionalProperties: false

@@ -48,8 +48,8 @@ The following files are generated from the available metadata and stored in the 
 ### naming conventions
 
 #### catalogs
-- agencies are organized in catalog (the first level of the registry)
-- 2-letter catalog name are reserverd for ISO 3166 countty codes
+- agencies are organized by catalog (the first level of the registry)
+- 2-letter catalog name are reserverd for ISO 3166 alpha 2 country codes
 - ```int``` is reserved for supra national organizations (global, regional)
 
 #### agencies
@@ -59,8 +59,8 @@ The following files are generated from the available metadata and stored in the 
 - the following are used to further inform about the nature of the agency
   - ```city```: City level agency
   - ```gov```: National government organization
-  - ```opendata```: Reserved for country national level open data (data.gov)
   - ```nso```: National statistical office or agency
+  - ```opendata```: Reserved for country national level open data (data.gov)
 
 ## Identifers and basic information
 Several initiaives readilly collect and maintain basic information about agencies and assign them unique identifiers. We can leverage these to harvest/aggregate what we need, and add the additional metadata elements that we want to capture.
@@ -124,10 +124,9 @@ The ```level``` can be one of the following values: ```global | regional | natio
 
 The following properties hold codes for their corresponding standards. This can be a single string value, or an arrya of strings if more than one applies.
 
-- iso3166: ISO 3166 code(s). Note that this covers different classifications and parsers will need to determine the nature of the coed base on the format. For country, the alpha-2 is preferred.
-- geonames: Geonames codes
-- fips
-
+- iso3166: a list of ISO 3166 alpha-2 code(s)
+- geonames: a list of Geonames codes
+- fips: a list of 2-digit FIPS 5-2 state codes, or 5-digit FIPS 6-4 county codes. Must only be used for U.S. subnational agencies
 
 ## Services
 The services.yaml file documents web based services provided by the agency. 

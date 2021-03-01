@@ -48,9 +48,9 @@ def validate(catalog, agency, schema):
         try:
             validation = jsonschema.validate(agency_data, schema_data)
         except jsonschema.exceptions.ValidationError as e:
-            print(f"{schema} ValidationError: {e.message}")
+            print(f"{catalog}/{agency} {schema} ValidationError: {e.message}")
         except jsonschema.exceptions.SchemaError as e:
-            print(f"{schema} SchemaError: {e.message}")
+            print(f"{catalog}/{agency} {schema} SchemaError: {e.message}")
     return
 
 def main():
@@ -60,17 +60,16 @@ def main():
         catalog_dir = get_catalog_dir(catalog)
         if not os.path.isdir(catalog_dir):
             continue
-        if not args.agencies:
-            print("="*20)
-            print(catalog)
         for agency in sorted(os.listdir(catalog_dir)):
             if args.agencies and agency not in args.agencies:
                 continue
-            print("-"*20)
-            print(agency)
             if not args.reports:
+                print("-"*20)
+                print(agency)
                 report_default(catalog,agency)
             if "validate" in args.reports:
+                validate(catalog, agency, 'ids')
+                validate(catalog, agency, 'geo')
                 validate(catalog, agency, 'social')
     return
 
