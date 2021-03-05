@@ -1,0 +1,11 @@
+ catalogs:
+  - name: Open Data Österreich
+    platform: ckan
+    client: html
+    endpoint: https://www.data.gv.at/
+    lang: de
+  - name: Open Data Österreich
+    platform: ckan
+    client: rest
+    endpoint: https://www.data.gv.at/katalog/api
+    lang: de

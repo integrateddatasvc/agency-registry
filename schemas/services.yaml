@@ -1,6 +1,34 @@
 $schema: http://json-schema.org/schema#
 $id: "http://integrateddatasvc.ca/schemas/agency-registry/services.json"
 definitions:
+  client:
+      type: string
+      enum:
+      - atom
+      - html
+      - rest
+      - rss
+      - soap
+  endpoint:
+    type: string
+  lang:
+    type: string
+    default: en
+    pattern: "^[a-z]{2}(-[A-Z]{2})?$"
+  platform:
+      type: string
+      enum:
+      - ckan
+      - dataverse
+      - dkan
+      - ihsn-nada
+      - magda
+      - mtna-rds
+      - nesstar
+      - other
+      - proprietary
+      - socrata
+      - statista
   service:
     type: object
     properties:
@@ -9,31 +37,13 @@ definitions:
       description:
         type: string
       client:
-        type: string
-        enum:
-        - atom
-        - html
-        - rest
-        - rss
-        - soap
+        $ref: "#/definitions/client"
       platform:
-        type: string
-        enum:
-        - ckan
-        - dataverse
-        - ihsn-nada
-        - nesstar
-        - mtna-rds
-        - other
-        - proprietary
-        - socrata
-        - statista
+        $ref: "#/definitions/platform"
       endpoint:
-        type: string
+        $ref: "#/definitions/endpoint"
       lang:
-        type: string
-        default: en
-        pattern: "^[a-z]{2}(-[A-Z]{2})?$"
+        $ref: "#/definitions/lang"
     additionalProperties: false
 type: object
 properties:

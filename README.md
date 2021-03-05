@@ -49,7 +49,7 @@ The following files are generated from the available metadata and stored in the 
 
 #### catalogs
 - agencies are organized by catalog (the first level of the registry)
-- 2-letter catalog name are reserverd for ISO 3166 alpha 2 country codes
+- 2-letter catalog names are reserverd for ISO 3166 alpha 2 country codes
 - ```int``` is reserved for supra national organizations (global, regional)
 
 #### agencies
@@ -58,6 +58,7 @@ The following files are generated from the available metadata and stored in the 
 - Its first component is always the name of the umbrella catalog
 - the following are used to further inform about the nature of the agency
   - ```city```: City level agency
+  - ```edu```: Academic institution
   - ```gov```: National government organization
   - ```nso```: National statistical office or agency
   - ```opendata```: Reserved for country national level open data (data.gov)
@@ -141,7 +142,7 @@ The ```type``` property informs on the nature of the service. Values can be:
 - data: data access and querying services
 - www: a web site or home page
 
-The ```protocol``` property indicates how the service can be accessed or consumed. Values can be:
+The ```client``` property indicates how the service can be accessed or consumed. Values can be:
 - html (a web site intended for end-users)
 - atom
 - rest

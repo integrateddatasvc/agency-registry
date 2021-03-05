@@ -1,0 +1,11 @@
+ catalogs:
+  - name: Slovak Open Data Portal
+    platform: ckan
+    client: html
+    endpoint: https://data.gov.sk/en/
+    lang: en
+  - name: Slovak Open Data Portal
+    platform: ckan
+    client: rest
+    endpoint: https://data.gov.sk/en/api
+    lang: en

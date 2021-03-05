@@ -1,0 +1,11 @@
+ catalogs:
+  - name: Ireland's Open Data Portal
+    platform: ckan
+    client: html
+    endpoint: https://data.gov.ie/
+    lang: en
+  - name: Ireland's Open Data Portal
+    platform: ckan
+    client: rest
+    endpoint: https://data.gov.ie/
+    lang: en   
