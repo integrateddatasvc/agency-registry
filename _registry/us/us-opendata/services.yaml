@@ -9,8 +9,3 @@ catalogs:
     client: html
     endpoint: https://catalog.data.gov
     lang: en
-  - name: Data.gov
-    platform: ckan
-    client: rest
-    endpoint: http://catalog.data.gov/api/3/
-    lang: en

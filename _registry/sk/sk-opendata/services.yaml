@@ -4,8 +4,3 @@
     client: html
     endpoint: https://data.gov.uk/
     lang: en
-  - name: U.K Open Data
-    platform: ckan
-    client: rest
-    endpoint: https://data.gov.uk/api
-    lang: en

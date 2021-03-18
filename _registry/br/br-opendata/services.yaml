@@ -4,8 +4,3 @@ catalogs:
     client: html
     endpoint: http://dados.gov.br/
     lang: pt
-  - name: Portal Brasileiro de Dados Abertos
-    platform: ckan
-    client: rest
-    endpoint: http://dados.gov.br/api
-    lang: pt

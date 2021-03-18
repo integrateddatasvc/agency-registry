@@ -4,8 +4,3 @@ catalogs:
     client: html
     endpoint: https://catalogodatos.gub.uy
     lang: es
-  - name: Catálogo de Datos Abiertos
-    platform: ckan
-    client: rest
-    endpoint: https://catalogodatos.gub.uy/api
-    lang: es

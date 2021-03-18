@@ -42,6 +42,9 @@ definitions:
         $ref: "#/definitions/platform"
       endpoint:
         $ref: "#/definitions/endpoint"
+      # optional API endpoint (if applicable and not using platform default)
+      api_endpoint:
+        $ref: "#/definitions/endpoint"
       lang:
         $ref: "#/definitions/lang"
     additionalProperties: false
