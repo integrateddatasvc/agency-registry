@@ -45,7 +45,7 @@ def get_agency_social_file(catalog, agency):
     return file
 
 def get_registry_dir():
-    return os.path.abspath(os.path.dirname(os.path.realpath(__file__))+'/../registry')
+    return os.path.abspath(os.path.dirname(os.path.realpath(__file__))+'/../_registry')
 
 def get_schema(schema):
     schema_file = get_schema_file(schema, format='yaml')
