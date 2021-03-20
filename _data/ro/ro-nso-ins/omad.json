@@ -1,0 +1,48 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "ro-ins",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "ro",
+            "#text": "Institutul National de Statistica"
+        },
+        "Location": {
+            "@countryCode": "RO",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "26.0938194",
+                "Latitude": "44.4299569"
+            },
+            "Address": {
+                "Line": [
+                    "Bd. Libertatil 16",
+                    "Sector 5"
+                ],
+                "City": "Bucharest"
+            }
+        },
+        "WebSite": {
+            "@verifiedBy": "AKR",
+            "@verifiedOn": "2012-03-15T00:00:00Z",
+            "@lang": "ro",
+            "Url": "http://www.insse.ro/cms/rw/pages/index.ro.do"
+        },
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Romania"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

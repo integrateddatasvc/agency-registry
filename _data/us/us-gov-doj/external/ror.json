@@ -1,0 +1,39 @@
+{
+    "id": "https://ror.org/031c2cm83",
+    "name": "Department of Justice",
+    "types": [
+        "Government"
+    ],
+    "links": [
+        "https://www.justice-ni.gov.uk/"
+    ],
+    "aliases": [],
+    "acronyms": [
+        "DoJ"
+    ],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Department_of_Justice_(Northern_Ireland)",
+    "labels": [],
+    "country": {
+        "country_name": "United Kingdom",
+        "country_code": "GB"
+    },
+    "external_ids": {
+        "OrgRef": {
+            "preferred": null,
+            "all": [
+                "20284023"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q3044735"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.421633.1",
+            "all": "grid.421633.1"
+        }
+    }
+}

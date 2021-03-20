@@ -1,0 +1,40 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "us-acf",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": "Administration for Children and Families",
+        "Abbreviation": {
+            "@lang": "en",
+            "#text": "ACF"
+        },
+        "Location": {
+            "@countryCode": "US",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "country",
+                "Longitude": "-95.712891",
+                "Latitude": "37.09024"
+            }
+        },
+        "WebSite": [
+            {
+                "@lang": "en",
+                "Url": "http://www.acf.hhs.gov/"
+            },
+            {
+                "@lang": "en",
+                "DisplayLabel": "ACF FedSTATS Information Page",
+                "Url": "http://www.fedstats.gov/key_stats/index.php?id=ACF"
+            }
+        ],
+        "Operations": {
+            "@scope": "national"
+        },
+        "Tags": {
+            "Tag": "FedStats"
+        }
+    }
+}

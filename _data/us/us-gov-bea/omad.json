@@ -1,0 +1,58 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "us-bea",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "en",
+            "#text": "Bureau of Economic Analysis"
+        },
+        "Abbreviation": {
+            "@lang": "en",
+            "#text": "BEA"
+        },
+        "Location": {
+            "@countryCode": "US",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "-77.0338205",
+                "Latitude": "38.9038907"
+            },
+            "Address": {
+                "Line": "1441 L Street NW",
+                "City": "Washington",
+                "State": "DC",
+                "Postal": "20230"
+            }
+        },
+        "WebSite": [
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "en",
+                "Url": "http://www.bea.gov/"
+            },
+            {
+                "@lang": "en",
+                "DisplayLabel": "BEA FedSTATS Information Page",
+                "Url": "http://www.fedstats.gov/key_stats/index.php?id=BEA"
+            }
+        ],
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "United States"
+            },
+            "Sector": {
+                "Description": "National Economics"
+            }
+        },
+        "Tags": {
+            "Tag": "FedStats"
+        }
+    }
+}

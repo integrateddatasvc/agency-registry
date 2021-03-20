@@ -1,0 +1,45 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "pg-nso",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "en",
+            "#text": "National Statistical Office"
+        },
+        "Location": {
+            "@countryCode": "PG",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "147.190242",
+                "Latitude": "-9.481553"
+            },
+            "Address": {
+                "Line": "Walgani National Capital District",
+                "City": "Port Moresby"
+            }
+        },
+        "WebSite": {
+            "@verifiedBy": "AKR",
+            "@verifiedOn": "2012-03-15T00:00:00Z",
+            "@lang": "en",
+            "Url": "http://www.spc.int/prism/country/pg/stats/index.htm"
+        },
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Papua New Guinea"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

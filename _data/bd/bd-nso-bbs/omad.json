@@ -1,0 +1,47 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "bd-bbs",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "en",
+            "#text": "Bangladesh Bureau of Statistics"
+        },
+        "Location": {
+            "@countryCode": "BD",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "90.3771895",
+                "Latitude": "23.7717497"
+            },
+            "Address": {
+                "Line": "Parishankhyan Bhaban, E-27/A, Agargaon",
+                "City": "Sher-e-Bangla Nagar",
+                "State": "Dhaka",
+                "Postal": "1207"
+            }
+        },
+        "WebSite": {
+            "@verifiedBy": "AKR",
+            "@verifiedOn": "2012-03-15T00:00:00Z",
+            "@lang": "en",
+            "Url": "http://www.bbs.gov.bd/Home.aspx"
+        },
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Bangladesh"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

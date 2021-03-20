@@ -1,0 +1,52 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "ir-sci",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "en",
+            "#text": "Statistical Centre of Iran"
+        },
+        "Location": {
+            "@countryCode": "IR",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "city",
+                "Longitude": "51.4230556",
+                "Latitude": "35.6961111"
+            },
+            "Address": {
+                "City": "Tehran"
+            }
+        },
+        "WebSite": [
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "fa",
+                "Url": "http://www.amar.org.ir/default.aspx"
+            },
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "en",
+                "Url": "http://www.amar.org.ir/Default.aspx?tabid=133"
+            }
+        ],
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Iran"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

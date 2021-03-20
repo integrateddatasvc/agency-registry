@@ -1,0 +1,22 @@
+catalogs:
+  - name: CMS Data
+    client: html
+    endpoint: https://data.cms.gov/
+    platform: socrata
+    lang: en
+  - name: Medicare provider data
+    client: html
+    endpoint: https://data.cms.gov/provider-data/
+    lang: en
+  - name: CMS Data (beta)
+    client: html
+    endpoint: https://data.cms.gov/beta/
+    lang: en
+blogs:
+  - name:  Medicare Blog
+    client: rss
+    endpoint: https://www.medicare.gov/blog/rss-feeds
+
+
+  
+

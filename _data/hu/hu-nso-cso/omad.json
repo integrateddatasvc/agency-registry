@@ -1,0 +1,54 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "hu-cso",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "en",
+            "#text": "Hungarian Central Statistical Office"
+        },
+        "Location": {
+            "@countryCode": "HU",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "19.0311044",
+                "Latitude": "47.511554"
+            },
+            "Address": {
+                "Line": "Keleti K\u00e1roly Str. 5-7",
+                "City": "Budapest",
+                "Postal": "H-1024"
+            }
+        },
+        "WebSite": [
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "hu",
+                "Url": "http://portal.ksh.hu/portal/page?_pageid=37,115776&_dad=portal&_schema=PORTAL"
+            },
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "en",
+                "Url": "http://portal.ksh.hu/portal/page?_pageid=38,119919&_dad=portal&_schema=PORTAL"
+            }
+        ],
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Hungary"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}
