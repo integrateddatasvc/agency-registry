@@ -11,3 +11,5 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 
 github_user: integrateddatasvc
 github_repo: agency-registry
+
+theme: jekyll-theme-minimal
