@@ -33,30 +33,52 @@ def rss(catalog, agency):
                 if response.status_code == 200:
                     xml = str(response.text)
                     xml = xml.replace("&mdash;","-")
+                    ns = {'atom': 'http://www.w3.org/2005/Atom'}
                     if client == 'atom':
-                        ns = {'atom': 'http://www.w3.org/2005/Atom'}
                         feed = ET.fromstring(xml)
                         if feed:
                             entries = feed.findall('./atom:entry',ns)
                             if entries:
-                                entries_7_days = 0
-                                entries_30_days = 0
-                                entries_all = 0
+                                count_7_days = 0
+                                count_30_days = 0
+                                count_all = 0
                                 for index, entry in enumerate(entries):
                                     entry_datetime = datetime.fromisoformat(entry.find('atom:updated',ns).text)
                                     entry_date = entry_datetime.date()
                                     diff = date.today() - entry_date
                                     if diff.days <= 7:
-                                        entries_7_days += 1
+                                        count_7_days += 1
                                     if diff.days <= 30:
-                                        entries_30_days += 1
-                                    entries_all += 1
-                                print(f"7-days: {entries_7_days} | 30-days: {entries_30_days} | all: {entries_all}")
-                                pass
-                            pass
-                        pass
+                                        count_30_days += 1
+                                    count_all += 1
+                                print(f"7-days: {count_7_days} | 30-days: {count_30_days} | all: {count_all}")
+                            else:
+                                print(f"No <entry> found")   
+                        else:
+                            print(f"No <feed> found")   
                     elif client == 'rss':
-                        print("RSS: TODO")
+                        rss = ET.fromstring(xml)
+                        if rss:
+                            items = rss.findall('channel/item', ns)
+                            if items:
+                                count_7_days = 0
+                                count_30_days = 0
+                                count_all = 0
+                                for index, item in enumerate(items):
+                                    item_datetime = datetime.strptime(item.find('pubDate',ns).text, "%a, %d %b %Y %H:%M:%S %z")
+                                    item_date = item_datetime.date()
+                                    diff = date.today() - item_date
+                                    if diff.days <= 7:
+                                        count_7_days += 1
+                                    if diff.days <= 30:
+                                        count_30_days += 1
+                                    count_all += 1
+                                print(f"7-days: {count_7_days} | 30-days: {count_30_days} | all: {count_all}")
+                            else:
+                                print("No <item> found")
+                        else:
+                            print("No <rss> found")
+
                 else:
                     print(f"Endpoint error {response.status_code}")
                 pass

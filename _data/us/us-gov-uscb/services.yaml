@@ -19,6 +19,6 @@ catalogs:
 news:
   - name: Economic Indicators
     description: Key National Economic Indicators Published by the U.S. Census Bureau
-    client: atom
+    client: rss
     endpoint: https://www.census.gov/economic-indicators/indicator.xml
     lang: en
