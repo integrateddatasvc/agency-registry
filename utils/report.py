@@ -1,15 +1,68 @@
 '''
-Registry reporting utilities
+Utility to generate various reports on the registry:
+default: rgeneral content
+ckan: list CKAN instance sabnd check API endpoint
+validation: validate registry files againt their schemas
 '''
 
 import argparse
+from datetime import date
+from datetime import datetime
 import json
 import jsonschema
 import logging
 import os
 from registry import *
 import requests
+from lxml import etree # using lxml as it handles html encodings
+from xml.etree import ElementTree as ET
 import yaml
+
+def rss(catalog, agency):
+    services = get_agency_services(catalog, agency)
+    news = services.get('news')
+    if news:
+        for entry in news:
+            client = entry.get('client')
+            endpoint = entry.get('endpoint')
+            lang = entry.get('lang')
+            if client in ['rss','atom']:
+                print("-"*20)
+                print(f"{catalog} {agency} {client} {lang} {endpoint}")
+                response = requests.get(endpoint)
+                if response.status_code == 200:
+                    xml = str(response.text)
+                    xml = xml.replace("&mdash;","-")
+                    if client == 'atom':
+                        ns = {'atom': 'http://www.w3.org/2005/Atom'}
+                        feed = ET.fromstring(xml)
+                        if feed:
+                            entries = feed.findall('./atom:entry',ns)
+                            if entries:
+                                entries_7_days = 0
+                                entries_30_days = 0
+                                entries_all = 0
+                                for index, entry in enumerate(entries):
+                                    entry_datetime = datetime.fromisoformat(entry.find('atom:updated',ns).text)
+                                    entry_date = entry_datetime.date()
+                                    diff = date.today() - entry_date
+                                    if diff.days <= 7:
+                                        entries_7_days += 1
+                                    if diff.days <= 30:
+                                        entries_30_days += 1
+                                    entries_all += 1
+                                print(f"7-days: {entries_7_days} | 30-days: {entries_30_days} | all: {entries_all}")
+                                pass
+                            pass
+                        pass
+                    elif client == 'rss':
+                        print("RSS: TODO")
+                else:
+                    print(f"Endpoint error {response.status_code}")
+                pass
+            pass
+        pass
+    return
 
 
 def ckan(catalog, agency):
@@ -47,7 +100,6 @@ def ckan(catalog, agency):
                     is_dcat_catalog_found = True
                 else:
                     is_dcat_catalog_found = False
-
                 # report
                 print("-"*20)
                 print(f"{catalog}/{agency} | {entry.get('name')}")
@@ -110,13 +162,14 @@ def main():
         for agency in sorted(os.listdir(catalog_dir)):
             if args.agencies and agency not in args.agencies:
                 continue
-
             if "default" in args.reports:
                 print("-"*20)
                 print(agency)
                 report_default(catalog,agency)
             if "ckan" in args.reports:
                 ckan(catalog, agency)
+            if "rss" in args.reports:
+                rss(catalog, agency)
             if "validate" in args.reports:
                 validate(catalog, agency, 'ids')
                 validate(catalog, agency, 'geo')
@@ -125,12 +178,10 @@ def main():
     return
 
 if __name__ ==  "__main__":
-    script_dir = os.path.dirname(os.path.realpath(__file__))
-    registry_dir = os.path.abspath(script_dir+"/../registry")
     parser = argparse.ArgumentParser()
     parser.add_argument("-a","--agencies", nargs="*", help="Agencies to include")
     parser.add_argument("-c","--catalogs", nargs="*", help="Catalogs to include")
-    parser.add_argument("-r","--reports", nargs="*", help="Reports to run: default | ckan | validation)", default='default')
+    parser.add_argument("-r","--reports", nargs="*", help="Reports to run: default | ckan | rss | validation)", default='default')
     parser.add_argument("-ll","--loglevel", help="Python logging level", default="INFO")
     args = parser.parse_args()
 
