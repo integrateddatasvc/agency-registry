@@ -1,0 +1,44 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "tv-csd",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "en",
+            "#text": "Central Statistics Division"
+        },
+        "Location": {
+            "@countryCode": "TV",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "city",
+                "Longitude": "179.2166667",
+                "Latitude": "-8.5166667"
+            },
+            "Address": {
+                "City": "Funafuti"
+            }
+        },
+        "WebSite": {
+            "@verifiedBy": "AKR",
+            "@verifiedOn": "2012-03-15T00:00:00Z",
+            "@lang": "en",
+            "Url": "http://www.spc.int/prism/country/tv/stats/"
+        },
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Tuvalu"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

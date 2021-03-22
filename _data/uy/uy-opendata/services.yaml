@@ -1,0 +1,6 @@
+catalogs:
+  - name: Catálogo de Datos Abiertos
+    platform: ckan
+    client: html
+    endpoint: https://catalogodatos.gub.uy
+    lang: es

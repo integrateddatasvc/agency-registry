@@ -1,0 +1,6 @@
+ catalogs:
+  - name: U.K Open Data
+    platform: ckan
+    client: html
+    endpoint: https://data.gov.uk/
+    lang: en

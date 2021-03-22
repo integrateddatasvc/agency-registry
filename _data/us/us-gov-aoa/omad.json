@@ -1,0 +1,47 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "us-aoa",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": "Administration on Aging",
+        "Abbreviation": {
+            "@lang": "en",
+            "#text": "AOA"
+        },
+        "Location": {
+            "@countryCode": "US",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "-77.009692",
+                "Latitude": "38.897803"
+            },
+            "Address": {
+                "Line": "One Massachusetts Ave NW",
+                "City": "Washington",
+                "State": "DC",
+                "Postal": "20001"
+            }
+        },
+        "WebSite": [
+            {
+                "@verifiedBy": "AKR",
+                "@lang": "en",
+                "Url": "http://www.aoa.gov/"
+            },
+            {
+                "@lang": "en",
+                "DisplayLabel": "AoA FedSTATS Information Page",
+                "Url": "http://www.fedstats.gov/key_stats/index.php?id=AoA"
+            }
+        ],
+        "Operations": {
+            "@scope": "national"
+        },
+        "Tags": {
+            "Tag": "FedStats"
+        }
+    }
+}

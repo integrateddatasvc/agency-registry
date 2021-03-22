@@ -1,0 +1,47 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "us-nhtsa",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": "National Highway Traffic Safety Administration",
+        "Abbreviation": {
+            "@lang": "en",
+            "#text": "NHTSA"
+        },
+        "Location": {
+            "@countryCode": "US",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "-77.0028239",
+                "Latitude": "38.8758887"
+            },
+            "Address": {
+                "Line": "1200 New Jersey Ave, SE",
+                "City": "Washington",
+                "State": "DC",
+                "Postal": "20590"
+            }
+        },
+        "WebSite": [
+            {
+                "@verifiedBy": "AKR",
+                "@lang": "en",
+                "Url": "http://www.nhtsa.gov/"
+            },
+            {
+                "@lang": "en",
+                "DisplayLabel": "NHTSA FedSTATS Information Page",
+                "Url": "http://www.fedstats.gov/key_stats/index.php?id=NHTSA"
+            }
+        ],
+        "Operations": {
+            "@scope": "national"
+        },
+        "Tags": {
+            "Tag": "FedStats"
+        }
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "ba-as",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "sh",
+            "#text": "Agencija za Statistiku"
+        },
+        "Location": {
+            "@countryCode": "BA",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "18.3564",
+                "Latitude": "43.8476"
+            },
+            "Address": {
+                "Line": "Zelenih Beretki 26 71000",
+                "City": "Sarajevo"
+            }
+        },
+        "WebSite": [
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "sh",
+                "Url": "http://www.bhas.ba/"
+            },
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "en",
+                "Url": "http://www.bhas.ba/index.php?lang=en"
+            },
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "sr",
+                "Url": "http://www.bhas.ba/index.php?lang=sr"
+            },
+            {
+                "@verifiedBy": "PH",
+                "@verifiedOn": "2012-05-23T00:00:00Z",
+                "@lang": "hr",
+                "Url": "http://www.bhas.ba/index.php?lang=hr"
+            }
+        ],
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Bosnia and Herzegovina"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

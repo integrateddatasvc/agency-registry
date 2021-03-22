@@ -1,0 +1,46 @@
+catalogs:
+  - name: Data Catalog
+    client: html
+    endpoint: https://www150.statcan.gc.ca/n1/en/type/data
+    lang: en
+  - name: Catalogue des données
+    client: html
+    endpoint: https://www150.statcan.gc.ca/n1/fr/type/data
+    lang: fr
+news:
+  - name: The Census provides a portrait of the Canadian population.
+    client: atom
+    description: The Census provides a portrait of the Canadian population.
+    endpoint: http://www12.statcan.gc.ca/census-recensement/feeds/censusnews-nouvellesrecensement-eng.atom
+  - name: Fil du programme du recensement
+    client: atom
+    description: Le recensement brosse un portrait de la population canadienne.
+    endpoint: http://www12.statcan.gc.ca/census-recensement/feeds/censusnews-nouvellesrecensement-fra.atom
+  - name: The Daily
+    client: html
+    endpoint: https://www150.statcan.gc.ca/n1/dai-quo/index-eng.htm?HPA=1
+    lang: en
+  - name: Le Quotidien
+    client: html
+    endpoint: https://www150.statcan.gc.ca/n1/dai-quo/index-fra.htm?HPA=1
+    lang: fr
+  - name: The Daily (all subjects)
+    description: The Daily is Statistics Canada's official release bulletin. These feeds provide the latest releases by subject (100 days).
+    client: atom
+    endpoint: https://www150.statcan.gc.ca/n1/rss/dai-quo/0-eng.atom
+    lang: en
+  - name: Fils du Quotidien (tous les sujets)
+    description: Le Quotidien est le bulletin de diffusion officielle de Statistique Canada. Ces fils fournissent les derniers communiqués par sujet (100 jours).
+    client: atom
+    endpoint: https://www150.statcan.gc.ca/n1/rss/dai-quo/0-fra.atom
+    lang: fr
+  - name: "The Daily: Agriculture and food"
+    description: The Daily is Statistics Canada's official release bulletin. These feeds provide the latest releases by subject (100 days).
+    client: atom
+    endpoint: https://www150.statcan.gc.ca/n1/rss/dai-quo/32-eng.atom
+    lang: en
+  - name: "Le Quotidien: Agriculture et alimentation"
+    description: Le Quotidien est le bulletin de diffusion officielle de Statistique Canada. Ces fils fournissent les derniers communiqués par sujet (100 jours).
+    client: atom
+    endpoint: https://www150.statcan.gc.ca/n1/rss/dai-quo/32-fra.atom
+    lang: fr

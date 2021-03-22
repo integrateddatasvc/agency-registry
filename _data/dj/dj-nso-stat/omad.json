@@ -1,0 +1,43 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "dj-stat",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "fr",
+            "#text": "Ministere de l'Economique et des Finances"
+        },
+        "Location": {
+            "@countryCode": "DJ",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "city",
+                "Longitude": "42.590275",
+                "Latitude": "11.825138"
+            },
+            "Address": {
+                "City": "Djibouti"
+            }
+        },
+        "WebSite": {
+            "@verifiedBy": "AKR",
+            "@verifiedOn": "2012-03-15T00:00:00Z",
+            "@lang": "fr",
+            "Url": "http://www.ministere-finances.dj/ANNUAIRE%20STATISTIQUE.html"
+        },
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Djibouti"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

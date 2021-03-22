@@ -1,0 +1,11 @@
+sites:
+  - name: Data.gov
+    client: html
+    endpoint: https://data.gov
+    lang: en
+catalogs:
+  - name: Data.gov
+    platform: ckan
+    client: html
+    endpoint: https://catalog.data.gov
+    lang: en

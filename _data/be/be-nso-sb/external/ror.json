@@ -1,0 +1,38 @@
+{
+    "id": "https://ror.org/0246a9012",
+    "name": "Statistics Belgium",
+    "types": [
+        "Government"
+    ],
+    "links": [
+        "http://statbel.fgov.be/"
+    ],
+    "aliases": [
+        "DG Statistique"
+    ],
+    "acronyms": [],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Statistics_Belgium",
+    "labels": [
+        {
+            "label": "Direction g\u00e9n\u00e9rale Statistique",
+            "iso639": "fr"
+        }
+    ],
+    "country": {
+        "country_name": "Belgium",
+        "country_code": "BE"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0001 2197 0493"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.484552.a",
+            "all": "grid.484552.a"
+        }
+    }
+}
