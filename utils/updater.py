@@ -1,6 +1,7 @@
 import argparse
 import logging
 import json
+from registry import *
 import requests
 import os
 from xml.etree import ElementTree
@@ -239,12 +240,10 @@ def main():
     return
 
 if __name__ ==  "__main__":
-    script_dir = os.path.dirname(os.path.realpath(__file__))
-    registry_dir = os.path.abspath(script_dir+"/../registry")
     parser = argparse.ArgumentParser()
     parser.add_argument("targets",nargs='+', help="The agency names to harvest or ALL")
     parser.add_argument("-r", "--registry", help="The registry or source to harvest")
-    parser.add_argument("--registry-root", help="The root diretcoty of the registry", default=registry_dir)
+    parser.add_argument("--registry-root", help="The root diretcoty of the registry", default=get_registry_dir())
     parser.add_argument("-ll","--loglevel", help="Python logging level", default="INFO")
     parser.add_argument("--reset", action='store_true', help="Reset agency metadata (USE WITH CARE)")
     args = parser.parse_args()

@@ -2,6 +2,7 @@ import argparse
 import json
 import os
 import re
+from registry import *
 import requests
 import xml.etree.ElementTree as ET
 import xmltodict
@@ -48,7 +49,7 @@ def get_organization_tags(organization):
     return tags
 
 def init_organization(group,id,organization):
-    organization_dir = os.path.join(registry_dir,f"{group}/{id}")
+    organization_dir = os.path.join(get_registry_dir(),f"{group}/{id}")
     if not os.path.exists(organization_dir):
         print(f"Init {organization_dir}")
         os.makedirs(organization_dir)
@@ -73,7 +74,7 @@ def init_ror(group,id,organization):
     print(f"{url}")
     # check current ids
     ids = None
-    organization_dir = os.path.join(registry_dir,group,id)
+    organization_dir = os.path.join(get_registry_dir(),group,id)
     ids_file = os.path.join(organization_dir,'ids.yaml')
     if os.path.isfile(ids_file):
         with open(ids_file) as f:
@@ -127,9 +128,7 @@ def main():
     return
 
 if __name__ ==  "__main__":
-    script_dir = os.path.dirname(os.path.realpath(__file__))
-    registry_dir = os.path.abspath(script_dir+"/../registry")
-    omad_dir = os.path.abspath(script_dir+"/../omad")
+    omad_dir = os.path.abspath(get_script_dir()+"/../omad")
 
     parser = argparse.ArgumentParser()
     parser.add_argument("actions",nargs='+', help="actions")
