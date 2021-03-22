@@ -1,6 +1,6 @@
-#
-# Utility that converts the YAMl schemas to JSON
-#
+'''
+Utility that converts the YAML schemas to JSON
+'''
 
 import os.path
 import json
