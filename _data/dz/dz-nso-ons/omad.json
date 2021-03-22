@@ -1,0 +1,82 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "dz-ons",
+        "@primaryLocationId": "HQ",
+        "@status": "draft",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "fr",
+            "#text": "Office Naitonal des Statistiques"
+        },
+        "Abbreviation": {
+            "@lang": "fr",
+            "#text": "ONS"
+        },
+        "Location": {
+            "@countryCode": "DZ",
+            "@id": "HQ",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "3.0814146",
+                "Latitude": "36.7462401"
+            },
+            "Address": {
+                "@privacy": "public",
+                "@type": "office",
+                "Line": "Rue Mohamed Belkacemi -Oued Kniss- Ruisseau",
+                "City": "Alger"
+            },
+            "Telephone": [
+                {
+                    "@privacy": "public",
+                    "@type": "voice",
+                    "#text": "(213) 21-77-78-54"
+                },
+                {
+                    "@privacy": "public",
+                    "@type": "fax",
+                    "#text": "(213) 21-77-78-30"
+                }
+            ],
+            "Email": {
+                "@privacy": "public",
+                "#text": "ons@ons.dz"
+            }
+        },
+        "WebSite": [
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "fr",
+                "Url": "http://www.ons.dz/"
+            },
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "ar",
+                "Url": "http://www.ons.dz/index-ar.php"
+            },
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "en",
+                "Url": "http://www.ons.dz/index-en.php"
+            }
+        ],
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Algeria"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

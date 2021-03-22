@@ -1,0 +1,69 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "pe-inei",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "sp",
+            "#text": "Instituto Nacional de Estadistica e Informatica"
+        },
+        "Location": {
+            "@countryCode": "PE",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "-77.0503061",
+                "Latitude": "-12.0729928"
+            },
+            "Address": {
+                "Line": "Av. General Garzon 654 Jesus Maria",
+                "City": "Peru"
+            }
+        },
+        "WebSite": [
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "sp",
+                "Url": "http://www.inei.gob.pe/"
+            },
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "en",
+                "Url": "http://www.inei.gob.pe/"
+            }
+        ],
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Peru"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Profile": {
+            "Uses": {
+                "@produces": "true",
+                "@specification": "ddi",
+                "@version": "C:1.2.2"
+            }
+        },
+        "Services": {
+            "IhsnNadaService": {
+                "WebSite": {
+                    "@verifiedState": "valid",
+                    "Url": "http://www.pcbs.gov.ps/PCBS_NADA3.1/index.php/catalog"
+                },
+                "Catalog": null
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

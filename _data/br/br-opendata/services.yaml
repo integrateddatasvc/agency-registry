@@ -1,0 +1,6 @@
+catalogs:
+  - name: Portal Brasileiro de Dados Abertos
+    platform: ckan
+    client: html
+    endpoint: http://dados.gov.br/
+    lang: pt

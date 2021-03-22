@@ -1,0 +1,61 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "uy-ine",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "sp",
+            "#text": "Instituto Nacional de Estadistica"
+        },
+        "Location": {
+            "@countryCode": "UY",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "city",
+                "Longitude": "-66.6176455",
+                "Latitude": "-40.7344343"
+            },
+            "Address": {
+                "City": "Rio Negro",
+                "Postal": "1520"
+            }
+        },
+        "WebSite": {
+            "@verifiedBy": "AKR",
+            "@verifiedOn": "2012-03-15T00:00:00Z",
+            "@lang": "sp",
+            "Url": "http://www.ine.gub.uy/"
+        },
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "Uruguay"
+            },
+            "Sector": {
+                "Description": "National Statistics"
+            }
+        },
+        "Profile": {
+            "Uses": {
+                "@produces": "true",
+                "@specification": "ddi",
+                "@version": "C:1.2.2"
+            }
+        },
+        "Services": {
+            "IhsnNadaService": {
+                "WebSite": {
+                    "@verifiedState": "valid",
+                    "Url": "http://www.ine.gub.uy/anda/?page=catalog"
+                },
+                "Catalog": null
+            }
+        },
+        "Tags": {
+            "Tag": "NSO"
+        }
+    }
+}

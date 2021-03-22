@@ -1,0 +1,58 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "us-bls",
+        "@primaryLocationId": "hq",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": {
+            "@lang": "en",
+            "#text": "Bureau of Labor Statistics"
+        },
+        "Abbreviation": {
+            "@lang": "en",
+            "#text": "BLS"
+        },
+        "Location": {
+            "@countryCode": "US",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "-77.0363658",
+                "Latitude": "38.8951118"
+            },
+            "Address": {
+                "Line": "Postal Square Building, 2 Massachusetts Ave, NE",
+                "City": "Washington",
+                "State": "DC",
+                "Postal": "20212"
+            }
+        },
+        "WebSite": [
+            {
+                "@verifiedBy": "AKR",
+                "@verifiedOn": "2012-03-15T00:00:00Z",
+                "@lang": "en",
+                "Url": "http://stats.bls.gov/"
+            },
+            {
+                "@lang": "en",
+                "DisplayLabel": "BLS FedSTATS Information Page",
+                "Url": "http://www.fedstats.gov/key_stats/index.php?id=BLS"
+            }
+        ],
+        "Operations": {
+            "@scope": "national",
+            "Area": {
+                "Description": "United States"
+            },
+            "Sector": {
+                "Description": "National Labor Statistics"
+            }
+        },
+        "Tags": {
+            "Tag": "FedStats"
+        }
+    }
+}

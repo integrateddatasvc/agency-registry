@@ -1,0 +1,47 @@
+{
+    "Organization": {
+        "@entityType": "public",
+        "@id": "us-bop",
+        "@xmlns": {
+            "ns0": "openmetadata:omad:1_0"
+        },
+        "Name": "Bureau of Prisons",
+        "Abbreviation": {
+            "@lang": "en",
+            "#text": "BOP"
+        },
+        "Location": {
+            "@countryCode": "US",
+            "@id": "hq",
+            "MapLocation": {
+                "@accuracy": "street",
+                "Longitude": "-77.0121602",
+                "Latitude": "38.8938076"
+            },
+            "Address": {
+                "Line": "320 First St, NW",
+                "City": "Washington",
+                "State": "DC",
+                "Postal": "20534"
+            }
+        },
+        "WebSite": [
+            {
+                "@verifiedBy": "AKR",
+                "@lang": "en",
+                "Url": "http://www.bop.gov/"
+            },
+            {
+                "@lang": "en",
+                "DisplayLabel": "BOP FedSTATS Information Page",
+                "Url": "http://www.fedstats.gov/key_stats/index.php?id=BOP"
+            }
+        ],
+        "Operations": {
+            "@scope": "national"
+        },
+        "Tags": {
+            "Tag": "FedStats"
+        }
+    }
+}
