@@ -1,0 +1,117 @@
+{
+    "id": "https://ror.org/04xeg9z08",
+    "name": "National Institute of Mental Health",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 1949,
+    "types": [
+        "Facility"
+    ],
+    "relationships": [
+        {
+            "label": "National Institutes of Health",
+            "type": "Parent",
+            "id": "https://ror.org/01cwqze88"
+        },
+        {
+            "label": "NIMH Repository and Genomics Resource",
+            "type": "Child",
+            "id": "https://ror.org/026dax180"
+        }
+    ],
+    "addresses": [
+        {
+            "lat": 39.003693,
+            "lng": -77.104566,
+            "state": "Maryland",
+            "state_code": "US-MD",
+            "city": "Bethesda",
+            "geonames_city": {
+                "id": 4348599,
+                "city": "Bethesda",
+                "geonames_admin1": {
+                    "name": "Maryland",
+                    "id": 4361885,
+                    "ascii_name": "Maryland",
+                    "code": "US.MD"
+                },
+                "geonames_admin2": {
+                    "name": "Montgomery County",
+                    "id": 4362716,
+                    "ascii_name": "Montgomery County",
+                    "code": "US.MD.031"
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": null,
+                    "code": null
+                },
+                "nuts_level2": {
+                    "name": null,
+                    "code": null
+                },
+                "nuts_level3": {
+                    "name": null,
+                    "code": null
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 6252001
+        }
+    ],
+    "links": [
+        "https://www.nimh.nih.gov/index.shtml"
+    ],
+    "aliases": [],
+    "acronyms": [
+        "NIMH"
+    ],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/National_Institute_of_Mental_Health",
+    "labels": [
+        {
+            "label": "Instituto Nacional de Salud Mental",
+            "iso639": "es"
+        }
+    ],
+    "country": {
+        "country_name": "United States",
+        "country_code": "US"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0004 0464 0574"
+            ]
+        },
+        "FundRef": {
+            "preferred": "100000025",
+            "all": [
+                "100000025",
+                "100006934"
+            ]
+        },
+        "OrgRef": {
+            "preferred": null,
+            "all": [
+                "455909"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q1967405"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.416868.5",
+            "all": "grid.416868.5"
+        }
+    }
+}
