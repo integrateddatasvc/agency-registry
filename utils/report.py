@@ -203,7 +203,7 @@ if __name__ ==  "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-a","--agencies", nargs="*", help="Agencies to include")
     parser.add_argument("-c","--catalogs", nargs="*", help="Catalogs to include")
-    parser.add_argument("-r","--reports", nargs="*", help="Reports to run: default | ckan | rss | validation)", default='default')
+    parser.add_argument("-r","--reports", nargs="*", help="Reports to run: default | ckan | rss | validate)", default='default')
     parser.add_argument("-ll","--loglevel", help="Python logging level", default="INFO")
     args = parser.parse_args()
 

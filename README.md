@@ -1,6 +1,6 @@
 # Agency Registry
 
-**THIS PROJECT IS IN EARLY STAGE**
+**THIS PROJECT IS IN EARLY DEVELOPMENT STAGE**
 
 This project aims at compiling information around government agencies, data archives, research centers, and other organizations producing and publishing statistical and scientific data, with a focus on documenting coverage and data access mechanisms. 
 
@@ -13,7 +13,10 @@ This includes:
 - Data access policies / modalities
 - Availability of data catalogs and APIS
 
-The term egancy is broad and can also include in some cases initiatives or projects (such as open government data)
+The term agency is broad and can also include in some cases initiatives or projects (such as open government data)
+
+To browse the registry, please visit [https://integrateddatasvc.github.io/agency-registry/](https://integrateddatasvc.github.io/agency-registry/)
+
 
 ## How this works?
 - Each agency has a dedicated directory that contains files storing various pieces of information (metadata) about it.

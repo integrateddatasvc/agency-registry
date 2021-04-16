@@ -1,0 +1,106 @@
+{
+    "id": "https://ror.org/0045x2741",
+    "name": "Agency for Toxic Substances and Disease Registry",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 1980,
+    "types": [
+        "Healthcare"
+    ],
+    "relationships": [
+        {
+            "label": "Centers for Disease Control and Prevention",
+            "type": "Parent",
+            "id": "https://ror.org/042twtr12"
+        }
+    ],
+    "addresses": [
+        {
+            "lat": 33.8788,
+            "lng": -84.2923,
+            "state": "Georgia",
+            "state_code": "US-GA",
+            "city": "Atlanta",
+            "geonames_city": {
+                "id": 4180439,
+                "city": "Atlanta",
+                "geonames_admin1": {
+                    "name": "Georgia",
+                    "id": 4197000,
+                    "ascii_name": "Georgia",
+                    "code": "US.GA"
+                },
+                "geonames_admin2": {
+                    "name": "Fulton County",
+                    "id": 4196508,
+                    "ascii_name": "Fulton County",
+                    "code": "US.GA.121"
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": null,
+                    "code": null
+                },
+                "nuts_level2": {
+                    "name": null,
+                    "code": null
+                },
+                "nuts_level3": {
+                    "name": null,
+                    "code": null
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 6252001
+        }
+    ],
+    "links": [
+        "http://www.atsdr.cdc.gov/"
+    ],
+    "aliases": [],
+    "acronyms": [
+        "ATSDR"
+    ],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Agency_for_Toxic_Substances_and_Disease_Registry",
+    "labels": [],
+    "country": {
+        "country_name": "United States",
+        "country_code": "US"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0004 0405 740X"
+            ]
+        },
+        "FundRef": {
+            "preferred": null,
+            "all": [
+                "100005220"
+            ]
+        },
+        "OrgRef": {
+            "preferred": null,
+            "all": [
+                "322632"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q4692019"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.453168.d",
+            "all": "grid.453168.d"
+        }
+    }
+}

@@ -71,10 +71,10 @@ def save_agency_ids(agency, data):
 
 def delete_crossref(agency):
     file = get_crossref_file()
-    if os.path.isfile(ror_file):
+    if os.path.isfile(file):
         logging.info(f"Deleting CrossRef file {file}")
         try:
-            os.remove(ror_file)
+            os.remove(file)
         except OSError:
             pass    
 
