@@ -1,0 +1,113 @@
+{
+    "id": "https://ror.org/04byxyr05",
+    "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 1962,
+    "types": [
+        "Facility"
+    ],
+    "relationships": [
+        {
+            "label": "Developmental Studies Hybridoma Bank",
+            "type": "Related",
+            "id": "https://ror.org/006cer819"
+        },
+        {
+            "label": "National Institutes of Health",
+            "type": "Parent",
+            "id": "https://ror.org/01cwqze88"
+        }
+    ],
+    "addresses": [
+        {
+            "lat": 39.001093,
+            "lng": -77.100415,
+            "state": "Maryland",
+            "state_code": "US-MD",
+            "city": "Bethesda",
+            "geonames_city": {
+                "id": 4348599,
+                "city": "Bethesda",
+                "geonames_admin1": {
+                    "name": "Maryland",
+                    "id": 4361885,
+                    "ascii_name": "Maryland",
+                    "code": "US.MD"
+                },
+                "geonames_admin2": {
+                    "name": "Montgomery County",
+                    "id": 4362716,
+                    "ascii_name": "Montgomery County",
+                    "code": "US.MD.031"
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": null,
+                    "code": null
+                },
+                "nuts_level2": {
+                    "name": null,
+                    "code": null
+                },
+                "nuts_level3": {
+                    "name": null,
+                    "code": null
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 6252001
+        }
+    ],
+    "links": [
+        "http://www.nichd.nih.gov/Pages/index.aspx"
+    ],
+    "aliases": [],
+    "acronyms": [
+        "NICHD"
+    ],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Eunice_Kennedy_Shriver_National_Institute_of_Child_Health_and_Human_Development",
+    "labels": [],
+    "country": {
+        "country_name": "United States",
+        "country_code": "US"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0000 9635 8082"
+            ]
+        },
+        "FundRef": {
+            "preferred": "100000071",
+            "all": [
+                "100000071",
+                "100009633",
+                "100006937"
+            ]
+        },
+        "OrgRef": {
+            "preferred": null,
+            "all": [
+                "1179168"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q5409765"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.420089.7",
+            "all": "grid.420089.7"
+        }
+    }
+}
