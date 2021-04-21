@@ -132,6 +132,7 @@ def ckan(catalog, agency):
 
 def report_default(catalog, agency):
     report_ids(catalog, agency)
+    report_social(catalog, agency)
     report_services(catalog, agency)
     return
 
@@ -141,6 +142,14 @@ def report_ids(catalog, agency):
     for key,value in data.items():
         ids.append(f"{key}={value}")
     print(f"ids({len(ids)}): "+' | '.join(ids))
+    return
+
+def report_social(catalog, agency):
+    data = get_agency_social(catalog, agency)
+    networks = []
+    for key,value in data.items():
+        networks.append(f"{key}={len(value)}")
+    print(f"social({len(networks)}): "+' | '.join(networks))
     return
 
 def report_services(catalog, agency, platform=None, protocol=None):
