@@ -11,6 +11,23 @@ title: Home
 
       {% assign data = site.data %}
 
+      <div>{{ data.[0] }}</div>
+      
+      {% assign groups = data | sort %}
+      <table width="100%">
+        {% for group in groups limit: 500 %}
+          <tr>
+            <td>{{ group[0]}}</td>
+            <td>
+              {% for agency in group[1]%}
+                <a href="#">{{ agency[0] }}</a>&nbsp;
+              {% endfor %}
+            </td>
+          </tr>
+        {% endfor%}
+      </table>
+
+
       <table width="100%">
         <tr>
           <td width="60%"><strong>Name</strong></td>
@@ -22,7 +39,7 @@ title: Home
 
       <!-- Each Country Folder -->
       {% for entry in data limit: 500 %}
-
+        
         <!-- Each Grouping Folder -->
         {% for item in entry[1] limit: 500 %}
 
