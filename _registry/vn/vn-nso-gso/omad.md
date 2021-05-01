@@ -1,0 +1,45 @@
+---
+Organization:
+  '@entityType': public
+  '@id': vn-gso
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': General Statistics Office
+  Location:
+    '@countryCode': VN
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "105.8397424"
+      Latitude: "21.0384044"
+    Address:
+      Line: 6B Hoang Dieu Street, Ba Dinh
+      City: Ha Noi
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.gso.gov.vn/default_en.aspx?tabid=491
+  Operations:
+    '@scope': national
+    Area:
+      Description: Vietnam
+    Sector:
+      Description: National Statistics
+  Profile:
+    Uses:
+      '@produces': "true"
+      '@specification': ddi
+      '@version': C:1.2.2
+  Services:
+    IhsnNadaService:
+      WebSite:
+        '@verifiedState': valid
+        Url: http://www.gso.gov.vn/nada2/
+      Catalog: ~
+  Tags:
+    Tag: NSO
+...

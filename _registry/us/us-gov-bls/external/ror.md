@@ -1,0 +1,29 @@
+---
+id: https://ror.org/03z2d7y96
+name: Bureau of Labor Statistics
+types:
+- Government
+links:
+- https://www.bls.gov/
+aliases: []
+acronyms:
+- BLS
+status: active
+wikipedia_url: https://en.wikipedia.org/wiki/Bureau_of_Labor_Statistics
+labels: []
+country:
+  country_name: United States
+  country_code: US
+external_ids:
+  ISNI:
+    preferred: ~
+    all:
+    - 0000 0001 2248 5086
+  Wikidata:
+    preferred: ~
+    all:
+    - Q2928428
+  GRID:
+    preferred: grid.484225.d
+    all: grid.484225.d
+...

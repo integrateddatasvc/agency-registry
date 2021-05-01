@@ -1,0 +1,38 @@
+---
+Organization:
+  '@entityType': public
+  '@id': zm-cso
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': Central Statistical Office
+  Location:
+    '@countryCode': ZM
+    '@id': hq
+    MapLocation:
+      '@accuracy': city
+      Longitude: "28.287167"
+      Latitude: "-15.408193"
+    Address:
+      City: Lusaka
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.zamstats.gov.zm/index.php
+  Operations:
+    '@scope': national
+    Area:
+      Description: Zambia
+    Sector:
+      Description: National Statistics
+  Profile:
+    Uses:
+      '@produces': "true"
+      '@specification': ddi
+      '@version': C:1.2.2
+  Tags:
+    Tag: NSO
+...

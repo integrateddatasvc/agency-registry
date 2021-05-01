@@ -1,0 +1,168 @@
+---
+status: ok
+message-type: funder
+message-version: 1.0.0
+message:
+  hierarchy-names:
+    501100007561: Directorate-General for Health and Food Safety
+    501100000804: Eurostat
+    501100000899: Directorate-General for Enlargement
+    501100002207: Directorate-General for Communications Networks, Content and Technology
+    501100012290: Innovation and Networks Executive Agency
+    501100000811: European Institute of Innovation and Technology
+    100004431: Directorate-General for Research and Innovation
+    100010661: Horizon 2020 Framework Programme
+    501100010790: Erasmus+
+    100013284: Executive Agency for Small and Medium-sized Enterprises
+    501100000780: European Commission
+    501100013214: European Statistics
+    501100000892: Directorate-General for Energy
+    501100014585: Pilot Projects and Preparatory Actions
+    501100000781: European Research Council
+    501100000900: Joint Research Centre
+    501100008530: European Regional Development Fund
+    100013286: "Commission europ\xE9enne Office Europ\xE9en de Lutte Antifraude"
+    501100013213: Research Fund for Coal and Steel
+    501100000802: Directorate-General for the Environment
+    501100000889: Directorate-General for Education and Culture
+    501100007920: Directorate-General for International Cooperation and Development
+    501100001942: CHIST-ERA
+    501100000896: Directorate-General for Information Society and Media
+    501100000893: Directorate-General for Employment, Social Affairs and Inclusion
+    100013297: Eurostars
+    100013972: Directorate-General for Regional and Urban Policy
+    501100004965: Sixth Framework Programme
+    501100004964: Fourth Framework Programme
+    501100006221: Cordis
+    100013268: Directorate-General for Justice and Consumers
+    501100000886: Directorate-General for Regional Policy
+    100013295: European Energy Efficiency Fund
+    501100007562: Directorate-General for Neighbourhood and Enlargement Negotiations
+    501100013212: EU Civil Protection Mechanism
+    501100000898: Directorate-General for Taxation and Customs Union
+    100013289: ERA-LEARN 2020
+    501100000887: Directorate-General for Competition
+    100013237: Assessment, Strategy And Risk Reduction for Tsunamis in Europe
+    501100000783: Research Executive Agency
+    501100000888: Directorate-General for Economic and Financial Affairs
+    501100012517: Directorate-General XII, Science, Research, and Development
+    100013293: Active and Assisted Living programme
+    501100000904: Directorate-General for Trade
+    100011105: Fourth Framework Programme
+    100011104: Fifth Framework Programme
+    100013971: Directorate-General for International Cooperation and Development
+    100013288: LIFE programme
+    501100000785: Education, Audiovisual and Culture Executive Agency
+    501100000905: Directorate-General for Communication
+    501100004966: Fifth Framework Programme
+    501100000897: Directorate-General for Justice
+    501100007601: Horizon 2020
+    more: ~
+    501100013215: European Defence Industrial Development Programme
+    501100000891: Directorate-General for Health and Consumers
+    501100000894: Directorate-General for Enterprise and Industry
+    100011102: Seventh Framework Programme
+    501100000803: Directorate-General for Development and Cooperation - EuropeAid
+    501100000890: Directorate-General for Interpretation
+    501100006139: European Investment Bank
+    501100000810: Executive Agency for Health and Consumers
+    501100000895: Directorate-General for Maritime Affairs and Fisheries
+    501100004963: Seventh Framework Programme
+    501100003528: Consumers, Health and Food Executive Agency
+    501100000808: Fusion for Energy
+    100011103: Sixth Framework Programme
+    501100007565: Consumers, Health, Agriculture and Food Executive Agency
+    100013294: Connecting Europe Facility
+  replaced-by: []
+  work-count: 13
+  name: Eurostat
+  descendants: []
+  descendant-work-count: 13
+  id: "501100000804"
+  tokens:
+  - eurostat
+  replaces: []
+  uri: http://dx.doi.org/10.13039/501100000804
+  hierarchy:
+    501100000780:
+      501100007561: []
+      501100000804: []
+      501100000899: []
+      501100002207: []
+      501100012290: []
+      501100000811: []
+      100004431: []
+      100010661:
+        more: true
+      501100010790: []
+      100013284:
+        more: true
+      501100013214: []
+      501100000892: []
+      501100014585: []
+      501100000781: []
+      501100000900: []
+      501100008530:
+        more: true
+      100013286:
+        more: true
+      501100013213: []
+      501100000802: []
+      501100000889: []
+      501100007920: []
+      501100001942: []
+      501100000896: []
+      501100000893:
+        more: true
+      100013297: []
+      100013972: []
+      501100004965: []
+      501100004964: []
+      501100006221: []
+      100013268:
+        more: true
+      501100000886: []
+      100013295: []
+      501100007562: []
+      501100013212: []
+      501100000898: []
+      100013289:
+        more: true
+      501100000887: []
+      100013237: []
+      501100000783: []
+      501100000888: []
+      501100012517: []
+      100013293: []
+      501100000904: []
+      100011105: []
+      100011104: []
+      100013971: []
+      100013288: []
+      501100000785:
+        more: true
+      501100000905: []
+      501100004966: []
+      501100000897: []
+      501100007601: []
+      501100013215: []
+      501100000891: []
+      501100000894: []
+      100011102:
+        more: true
+      501100000803: []
+      501100000890: []
+      501100006139: []
+      501100000810: []
+      501100000895: []
+      501100004963: []
+      501100003528: []
+      501100000808: []
+      100011103:
+        more: true
+      501100007565:
+        more: true
+      100013294: []
+  alt-names: []
+  location: ~
+...

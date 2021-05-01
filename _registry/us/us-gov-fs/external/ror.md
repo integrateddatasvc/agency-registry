@@ -1,0 +1,33 @@
+---
+id: https://ror.org/03zmjc935
+name: US Forest Service
+types:
+- Government
+links:
+- http://www.fs.fed.us/
+aliases: []
+acronyms:
+- USFS
+status: active
+wikipedia_url: https://en.wikipedia.org/wiki/United_States_Forest_Service
+labels: []
+country:
+  country_name: United States
+  country_code: US
+external_ids:
+  ISNI:
+    preferred: ~
+    all:
+    - 0000 0004 0404 3120
+  FundRef:
+    preferred: ~
+    all:
+    - "100006959"
+  Wikidata:
+    preferred: ~
+    all:
+    - Q1891156
+  GRID:
+    preferred: grid.472551.0
+    all: grid.472551.0
+...

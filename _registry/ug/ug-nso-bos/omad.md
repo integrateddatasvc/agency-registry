@@ -1,0 +1,45 @@
+---
+Organization:
+  '@entityType': public
+  '@id': ug-bos
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': Uganda Bureau of Statistics
+  Location:
+    '@countryCode': UG
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "32.5848001"
+      Latitude: "0.3159412"
+    Address:
+      Line: Plot 9 Colville Street
+      City: Kampala
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.ubos.org/
+  Operations:
+    '@scope': national
+    Area:
+      Description: Uganda
+    Sector:
+      Description: National Statistics
+  Profile:
+    Uses:
+      '@produces': "true"
+      '@specification': ddi
+      '@version': C:1.2.2
+  Services:
+    IhsnNadaService:
+      WebSite:
+        '@verifiedState': valid
+        Url: http://www.ubos.org/nada/
+      Catalog: ~
+  Tags:
+    Tag: NSO
+...

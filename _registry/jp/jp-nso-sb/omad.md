@@ -1,0 +1,39 @@
+---
+Organization:
+  '@entityType': public
+  '@id': jp-sb
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': Statistics Bureau
+  Location:
+    '@countryCode': JP
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "139.7035494"
+      Latitude: "35.6938401"
+    Address:
+      Line: 19-1 Wakamatsu-cho, Shinjuku-ku
+      City: Tokyo
+      Postal: 162-8668
+  WebSite:
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.stat.go.jp/english/index.htm
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': ja
+    Url: http://www.stat.go.jp/index.htm
+  Operations:
+    '@scope': national
+    Area:
+      Description: Japan
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

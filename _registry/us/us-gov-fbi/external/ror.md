@@ -1,0 +1,29 @@
+---
+id: https://ror.org/00ta5r839
+name: Federal Bureau of Investigation
+types:
+- Government
+links:
+- http://www.fbi.gov/
+aliases: []
+acronyms:
+- FBI
+status: active
+wikipedia_url: https://en.wikipedia.org/wiki/Federal_Bureau_of_Investigation
+labels: []
+country:
+  country_name: United States
+  country_code: US
+external_ids:
+  ISNI:
+    preferred: ~
+    all:
+    - 0000 0004 0481 0043
+  Wikidata:
+    preferred: ~
+    all:
+    - Q8333
+  GRID:
+    preferred: grid.454841.8
+    all: grid.454841.8
+...

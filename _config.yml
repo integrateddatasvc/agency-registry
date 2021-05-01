@@ -1,4 +1,5 @@
 title: Agency Registry
+base_url: http://127.0.0.1:4000
 
 version:      1.1.1
 author:
@@ -11,3 +12,14 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md", "
 
 github_user: integrateddatasvc
 github_repo: agency-registry
+
+collections:
+  registry:
+    output: true
+    permalink: /registry/:path/
+
+defaults:
+  - scope:
+      type: registry
+    values:
+      layout: registry

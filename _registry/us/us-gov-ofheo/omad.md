@@ -1,0 +1,34 @@
+---
+Organization:
+  '@entityType': public
+  '@id': us-ofheo
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name: Office of Federal Housing Enterprise Oversight
+  Abbreviation:
+    '@lang': en
+    '#text': OFHEO
+  Location:
+    '@countryCode': US
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-77.0220942"
+      Latitude: "38.8948971"
+    Address:
+      Line: 400 7th Street, NW
+      City: Washington
+      State: DC
+      Postal: "20024"
+  WebSite:
+  - '@verifiedBy': AKR
+    '@lang': en
+    Url: http://www.fhfa.gov/
+  - '@lang': en
+    DisplayLabel: OFHEO FedSTATS Information Page
+    Url: http://www.fedstats.gov/key_stats/index.php?id=OFHEO
+  Operations:
+    '@scope': national
+  Tags:
+    Tag: FedStats
+...

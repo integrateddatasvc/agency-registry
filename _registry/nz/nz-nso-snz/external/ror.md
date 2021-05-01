@@ -1,0 +1,31 @@
+---
+id: https://ror.org/055qjgz33
+name: Statistics New Zealand
+types:
+- Government
+links:
+- http://www.stats.govt.nz/
+aliases:
+- Stats NZ
+acronyms: []
+status: active
+wikipedia_url: https://en.wikipedia.org/wiki/Statistics_New_Zealand
+labels:
+- label: Tatauranga Aotearoa
+  iso639: mi
+country:
+  country_name: New Zealand
+  country_code: NZ
+external_ids:
+  ISNI:
+    preferred: ~
+    all:
+    - 0000000404835240
+  Wikidata:
+    preferred: ~
+    all:
+    - Q1819197
+  GRID:
+    preferred: grid.488637.6
+    all: grid.488637.6
+...

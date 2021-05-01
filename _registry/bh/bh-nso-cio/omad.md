@@ -1,0 +1,33 @@
+---
+Organization:
+  '@entityType': public
+  '@id': bh-cio
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': Central Informatics Organisation
+  Location:
+    '@countryCode': BH
+    '@id': hq
+    MapLocation:
+      '@accuracy': city
+      Longitude: "50.5833333"
+      Latitude: "26.2166667"
+    Address:
+      City: Manama
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.cio.gov.bh/cio_eng/
+  Operations:
+    '@scope': national
+    Area:
+      Description: Bahrain
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

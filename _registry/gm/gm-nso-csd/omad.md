@@ -1,0 +1,45 @@
+---
+Organization:
+  '@entityType': public
+  '@id': gm-csd
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': Central Statistics Department
+  Location:
+    '@countryCode': GM
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-16.5732515"
+      Latitude: "13.4493756"
+    Address:
+      Line: Central Bank Building 1/2 Ecowas Avenue
+      City: Banjul
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.gambia.gm/Statistics/index.htm
+  Operations:
+    '@scope': national
+    Area:
+      Description: Gambia
+    Sector:
+      Description: National Statistics
+  Profile:
+    Uses:
+      '@produces': "true"
+      '@specification': ddi
+      '@version': C:1.2.2
+  Services:
+    IhsnNadaService:
+      WebSite:
+        '@verifiedState': valid
+        Url: http://www.gbos.gm/nada/
+      Catalog: ~
+  Tags:
+    Tag: NSO
+...

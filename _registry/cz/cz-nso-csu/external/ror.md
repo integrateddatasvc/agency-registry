@@ -1,0 +1,27 @@
+---
+id: https://ror.org/03w948j83
+name: Czech Statistical Office
+types:
+- Government
+links:
+- https://www.czso.cz/
+aliases: []
+acronyms:
+- CZSO
+status: active
+wikipedia_url: https://en.wikipedia.org/wiki/Czech_Statistical_Office
+labels:
+- label: "\u010Cesk\xFD statistick\xFD \xFA\u0159ad"
+  iso639: cs
+country:
+  country_name: Czechia
+  country_code: CZ
+external_ids:
+  ISNI:
+    preferred: ~
+    all:
+    - 0000 0004 0610 7482
+  GRID:
+    preferred: grid.485075.b
+    all: grid.485075.b
+...

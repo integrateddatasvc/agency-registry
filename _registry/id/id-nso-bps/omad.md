@@ -1,0 +1,39 @@
+---
+Organization:
+  '@entityType': public
+  '@id': id-bps
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': id
+    '#text': Badan Pusat Statistik
+  Location:
+    '@countryCode': ID
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "106.845172"
+      Latitude: "-6.211544"
+    Address:
+      Line: Jl. Dr. Sutomo 6-8
+      City: Jakarta
+      Postal: "10710"
+  WebSite:
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': id
+    Url: http://www.bps.go.id/
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://dds.bps.go.id/eng/
+  Operations:
+    '@scope': national
+    Area:
+      Description: Indonesia
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

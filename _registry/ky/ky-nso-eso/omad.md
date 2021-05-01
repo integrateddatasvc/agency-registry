@@ -1,0 +1,31 @@
+---
+Organization:
+  '@entityType': public
+  '@id': ky-eso
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': Economics and Statistics Office
+  Location:
+    '@countryCode': KY
+    '@id': hq
+    MapLocation:
+      '@accuracy': country
+      Longitude: "-80.566956"
+      Latitude: "19.513469"
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.eso.ky/
+  Operations:
+    '@scope': subnational
+    Area:
+      Description: Cayman Islands
+    Sector:
+      Description: Official Statistics
+  Tags:
+    Tag: NSO
+...

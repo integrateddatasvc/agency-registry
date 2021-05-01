@@ -1,0 +1,36 @@
+---
+Organization:
+  '@entityType': public
+  '@id': us-nimh
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name: National Institute of Mental Health
+  Abbreviation:
+    '@lang': en
+    '#text': NIMH
+  Location:
+    '@countryCode': US
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-77.0947092"
+      Latitude: "38.984652"
+    Address:
+      Line:
+      - 6001 Executive Blvd
+      - Room 8184 MSC 9663
+      City: Bethesda
+      State: MD
+      Postal: "20892"
+  WebSite:
+  - '@verifiedBy': AKR
+    '@lang': en
+    Url: http://www.nimh.nih.gov/index.shtml
+  - '@lang': en
+    DisplayLabel: NIMH FedSTATS Information Page
+    Url: http://www.fedstats.gov/key_stats/index.php?id=NIMH
+  Operations:
+    '@scope': national
+  Tags:
+    Tag: FedStats
+...

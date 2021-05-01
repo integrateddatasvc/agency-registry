@@ -7,75 +7,38 @@ title: Home
     <div class="content-side col-lg-12 col-md-12 col-sm-12">
 
       <h3>Agency Registry</h3>
-      <p>This is a simple listing of the agencies in this registry -- we can add properties as desired, this is just meant to show what is possible.</p>
-
-      {% assign data = site.data %}
-
+      
       <table width="100%">
         <tr>
           <td width="60%"><strong>Name</strong></td>
           <td width="10%" align="center"><strong>Country</strong></td>
           <td width="10%" align="center"><strong>Sector</strong></td>
-          <td width="10%" align="center"><strong>Level</strong></td>
-          <td width="10%" align="center"><strong>Github</strong></td>
+          <td width="10%" align="center"><strong>Details</strong></td>
         </tr>  
+        <tr>
+          <td colspan="4"><hr></td>
+        </tr>
 
-      <!-- Each Country Folder -->
-      {% for entry in data limit: 500 %}
+      {% for entry in site.registry | sort %}
 
-        <!-- Each Grouping Folder -->
-        {% for item in entry[1] limit: 500 %}
+        {% if entry.Organization %}
 
-          <!-- Organization-->
-          {% if item[1].omad.Organization %}
-            {% assign organization = item[1].omad.Organization %}
-            {% assign name = organization.Name['#text'] %}
-            {% assign country = organization.Location['@countryCode'] %}
-            {% assign sector = organization.Operations.Sector %}
-          {% endif %}   
-
-          <!-- Geo -->
-          {% if item[1].geo %}
-            {% assign geo = item[1].geo %}
-            {% assign level = geo.level %}
-          {% endif %}     
-
-          <!-- Ids -->
-          {% if item[1].ids %}
-            {% assign ids = item[1].ids %}
-            {% assign grid = ids.grid %}
-            {% assign orgref = ids.orgref %}
-            {% assign ror = ids.ror %}
-            {% assign wikidata = ids.wikidata %}
-          {% endif %}      
-
-          <!-- Services -->
-          {% if item[1].services %}
-            {% assign services = item[1].services %}
-            {% assign catalogs = ids.catalogs %}
-            {% assign news = ids.news %}
-          {% endif %}     
-
-          <!-- Social -->
-          {% if item[1].social %}
-            {% assign social = item[1].social %}
-            {% assign facebook = social.facebook %}
-            {% assign linkedin = social.linkedin %}
-            {% assign twitter = social.twitter %}
-            {% assign wikipedia = social.wikipedia %}
-          {% endif %}                                     
+          {% assign organization = entry.Organization %}
+          {% assign name = entry.Organization.Name['#text'] %}
+          {% assign country = entry.Organization.Location['@countryCode'] %}
+          {% assign sector = entry.Organization.Operations.Sector.Description %}                                  
         
-          {% if name %}
+          {% if name %}          
             <tr>
-              <td>{{ name }} {{ files[0] }}</td>
+              <td>{{ name }}</td>
               <td align="center">{{ country }}</td>
-              <td align="center">{{ sector.Description }}</td>
-              <td align="center">{{ level }}</td>
-              <td align="center"><a href="https://github.com/integrateddatasvc/agency-registry/blob/main/_registry/{{ entry[0] }}/{{ item[0] }}/omad.json" target="_blank">View</a></td>              
+              <td align="center">{{ sector }}</td>
+              <td align="center"><a href="{{ entry.url }}" target="_blank">View</a></td>              
             </tr>
-          {% endif %}      
+          {% endif %}  
+
+        {% endif %}        
            
-        {% endfor %}             
       {% endfor %}  
       </table>    
 

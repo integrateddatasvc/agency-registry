@@ -1,0 +1,45 @@
+---
+Organization:
+  '@entityType': public
+  '@id': fr-ined
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': fr
+    '#text': Institut national d'etudes demographiques
+  Location:
+    '@countryCode': FR
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "2.4096175"
+      Latitude: "48.8577793"
+    Address:
+      Line: 133 Blvd. Davout
+      City: Paris
+      Postal: "75980"
+  WebSite:
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': fr
+    Url: http://www.ined.fr
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.ined.fr/en/homepage_of_ined_website/
+  Operations:
+    '@scope': national
+    Area:
+      Description: France
+    Sector:
+      Description: National Statistics
+  Services:
+    NesstarService:
+      WebSite:
+        '@verifiedBy': AKR
+        '@lang': fr
+        Url: http://nesstar.ined.fr/webview/
+  Tags:
+    Tag: NSO
+...

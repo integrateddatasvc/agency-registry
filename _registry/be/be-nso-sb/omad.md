@@ -1,0 +1,35 @@
+---
+Organization:
+  '@entityType': public
+  '@id': be-sb
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': Statistics Belgium
+  Location:
+    '@countryCode': BE
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "4.3563271"
+      Latitude: "50.8607439"
+    Address:
+      Line: Simon Bolivarlaan 30
+      City: Brussels
+      Postal: "1000"
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://statbel.fgov.be/en/statistics/figures/
+  Operations:
+    '@scope': national
+    Area:
+      Description: Belgium
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

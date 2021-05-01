@@ -1,0 +1,40 @@
+---
+Organization:
+  '@entityType': public
+  '@id': za-stats
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': Statistics South Africa
+  Location:
+    '@countryCode': ZA
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "28.1904665"
+      Latitude: "-25.7454363"
+    Address:
+      Line: De Bruyn Park Building, 170 Andries Street
+      City: Pretoria
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.statssa.gov.za/
+  Operations:
+    '@scope': national
+    Area:
+      Description: South Africa
+    Sector:
+      Description: National Statistics
+  Services:
+    IhsnNadaService:
+      WebSite:
+        '@verifiedState': valid
+        Url: http://www.datafirst.uct.ac.za/catalogue3/index.php/catalog
+      Catalog: ~
+  Tags:
+    Tag: NSO
+...
