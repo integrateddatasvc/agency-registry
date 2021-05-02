@@ -10,7 +10,8 @@ title: Home
       <p>This is a simple listing of the agencies in this registry -- we can add properties as desired, this is just meant to show what is possible.</p>
 
       {% assign data = site.data %}
-      <div>Base URL: {{ site.base_url }}</div>
+      <div>site.url={{ site.eurl }}</div>
+      <div>site.baseurl={{ site.baseurl }}</div>
       
       {% assign groups = data | sort %}
       <table width="100%">
