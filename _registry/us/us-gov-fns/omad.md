@@ -1,0 +1,34 @@
+---
+Organization:
+  '@entityType': public
+  '@id': us-fns
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name: Food and Nutrition Service
+  Abbreviation:
+    '@lang': en
+    '#text': FNS
+  Location:
+    '@countryCode': US
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-77.103454"
+      Latitude: "38.836933"
+    Address:
+      Line: 3101 Park Center Drive
+      City: Alexandria
+      State: VA
+      Postal: "22302"
+  WebSite:
+  - '@verifiedBy': AKR
+    '@lang': en
+    Url: http://www.fns.usda.gov/fns/
+  - '@lang': en
+    DisplayLabel: FNS FedSTATS Information Page
+    Url: http://www.fedstats.gov/key_stats/index.php?id=FNS
+  Operations:
+    '@scope': national
+  Tags:
+    Tag: FedStats
+...

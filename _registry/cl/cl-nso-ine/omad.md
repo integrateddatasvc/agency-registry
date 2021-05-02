@@ -1,0 +1,35 @@
+---
+Organization:
+  '@entityType': public
+  '@id': cl-ine
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': sp
+    '#text': Instituto National de Estadisticas
+  Location:
+    '@countryCode': CL
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-70.6522193"
+      Latitude: "-33.4513341"
+    Address:
+      Line: Paseo Bulnes 418
+      City: Santiago
+      Postal: "8330532"
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': sp
+    Url: http://www.ine.cl/
+  Operations:
+    '@scope': national
+    Area:
+      Description: Chile
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

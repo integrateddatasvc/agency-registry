@@ -1,0 +1,47 @@
+---
+id: https://ror.org/05rsv9s98
+name: United States Department of Veterans Affairs
+types:
+- Government
+links:
+- http://www.va.gov/
+aliases:
+- U.S. Department of Veterans Affairs
+acronyms:
+- 'VA '
+- DVA
+status: active
+wikipedia_url: https://en.wikipedia.org/wiki/United_States_Department_of_Veterans_Affairs
+labels:
+- label: "D\xE9partement des anciens combattants des \xC9tats-unis"
+  iso639: fr
+- label: Departamento de Asuntos de los Veteranos de los Estados Unidos
+  iso639: es
+country:
+  country_name: United States
+  country_code: US
+external_ids:
+  ISNI:
+    preferred: ~
+    all:
+    - 0000 0004 0478 7015
+  FundRef:
+    preferred: "100000738"
+    all:
+    - "100000738"
+    - "100006379"
+    - "100007217"
+    - "100000176"
+    - "100007496"
+  OrgRef:
+    preferred: ~
+    all:
+    - "70922"
+  Wikidata:
+    preferred: ~
+    all:
+    - Q592576
+  GRID:
+    preferred: grid.418356.d
+    all: grid.418356.d
+...

@@ -1,0 +1,34 @@
+---
+Organization:
+  '@entityType': public
+  '@id': gy-bs
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': Bureau of Statistics
+  Location:
+    '@countryCode': GY
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-58.1628727"
+      Latitude: "6.8220359"
+    Address:
+      Line: 57 High Street, Kingston
+      City: Georgetown
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.statisticsguyana.gov.gy/
+  Operations:
+    '@scope': national
+    Area:
+      Description: Guyana
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

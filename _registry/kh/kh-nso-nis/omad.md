@@ -1,0 +1,39 @@
+---
+Organization:
+  '@entityType': public
+  '@id': kh-nis
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': National Institute of Statistics
+  Location:
+    '@countryCode': KH
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "104.917445"
+      Latitude: "11.558831"
+    Address:
+      Line: 386 Preah Monivong Bld., Boeung Keng Kong 1, Chamkarmorn
+      City: Phnom Penh
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.nis.gov.kh/
+  Operations:
+    '@scope': national
+    Area:
+      Description: Cambodia
+    Sector:
+      Description: National Statistics
+  Profile:
+    Uses:
+      '@produces': "true"
+      '@specification': ddi
+      '@version': C1.2.2
+  Tags:
+    Tag: NSO
+...

@@ -1,0 +1,33 @@
+---
+Organization:
+  '@entityType': public
+  '@id': rw-nis
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': National Institute of Statistics of Rwanda
+  Location:
+    '@countryCode': RW
+    '@id': hq
+    MapLocation:
+      '@accuracy': city
+      Longitude: "30.058769"
+      Latitude: "-1.950106"
+    Address:
+      City: Kigali
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.statistics.gov.rw/
+  Operations:
+    '@scope': national
+    Area:
+      Description: Rwanda
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

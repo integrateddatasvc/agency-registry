@@ -1,0 +1,26 @@
+---
+Organization:
+  '@entityType': public
+  '@id': us-sba
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name: Small Business Administration
+  Abbreviation:
+    '@lang': en
+    '#text': SBA
+  Location:
+    '@countryCode': US
+    '@id': hq
+    MapLocation:
+      '@accuracy': country
+      Longitude: "-95.712891"
+      Latitude: "37.09024"
+  WebSite:
+    '@lang': en
+    DisplayLabel: SBA FedSTATS Information Page
+    Url: http://www.fedstats.gov/key_stats/index.php?id=SBA
+  Operations:
+    '@scope': national
+  Tags:
+    Tag: FedStats
+...

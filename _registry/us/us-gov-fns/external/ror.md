@@ -1,0 +1,21 @@
+---
+id: https://ror.org/00t9khr87
+name: Food and Nutrition Service
+types:
+- Government
+links:
+- https://www.fns.usda.gov/
+aliases: []
+acronyms:
+- FNS
+status: active
+wikipedia_url: ""
+labels: []
+country:
+  country_name: United States
+  country_code: US
+external_ids:
+  GRID:
+    preferred: grid.478135.c
+    all: grid.478135.c
+...

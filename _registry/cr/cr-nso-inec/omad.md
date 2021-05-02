@@ -1,0 +1,33 @@
+---
+Organization:
+  '@entityType': public
+  '@id': cr-inec
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': sp
+    '#text': Instituto de Estadistica y Censos
+  Location:
+    '@countryCode': CR
+    '@id': hq
+    MapLocation:
+      '@accuracy': city
+      Longitude: "-121.8949555"
+      Latitude: "37.3393857"
+    Address:
+      City: San Jose
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': sp
+    Url: http://www.inec.go.cr/Web/Home/pagPrincipal.aspx
+  Operations:
+    '@scope': national
+    Area:
+      Description: Costa Rica
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

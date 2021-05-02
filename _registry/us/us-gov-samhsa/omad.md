@@ -1,0 +1,34 @@
+---
+Organization:
+  '@entityType': public
+  '@id': us-samhsa
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name: Substance Abuse and Mental Health Services Administration
+  Abbreviation:
+    '@lang': en
+    '#text': SAMHSA
+  Location:
+    '@countryCode': US
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-77.6945613"
+      Latitude: "39.6490151"
+    Address:
+      Line: 7500 Security Blvd
+      City: Washington
+      State: MD
+      Postal: "21044"
+  WebSite:
+  - '@verifiedBy': AKR
+    '@lang': en
+    Url: http://www.samhsa.gov/
+  - '@lang': en
+    DisplayLabel: SAMHSA FedSTATS Information Page
+    Url: http://www.fedstats.gov/key_stats/index.php?id=SAMHSA
+  Operations:
+    '@scope': national
+  Tags:
+    Tag: FedStats
+...

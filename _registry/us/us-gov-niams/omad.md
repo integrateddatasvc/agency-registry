@@ -1,0 +1,34 @@
+---
+Organization:
+  '@entityType': public
+  '@id': us-niams
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name: National Institute of Arthritis and Musculoskeletal and Skin Disease
+  Abbreviation:
+    '@lang': en
+    '#text': NIAMS
+  Location:
+    '@countryCode': US
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-77.0947092"
+      Latitude: "38.984652"
+    Address:
+      Line: 1 AMS Circle
+      City: Bethesda
+      State: MD
+      Postal: "20892"
+  WebSite:
+  - '@verifiedBy': AKR
+    '@lang': en
+    Url: http://www.niams.nih.gov/
+  - '@lang': en
+    DisplayLabel: NIAMS FedSTATS Information Page
+    Url: http://www.fedstats.gov/key_stats/index.php?id=NIAMS
+  Operations:
+    '@scope': national
+  Tags:
+    Tag: FedStats
+...

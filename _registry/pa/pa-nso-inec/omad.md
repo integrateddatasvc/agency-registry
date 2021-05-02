@@ -1,0 +1,39 @@
+---
+Organization:
+  '@entityType': public
+  '@id': pa-inec
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': sp
+    '#text': Instituto Nacional de Estadistica y Censo
+  Location:
+    '@countryCode': PA
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-79.5274061"
+      Latitude: "8.9788227"
+    Address:
+      Line: Avenida Balboa y Avenida Federico Boyd
+      City: Panama City
+    WebSite:
+      '@verifiedBy': AKR
+      '@verifiedOn': "2012-03-15T00:00:00Z"
+      '@lang': sp
+      Url: http://www.contraloria.gob.pa/inec/
+  Operations:
+    '@scope': national
+    Area:
+      Description: Panama
+    Sector:
+      Description: National Statistics
+  Profile:
+    Uses:
+      '@produces': "true"
+      '@specification': ddi
+      '@version': C1.2.2
+  Tags:
+    Tag: NSO
+...
