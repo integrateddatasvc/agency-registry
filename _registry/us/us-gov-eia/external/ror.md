@@ -1,0 +1,35 @@
+---
+id: https://ror.org/01h04ms65
+name: United States Energy Information Administration
+types:
+- Government
+links:
+- http://www.eia.gov/
+aliases:
+- U.S. Energy Information Administration
+acronyms:
+- EIA
+status: active
+wikipedia_url: https://en.wikipedia.org/wiki/Energy_Information_Administration
+labels: []
+country:
+  country_name: United States
+  country_code: US
+external_ids:
+  ISNI:
+    preferred: ~
+    all:
+    - 0000 0001 1942 3343
+  FundRef:
+    preferred: "100006162"
+    all:
+    - "100006162"
+    - "100006118"
+  Wikidata:
+    preferred: ~
+    all:
+    - Q1133499
+  GRID:
+    preferred: grid.431453.4
+    all: grid.431453.4
+...

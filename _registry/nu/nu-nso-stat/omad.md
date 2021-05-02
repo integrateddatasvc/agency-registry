@@ -1,0 +1,34 @@
+---
+Organization:
+  '@entityType': public
+  '@id': nu-stat
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': Niue Statistics
+  Location:
+    '@countryCode': NU
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-169.9178709"
+      Latitude: "-19.0553711"
+    Address:
+      Line: Ground Floor, Ex-Bachelor's Quarters, Utuko
+      City: Alofi
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.spc.int/prism/Country/NU/stats/
+  Operations:
+    '@scope': national
+    Area:
+      Description: Niue
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

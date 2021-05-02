@@ -1,0 +1,34 @@
+---
+Organization:
+  '@entityType': public
+  '@id': us-fs
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name: Forest Service
+  Abbreviation:
+    '@lang': en
+    '#text': FS
+  Location:
+    '@countryCode': US
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-77.0314413"
+      Latitude: "38.8872895"
+    Address:
+      Line: 1400 Independence Ave., SW
+      City: Washington
+      State: DC
+      Postal: "20250"
+  WebSite:
+  - '@verifiedBy': AKR
+    '@lang': en
+    Url: http://www.fs.fed.us/
+  - '@lang': en
+    DisplayLabel: FS FedSTATS Information Page
+    Url: http://www.fedstats.gov/key_stats/index.php?id=FS
+  Operations:
+    '@scope': national
+  Tags:
+    Tag: FedStats
+...

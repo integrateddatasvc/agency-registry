@@ -1,0 +1,37 @@
+---
+Organization:
+  '@entityType': public
+  '@id': mn-nso
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': National Statistical Office
+  Location:
+    '@countryCode': MN
+    '@id': hq
+    MapLocation:
+      '@accuracy': city
+      Longitude: "106.90554"
+      Latitude: "47.921378"
+    Address:
+      City: Ulan Bator
+  WebSite:
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.nso.mn/v3/index2.php
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': mn
+    Url: http://www.nso.mn/v3/index.php
+  Operations:
+    '@scope': national
+    Area:
+      Description: Mongolia
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

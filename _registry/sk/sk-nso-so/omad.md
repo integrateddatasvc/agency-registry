@@ -1,0 +1,39 @@
+---
+Organization:
+  '@entityType': public
+  '@id': sk-so
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': Statistical Office of Slovak Republic
+  Location:
+    '@countryCode': SK
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "17.1313454"
+      Latitude: "48.1575016"
+    Address:
+      Line: Mileticova 3
+      City: Bratislava
+      Postal: "82467"
+  WebSite:
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://portal.statistics.sk/showdoc.do?docid=359
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': sk
+    Url: http://portal.statistics.sk/showdoc.do?docid=4
+  Operations:
+    '@scope': national
+    Area:
+      Description: Slovakia
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

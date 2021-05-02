@@ -1,0 +1,33 @@
+---
+Organization:
+  '@entityType': public
+  '@id': ni-inide
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': sp
+    '#text': Instituto Nacional de Informacion de Desarrollo
+  Location:
+    '@countryCode': NI
+    '@id': hq
+    MapLocation:
+      '@accuracy': city
+      Longitude: "-86.2513889"
+      Latitude: "12.1363889"
+    Address:
+      City: Managua
+  WebSite:
+    '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': sp
+    Url: http://www.inide.gob.ni/
+  Operations:
+    '@scope': national
+    Area:
+      Description: Nicaragua
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

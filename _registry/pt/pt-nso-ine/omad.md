@@ -1,0 +1,39 @@
+---
+Organization:
+  '@entityType': public
+  '@id': pt-ine
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': pt
+    '#text': Instituto Nacional de Estatistica
+  Location:
+    '@countryCode': PT
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-9.1402829"
+      Latitude: "38.7379608"
+    Address:
+      Line: Ave. Antonio Jose de Almeida
+      City: Lisboa
+      Postal: 1000-043
+  WebSite:
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_main
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': pt
+    Url: http://www.ine.pt/xportal/xmain?xpid=INE&xpgid=ine_main&xlang=pt
+  Operations:
+    '@scope': national
+    Area:
+      Description: Portugal
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...

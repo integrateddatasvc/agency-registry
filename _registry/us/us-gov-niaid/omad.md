@@ -1,0 +1,34 @@
+---
+Organization:
+  '@entityType': public
+  '@id': us-niaid
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name: National Institute of Allergy and Infectious Disease
+  Abbreviation:
+    '@lang': en
+    '#text': NIAID
+  Location:
+    '@countryCode': US
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-77.0334179"
+      Latitude: "38.9059849"
+    Address:
+      Line: 6610 Rockledge Drive, MSC 6612
+      City: Bethesda
+      State: DC
+      Postal: "20892"
+  WebSite:
+  - '@verifiedBy': AKR
+    '@lang': en
+    Url: http://www.niaid.nih.gov/Pages/default.aspx
+  - '@lang': en
+    DisplayLabel: NIAID FedSTATS Information Page
+    Url: http://www.fedstats.gov/key_stats/index.php?id=NIAID
+  Operations:
+    '@scope': national
+  Tags:
+    Tag: FedStats
+...

@@ -1,47 +1,5 @@
-/* Newspoint HTML Template */
-
-/************ TABLE OF CONTENTS ***************
-1. Fonts
-2. Reset
-3. Global
-4. Main Header / Header Style One / Header Style Two
-5. Main Slider
-6. News Blocks
-7. Search Box
-8. Add Widgets
-9. Carousels Section
-10. Testimonial Section
-11. Facebook like widget
-12. Instagram Followers Section
-13. Main Footer
-14. NewsLetter Section
-15. About Section
-16. Faq Section
-17. Accordian Section
-18. Error Section
-19. Comming Soon Section
-20. Project Blocks
-21. Projects Single
-22. Blog Section
-23. Blog Single
-24. Comments
-25. Comment Form
-26. Shop Item
-27. Shop Single
-28. Checkout Section
-29. Map Section
-30. Map Contact
-
-**********************************************/
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800|Roboto+Slab:300,400,700&display=swap');
-
-/*
-
-	font-family: 'Poppins', sans-serif;
-	font-family: 'Roboto Slab', serif;
-
-*/
 
 /*@import url('demo.css');*/
 @import url('font-awesome.css');

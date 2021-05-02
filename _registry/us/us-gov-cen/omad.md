@@ -1,0 +1,39 @@
+---
+Organization:
+  '@entityType': public
+  '@id': us-cen
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': United States Census Bureau
+  Location:
+    '@countryCode': US
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-76.9283367"
+      Latitude: "38.844989"
+    Address:
+      Line: 4600 Silver Hill Road
+      City: Suitland
+      State: Maryland
+      Postal: "20746"
+  WebSite:
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.census.gov/
+  - '@lang': en
+    DisplayLabel: CEN FedSTATS Information Page
+    Url: http://www.fedstats.gov/key_stats/index.php?id=CEN
+  Operations:
+    '@scope': national
+    Area:
+      Description: United States
+    Sector:
+      Description: Census
+  Tags:
+    Tag: FedStats
+...

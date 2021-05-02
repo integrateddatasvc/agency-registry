@@ -1,0 +1,33 @@
+---
+Organization:
+  '@entityType': public
+  '@id': us-ahrq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name: Agency for Healthcare Research and Quality
+  Abbreviation:
+    '@lang': en
+    '#text': AHCPR
+  Location:
+    '@countryCode': US
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "-77.1756077"
+      Latitude: "39.1090844"
+    Address:
+      Line: 540 Gaither Road
+      City: Rockville
+      State: MD
+      Postal: "20850"
+  WebSite:
+  - '@lang': en
+    Url: http://www.ahrq.gov/
+  - '@lang': en
+    DisplayLabel: AHCPR FedSTATS Information Page
+    Url: http://www.fedstats.gov/key_stats/index.php?id=AHCPR
+  Operations:
+    '@scope': national
+  Tags:
+    Tag: FedStats
+...

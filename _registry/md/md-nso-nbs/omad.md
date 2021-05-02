@@ -1,0 +1,43 @@
+---
+Organization:
+  '@entityType': public
+  '@id': md-nbs
+  '@primaryLocationId': hq
+  '@xmlns':
+    ns0: openmetadata:omad:1_0
+  Name:
+    '@lang': en
+    '#text': National Bureau of Statistics
+  Location:
+    '@countryCode': MD
+    '@id': hq
+    MapLocation:
+      '@accuracy': street
+      Longitude: "28.857922"
+      Latitude: "46.9732374"
+    Address:
+      Line: 106 Grenoble Str.
+      City: Chisinau
+      Postal: "2019"
+  WebSite:
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': en
+    Url: http://www.statistica.md/index.php?l=en
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': ru
+    Url: http://www.statistica.md/index.php?l=ru
+  - '@verifiedBy': AKR
+    '@verifiedOn': "2012-03-15T00:00:00Z"
+    '@lang': ro
+    Url: http://www.statistica.md/index.php?l=ro
+  Operations:
+    '@scope': national
+    Area:
+      Description: Moldova
+    Sector:
+      Description: National Statistics
+  Tags:
+    Tag: NSO
+...
