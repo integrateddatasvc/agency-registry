@@ -11,7 +11,14 @@ import yaml
 # Markdown files for jekyll
 #
 def generate_jekyll_markdown(catalog, agency):
-    md_file_path = os.path.join(get_agency_dir(catalog, agency),'html.md')
+    collection_agency_dir = os.path.join(get_collections_dir(),catalog,agency)
+    print(get_collections_dir())
+    print(catalog)
+    print(agency)
+    print(collection_agency_dir)
+    if not os.path.isdir(collection_agency_dir):
+        os.makedirs(collection_agency_dir)
+    md_file_path = os.path.join(collection_agency_dir,'html.md')
     with open(md_file_path, 'wt') as md_file:
         md_file.write("---\n")
         # organization name
@@ -20,7 +27,7 @@ def generate_jekyll_markdown(catalog, agency):
         if ror:
             name = ror['name']
         md_file.write(f"name: {name}\n")
-        md_file.write("...\n")
+        md_file.write("---\n")
     return
 #
 # ENVIRONMENT
@@ -104,7 +111,7 @@ def process_target(target):
         for catalog in catalogs:
             agencies =  [f.path for f in os.scandir(catalog) if f.is_dir()]
             for agency in agencies:
-                process_agency(catalog, agency)
+                process_agency(catalog, os.path.basename(agency))
     else:
         if "/" in target:
             (catalog,agency) = target.split('/',2)
@@ -113,7 +120,7 @@ def process_target(target):
             catalog = target
             agencies =  [f.path for f in os.scandir(get_catalog_dir(catalog)) if f.is_dir()]
             for agency in agencies:
-                process_agency(catalog, agency)
+                process_agency(catalog, os.path.basename(agency))
     return
 
 #

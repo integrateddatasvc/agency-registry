@@ -17,16 +17,9 @@ collections:
   registry:
     output: true
     permalink: /registry/:path/
-  data:
-    output: true
-    permalink: /data/:path/
 
 defaults:
   - scope:
       type: registry
     values:
       layout: registry
-  - scope:
-      type: data
-    values:
-      layout: data

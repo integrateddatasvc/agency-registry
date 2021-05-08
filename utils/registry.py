@@ -36,9 +36,6 @@ def delete_agency_ror_file(catalog, agency):
         except OSError:
             pass    
 
-def get_catalog_dir(catalog):
-    return os.path.join(get_registry_dir(), catalog)
-
 def get_agency_dir(catalog, agency):
     return os.path.join(get_registry_dir(), catalog, agency)
 
@@ -118,6 +115,12 @@ def get_agency_social(catalog, agency):
 def get_agency_social_file(catalog, agency):
     file = os.path.join(get_agency_dir(catalog, agency),'social.yaml')
     return file
+
+def get_catalog_dir(catalog):
+    return os.path.join(get_registry_dir(), catalog)
+
+def get_collections_dir():
+    return os.path.abspath(os.path.dirname(os.path.realpath(__file__))+'/../_collections')
 
 def get_registry_dir():
     return os.path.abspath(os.path.dirname(os.path.realpath(__file__))+'/../_data')
