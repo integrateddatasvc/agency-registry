@@ -6,12 +6,12 @@ title: Home
   <div class="auto-container" style="margin-bottom: 0px; padding-bottom: 0px;">
     <div class="content-side col-lg-12 col-md-12 col-sm-12">
 
-      <h3>Agency Registry</h3>
+      <h1>Agency Registry</h1>
       <p>This is a simple listing of the agencies in this registry -- we can add properties as desired, this is just meant to show what is possible.</p>
 
+      <h2>Directory</h2> 
+
       {% assign data = site.data %}
-      <div>site.url={{ site.eurl }}</div>
-      <div>site.baseurl={{ site.baseurl }}</div>
       
       {% assign groups = data | sort %}
       <table width="100%">
@@ -27,7 +27,7 @@ title: Home
         {% endfor%}
       </table>
 
-
+      <h2>List</h2> 
       <table width="100%">
         <tr>
           <td width="60%"><strong>Name</strong></td>

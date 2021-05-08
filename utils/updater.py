@@ -8,13 +8,23 @@ from xml.etree import ElementTree
 import yaml
 
 #
+# Markdown files for jekyll
+#
+def generate_jekyll_markdown(catalog, agency):
+    md_file_path = os.path.join(get_agency_dir(catalog, agency),'html.md')
+    with open(md_file_path, 'wt') as md_file:
+        md_file.write("---\n")
+        # organization name
+        name = agency
+        ror = get_agency_ror(catalog, agency)
+        if ror:
+            name = ror['name']
+        md_file.write(f"name: {name}\n")
+        md_file.write("...\n")
+    return
+#
 # ENVIRONMENT
 #
-def get_registry_root():
-    # returns the registry root directory
-    global args
-    return args.registry_root
-
 def get_targets():
     # returns the list of targets to process
     global args
@@ -23,123 +33,11 @@ def get_targets():
 #
 # AGENCY
 #
-def get_agency_ids(agency):
-    # returns the agency known identifiers as key/value or key/array pairs
-    if os.path.isfile(get_agency_ids_file(agency)):
-        with open(get_agency_ids_file(agency)) as f:
-            data = yaml.load(f, Loader=yaml.FullLoader) 
-            return data
-    else:
-        return {}
-
-def get_agency_ids_file(agency):
-    file = os.path.join(get_agency_dir(agency),'ids.yaml')
-    return file
-
-def get_agency_dir(agency):
-    # returns the agency's directory
-    return os.path.join(get_registry_root(),agency)
-
-def get_agency_external_dir(agency):
-    # returns the agency's external data directory
-    dir = os.path.join(get_agency_dir(agency),'external')
-    if not os.path.isdir(dir):
-        os.mkdir(dir)
-    return dir
-
-def reset_agency(agency):
-    # USE WITH CARE!
-    # removes harvested/generated metadata from an agency
-    logging.info(f"Resetting agency {agency}")
-    try:
-        os.remove(get_ror_file(agency))
-    except OSError:
-        pass
-    try:
-        os.remove(get_isni_file(agency))
-    except OSError:
-        pass
-    return
-
-def save_agency_ids(agency, data):
-    with open(get_agency_ids_file(agency), 'w') as f:
-        yaml.dump(data, f)
-
-#
-# CrossRef
-#
-
-def delete_crossref(agency):
-    file = get_crossref_file()
-    if os.path.isfile(file):
-        logging.info(f"Deleting CrossRef file {file}")
-        try:
-            os.remove(file)
-        except OSError:
-            pass    
-
-def get_crossref(agency):
-    file = get_crossref_file(agency)
-    if not os.path.isfile(file):
-        harvest_crossref(agency)
-    with open(file, 'r') as f:
-        data = json.load(f)
-        return data
-
-def get_crossref_file(agency):
-    file = os.path.join(get_agency_external_dir(agency),'crossref.json')
-    return file
-
-def harvest_crossref(agency):
-    # harvest the agency metadata from the CrossRef registry
-    # returns JSON string
-    id = get_agency_ids(agency).get('crossref')
-    if id:
-        url = f"https://api.crossref.org/funders/{id}"
-        response = requests.get(url)
-        return response.json()
-
-def save_crossref(agency, data):
-    # save the CrossRef metadata
-    with open(get_crossref_file(agency), 'w') as f:
-        json.dump(data, f, indent=4)
-
-#
-# ISNI REGISTRY
-#
-
-def get_isni_file(agency):
-    file = os.path.join(get_agency_external_dir(agency),'isni.xml')
-    return file
-
-def harvest_isni(agency):
-    # harvest the agency metadata from the ISNI registry
-    # returns XML string
-    id = get_agency_ids(agency).get('isni')
-    if id:
-        print(f"ISNI:{id}")
-        url = f"http://isni.oclc.org/sru/?query=pica.isn+%3D+%22{id}%22&operation=searchRetrieve&recordSchema=isni-b"
-        print(f"ISNI url {url}")
-        response = requests.get(url)
-        searchRetrieveResponse = ElementTree.fromstring(response.content)
-        isni = searchRetrieveResponse.find('.//ISNIAssigned')
-        return isni
-
-def save_isni(agency, xml):
-    # save the ISNI metadata
-    xml = ElementTree.tostring(xml, encoding='utf8')
-    with open(get_isni_file(agency), 'wb') as f:
-        f.write(xml) 
-    return
-
-#
-# ROR REGISTRY
-#
-def add_agency_ids_from_ror(agency):
+def add_agency_ids_from_ror(catalog, agency):
     # Adds the ROR external identifiers to the agency ids if missing
     logging.debug(f"add_agency_ids_from_ror({agency})")
-    agency_ids = get_agency_ids(agency)
-    ror = get_ror(agency)
+    agency_ids = get_agency_ids(catalog, agency)
+    ror = get_agency_ror(catalog, agency)
     ror_external_ids = ror.get("external_ids")
     for (external_id_key, external_id_value) in ror_external_ids.items():
         logging.debug(external_id_key)
@@ -153,82 +51,69 @@ def add_agency_ids_from_ror(agency):
             agency_ids[agency_id_key]=id
     return agency_ids
 
-def delete_ror(agency):
-    ror_file = get_ror_file()
-    if os.path.isfile(ror_file):
-        logging.info(f"Deleting ROR file {ror_file}")
-        try:
-            os.remove(ror_file)
-        except OSError:
-            pass    
 
-def get_ror(agency):
-    ror_file = get_ror_file(agency)
-    if not os.path.isfile(ror_file):
-        harvest_ror(agency)
-    with open(ror_file, 'r') as f:
-        data = json.load(f)
-        return data
+def reset_agency(catalog, agency):
+    # USE WITH CARE!
+    # removes harvested/generated metadata from an agency
+    logging.info(f"Resetting agency {catalog}/{agency}")
+    delete_agency_crossref_file(catalog, agency)
+    delete_agency_isni_file(catalog, agency)
+    delete_agency_ror_file(catalog, agency)
+    return
 
-def get_ror_file(agency):
-    ror_file = os.path.join(get_agency_external_dir(agency),'ror.json')
-    return ror_file
-
-def harvest_ror(agency):
-    # harvest the agency metadata from the ROR registry
-    # returns JSON string
-    ror_id = get_agency_ids(agency).get('ror')
-    if ror_id:
-        url = 'http://api.ror.org/organizations/https://ror.org/'+ror_id
-        response = requests.get(url)
-        return response.json()
-
-def save_ror(agency, data):
-    # save the ROR metadata
-    with open(get_ror_file(agency), 'w') as f:
-        json.dump(data, f, indent=4)
-
+def save_agency_ids(catalog, agency, data):
+    with open(get_agency_ids_file(catalog, agency), 'w') as f:
+        yaml.dump(data, f)
 #
 # PROCESSING
 #
-def process_agency(agency):
+def process_agency(catalog, agency):
     logging.info("Processing "+agency)
-    agency_dir = get_agency_dir(agency)
+    agency_dir = get_agency_dir(catalog, agency)
     # reset
     if args.reset:
-        reset_agency(agency)
+        reset_agency(catalog, agency)
     # ROR (must be first as it adds identifers)
-    ror_file = get_ror_file(agency)
+    ror_file = get_agency_ror_file(catalog, agency)
     if not os.path.isfile(ror_file):
-        data = harvest_ror(agency)
+        data = harvest_agency_ror(catalog, agency)
         if (data):
-            save_ror(agency, data)
-            ids = add_agency_ids_from_ror(agency)
+            save_agency_ror(catalog, agency, data)
+            ids = add_agency_ids_from_ror(catalog, agency)
             logging.debug(ids)
-            save_agency_ids(agency, ids)
+            save_agency_ids(catalog, agency, ids)
     # Crossref
-    crossref_file = get_crossref_file(agency)
+    crossref_file = get_agency_crossref_file(catalog, agency)
     if not os.path.isfile(crossref_file):
-        data = harvest_crossref(agency)
+        data = harvest_agency_crossref(catalog, agency)
         if (data):
-            save_crossref(agency, data)
+            save_agency_crossref(catalog, agency, data)
     # ISNI
-    isni_file = get_isni_file(agency)
+    isni_file = get_agency_isni_file(catalog, agency)
     if not os.path.isfile(isni_file):
-        data = harvest_isni(agency)
+        data = harvest_agency_isni(catalog, agency)
         if data:
-            save_isni(agency, data)
+            save_agency_isni(catalog, agency, data)
+    # markdown
+    generate_jekyll_markdown(catalog, agency)
     return
 
 def process_target(target):
     if target == 'ALL':
-        groups = [f.path for f in os.scandir(get_registry_root()) if f.is_dir()]
-        for group in groups:
-            agencies =  [f.path for f in os.scandir(group) if f.is_dir()]
+        catalogs = [f.path for f in os.scandir(get_registry_dir()) if f.is_dir()]
+        for catalog in catalogs:
+            agencies =  [f.path for f in os.scandir(catalog) if f.is_dir()]
             for agency in agencies:
-                process_agency(agency)
+                process_agency(catalog, agency)
     else:
-        process_agency(target)
+        if "/" in target:
+            (catalog,agency) = target.split('/',2)
+            process_agency(catalog, agency)
+        else:
+            catalog = target
+            agencies =  [f.path for f in os.scandir(get_catalog_dir(catalog)) if f.is_dir()]
+            for agency in agencies:
+                process_agency(catalog, agency)
     return
 
 #
