@@ -6,6 +6,6 @@ news:
     client: html
     endpoint: https://blog.usaid.gov/
   - name: USAID Impact
-    client: atom
+    client: rss
     description: The Official Blog of the U.S. Agency for International Development
     endpoint: https://blog.usaid.gov/feed/
