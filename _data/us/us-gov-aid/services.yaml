@@ -2,6 +2,25 @@ news:
   - name: USAID Storytelling Hub
     client: html
     endpoint: https://stories.usaid.gov/
+  - name: USAID Press Releases
+    client: rss
+    endpoint: https://www.usaid.gov/rss/press-releases.xml
+  - name: Frontlines
+    client: rss
+    endpoint: https://www.usaid.gov/news-information/frontlines/46331/rss/
+  - name: Vacancy Announcements
+    client: rss
+    endpoint: https://www.usaid.gov/work-with-us/careers/vacancy-announcements.xml
+  - name: Congressional Testimony
+    client: rss
+    endpoint: https://www.usaid.gov/rss/congressional-testimony.xml
+  - name: Speeches
+    client: rss
+    endpoint: https://www.usaid.gov/rss/speeches.xml
+  - name: Fact Sheets
+    client: rss
+    endpoint: https://www.usaid.gov/rss/fact-sheets.xml
+blogs:
   - name: USAID Impact Blog
     client: html
     endpoint: https://blog.usaid.gov/
