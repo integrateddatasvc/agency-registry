@@ -1,0 +1,11 @@
+news:
+  - name: USAID Storytelling Hub
+    client: html
+    endpoint: https://stories.usaid.gov/
+  - name: USAID Impact Blog
+    client: html
+    endpoint: https://blog.usaid.gov/
+  - name: USAID Impact
+    client: atom
+    description: The Official Blog of the U.S. Agency for International Development
+    endpoint: https://blog.usaid.gov/feed/
