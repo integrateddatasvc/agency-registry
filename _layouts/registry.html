@@ -21,7 +21,7 @@ layout: default
                             {% elsif network[0] == "youtube" %}
                             <a href="https://www.youtube.com/channel/{{entry.id}}"  target="_blank"><i class="bi bi-youtube"></i></a>
                             {% else %}
-                                <span>{{ network[0] }} </span>
+                                <span>{{ entry.id }} </span>
                             {% endif %}
                         {% endif %}
                     {% endfor %}
@@ -51,7 +51,7 @@ layout: default
                             {% elsif id[0] == "wikidata" %}
                                 <a href='https://www.wikidata.org/wiki/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
                             {% else %}
-                                {{ id[1] }}{{ id[1] }}
+                                {{ id[1] }}
                             {% endif %}
                         </td>
                     {% endfor %}
