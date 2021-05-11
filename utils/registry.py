@@ -6,7 +6,8 @@ import json
 import logging
 import os
 import requests
-from xml.etree import ElementTree
+import lxml.etree 
+from lxml import etree
 import yaml
 
 def delete_agency_crossref_file(catalog, agency):
@@ -75,24 +76,33 @@ def get_agency_crossref(catalog, agency):
     file = get_agency_crossref_file(catalog, agency)
     if not os.path.isfile(file):
         harvest_agency_crossref(catalog, agency)
-    with open(file, 'r') as f:
-        data = json.load(f)
-        return data
+    if os.path.isfile(file):
+        with open(file, 'r') as f:
+            data = json.load(f)
+            return data
 
 def get_agency_crossref_file(catalog, agency):
     file = os.path.join(get_agency_external_dir(catalog, agency),'crossref.json')
     return file
+
+def get_agency_isni(catalog, agency):
+    file = get_agency_isni_file(catalog, agency)
+    if not os.path.isfile(file):
+        harvest_agency_isni(catalog, agency)
+    if os.path.isfile(file):
+        data = etree.parse(file)
+        return data
 
 def get_agency_isni_file(catalog, agency):
     file = os.path.join(get_agency_external_dir(catalog, agency),'isni.xml')
     return file
 
 def get_agency_ror(catalog, agency):
-    ror_file = get_agency_ror_file(catalog, agency)
-    if not os.path.isfile(ror_file):
+    file = get_agency_ror_file(catalog, agency)
+    if not os.path.isfile(file):
         harvest_agency_ror(catalog, agency)
-    if os.path.isfile(ror_file):
-        with open(ror_file, 'r') as f:
+    if os.path.isfile(file):
+        with open(file, 'r') as f:
             data = json.load(f)
             return data
 
@@ -120,7 +130,7 @@ def get_catalog_dir(catalog):
     return os.path.join(get_registry_dir(), catalog)
 
 def get_collections_dir():
-    return os.path.abspath(os.path.dirname(os.path.realpath(__file__))+'/../_collections')
+    return os.path.abspath(os.path.dirname(os.path.realpath(__file__))+'/../_registry')
 
 def get_registry_dir():
     return os.path.abspath(os.path.dirname(os.path.realpath(__file__))+'/../_data')
@@ -152,11 +162,9 @@ def harvest_agency_isni(catalog, agency):
     # returns XML string
     id = get_agency_ids(catalog, agency).get('isni')
     if id:
-        print(f"ISNI:{id}")
         url = f"http://isni.oclc.org/sru/?query=pica.isn+%3D+%22{id}%22&operation=searchRetrieve&recordSchema=isni-b"
-        print(f"ISNI url {url}")
         response = requests.get(url)
-        searchRetrieveResponse = ElementTree.fromstring(response.content)
+        searchRetrieveResponse = etree.fromstring(response.content)
         isni = searchRetrieveResponse.find('.//ISNIAssigned')
         return isni
 
@@ -183,7 +191,7 @@ def save_agency_crossref(catalog, agency, data):
 
 def save_agency_isni(catalog, agency, xml):
     # save the ISNI metadata
-    xml = ElementTree.tostring(xml, encoding='utf8')
+    xml = etree.tostring(xml, encoding='utf8')
     with open(get_agency_isni_file(catalog, agency), 'wb') as f:
         f.write(xml) 
     return

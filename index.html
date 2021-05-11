@@ -11,56 +11,22 @@ title: Home
 
       <h2>Directory</h2> 
 
-      {% assign data = site.data %}
+      {% assign data = site.data | sort%}
       
-      {% assign groups = data | sort %}
-      <table width="100%">
-        {% for group in groups limit: 500 %}
+      {% assign groups = data %}
+      <table class="table table-striped thead-dark w-auto">
+        {% for group in groups %}
           <tr>
             <td>{{ group[0]}}</td>
             <td>
-              {% for agency in group[1]%}
-                <a href="registry/{{group[0]}}/{{agency[0]}}/omad">{{ agency[0] }}</a>&nbsp;
+              {% assign agencies = group[1] | sort %}
+              {% for agency in agencies %}
+                <a href="registry/{{group[0]}}/{{agency[0]}}/html">{{ agency[0] }}</a>&nbsp;
               {% endfor %}
             </td>
           </tr>
         {% endfor%}
       </table>
-
-      <h2>List</h2> 
-      <table width="100%">
-        <tr>
-          <td width="60%"><strong>Name</strong></td>
-          <td width="10%" align="center"><strong>Country</strong></td>
-          <td width="10%" align="center"><strong>Sector</strong></td>
-          <td width="10%" align="center"><strong>Details</strong></td>
-        </tr>  
-        <tr>
-          <td colspan="4"><hr></td>
-        </tr>
-
-      {% for entry in site.registry | sort %}
-
-        {% if entry.Organization %}
-
-          {% assign organization = entry.Organization %}
-          {% assign name = entry.Organization.Name['#text'] %}
-          {% assign country = entry.Organization.Location['@countryCode'] %}
-          {% assign sector = entry.Organization.Operations.Sector.Description %}                                  
-        
-          {% if name %}          
-            <tr>
-              <td>{{ name }}</td>
-              <td align="center">{{ country }}</td>
-              <td align="center">{{ sector }}</td>
-              <td align="center"><a href="{{ entry.url }}" target="_blank">View</a></td>              
-            </tr>
-          {% endif %}  
-
-        {% endif %}        
-           
-      {% endfor %}  
-      </table>    
 
     </div>
   </div>

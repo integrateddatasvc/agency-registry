@@ -1,4 +1,62 @@
 ---
 layout: default
 ---
-<h1>{{ page.name }}</h1>
+
+<div class="sidebar-page-container" style="margin: 0px; padding: 0px;">
+    <div class="auto-container" style="margin-bottom: 0px; padding-bottom: 0px;">
+          <div class="content-side col-lg-12 col-md-12 col-sm-12">
+            <h1 class="mb-1">{{ page.name }}</h1>
+            <h2 class="mb-3">
+                {% for network in page.social  %}
+                    {% for entry in network[1]  %}
+                        {% if entry.lang == nil or entry.lang == "en" %}
+                            {% if network[0] == "facebook" %}
+                                <a href="https://www.facebook.com/{{entry.id}}" target="_blank"><i class="bi bi-facebook"></i></a>
+                            {% elsif network[0] == "linkedin" %}
+                                <a href="https://twitter.com/{{entry.id}}"  target="_blank"><i class="bi bi-linkedin"></i></a>
+                            {% elsif network[0] == "twitter" %}
+                                <a href="https://twitter.com/{{entry.id}}"  target="_blank"><i class="bi bi-twitter"></i></a>
+                            {% elsif network[0] == "wikipedia" %}
+                                <a href="https://wikipedia.com/wiki/{{entry.id}}">W</a>
+                            {% elsif network[0] == "youtube" %}
+                            <a href="https://www.youtube.com/channel/{{entry.id}}"  target="_blank"><i class="bi bi-youtube"></i></a>
+                            {% else %}
+                                <span>{{ network[0] }} </span>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </h2>
+            <h2>Identifiers</h2>
+            <table class="table table-striped thead-dark w-auto">
+                <tr>
+                    {% for id in page.ids  %}
+                        <th>{{ id[0] }}</th>
+                    {% endfor %}
+                </tr>
+                <tr>
+                    {% for id in page.ids %}
+                        <td>
+                            {% assign id_type = id[0] %}
+                            {% if id[0] == "crossref" %}
+                                <a href='https://api.crossref.org/funders/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
+                            {% elsif id[0] == "isni" %}
+                                <a href='http://isni.org/isni/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
+                            {% elsif id[0] == "grid" %}
+                                <a href='https://www.grid.ac/institutes/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
+                            {% elsif id[0] == "orgref" %}
+                               {{ id[1] }}
+                            {% elsif id[0] == "ror" %}
+                                <a href='https://ror.org/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
+                            {% elsif id[0] == "wikidata" %}
+                                <a href='https://www.wikidata.org/wiki/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
+                            {% else %}
+                                {{ id[1] }}{{ id[1] }}
+                            {% endif %}
+                        </td>
+                    {% endfor %}
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

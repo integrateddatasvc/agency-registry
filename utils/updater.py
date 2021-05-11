@@ -12,21 +12,46 @@ import yaml
 #
 def generate_jekyll_markdown(catalog, agency):
     collection_agency_dir = os.path.join(get_collections_dir(),catalog,agency)
-    print(get_collections_dir())
-    print(catalog)
-    print(agency)
-    print(collection_agency_dir)
     if not os.path.isdir(collection_agency_dir):
         os.makedirs(collection_agency_dir)
     md_file_path = os.path.join(collection_agency_dir,'html.md')
     with open(md_file_path, 'wt') as md_file:
         md_file.write("---\n")
+        # gather metadata
+        crossref = get_agency_crossref(catalog, agency)
+        geo = get_agency_geo(catalog, agency)
+        ids = get_agency_ids(catalog, agency)
+        isni = get_agency_isni(catalog, agency)
+        ror = get_agency_ror(catalog, agency)
+        services = get_agency_services(catalog, agency)
+        social = get_agency_social(catalog, agency)
+        # generate metadata
+        metadata = {}
+        if ids:
+            metadata['ids'] = ids
         # organization name
         name = agency
-        ror = get_agency_ror(catalog, agency)
         if ror:
             name = ror['name']
+        # metadata
+        if geo:
+            metadata['geo'] = geo
+        if services:
+            metadata['services'] = services
+        if social:
+            metadata['social'] = social
+        # external metadata
+        external = {}
+        metadata['external'] = external
+        if crossref:
+            external['crossref'] = '@todo'
+        if isni:
+            external['isni'] = '@todo'
+        if ror:
+            external['ror'] = ror
         md_file.write(f"name: {name}\n")
+        # write
+        md_file.write(yaml.dump(metadata))
         md_file.write("---\n")
     return
 #
@@ -111,7 +136,7 @@ def process_target(target):
         for catalog in catalogs:
             agencies =  [f.path for f in os.scandir(catalog) if f.is_dir()]
             for agency in agencies:
-                process_agency(catalog, os.path.basename(agency))
+                process_agency(os.path.basename(catalog), os.path.basename(agency))
     else:
         if "/" in target:
             (catalog,agency) = target.split('/',2)
