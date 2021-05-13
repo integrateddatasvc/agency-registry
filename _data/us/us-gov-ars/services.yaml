@@ -1,0 +1,8 @@
+news:
+  - name: Briefing Room Materials
+    client: rss
+    endpoint: https://www.ars.usda.gov/rss/?productName=Briefing%20Room%20Materials
+blogs:
+  - name: ARS Blog
+    client: html
+    endpoint: https://www.usda.gov/media/blog/tag/ars

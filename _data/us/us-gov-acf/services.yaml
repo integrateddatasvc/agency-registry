@@ -1,0 +1,8 @@
+news:
+  - name: Press Releases
+    client: rss
+    endpoint: https://www.acf.hhs.gov/press-releases/rss.xml
+blogs:
+  - name: ACF's Family Room Blog
+    client: rss
+    endpoint: https://www.acf.hhs.gov/blog/rss.xml
