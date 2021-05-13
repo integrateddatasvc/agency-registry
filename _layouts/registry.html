@@ -27,7 +27,7 @@ layout: default
                     {% endfor %}
                 {% endfor %}
             </h2>
-            <h2>Identifiers</h2>
+            <h2 class="mb-3">Identifiers</h2>
             <table class="table table-striped thead-dark w-auto">
                 <tr>
                     {% for id in page.ids  %}
@@ -56,6 +56,21 @@ layout: default
                         </td>
                     {% endfor %}
                 </tr>
+            </table>
+            <h2 class="mb-3">Services</h2>
+            <table class="table table-striped thead-dark w-auto">
+                {% for service_type in page.services %}
+                    <tr>
+                        <td>{{ service_type[0] }}</td>
+                        <td>
+                            <table>
+                                {% for service in service_type[1] %}
+                                    <tr><td>{{ service.client }}</td><td><a href='{{service.endpoint}}' target='_blank'>{{service.name}}</a></td></tr>
+                                {% endfor %}
+                            </table>
+                        </td>
+                    </tr>
+                {% endfor %}
             </table>
         </div>
     </div>
