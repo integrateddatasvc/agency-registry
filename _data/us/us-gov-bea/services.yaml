@@ -1,0 +1,21 @@
+news:
+  - name: U.S. Economy at a Glance
+    client: html
+    endpoint: https://www.bea.gov/news/glance
+  - name: News Releases
+    client: html
+    endpoint: https://www.bea.gov/news/current-releases
+  - name: Survey of Current Business
+    client: html
+    endpoint: https://apps.bea.gov/scb/
+  - name: For Journalists
+    client: html
+    endpoint: https://www.bea.gov/news/for-journalists
+calendar:
+  - name: Release Schedule
+    client: html
+    endpoint: https://www.bea.gov/news/schedule
+blogs:
+  - name: The BEA Wire 
+    client: html
+    endpoint: https://www.bea.gov/news/blog
