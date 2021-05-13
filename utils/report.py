@@ -65,14 +65,22 @@ def rss(catalog, agency):
                                 count_30_days = 0
                                 count_all = 0
                                 for index, item in enumerate(items):
-                                    item_datetime = datetime.strptime(item.find('pubDate',ns).text, "%a, %d %b %Y %H:%M:%S %z")
-                                    item_date = item_datetime.date()
-                                    diff = date.today() - item_date
-                                    if diff.days <= 7:
-                                        count_7_days += 1
-                                    if diff.days <= 30:
-                                        count_30_days += 1
-                                    count_all += 1
+                                        pubDate = item.find('pubDate',ns).text
+                                        try:
+                                            item_datetime = datetime.strptime(pubDate, "%a, %d %b %Y %H:%M:%S %z") # numeric timezone
+                                        except:
+                                            try:
+                                                item_datetime = datetime.strptime(pubDate, "%a, %d %b %Y %H:%M:%S %Z") # GMT/UTC
+                                            except:
+                                                logging.error(f"Invalid publication date {pubDate} in {endpoint}")
+                                                break
+                                        item_date = item_datetime.date()
+                                        diff = date.today() - item_date
+                                        if diff.days <= 7:
+                                            count_7_days += 1
+                                        if diff.days <= 30:
+                                            count_30_days += 1
+                                        count_all += 1
                                 print(f"7-days: {count_7_days} | 30-days: {count_30_days} | all: {count_all}")
                             else:
                                 print("No <item> found")
