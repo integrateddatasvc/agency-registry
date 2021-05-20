@@ -3,4 +3,5 @@ catalogs:
     platform: ckan
     client: html
     endpoint: https://data.overheid.nl/
+    api_endpoint: https://data.overheid.nl/data/api/3/
     lang: nl, en
