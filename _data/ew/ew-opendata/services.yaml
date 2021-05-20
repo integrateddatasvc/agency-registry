@@ -1,0 +1,6 @@
+catalogs:
+  - name: Estonian Open Data Portal
+    platform: ckan
+    client: html
+    endpoint: https://avaandmed.eesti.ee/
+    lang: et, en

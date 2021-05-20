@@ -1,0 +1,6 @@
+catalogs:
+  - name: Portail National de Publication des Données Ouvertes
+    platform: ckan
+    client: html
+    endpoint: https://www.data.gov.bf/
+    lang: fr
