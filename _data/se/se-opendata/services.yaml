@@ -1,0 +1,5 @@
+catalogs:
+  - name: Sveriges Dataportal
+    client: html
+    endpoint: https://www.dataportal.se/
+    lang: sv, en

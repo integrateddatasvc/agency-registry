@@ -5,3 +5,8 @@ catalogs:
     endpoint: https://data.overheid.nl/
     api_endpoint: https://data.overheid.nl/data/api/3/
     lang: nl, en
+  - name: Dataplatform
+    platform: ckan
+    client: html
+    endpoint: https://data.overheid.nl/
+    lang: nl, en
