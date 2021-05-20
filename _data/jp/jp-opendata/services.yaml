@@ -1,6 +1,11 @@
 catalogs:
+  - name: データカタログサイト
+    platform: proprietary
+    client: html
+    endpoint: https://www.data.go.jp/
+    lang: jp
   - name: Data Catalog Site
     platform: proprietary
     client: html
     endpoint: https://www.data.go.jp/
-    lang: jp, en
+    lang: en
