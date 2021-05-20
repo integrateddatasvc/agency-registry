@@ -1,0 +1,20 @@
+news:
+  - name: Latest News
+    client: html
+    endpoint: https://acl.gov/news
+  - name: In the News
+    client: html
+    endpoint: https://acl.gov/news-and-events/in-the-news
+  - name: Announcements
+    client: html
+    endpoint: https://acl.gov/news-and-events/announcements
+blogs: 
+  - name: ACL Blog
+    client: html
+    endpoint: https://acl.gov/news-and-events/acl-blog
+  - name: Envents and Observances
+    client: html
+    endpoint: https://acl.gov/news-and-events/events-and-observances
+  - name: Speeches and Testimony
+    client: html
+    endpoint: https://acl.gov/news-and-events/speeches-and-testimony

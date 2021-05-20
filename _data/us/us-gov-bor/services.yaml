@@ -1,0 +1,7 @@
+news:
+  - name: News Releases
+    client: html
+    endpoint: https://www.usbr.gov/newsroom/#/news-release
+  - name: News Stories
+    client: html
+    endpoint: https://www.usbr.gov/newsroom/#/news-release?field_story=1

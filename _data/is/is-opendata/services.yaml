@@ -1,0 +1,6 @@
+catalogs:
+  - name: Opin Gögn
+    platform: ckan
+    client: html
+    endpoint: https://opingogn.is/
+    lang: is

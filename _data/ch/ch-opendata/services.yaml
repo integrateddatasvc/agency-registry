@@ -1,0 +1,7 @@
+catalogs:
+  - name: Open Government Data
+    platform: ckan
+    client: html
+    endpoint: https://opendata.swiss/de
+    api_endpoint: https://opendata.swiss/api/3
+    lang: de

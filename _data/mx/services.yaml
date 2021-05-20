@@ -1,0 +1,5 @@
+catalogs:
+  - name: Datos Abiertos
+    client: html
+    endpoint: https://datos.gob.mx/
+    lang: es
