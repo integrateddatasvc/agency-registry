@@ -1,0 +1,6 @@
+catalogs:
+  - name: Open Data of the Government
+    platform: ckan
+    client: html
+    endpoint: https://data.overheid.nl/
+    lang: nl, en
