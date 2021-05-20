@@ -11,7 +11,7 @@ news:
   - name: For Journalists
     client: html
     endpoint: https://www.bea.gov/news/for-journalists
-calendar:
+calendars:
   - name: Release Schedule
     client: html
     endpoint: https://www.bea.gov/news/schedule

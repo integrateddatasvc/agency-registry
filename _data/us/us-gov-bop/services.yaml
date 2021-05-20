@@ -1,0 +1,16 @@
+news:
+  - name: Press Releases
+    client: html
+    endpoint: https://www.bop.gov/resources/press_releases.jsp
+  - name: News Stories
+    client: html
+    endpoint: https://www.bop.gov/resources/news_stories.jsp
+  - name: Publications
+    client: html
+    endpoint: https://www.bop.gov/resources/publications.jsp
+  - name: Research & Reports
+    client: html
+    endpoint: https://www.bop.gov/resources/research_and_reports.jsp
+  - name: Policy & Forms
+    client: html
+    endpoint: https://www.bop.gov/resources/policy_and_forms.jsp
