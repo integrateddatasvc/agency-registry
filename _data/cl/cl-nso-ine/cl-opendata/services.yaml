@@ -1,0 +1,6 @@
+catalogs:
+  - name: DatosGob
+    platform: ckan
+    client: html
+    endpoint: https://datos.gob.cl/
+    lang: es

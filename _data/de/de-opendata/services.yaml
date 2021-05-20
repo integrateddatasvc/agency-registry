@@ -3,5 +3,5 @@ catalogs:
     platform: ckan
     client: html
     endpoint: https://www.govdata.de/
-    api_endpoint: https://www.govdata.de/ckan/catalog/catalog.rdf
+    api_endpoint: https://www.govdata.de/ckan/api/3
     lang: de

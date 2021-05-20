@@ -1,0 +1,6 @@
+catalogs:
+  - name: Portal Otvorenih Podataka
+    client: html
+    endpoint: http://data.gov.hr/
+    api_endpoint: https://data.gov.hr/ckan/api/3
+    lang: hr
