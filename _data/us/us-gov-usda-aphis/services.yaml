@@ -1,0 +1,10 @@
+news:
+  - name: News and Announcements
+    client: html
+    endpoint: https://www.aphis.usda.gov/aphis/newsroom/news
+    lang: en
+catalogs:
+  - name: Publications
+    client: html
+    endpoint: https://www.aphis.usda.gov/aphis/newsroom/publications
+    lang: en

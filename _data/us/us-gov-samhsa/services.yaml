@@ -1,0 +1,22 @@
+news:
+  - name: Newsroom
+    client: html
+    endpoint: https://www.samhsa.gov/newsroom
+    lang: en
+  - name: Publications
+    client: html
+    endpoint: https://store.samhsa.gov/
+    lang: en
+  - name: SAMHSA's Grants
+    client: rss
+    endpoint: https://www.samhsa.gov/grants/rss
+    lang: en
+  - name: SAMHSA's Grants Training Materials
+    client: rss
+    endpoint: https://www.samhsa.gov/grants-training-materials-feed.xml
+    lang: en
+catalogs:
+  - name: Reports and Data tables
+    client: html
+    endpoint: https://www.samhsa.gov/data/all-reports
+    lang: en

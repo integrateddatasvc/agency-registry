@@ -1,0 +1,31 @@
+news:
+  - name: News
+    client: html
+    endpoint: https://www.nsf.gov/news/
+    lang: en
+  - name: Research News
+    client: rss
+    endpoint: https://www.nsf.gov/rss/rss_www_discoveries.xml
+    lang: en
+  - name: Statistics on U.S. Science and Engineering Resources
+    client: rss
+    endpoint: https://www.nsf.gov/statistics/rss.cfm
+    lang: en
+  - name: News
+    client: rss
+    endpoint: https://www.nsf.gov/rss/rss_www_news.xml
+    lang: en
+catalogs:
+  - name: Document Library
+    client: html
+    endpoint: https://www.nsf.gov/publications/
+    lang: en
+calendars:
+  - name: Events
+    client: html
+    endpoint: https://www.nsf.gov/events/
+    lang: en
+  - name: Events
+    client: rss
+    endpoint: https://www.nsf.gov/rss/rss_www_events.xml
+    lang: en

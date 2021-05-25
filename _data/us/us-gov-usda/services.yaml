@@ -1,0 +1,23 @@
+news:
+  - name: Press Releases
+    client: html
+    endpoint: https://www.usda.gov/media/press-releases
+    lang: en
+  - name: USDA Home
+    client: rss
+    endpoint: https://www.usda.gov/rss/home.xml
+    lang: en
+  - name: Latest News
+    client: rss
+    endpoint: https://www.usda.gov/rss/latest-releases.xml
+    lang: en
+catalogs:
+  - name: Agency Reports
+    client: html
+    endpoint: https://www.usda.gov/media/agency-reports
+    lang: en
+blogs:
+  - name: USDA Blog
+    client: html
+    endpoint: https://www.usda.gov/media/blog
+    lang: en
