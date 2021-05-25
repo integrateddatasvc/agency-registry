@@ -64,6 +64,7 @@ def rss(catalog, agency):
                                 count_7_days = 0
                                 count_30_days = 0
                                 count_all = 0
+                                item_dates = [] # used to determine min/max
                                 for index, item in enumerate(items):
                                         pubDate = item.find('pubDate',ns).text
                                         try:
@@ -75,18 +76,18 @@ def rss(catalog, agency):
                                                 logging.error(f"Invalid publication date {pubDate} in {endpoint}")
                                                 break
                                         item_date = item_datetime.date()
+                                        item_dates.append(item_date)
                                         diff = date.today() - item_date
                                         if diff.days <= 7:
                                             count_7_days += 1
                                         if diff.days <= 30:
                                             count_30_days += 1
                                         count_all += 1
-                                print(f"7-days: {count_7_days} | 30-days: {count_30_days} | all: {count_all}")
+                                print(f"7-days: {count_7_days} | 30-days: {count_30_days} | all: {count_all} | from {min(item_dates)} to {max(item_dates)}")
                             else:
                                 print("No <item> found")
                         else:
                             print("No <rss> found")
-
                 else:
                     print(f"Endpoint error {response.status_code}")
                 pass
