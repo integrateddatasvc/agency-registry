@@ -113,34 +113,42 @@ def ckan(catalog, agency):
                     api_url = api_endpoint
                 else:
                     api_url = f"{entry.get('endpoint')}/api"
+                print("-"*20)
+                print(f"{catalog}/{agency} | {entry.get('name')}")
+                print(f"{catalog}/{agency} | {catalog_url}")
+                print(f"{catalog}/{agency} | {api_url}")
                 # get package count (using v1)
                 package_count = None
                 url = f"{api_url}/search/package?limit=0"
                 result = requests.get(url)
                 if result.status_code == 200:
-                    json = result.json()
-                    package_count = json.get('count')
-                # get resources count 9using v1)
+                    try: 
+                        data = result.json()
+                        package_count = data.get('count')
+                    except json.JSONDecodeError as err:
+                        logging.error(f"JSON not found at {url}. This does not appear to be a CKAN API endpoint.")
+                        continue
+                # get resources count (using v1)
                 resource_count = None
                 url = f"{api_url}/search/resource?limit=0"
                 result = requests.get(url)
                 if result.status_code == 200:
-                    json = result.json()
-                    package_count = json.get('count')
+                    try:
+                        data = result.json()
+                        resource_count = data.get('count')
+                    except json.JSONDecodeError as err:
+                        logging.error(f"JSON not found at {url}. This does not appear to be a CKAN API endpoint.")
+                        continue
                 # DCAT
-                resource_count = None
                 url = f"{catalog_url}/catalog.jsonld"
                 result = requests.get(url)
+                is_dcat_catalog_found = False
                 if result.status_code == 200:
-                    json = result.json()
-                    is_dcat_catalog_found = True
-                else:
-                    is_dcat_catalog_found = False
-                # report
-                print("-"*20)
-                print(f"{catalog}/{agency} | {entry.get('name')}")
-                print(f"{catalog}/{agency} | {catalog_url}")
-                print(f"{catalog}/{agency} | {api_url}")
+                    try: 
+                        data = result.json()
+                        is_dcat_catalog_found = True
+                    except json.JSONDecodeError as err:
+                        logging.info(f"JSON not found at {url}. DCAT not supported?")
                 print(f"{catalog}/{agency} | packages: {package_count} | resources: {resource_count} | DCAT Catalog: {is_dcat_catalog_found}")
     return
 

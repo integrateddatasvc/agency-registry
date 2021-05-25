@@ -27,50 +27,60 @@ layout: default
                 {% endfor %}
             </h2>
             <h2 class="mb-3">Identifiers</h2>
-            <table class="table table-striped thead-dark w-auto">
-                <tr>
-                    {% for id in page.ids  %}
-                        <th>{{ id[0] }}</th>
-                    {% endfor %}
-                </tr>
-                <tr>
-                    {% for id in page.ids %}
-                        <td>
-                            {% assign id_type = id[0] %}
-                            {% if id[0] == "crossref" %}
-                                <a href='https://api.crossref.org/funders/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
-                            {% elsif id[0] == "isni" %}
-                                <a href='http://isni.org/isni/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
-                            {% elsif id[0] == "grid" %}
-                                <a href='https://www.grid.ac/institutes/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
-                            {% elsif id[0] == "orgref" %}
-                               {{ id[1] }}
-                            {% elsif id[0] == "ror" %}
-                                <a href='https://ror.org/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
-                            {% elsif id[0] == "wikidata" %}
-                                <a href='https://www.wikidata.org/wiki/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
-                            {% else %}
+            {% assign ids = page.ids %}
+            {% if ids == nil %}
+                <div>None</div>
+            {% else %}
+                <table class="table table-striped thead-dark w-auto">
+                    <tr>
+                        {% for id in page.ids  %}
+                            <th>{{ id[0] }}</th>
+                        {% endfor %}
+                    </tr>
+                    <tr>
+                        {% for id in page.ids %}
+                            <td>
+                                {% assign id_type = id[0] %}
+                                {% if id[0] == "crossref" %}
+                                    <a href='https://api.crossref.org/funders/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
+                                {% elsif id[0] == "isni" %}
+                                    <a href='http://isni.org/isni/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
+                                {% elsif id[0] == "grid" %}
+                                    <a href='https://www.grid.ac/institutes/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
+                                {% elsif id[0] == "orgref" %}
                                 {{ id[1] }}
-                            {% endif %}
-                        </td>
-                    {% endfor %}
-                </tr>
-            </table>
+                                {% elsif id[0] == "ror" %}
+                                    <a href='https://ror.org/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
+                                {% elsif id[0] == "wikidata" %}
+                                    <a href='https://www.wikidata.org/wiki/{{ id[1] }}' target='_blank'>{{ id[1] }}</a>
+                                {% else %}
+                                    {{ id[1] }}
+                                {% endif %}
+                            </td>
+                        {% endfor %}
+                    </tr>
+                </table>
+            {% endif %}
             <h2 class="mb-3">Services</h2>
             <table class="table table-striped thead-dark w-auto">
-                {% for service_type in page.services %}
-                    <tr>
-                        <td>{{ service_type[0] }}</td>
-                        <td>
-                            <table>
-                                {% for service in service_type[1] %}
-                                    <tr><td>{{ service.client }}</td><td><a href='{{service.endpoint}}' target='_blank'>{{service.name}}</a></td></tr>
-                                {% endfor %}
-                            </table>
-                        </td>
-                    </tr>
-                {% endfor %}
-            </table>
+                {% assign service_types = page.services %}
+                {% if service_types == nil %}
+                    <div>None</div>
+                {% else %}
+                    {% for service_type in service_types %}
+                        <tr>
+                            <td>{{ service_type[0] }}</td>
+                            <td>
+                                <table>
+                                    {% for service in service_type[1] %}
+                                        <tr><td>{{ service.client }}</td><td><a href='{{service.endpoint}}' target='_blank'>{{service.name}}</a></td></tr>
+                                    {% endfor %}
+                                </table>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                {% endif %}
+                </table>
         </div>
     </div>
 </div>
