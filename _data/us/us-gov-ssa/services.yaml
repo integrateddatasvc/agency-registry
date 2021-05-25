@@ -1,0 +1,18 @@
+news:
+  - name: Press Releases
+    client: html
+    endpoint: https://www.ssa.gov/news/press/releases/
+    lang: en
+  - name: Social Security Update
+    client: html
+    endpoint: https://www.ssa.gov/news/newsletter/
+    lang: en
+  - name: Publications
+    client: html
+    endpoint: https://www.ssa.gov/pubs/
+    lang: en
+blogs:
+  - name: Social Security Blog
+    client: html
+    endpoint: https://blog.ssa.gov/
+    lang: en
