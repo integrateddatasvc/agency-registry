@@ -1,0 +1,51 @@
+news:
+  - name: Press Releases
+    client: html
+    endpoint: https://www.federalreserve.gov/newsevents/pressreleases.htm
+    lang: en
+  - name: Supervision & Regulation
+    client: html
+    endpoint: https://www.federalreserve.gov/supervisionreg.htm
+    lang: en
+  - name: Monetary Policy
+    client: html
+    endpoint: https://www.federalreserve.gov/monetarypolicy.htm
+    lang: en
+  - name: All Press Releases
+    client: rss
+    endpoint: https://www.federalreserve.gov/feeds/press_all.xml
+    lang: en
+  - name: Coronavirus Disease 2019 (COVID-19)
+    client: rss
+    endpoint: https://www.federalreserve.gov/feeds/covid-19.xml
+    lang: en
+  - name: All Federal Reserve Board working papers
+    client: rss
+    endpoint: https://www.federalreserve.gov/feeds/working_papers.xml
+    lang: en
+catalogs:
+  - name: Data
+    client: html
+    endpoint: https://www.federalreserve.gov/data.htm
+    lang: en
+  - name: Economic Research
+    client: html
+    endpoint: https://www.federalreserve.gov/econres.htm
+    lang: en
+  - name: Foreign Exchange Rates (H.10)
+    client: rss
+    endpoint: https://www.federalreserve.gov/feeds/cp_rates.htm
+    lang: en
+  - name: Selected Interest Rates (H.15)
+    client: rss
+    endpoint: https://www.federalreserve.gov/feeds/h15_data.htm
+    lang: en
+  - name: Commercial Paper Rates
+    client: rss
+    endpoint: https://www.federalreserve.gov/feeds/cp_outstanding.htm
+    lang: en
+calendars:
+  - name: Calendar
+    client: html
+    endpoint: https://www.federalreserve.gov/newsevents/calendar.htm
+    lang: en
