@@ -8,6 +8,7 @@ validation: validate registry files againt their schemas
 import argparse
 from datetime import date
 from datetime import datetime
+from dateutil.parser import *
 import json
 import jsonschema
 import logging
@@ -15,7 +16,6 @@ import os
 from registry import *
 import requests
 from lxml import etree # using lxml as it handles html encodings
-from xml.etree import ElementTree as ET
 import yaml
 
 def rss(catalog, agency):
@@ -35,7 +35,7 @@ def rss(catalog, agency):
                     xml = xml.replace("&mdash;","-")
                     ns = {'atom': 'http://www.w3.org/2005/Atom'}
                     if client == 'atom':
-                        feed = ET.fromstring(xml)
+                        feed = etree.XML(response.content)
                         if feed:
                             entries = feed.findall('./atom:entry',ns)
                             if entries:
@@ -57,7 +57,7 @@ def rss(catalog, agency):
                         else:
                             print(f"No <feed> found")   
                     elif client == 'rss':
-                        rss = ET.fromstring(xml)
+                        rss = etree.XML(response.content)
                         if rss:
                             items = rss.findall('channel/item', ns)
                             if items:
@@ -68,13 +68,10 @@ def rss(catalog, agency):
                                 for index, item in enumerate(items):
                                         pubDate = item.find('pubDate',ns).text
                                         try:
-                                            item_datetime = datetime.strptime(pubDate, "%a, %d %b %Y %H:%M:%S %z") # numeric timezone
-                                        except:
-                                            try:
-                                                item_datetime = datetime.strptime(pubDate, "%a, %d %b %Y %H:%M:%S %Z") # GMT/UTC
-                                            except:
-                                                logging.error(f"Invalid publication date {pubDate} in {endpoint}")
-                                                break
+                                            item_datetime = parse(pubDate)
+                                        except ParserError as err:
+                                            logging.error(f"Invalid pubDate '{pubDate}'")
+                                            continue
                                         item_date = item_datetime.date()
                                         item_dates.append(item_date)
                                         diff = date.today() - item_date
