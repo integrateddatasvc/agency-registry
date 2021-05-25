@@ -1,0 +1,35 @@
+news:
+  - name: NCHS Pressroom
+    client: html
+    endpoint: https://www.cdc.gov/nchs/pressroom/
+    lang: en
+  - name: NCHS Publications and Products
+    client: rss
+    endpoint: http://www2c.cdc.gov/podcasts/createrss.asp?c=68
+    lang: en
+  - name: MMWR QuickStats
+    client: rss
+    endpoint: http://www2c.cdc.gov/podcasts/createrss.asp?c=356
+    lang: en
+catalogs:
+  - name: Publications and Information Products
+    client: html
+    endpoint: https://www.cdc.gov/nchs/products/index.htm
+    lang: en
+  - name: Data Visualization Gallery
+    client: html
+    endpoint: https://www.cdc.gov/nchs/data-visualization/
+    lang: en
+  - name: NCHS Data Linkage
+    client: html
+    endpoint: https://www.cdc.gov/nchs/data-linkage/index.htm
+    lang: en
+  - name: National Vital Statistics System
+    client: html
+    endpoint: https://www.cdc.gov/nchs/nvss/index.htm
+    lang: en
+calendars:
+  - name: Events and announcements
+    client: html
+    endpoint: https://www.cdc.gov/nchs/events/index.htm
+    lang: en

@@ -11,7 +11,7 @@ catalogs:
     client: html
     endpoint: https://nces.ed.gov/datatools/index.asp?DataToolSectionID=2
     lang: en
-calendar: 
+calendars: 
   - name: What's New
     client: html
     endpoint: https://nces.ed.gov/whatsnew/
