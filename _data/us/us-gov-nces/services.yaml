@@ -1,8 +1,3 @@
-news:
-  - name: 
-    client: 
-    endpoint: 
-    lang: en
 catalogs:
   - name: Publications & Products
     client: html
@@ -20,4 +15,13 @@ calendar:
   - name: What's New
     client: html
     endpoint: https://nces.ed.gov/whatsnew/
+    lang: en
+news:
+  - name: What's New
+    client: rss
+    endpoint: http://nces.ed.gov/whatsnew/whatsnew_rss.asp
+    lang: en
+  - name: Recent Publications
+    client: rss
+    endpoint: http://nces.ed.gov/pubSearch/pubs_rss.asp
     lang: en
