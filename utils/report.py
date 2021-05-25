@@ -74,6 +74,9 @@ def rss(catalog, agency):
                                             except ParserError as err:
                                                 logging.error(f"Invalid pubDate '{pubDate}'")
                                                 continue
+                                            except TypeError:
+                                                logging.error(f"Invalid pubDate '{pubDate}'")
+                                                continue
                                             item_date = item_datetime.date()
                                             item_dates.append(item_date)
                                             diff = date.today() - item_date
