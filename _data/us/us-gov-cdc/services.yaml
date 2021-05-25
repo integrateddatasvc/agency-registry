@@ -1,0 +1,64 @@
+news:
+  - name: CDC Newsroom
+    client: html
+    endpoint: https://www.cdc.gov/media/index.html
+    lang: en
+  - name: Publications
+    client: html
+    endpoint: https://www.cdc.gov/publications/
+    lang: en
+  - name: Travelers' Health
+    client: html
+    endpoint: https://wwwnc.cdc.gov/travel/notices/
+    lang: en
+  - name: COVID-19 Vaccination Data Updates
+    client: rss
+    endpoint: https://tools.cdc.gov/api/v2/resources/media/415826.rss
+  - name: COVID-19 Science Updates Feed
+    client: rss
+    endpoint: https://tools.cdc.gov/api/v2/resources/media/410930.rss
+    lang: en
+  - name: CDC Travel Notices
+    client: rss
+    endpoint: https://tools.cdc.gov/api/v2/resources/media/285740.rss
+  - name: Outbreaks
+    client: rss
+    endpoint: https://tools.cdc.gov/api/v2/resources/media/281321.rss
+    lang: en
+  - name: CDC Outbreaks - US Based
+    client: rss
+    endpoint: https://tools.cdc.gov/api/v2/resources/media/285676.rss
+    lang: en
+  - name: CDC Online Newsroom
+    client: rss
+    endpoint: https://tools.cdc.gov/api/v2/resources/media/132608.rss
+    lang: en
+  - name: Morbidity and Mortality Weekly Report (MMWR)
+    client: rss
+    endpoint: https://tools.cdc.gov/api/v2/resources/media/342778.rss
+    lang: en
+  - name: Faststats
+    client: rss
+    endpoint: https://tools.cdc.gov/api/v2/resources/media/132512.rss
+    lang: en
+  - name: HIV
+    client: rss
+    endpoint: https://tools.cdc.gov/api/v2/resources/media/342776.rss
+    lang: en
+  - name: Weekly Disease Case Counts
+    client: rss
+    endpoint: https://tools.cdc.gov/api/v2/resources/media/132480.rss
+    lang: en
+catalogs:
+  - name: CDC Current Outbreak List
+    client: html
+    endpoint: https://www.cdc.gov/outbreaks/index.html
+    lang: en
+  - name: Stephen B. Thacker CDC Library
+    client: html
+    endpoint: https://www.cdc.gov/library/
+    lang: en
+  - name: Data & Statistics
+    client: html
+    endpoint: https://www.cdc.gov/DataStatistics/
+    lang: en
