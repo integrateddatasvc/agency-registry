@@ -66,21 +66,26 @@ def rss(catalog, agency):
                                 count_all = 0
                                 item_dates = [] # used to determine min/max
                                 for index, item in enumerate(items):
-                                        pubDate = item.find('pubDate',ns).text
-                                        try:
-                                            item_datetime = parse(pubDate)
-                                        except ParserError as err:
-                                            logging.error(f"Invalid pubDate '{pubDate}'")
-                                            continue
-                                        item_date = item_datetime.date()
-                                        item_dates.append(item_date)
-                                        diff = date.today() - item_date
-                                        if diff.days <= 7:
-                                            count_7_days += 1
-                                        if diff.days <= 30:
-                                            count_30_days += 1
+                                        pubDateElement = item.find('pubDate',ns)
+                                        if pubDateElement:
+                                            pubDate = pubDateElement.text
+                                            try:
+                                                item_datetime = parse(pubDate)
+                                            except ParserError as err:
+                                                logging.error(f"Invalid pubDate '{pubDate}'")
+                                                continue
+                                            item_date = item_datetime.date()
+                                            item_dates.append(item_date)
+                                            diff = date.today() - item_date
+                                            if diff.days <= 7:
+                                                count_7_days += 1
+                                            if diff.days <= 30:
+                                                count_30_days += 1
                                         count_all += 1
-                                print(f"7-days: {count_7_days} | 30-days: {count_30_days} | all: {count_all} | from {min(item_dates)} to {max(item_dates)}")
+                                msg = f"7-days: {count_7_days} | 30-days: {count_30_days} | all: {count_all}"
+                                if item_dates:
+                                    msg +=  f"| from {min(item_dates)} to {max(item_dates)}"
+                                print(msg)
                             else:
                                 print("No <item> found")
                         else:
