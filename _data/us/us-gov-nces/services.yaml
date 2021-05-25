@@ -1,0 +1,23 @@
+news:
+  - name: 
+    client: 
+    endpoint: 
+    lang: en
+catalogs:
+  - name: Publications & Products
+    client: html
+    endpoint: https://nces.ed.gov/pubsearch/
+    lang: en
+  - name: Annual Reports
+    client: html
+    endpoint: https://nces.ed.gov/surveys/annualreports/
+    lang: en
+  - name: Online Analysis
+    client: html
+    endpoint: https://nces.ed.gov/datatools/index.asp?DataToolSectionID=2
+    lang: en
+calendar: 
+  - name: What's New
+    client: html
+    endpoint: https://nces.ed.gov/whatsnew/
+    lang: en
