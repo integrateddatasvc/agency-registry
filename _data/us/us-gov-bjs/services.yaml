@@ -3,3 +3,8 @@ calendars:
     client: html
     endpoint: https://www.bjs.gov/index.cfm?ty=fcp
     lang: en
+catalogs: 
+  - name: All Data Collections
+    client: html
+    endpoint: https://www.bjs.gov/index.cfm?ty=dca
+    lang: en

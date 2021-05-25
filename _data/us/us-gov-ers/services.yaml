@@ -1,0 +1,27 @@
+news:
+  - name: International Markets & Trade
+    client: rss
+    endpoint: https://www.ers.usda.gov/rss?type=topic&id=14836
+    lang: en
+  - name: Farm Economy
+    client: rss
+    endpoint: https://www.ers.usda.gov/rss?type=topic&id=14830
+    lang: en
+  - name: Publications
+    client: html
+    endpoint: https://www.ers.usda.gov/publications/
+    lang: en
+  - name: Newsroom
+    client: html
+    endpoint: https://www.ers.usda.gov/newsroom/
+    lang: en
+catalogs:
+  - name: Data Products
+    client: html
+    endpoint: https://www.ers.usda.gov/data-products/
+    lang: en
+calendars:
+  - name: Calendar
+    client: html
+    endpoint: https://www.ers.usda.gov/calendar/
+    lang: en
