@@ -1,0 +1,95 @@
+{
+    "id": "https://ror.org/02w5w7488",
+    "name": "Hellenic Statistical Authority",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 2010,
+    "types": [
+        "Other"
+    ],
+    "relationships": [],
+    "addresses": [
+        {
+            "lat": 37.949299,
+            "lng": 23.658038,
+            "state": null,
+            "state_code": null,
+            "city": "Piraeus",
+            "geonames_city": {
+                "id": 255274,
+                "city": "Piraeus",
+                "geonames_admin1": {
+                    "name": "Attica",
+                    "id": 6692632,
+                    "ascii_name": "Attica",
+                    "code": "GR.ESYE31"
+                },
+                "geonames_admin2": {
+                    "name": "Nom\u00f3s Attik\u00eds",
+                    "id": 264353,
+                    "ascii_name": "Nomos Attikis",
+                    "code": "GR.ESYE31.35"
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": null,
+                    "code": null
+                },
+                "nuts_level2": {
+                    "name": null,
+                    "code": null
+                },
+                "nuts_level3": {
+                    "name": null,
+                    "code": null
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 390903
+        }
+    ],
+    "links": [
+        "http://www.statistics.gr/web/guest"
+    ],
+    "aliases": [
+        "National Statistical Service of Greece"
+    ],
+    "acronyms": [
+        "ELSTAT"
+    ],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hellenic_Statistical_Authority",
+    "labels": [
+        {
+            "label": "\u0395\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ae \u03a3\u03c4\u03b1\u03c4\u03b9\u03c3\u03c4\u03b9\u03ba\u03ae \u0391\u03c1\u03c7\u03ae",
+            "iso639": "el"
+        }
+    ],
+    "country": {
+        "country_name": "Greece",
+        "country_code": "GR"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0001 2185 162X"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q1275124"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.425542.0",
+            "all": "grid.425542.0"
+        }
+    }
+}

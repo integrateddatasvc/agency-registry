@@ -1,7 +1,8 @@
 ---
 name: bd-nso-bbs
-external: {}
+external:
+  isni: '@todo'
 ids:
-  isni: 21885395
+  isni: '0000000123370723'
   wikidata: Q2882475
 ---

@@ -1,6 +1,7 @@
 ---
 name: ar-nso-indec
-external: {}
+external:
+  isni: '@todo'
 ids:
-  isni: 18691446
+  isni: '0000000107232566'
 ---
