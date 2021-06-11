@@ -1,0 +1,90 @@
+{
+    "id": "https://ror.org/02x4af624",
+    "name": "Central Statistics Office",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 1949,
+    "types": [
+        "Other"
+    ],
+    "relationships": [],
+    "addresses": [
+        {
+            "lat": 51.889964,
+            "lng": -8.409248,
+            "state": null,
+            "state_code": null,
+            "city": "Cork",
+            "geonames_city": {
+                "id": 2965140,
+                "city": "Cork",
+                "geonames_admin1": {
+                    "name": "Munster",
+                    "id": 7521315,
+                    "ascii_name": "Munster",
+                    "code": "IE.M"
+                },
+                "geonames_admin2": {
+                    "name": "County Cork",
+                    "id": 2965139,
+                    "ascii_name": "County Cork",
+                    "code": "IE.M.04"
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": "IRELAND",
+                    "code": "IE0"
+                },
+                "nuts_level2": {
+                    "name": "Southern and Eastern",
+                    "code": "IE02"
+                },
+                "nuts_level3": {
+                    "name": "South-West (IE)",
+                    "code": "IE025"
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2963597
+        }
+    ],
+    "links": [
+        "http://www.cso.ie/en/index.html"
+    ],
+    "aliases": [
+        "An Phr\u00edomh-Oifig Staidrimh"
+    ],
+    "acronyms": [
+        "CSO"
+    ],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Central_Statistics_Office_(Ireland)",
+    "labels": [],
+    "country": {
+        "country_name": "Ireland",
+        "country_code": "IE"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0004 0389 1355"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q2081788"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.432851.9",
+            "all": "grid.432851.9"
+        }
+    }
+}

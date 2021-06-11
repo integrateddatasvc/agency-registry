@@ -1,0 +1,90 @@
+{
+    "id": "https://ror.org/01x1yxa13",
+    "name": "Hungarian Central Statistical Office",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 1867,
+    "types": [
+        "Company"
+    ],
+    "relationships": [],
+    "addresses": [
+        {
+            "lat": 47.511946,
+            "lng": 19.030481,
+            "state": null,
+            "state_code": null,
+            "city": "Budapest",
+            "geonames_city": {
+                "id": 3054643,
+                "city": "Budapest",
+                "geonames_admin1": {
+                    "name": "Budapest",
+                    "id": 3054638,
+                    "ascii_name": "Budapest",
+                    "code": "HU.05"
+                },
+                "geonames_admin2": {
+                    "name": null,
+                    "id": null,
+                    "ascii_name": null,
+                    "code": null
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": "K\u00d6Z\u00c9P-MAGYARORSZ\u00c1G",
+                    "code": "HU1"
+                },
+                "nuts_level2": {
+                    "name": "K\u00f6z\u00e9p-Magyarorsz\u00e1g",
+                    "code": "HU10"
+                },
+                "nuts_level3": {
+                    "name": "Budapest",
+                    "code": "HU101"
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 719819
+        }
+    ],
+    "links": [
+        "https://www.ksh.hu/?lang=en"
+    ],
+    "aliases": [
+        "K\u00f6zponti Statisztikai Hivatal"
+    ],
+    "acronyms": [
+        "KSH"
+    ],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hungarian_Central_Statistical_Office",
+    "labels": [],
+    "country": {
+        "country_name": "Hungary",
+        "country_code": "HU"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0001 2370 050X"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q1125966"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.433635.4",
+            "all": "grid.433635.4"
+        }
+    }
+}
