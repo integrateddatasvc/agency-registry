@@ -1,0 +1,105 @@
+{
+    "id": "https://ror.org/008zm7t63",
+    "name": "National Bureau of Statistics of China",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 1952,
+    "types": [
+        "Other"
+    ],
+    "relationships": [
+        {
+            "label": "State Council of the People's Republic of China",
+            "type": "Parent",
+            "id": "https://ror.org/02fzqav45"
+        }
+    ],
+    "addresses": [
+        {
+            "lat": 39.914272,
+            "lng": 116.343153,
+            "state": null,
+            "state_code": null,
+            "city": "Beijing",
+            "geonames_city": {
+                "id": 1816670,
+                "city": "Beijing",
+                "geonames_admin1": {
+                    "name": "Beijing",
+                    "id": 2038349,
+                    "ascii_name": "Beijing",
+                    "code": "CN.22"
+                },
+                "geonames_admin2": {
+                    "name": null,
+                    "id": null,
+                    "ascii_name": null,
+                    "code": null
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": null,
+                    "code": null
+                },
+                "nuts_level2": {
+                    "name": null,
+                    "code": null
+                },
+                "nuts_level3": {
+                    "name": null,
+                    "code": null
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 1814991
+        }
+    ],
+    "links": [
+        "http://www.stats.gov.cn/english/"
+    ],
+    "aliases": [],
+    "acronyms": [
+        "NBS"
+    ],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/National_Bureau_of_Statistics_of_China",
+    "labels": [
+        {
+            "label": "\u4e2d\u534e\u4eba\u6c11\u5171\u548c\u56fd\u56fd\u5bb6\u7edf\u8ba1\u5c40",
+            "iso639": "zh"
+        }
+    ],
+    "country": {
+        "country_name": "China",
+        "country_code": "CN"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0004 0369 0449"
+            ]
+        },
+        "FundRef": {
+            "preferred": null,
+            "all": [
+                "100009376"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q1509446"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.467736.7",
+            "all": "grid.467736.7"
+        }
+    }
+}
