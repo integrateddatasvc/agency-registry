@@ -1,0 +1,91 @@
+{
+    "id": "https://ror.org/05hb97k72",
+    "name": "Statistics Estonia",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 1991,
+    "types": [
+        "Government"
+    ],
+    "relationships": [],
+    "addresses": [
+        {
+            "lat": 59.424869,
+            "lng": 24.747122,
+            "state": null,
+            "state_code": null,
+            "city": "Tallinn",
+            "geonames_city": {
+                "id": 588409,
+                "city": "Tallinn",
+                "geonames_admin1": {
+                    "name": "Harjumaa",
+                    "id": 592170,
+                    "ascii_name": "Harjumaa",
+                    "code": "EE.01"
+                },
+                "geonames_admin2": {
+                    "name": "Tallinn",
+                    "id": 862995,
+                    "ascii_name": "Tallinn",
+                    "code": "EE.01.0784"
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": "EESTI",
+                    "code": "EE0"
+                },
+                "nuts_level2": {
+                    "name": "Eesti",
+                    "code": "EE00"
+                },
+                "nuts_level3": {
+                    "name": "P\u00f5hja-Eesti",
+                    "code": "EE001"
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 453733
+        }
+    ],
+    "links": [
+        "http://www.stat.ee/en"
+    ],
+    "aliases": [],
+    "acronyms": [],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Statistics_Estonia",
+    "labels": [
+        {
+            "label": "Statistikaamet",
+            "iso639": "et"
+        }
+    ],
+    "country": {
+        "country_name": "Estonia",
+        "country_code": "EE"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0001 0944 4124"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q3738605"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.475956.c",
+            "all": "grid.475956.c"
+        }
+    }
+}

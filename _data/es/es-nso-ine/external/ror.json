@@ -1,0 +1,107 @@
+{
+    "id": "https://ror.org/03ftrk873",
+    "name": "National Institute of Statistics",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 1856,
+    "types": [
+        "Other"
+    ],
+    "relationships": [],
+    "addresses": [
+        {
+            "lat": 40.463932,
+            "lng": -3.690191,
+            "state": null,
+            "state_code": null,
+            "city": "Madrid",
+            "geonames_city": {
+                "id": 3117735,
+                "city": "Madrid",
+                "geonames_admin1": {
+                    "name": "Madrid",
+                    "id": 3117732,
+                    "ascii_name": "Madrid",
+                    "code": "ES.29"
+                },
+                "geonames_admin2": {
+                    "name": "Provincia de Madrid",
+                    "id": 6355233,
+                    "ascii_name": "Provincia de Madrid",
+                    "code": "ES.29.M"
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": "COMUNIDAD DE MADRID",
+                    "code": "ES3"
+                },
+                "nuts_level2": {
+                    "name": "Comunidad de Madrid",
+                    "code": "ES30"
+                },
+                "nuts_level3": {
+                    "name": "Madrid",
+                    "code": "ES300"
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2510769
+        }
+    ],
+    "links": [
+        "http://www.ine.es/en/welcome.shtml"
+    ],
+    "aliases": [],
+    "acronyms": [
+        "INE"
+    ],
+    "status": "active",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Instituto_Nacional_de_Estad%C3%ADstica_(Spain)",
+    "labels": [
+        {
+            "label": "Espainiako Estatistika Institutua",
+            "iso639": "eu"
+        },
+        {
+            "label": "Institut Nacional d'Estad\u00edstica d'Espanya",
+            "iso639": "ca"
+        },
+        {
+            "label": "Instituto Nacional de Estad\u00edstica",
+            "iso639": "es"
+        }
+    ],
+    "country": {
+        "country_name": "Spain",
+        "country_code": "ES"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0001 2254 4402"
+            ]
+        },
+        "OrgRef": {
+            "preferred": null,
+            "all": [
+                "3540931"
+            ]
+        },
+        "Wikidata": {
+            "preferred": null,
+            "all": [
+                "Q845937"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.435130.0",
+            "all": "grid.435130.0"
+        }
+    }
+}
