@@ -1,0 +1,85 @@
+{
+    "id": "https://ror.org/0408v4c28",
+    "name": "Centraal Bureau voor de Statistiek",
+    "email_address": null,
+    "ip_addresses": [],
+    "established": 2003,
+    "types": [
+        "Other"
+    ],
+    "relationships": [],
+    "addresses": [
+        {
+            "lat": 52.066217,
+            "lng": 4.399404,
+            "state": null,
+            "state_code": null,
+            "city": "The Hague",
+            "geonames_city": {
+                "id": 2747373,
+                "city": "The Hague",
+                "geonames_admin1": {
+                    "name": "South Holland",
+                    "id": 2743698,
+                    "ascii_name": "South Holland",
+                    "code": "NL.11"
+                },
+                "geonames_admin2": {
+                    "name": "Gemeente Den Haag",
+                    "id": 2747372,
+                    "ascii_name": "Gemeente Den Haag",
+                    "code": "NL.11.0518"
+                },
+                "license": {
+                    "attribution": "Data from geonames.org under a CC-BY 3.0 license",
+                    "license": "http://creativecommons.org/licenses/by/3.0/"
+                },
+                "nuts_level1": {
+                    "name": "WEST-NEDERLAND",
+                    "code": "NL3"
+                },
+                "nuts_level2": {
+                    "name": "Zuid-Holland",
+                    "code": "NL33"
+                },
+                "nuts_level3": {
+                    "name": "Agglomeratie 's-Gravenhage",
+                    "code": "NL332"
+                }
+            },
+            "postcode": null,
+            "primary": false,
+            "line": null,
+            "country_geonames_id": 2750405
+        }
+    ],
+    "links": [
+        "http://www.cbs.nl/en-GB/menu/home/default.htm?Languageswitch=on"
+    ],
+    "aliases": [],
+    "acronyms": [],
+    "status": "active",
+    "wikipedia_url": "",
+    "labels": [
+        {
+            "label": "Statistics Netherlands",
+            "iso639": "en"
+        }
+    ],
+    "country": {
+        "country_name": "Netherlands",
+        "country_code": "NL"
+    },
+    "external_ids": {
+        "ISNI": {
+            "preferred": null,
+            "all": [
+                "0000 0001 2034 9419"
+            ]
+        },
+        "GRID": {
+            "preferred": "grid.423516.7",
+            "all": "grid.423516.7"
+        }
+    }
+}
