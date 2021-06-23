@@ -1,0 +1,256 @@
+{
+    "entities": {
+        "Q18379698": {
+            "pageid": 19913571,
+            "ns": 0,
+            "title": "Q18379698",
+            "lastrevid": 1148377159,
+            "modified": "2020-04-02T04:23:40Z",
+            "type": "item",
+            "id": "Q18379698",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Nauru Bureau of Statistics"
+                },
+                "he": {
+                    "language": "he",
+                    "value": "\u05d4\u05dc\u05e9\u05db\u05d4 \u05d4\u05e0\u05d0\u05d5\u05e8\u05d9\u05ea \u05dc\u05e1\u05d8\u05d8\u05d9\u05e1\u05d8\u05d9\u05e7\u05d4"
+                }
+            },
+            "descriptions": {},
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q18379698$E9C96395-3CFD-4049-98B8-F4DEA7E8A8C2",
+                        "rank": "normal"
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "268304387",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q18379698$FD2362A9-F016-4BE2-8D36-2CBEB4E3F0AA",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9b43a00c0898a90b5902965a797f48ca3014fe2f",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 54919,
+                                                    "id": "Q54919"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2015-08-05T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1128": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1128",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+5",
+                                    "unit": "1"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "id": "Q18379698$327BEEB7-807A-4F27-83CC-322FCA1917AF",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P244": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P244",
+                            "datavalue": {
+                                "value": "n2010013610",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q18379698$C6C7DA17-8456-4E5F-B20C-D95AEBC7B7B3",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "14fa5898ac764e0660517aa07ea0bbba505f262b",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 54919,
+                                                    "id": "Q54919"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2019-03-06T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "lccn-n2010013610",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q18379698$7C7D606E-04D9-4EDF-80CA-D7FA060EBA05",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "e6d8a8520358527e93120e0a33e3aab56da8f019",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "268304387",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sitelinks": {
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Nauru Bureau of Statistics",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/Nauru_Bureau_of_Statistics"
+                }
+            }
+        }
+    }
+}

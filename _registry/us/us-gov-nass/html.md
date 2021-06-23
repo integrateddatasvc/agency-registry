@@ -35,6 +35,37 @@ ids:
   isni: 0000000109430531
   ror: 04dpymk59
   wikidata: Q861855
+services:
+  catalogs:
+  - client: html
+    endpoint: https://quickstats.nass.usda.gov/
+    lang: en
+    name: Quick Stats
+  - client: html
+    endpoint: https://www.nass.usda.gov/Quick_Stats/CDQT/chapter/1/table/1
+    lang: en
+    name: Census Data Query Tool
+  news:
+  - client: rss
+    endpoint: https://www.nass.usda.gov/rss/asb.xml
+    lang: en
+    name: Agricultural Statistics Board
+  - client: rss
+    endpoint: https://www.nass.usda.gov/rss/news.xml
+    lang: en
+    name: NASS News & Events
+  - client: rss
+    endpoint: https://www.nass.usda.gov/rss/census.xml
+    lang: en
+    name: Census Of Agriculture
+  - client: html
+    endpoint: https://usda.library.cornell.edu/
+    lang: en
+    name: Publications
+  - client: html
+    endpoint: https://www.nass.usda.gov/Newsroom/index.php
+    lang: en
+    name: Newsroom
 social:
   linkedin:
   - id: agricultural-statistics/about/

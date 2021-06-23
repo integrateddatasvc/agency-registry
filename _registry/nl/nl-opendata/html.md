@@ -1,6 +1,8 @@
 ---
 name: nl-opendata
 external: {}
+ids:
+  wikidata: Q97013475
 services:
   catalogs:
   - api_endpoint: https://data.overheid.nl/data/api/3/

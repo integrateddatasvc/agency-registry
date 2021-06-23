@@ -36,6 +36,14 @@ ids:
   isni: 0000000122856529
   ror: 00ezrrm21
   wikidata: Q1010548
+services:
+  news:
+  - client: html
+    endpoint: https://www.usbr.gov/newsroom/#/news-release
+    name: News Releases
+  - client: html
+    endpoint: https://www.usbr.gov/newsroom/#/news-release?field_story=1
+    name: News Stories
 social:
   facebook:
   - id: bureau.of.reclamation

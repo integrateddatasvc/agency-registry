@@ -25,6 +25,7 @@ def generate_jekyll_markdown(catalog, agency):
         ror = get_agency_ror(catalog, agency)
         services = get_agency_services(catalog, agency)
         social = get_agency_social(catalog, agency)
+        wikidata = get_agency_wikidata(catalog, agency, format=json)
         # generate metadata
         metadata = {}
         if ids:
@@ -49,6 +50,8 @@ def generate_jekyll_markdown(catalog, agency):
             external['isni'] = '@todo'
         if ror:
             external['ror'] = ror
+        if wikidata:
+            external['wikidata'] = wikidata
         md_file.write(f"name: {name}\n")
         # write
         md_file.write(yaml.dump(metadata))
@@ -105,7 +108,21 @@ def process_agency(catalog, agency):
     # reset
     if args.reset:
         reset_agency(catalog, agency)
-    # ROR (must be first as it adds identifers)
+    # Wikidata
+    wikidata_file = get_agency_wikidata_file(catalog, agency)
+    if not os.path.isfile(wikidata_file):
+        # RDF
+        data = harvest_agency_wikidata(catalog, agency, format='rdf')
+        if data is not None:
+            save_agency_wikidata(catalog, agency, data, format='rdf')
+            #ids = add_agency_ids_from_ror(catalog, agency)
+            #logging.debug(ids)
+            #save_agency_ids(catalog, agency, ids)
+        # JSON
+        data = harvest_agency_wikidata(catalog, agency, format='json')
+        if data is not None:
+            save_agency_wikidata(catalog, agency, data, format='json')
+    # ROR
     ror_file = get_agency_ror_file(catalog, agency)
     if not os.path.isfile(ror_file):
         data = harvest_agency_ror(catalog, agency)

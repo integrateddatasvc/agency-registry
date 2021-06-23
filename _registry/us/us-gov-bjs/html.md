@@ -10,6 +10,11 @@ services:
     endpoint: https://www.bjs.gov/index.cfm?ty=fcp
     lang: en
     name: Forthcoming Publications & Products
+  catalogs:
+  - client: html
+    endpoint: https://www.bjs.gov/index.cfm?ty=dca
+    lang: en
+    name: All Data Collections
 social:
   facebook:
   - id: BJSgov/

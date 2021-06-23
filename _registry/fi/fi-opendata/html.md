@@ -1,6 +1,8 @@
 ---
 name: fi-opendata
 external: {}
+ids:
+  wikidata: Q97127776
 services:
   catalogs:
   - api_endpoint: https://metax.fairdata.fi/rest

@@ -36,6 +36,15 @@ ids:
   isni: 0000000109463608
   ror: 02d2m2044
   wikidata: Q2827151
+services:
+  blogs:
+  - client: html
+    endpoint: https://www.usda.gov/media/blog/tag/ars
+    name: ARS Blog
+  news:
+  - client: rss
+    endpoint: https://www.ars.usda.gov/rss/?productName=Briefing%20Room%20Materials
+    name: Briefing Room Materials
 social:
   facebook:
   - id: AgriculturalResearchService

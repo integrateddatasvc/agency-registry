@@ -1,0 +1,619 @@
+{
+    "entities": {
+        "Q11606829": {
+            "pageid": 12747168,
+            "ns": 0,
+            "title": "Q11606829",
+            "lastrevid": 1396715527,
+            "modified": "2021-04-06T04:42:28Z",
+            "type": "item",
+            "id": "Q11606829",
+            "labels": {
+                "ja": {
+                    "language": "ja",
+                    "value": "\u7d71\u8a08\u5c40"
+                },
+                "uk": {
+                    "language": "uk",
+                    "value": "\u0421\u043b\u0443\u0436\u0431\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0438 \u042f\u043f\u043e\u043d\u0456\u0457"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "Statistics Japan"
+                },
+                "ru": {
+                    "language": "ru",
+                    "value": "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u0431\u044e\u0440\u043e \u042f\u043f\u043e\u043d\u0438\u0438"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u7e3d\u52d9\u7701\u7d71\u8a08\u5c40"
+                },
+                "ar": {
+                    "language": "ar",
+                    "value": "\u0645\u0643\u062a\u0628 \u0627\u0644\u0627\u062d\u0635\u0627\u0621"
+                },
+                "zh-hans": {
+                    "language": "zh-hans",
+                    "value": "\u7edf\u8ba1\u5c40"
+                },
+                "tt": {
+                    "language": "tt",
+                    "value": "\u042f\u043f\u0443\u043d\u0441\u0442\u0430\u043d \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430 \u0431\u0438\u0440\u0430\u0441\u044b"
+                },
+                "eo": {
+                    "language": "eo",
+                    "value": "Buroo de Statistiko de Japanio"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Japan's principal government institution in charge of statistics and census data"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u7dcf\u52d9\u7701\u306e\u5185\u90e8\u90e8\u5c40\u306e\u4e00\u3064"
+                }
+            },
+            "aliases": {
+                "ja": [
+                    {
+                        "language": "ja",
+                        "value": "\u7dcf\u52d9\u7701\u7d71\u8a08\u5c40"
+                    },
+                    {
+                        "language": "ja",
+                        "value": "\u5185\u95a3\u7d71\u8a08\u5c40"
+                    },
+                    {
+                        "language": "ja",
+                        "value": "\u7d71\u8a08\u9662"
+                    },
+                    {
+                        "language": "ja",
+                        "value": "\u56fd\u52e2\u9662"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "Statistics Bureau of Japan"
+                    },
+                    {
+                        "language": "en",
+                        "value": "T\u014dkeikyoku"
+                    }
+                ],
+                "zh": [
+                    {
+                        "language": "zh",
+                        "value": "\u65e5\u672c\u7d71\u8a08\u5c40"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u7edf\u8ba1\u5c40"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$8eaa0008-45ab-17a2-8c8f-85f2e0a7569b",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 17,
+                                    "id": "Q17"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$fb0954ac-4aef-15db-763d-8239ab05fdf9",
+                        "rank": "normal"
+                    }
+                ],
+                "P361": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P361",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 55726070,
+                                    "id": "Q55726070"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$80ac9fa4-4de9-d9ca-5526-cd6b8fa19649",
+                        "rank": "normal"
+                    }
+                ],
+                "P463": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P463",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 139020,
+                                    "id": "Q139020"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$42a94ef1-4540-a916-81b1-337e8b4bbd20",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "6e96499e1b8a887574a030f4ad6c2b5b10cf8bc6",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.isi-web.org/index.php/about-isi/who-is-isi/members/organizational",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-23T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://www.stat.go.jp/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "d858d1b9f6e6e383f38dfbe706d102f056c07312",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 5287,
+                                            "id": "Q5287"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q11606829$6fa9f527-4db9-663a-4b06-4f85c9e7a7fa",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "cdbe500081dc5c7dc026dc064496749091ed7fd7",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-23T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://www.stat.go.jp/english/index.html",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q11606829$1620db52-4194-5fa1-5018-7ff4eb93b06d",
+                        "rank": "normal"
+                    }
+                ],
+                "P1448": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "datavalue": {
+                                "value": {
+                                    "text": "\u7d71\u8a08\u5c40",
+                                    "language": "ja"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1814": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1814",
+                                    "hash": "0c80a1a31038be6afc0ccd8cc7544c3674587929",
+                                    "datavalue": {
+                                        "value": "\u3068\u3046\u3051\u3044\u304d\u3087\u304f",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ],
+                            "P2125": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P2125",
+                                    "hash": "e5ee86bb4446d05addffaa86620694129f14bd99",
+                                    "datavalue": {
+                                        "value": "T\u014dkeikyoku",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1814",
+                            "P2125"
+                        ],
+                        "id": "Q11606829$5f3bb285-4da1-5668-a12b-5c9ff874c964",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "datavalue": {
+                                "value": {
+                                    "text": "Statistics Bureau of Japan",
+                                    "language": "en"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$d654aa53-49fd-1c7c-bcf3-c554ca6af0ac",
+                        "rank": "normal"
+                    }
+                ],
+                "P749": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P749",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1322293,
+                                    "id": "Q1322293"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$bf4b7ce6-4be8-a2ac-57ae-cda79e1e2175",
+                        "rank": "normal"
+                    }
+                ],
+                "P2541": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2541",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 17,
+                                    "id": "Q17"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$5bcc4364-443c-f819-da51-f877dfe5e701",
+                        "rank": "normal"
+                    }
+                ],
+                "P1001": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1001",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 17,
+                                    "id": "Q17"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$bccbae80-4024-9b48-95d7-1b7bab93fbe6",
+                        "rank": "normal"
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 179645,
+                                    "id": "Q179645"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$a00f00a8-4237-1339-9ab3-fe9d793895e6",
+                        "rank": "normal"
+                    }
+                ],
+                "P1813": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1813",
+                            "datavalue": {
+                                "value": {
+                                    "text": "Statistics Japan",
+                                    "language": "en"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$6f062ba9-4766-1eb7-beba-efef70260ecc",
+                        "rank": "normal"
+                    }
+                ],
+                "P37": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P37",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 5287,
+                                    "id": "Q5287"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$d20f3c2e-4173-63ff-718d-21a39b3dc2e8",
+                        "rank": "normal"
+                    }
+                ],
+                "P6698": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6698",
+                            "datavalue": {
+                                "value": "\u7dcf\u52d9\u7701\u7d71\u8a08\u5c40",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$C68F978E-A182-4FC2-A55B-989724BD2818",
+                        "rank": "normal"
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "255478083",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$BB8287F5-3F95-4123-9377-2A3F35E71EDC",
+                        "rank": "normal"
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "viaf-255478083",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$E77ED775-AF12-4835-8570-F66D0E72C591",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "1c5ea36fc637c108309e39e3a13931acb933db3a",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "255478083",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2671": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2671",
+                            "datavalue": {
+                                "value": "/g/1235kqmf",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q11606829$A4702557-055D-4DB1-AC18-6EBA532B948B",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:National statistical services of Japan",
+                    "badges": [],
+                    "url": "https://commons.wikimedia.org/wiki/Category:National_statistical_services_of_Japan"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Statistics Bureau (Japan)",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/Statistics_Bureau_(Japan)"
+                },
+                "jawiki": {
+                    "site": "jawiki",
+                    "title": "\u7d71\u8a08\u5c40",
+                    "badges": [],
+                    "url": "https://ja.wikipedia.org/wiki/%E7%B5%B1%E8%A8%88%E5%B1%80"
+                },
+                "ukwiki": {
+                    "site": "ukwiki",
+                    "title": "\u0421\u043b\u0443\u0436\u0431\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0438 \u042f\u043f\u043e\u043d\u0456\u0457",
+                    "badges": [],
+                    "url": "https://uk.wikipedia.org/wiki/%D0%A1%D0%BB%D1%83%D0%B6%D0%B1%D0%B0_%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8_%D0%AF%D0%BF%D0%BE%D0%BD%D1%96%D1%97"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1827 @@
+{
+    "entities": {
+        "Q2995379": {
+            "pageid": 2864129,
+            "ns": 0,
+            "title": "Q2995379",
+            "lastrevid": 1381013950,
+            "modified": "2021-03-13T08:16:10Z",
+            "type": "item",
+            "id": "Q2995379",
+            "labels": {
+                "fr": {
+                    "language": "fr",
+                    "value": "La commission de la s\u00e9curit\u00e9 des produits des consommateurs des \u00c9tats-Unis"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "U.S. Consumer Product Safety Commission"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u7f8e\u570b\u6d88\u8cbb\u8005\u7522\u54c1\u5b89\u5168\u59d4\u54e1\u6703"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u7c73\u56fd\u6d88\u8cbb\u8005\u88fd\u54c1\u5b89\u5168\u59d4\u54e1\u4f1a"
+                },
+                "es": {
+                    "language": "es",
+                    "value": "Comisi\u00f3n para la Seguridad de los Productos del Consumidor de los Estados Unidos"
+                },
+                "uk": {
+                    "language": "uk",
+                    "value": "CPSC"
+                },
+                "tr": {
+                    "language": "tr",
+                    "value": "T\u00fcketici \u00dcr\u00fcn G\u00fcvenli\u011fi Kurumu"
+                },
+                "nb": {
+                    "language": "nb",
+                    "value": "Consumer Product Safety Commission"
+                },
+                "ar": {
+                    "language": "ar",
+                    "value": "\u0644\u062c\u0646\u0629 \u0633\u0644\u0627\u0645\u0629 \u0627\u0644\u0645\u0646\u062a\u062c\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u0647\u0644\u0627\u0643\u064a\u0629"
+                }
+            },
+            "descriptions": {
+                "es": {
+                    "language": "es",
+                    "value": "agencia independiente del gobierno de Estados Unidos"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "United States government agency"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "agence f\u00e9d\u00e9rale ind\u00e9pendante des \u00c9tats-Unis"
+                }
+            },
+            "aliases": {
+                "fr": [
+                    {
+                        "language": "fr",
+                        "value": "CPSC"
+                    }
+                ],
+                "zh": [
+                    {
+                        "language": "zh",
+                        "value": "CPSC"
+                    }
+                ],
+                "ja": [
+                    {
+                        "language": "ja",
+                        "value": "CPSC"
+                    }
+                ],
+                "es": [
+                    {
+                        "language": "es",
+                        "value": "Comisi\u00f3n para la seguridad de los Productos de Consumo"
+                    },
+                    {
+                        "language": "es",
+                        "value": "Comisi\u00f3n para la Seguridad de los Productos de Consumo"
+                    },
+                    {
+                        "language": "es",
+                        "value": "U.S. Consumer Product Safety Commission"
+                    },
+                    {
+                        "language": "es",
+                        "value": "United States Consumer Product Safety Commission"
+                    },
+                    {
+                        "language": "es",
+                        "value": "Consumer Product Safety Commission"
+                    },
+                    {
+                        "language": "es",
+                        "value": "CPSC"
+                    },
+                    {
+                        "language": "es",
+                        "value": "Comision para la Seguridad de los Productos de Consumo"
+                    },
+                    {
+                        "language": "es",
+                        "value": "Comision para la seguridad de los Productos de Consumo"
+                    },
+                    {
+                        "language": "es",
+                        "value": "Comision para la Seguridad de los Productos de Consumo de los Estados Unidos"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "Consumer Product Safety Commission"
+                    },
+                    {
+                        "language": "en",
+                        "value": "United States Consumer Product Safety Commission"
+                    },
+                    {
+                        "language": "en",
+                        "value": "CPSC"
+                    }
+                ]
+            },
+            "claims": {
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.cpsc.gov/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q2995379$416EB8FE-E8C5-494E-8DF1-180795F80313",
+                        "rank": "deprecated",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://www.cpsc.gov/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q2995379$5f893830-4a93-268c-f8e7-953bae117430",
+                        "rank": "preferred"
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/03p738",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$9C9B70F8-6B86-4BDA-A91E-2B1F20A9D3BD",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 15241312,
+                                                    "id": "Q15241312"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P577": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P577",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2013-10-28T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P577"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P910": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P910",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 15145376,
+                                    "id": "Q15145376"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$D127ECE3-2558-41CB-8454-4AE436453A9A",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1581": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1581",
+                            "datavalue": {
+                                "value": "http://www.cpsc.gov/onsafety/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$B69E6A47-96DC-4663-AB7F-9C3E839FECC6",
+                        "rank": "deprecated",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1581",
+                            "datavalue": {
+                                "value": "https://onsafety.cpsc.gov/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q2995379$edb1bb0e-4bfb-9a48-fbf0-75ef364419fe",
+                        "rank": "preferred"
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1752939,
+                                    "id": "Q1752939"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$767758bf-4ad5-807a-bece-77d34f49d88a",
+                        "rank": "normal"
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+1972-00-00T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 9,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$C7676CE6-6797-4CA1-A15C-FAA819A25822",
+                        "rank": "normal"
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 584451,
+                                    "id": "Q584451"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$BDEE4C32-2BB8-4165-90D4-949FC8CC266B",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1128": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1128",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+500",
+                                    "unit": "1"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$C561A8E4-9CBD-4CF9-8C20-EAD2FD767520",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3221": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3221",
+                            "datavalue": {
+                                "value": "organization/consumer-product-safety-commission",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$f567cc52-4621-7499-e274-97d7f9c29f55",
+                        "rank": "normal"
+                    }
+                ],
+                "P2397": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2397",
+                            "datavalue": {
+                                "value": "UCeoiFCC2wVc0f8dScwtvsgw",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1810": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1810",
+                                    "hash": "4886936258481ef91532cb285dde63878c0e18bd",
+                                    "datavalue": {
+                                        "value": "U.S. Consumer Product Safety Commission",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ],
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "78b022ff3b3b8a9ab162f6a490c2f1f3d94ac68f",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2009-06-09T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P3744": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3744",
+                                    "hash": "d86ae19a834fa47315d2254f9d50558d461f915b",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+7100",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P3740": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3740",
+                                    "hash": "a560e7ec12a2e7dc56907fa3c12f327b879f4ecf",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+378",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P5436": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P5436",
+                                    "hash": "19a4a64576a53af290c1bdda3441a66d6ebe2cd4",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+8418719",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "971a3c46fae3c9ce44af6a080205acb1a6956a7c",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2020-12-10T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1810",
+                            "P580",
+                            "P3744",
+                            "P3740",
+                            "P5436",
+                            "P585"
+                        ],
+                        "id": "Q2995379$71658765-410e-8b3d-10da-bad627e200c5",
+                        "rank": "normal"
+                    }
+                ],
+                "P2002": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2002",
+                            "datavalue": {
+                                "value": "uscpsc",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1552",
+                                    "hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 28378282,
+                                            "id": "Q28378282"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P3744": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3744",
+                                    "hash": "95a549f0b06c72d7599524c458fcb501f11a769b",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+78169",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "0602dd259e939611d34164a8e9511bf3c98e9805",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2009-01-14T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "f4da88e58bb9b446848b3eed88e75b74e12d6336",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2020-04-24T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "89a21c1ae5fe64390aeff9da06cd3ee6364b8669",
+                                    "datavalue": {
+                                        "value": "18990471",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1552",
+                            "P3744",
+                            "P580",
+                            "P585",
+                            "P6552"
+                        ],
+                        "id": "Q2995379$dcdc5fe1-41dd-5e3d-d202-6ecba107d208",
+                        "rank": "normal"
+                    }
+                ],
+                "P213": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0001 2299 1421",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$9C65956E-67AE-457B-94FD-F47FC24043BC",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "f20e7cc1dc95f8af90470df9ddea266baf12be00",
+                                "snaks": {
+                                    "P356": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P356",
+                                            "datavalue": {
+                                                "value": "10.6084/M9.FIGSHARE.4539889",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P356"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0004 0375 9127",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$B27C7107-5A2B-4DD0-87D4-4A8A1077059C",
+                        "rank": "normal"
+                    }
+                ],
+                "P3417": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3417",
+                            "datavalue": {
+                                "value": "Consumer-Product-Safety-Commission",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$0412FE8D-1A86-472A-93D5-F76C274A0A6F",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 51711,
+                                                    "id": "Q51711"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 30,
+                                    "id": "Q30"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$B67CC617-401D-492E-9EEE-E23E45C9B880",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9ff53bb742a8b5eb4726c65d363c46db824c3286",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.420322.5",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P4013": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P4013",
+                            "datavalue": {
+                                "value": "uscpsc",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$FD4552EC-128C-416F-A233-04373955C3C1",
+                        "rank": "normal"
+                    }
+                ],
+                "P3153": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3153",
+                            "datavalue": {
+                                "value": "100008402",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$AB427AE2-C1F5-4E8D-AF82-1B2DA2F03C97",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "f20e7cc1dc95f8af90470df9ddea266baf12be00",
+                                "snaks": {
+                                    "P356": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P356",
+                                            "datavalue": {
+                                                "value": "10.6084/M9.FIGSHARE.4539889",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P356"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P749": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P749",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 48525,
+                                    "id": "Q48525"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$1C41D5C8-F753-42C3-9D1F-2DEE63B089F3",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9ff53bb742a8b5eb4726c65d363c46db824c3286",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.420322.5",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2847": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2847",
+                            "datavalue": {
+                                "value": "111224658546273705769",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$0A1FFB04-5CA7-4FB6-B7D3-06B1135EB21D",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "7acb9056301be30f309f1c70659e5691cb083e85",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.youtube.com/channel/UCeoiFCC2wVc0f8dScwtvsgw",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2003": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2003",
+                            "datavalue": {
+                                "value": "uscpsc",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$77DF2B21-EB49-4F1D-A47B-DBB7AAC82439",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "7acb9056301be30f309f1c70659e5691cb083e85",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.youtube.com/channel/UCeoiFCC2wVc0f8dScwtvsgw",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2013": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2013",
+                            "datavalue": {
+                                "value": "USCPSC",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$95235972-780F-4AC6-BA3F-63D59D862EA6",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "7acb9056301be30f309f1c70659e5691cb083e85",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.youtube.com/channel/UCeoiFCC2wVc0f8dScwtvsgw",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P457": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P457",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 2111850,
+                                    "id": "Q2111850"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$dd5e02e3-4108-f743-8914-d49ab817d9f0",
+                        "rank": "normal"
+                    }
+                ],
+                "P2427": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2427",
+                            "datavalue": {
+                                "value": "grid.420322.5",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$F0C27994-4612-4DAD-B5B4-0E076E664296",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "40fdc7f3ce7f6771a8f285a1267bfc3f3de154d9",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 53869345,
+                                                    "id": "Q53869345"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            },
+                            {
+                                "hash": "a1914c8952a5bc482eafeb26be4fda504fe701f9",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 53705036,
+                                                    "id": "Q53705036"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P158": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P158",
+                            "datavalue": {
+                                "value": "Seal of the United States Consumer Product Safety Commission.svg",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$B0C4A185-4A6D-41BE-AB6B-9BD7A7CD0F44",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "1ce3335f410f913477d3ad79105dd37a400de007",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://en.wikipedia.org/w/index.php?title=U.S._Consumer_Product_Safety_Commission&oldid=865849785",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P355": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P355",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 60528665,
+                                    "id": "Q60528665"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$e27beee1-4e5e-0b4e-0f02-89e4c54c046f",
+                        "rank": "normal"
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "157099126",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$08ddee99-45df-6a00-873d-97f687811201",
+                        "rank": "normal"
+                    }
+                ],
+                "P244": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P244",
+                            "datavalue": {
+                                "value": "n80004130",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$7aba5998-4186-8ec8-25ab-21a65a5e25a9",
+                        "rank": "normal"
+                    }
+                ],
+                "P271": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P271",
+                            "datavalue": {
+                                "value": "DA1150552X",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$66c4c087-4f0e-9291-58b8-3224a7cff5d1",
+                        "rank": "normal"
+                    }
+                ],
+                "P268": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P268",
+                            "datavalue": {
+                                "value": "12018354b",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$92ac9505-452c-3304-53be-820fb4e4662c",
+                        "rank": "normal"
+                    }
+                ],
+                "P1005": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1005",
+                            "datavalue": {
+                                "value": "132738",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$e24f8545-412a-126b-1164-8044c79b3a86",
+                        "rank": "normal"
+                    }
+                ],
+                "P6366": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6366",
+                            "datavalue": {
+                                "value": "1311948675",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$75DC5B76-8A77-4C1B-B2DA-EC2802494A43",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "27ec407720999c334be8ff8d8a4273196b8a2a6b",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 60683589,
+                                                    "id": "Q60683589"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.420322.5",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2019-01-19T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P2427",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P6782": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6782",
+                            "datavalue": {
+                                "value": "00mhxn926",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$D0BB36FB-1D34-40F5-A5D5-F12FA577E954",
+                        "rank": "normal"
+                    }
+                ],
+                "P3500": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3500",
+                            "datavalue": {
+                                "value": "1679",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$B099D35A-6E80-436E-A94C-F2DAE6310FAC",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "e453c8609d664935ab867f12335ce3f997613aea",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 64159407,
+                                                    "id": "Q64159407"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P213": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P213",
+                                            "datavalue": {
+                                                "value": "0000 0004 0375 9127",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P213"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P973": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P973",
+                            "datavalue": {
+                                "value": "https://www.federalregister.gov/agencies/consumer-product-safety-commission",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$825d853f-9688-4a4d-aebc-ca7cc6b54aa2",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "539398e7c6213d07891f14a364ce3dc64c5b52b8",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 28054658,
+                                                    "id": "Q28054658"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P2264": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2264",
+                                            "datavalue": {
+                                                "value": "3299",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P2264"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "lccn-n80004130",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$9F6B893B-8104-41ED-86C7-5687710B742C",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "45e2af057c5e383753527df8f3978be3e7735628",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "157099126",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P5337": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P5337",
+                            "datavalue": {
+                                "value": "CAAqIggKIhxDQkFTRHdvSkwyMHZNRE53TnpNNEVnSmxiaWdBUAE",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$b9d9f506-46eb-6ea3-d509-99169d54580d",
+                        "rank": "normal"
+                    }
+                ],
+                "P8687": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P8687",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+92206",
+                                    "unit": "1"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "89a21c1ae5fe64390aeff9da06cd3ee6364b8669",
+                                    "datavalue": {
+                                        "value": "18990471",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "8552f04e3fe13e217ac3fab2b3511fd1a9b30247",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2021-01-06T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P6552",
+                            "P585"
+                        ],
+                        "id": "Q2995379$70f5e3ec-290b-46f5-9677-f5385b0f428c",
+                        "rank": "preferred"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P8687",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+78169",
+                                    "unit": "1"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "89a21c1ae5fe64390aeff9da06cd3ee6364b8669",
+                                    "datavalue": {
+                                        "value": "18990471",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "f4da88e58bb9b446848b3eed88e75b74e12d6336",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2020-04-24T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P6552",
+                            "P585"
+                        ],
+                        "id": "Q2995379$33330643-f3b6-4946-ab44-07ddf789143f",
+                        "rank": "normal"
+                    }
+                ],
+                "P373": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P373",
+                            "datavalue": {
+                                "value": "United States Consumer Product Safety Commission",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q2995379$D4C26257-0745-42C0-BC32-EA8F0C272157",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fc9dc15d4231c20fb53600c8deade564d0bd650d",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://en.wikipedia.org/w/index.php?title=U.S._Consumer_Product_Safety_Commission&oldid=1009717741",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sitelinks": {
+                "arwiki": {
+                    "site": "arwiki",
+                    "title": "\u0644\u062c\u0646\u0629 \u0633\u0644\u0627\u0645\u0629 \u0627\u0644\u0645\u0646\u062a\u062c\u0627\u062a \u0627\u0644\u0627\u0633\u062a\u0647\u0644\u0627\u0643\u064a\u0629",
+                    "badges": [],
+                    "url": "https://ar.wikipedia.org/wiki/%D9%84%D8%AC%D9%86%D8%A9_%D8%B3%D9%84%D8%A7%D9%85%D8%A9_%D8%A7%D9%84%D9%85%D9%86%D8%AA%D8%AC%D8%A7%D8%AA_%D8%A7%D9%84%D8%A7%D8%B3%D8%AA%D9%87%D9%84%D8%A7%D9%83%D9%8A%D8%A9"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "U.S. Consumer Product Safety Commission",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/U.S._Consumer_Product_Safety_Commission"
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Comisi\u00f3n de Seguridad de Productos del Consumidor de Estados Unidos",
+                    "badges": [],
+                    "url": "https://es.wikipedia.org/wiki/Comisi%C3%B3n_de_Seguridad_de_Productos_del_Consumidor_de_Estados_Unidos"
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Consumer Product Safety Commission",
+                    "badges": [],
+                    "url": "https://fr.wikipedia.org/wiki/Consumer_Product_Safety_Commission"
+                },
+                "jawiki": {
+                    "site": "jawiki",
+                    "title": "\u7c73\u56fd\u6d88\u8cbb\u8005\u88fd\u54c1\u5b89\u5168\u59d4\u54e1\u4f1a",
+                    "badges": [],
+                    "url": "https://ja.wikipedia.org/wiki/%E7%B1%B3%E5%9B%BD%E6%B6%88%E8%B2%BB%E8%80%85%E8%A3%BD%E5%93%81%E5%AE%89%E5%85%A8%E5%A7%94%E5%93%A1%E4%BC%9A"
+                },
+                "nowiki": {
+                    "site": "nowiki",
+                    "title": "Consumer Product Safety Commission",
+                    "badges": [],
+                    "url": "https://no.wikipedia.org/wiki/Consumer_Product_Safety_Commission"
+                },
+                "trwiki": {
+                    "site": "trwiki",
+                    "title": "T\u00fcketici \u00dcr\u00fcn G\u00fcvenli\u011fi Kurumu",
+                    "badges": [],
+                    "url": "https://tr.wikipedia.org/wiki/T%C3%BCketici_%C3%9Cr%C3%BCn_G%C3%BCvenli%C4%9Fi_Kurumu"
+                },
+                "zhwiki": {
+                    "site": "zhwiki",
+                    "title": "\u7f8e\u570b\u6d88\u8cbb\u54c1\u5b89\u5168\u59d4\u54e1\u6703",
+                    "badges": [],
+                    "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9C%8B%E6%B6%88%E8%B2%BB%E5%93%81%E5%AE%89%E5%85%A8%E5%A7%94%E5%93%A1%E6%9C%83"
+                }
+            }
+        }
+    }
+}

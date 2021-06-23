@@ -24,6 +24,15 @@ external:
 ids:
   grid: grid.473856.b
   ror: 00g8hms52
+services:
+  blogs:
+  - client: rss
+    endpoint: https://www.acf.hhs.gov/blog/rss.xml
+    name: ACF's Family Room Blog
+  news:
+  - client: rss
+    endpoint: https://www.acf.hhs.gov/press-releases/rss.xml
+    name: Press Releases
 social:
   facebook:
   - id: ChildrenAndFamilies

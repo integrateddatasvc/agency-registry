@@ -1,0 +1,706 @@
+{
+    "entities": {
+        "Q5938294": {
+            "pageid": 5711286,
+            "ns": 0,
+            "title": "Q5938294",
+            "lastrevid": 1352485955,
+            "modified": "2021-02-01T05:59:48Z",
+            "type": "item",
+            "id": "Q5938294",
+            "labels": {
+                "es": {
+                    "language": "es",
+                    "value": "Departamento de Estad\u00edsticas de Georgia"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "National Statistics Office of Georgia"
+                },
+                "bg": {
+                    "language": "bg",
+                    "value": "\u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u043d\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0430 \u0441\u043b\u0443\u0436\u0431\u0430 \u043d\u0430 \u0413\u0440\u0443\u0437\u0438\u044f"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u30b8\u30e7\u30fc\u30b8\u30a2\u56fd\u5bb6\u7d71\u8a08\u5c40"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "Office national des statistiques de G\u00e9orgie"
+                },
+                "ar": {
+                    "language": "ar",
+                    "value": "\u0627\u0644\u0645\u0643\u062a\u0628 \u0627\u0644\u0648\u0637\u0646\u064a \u0644\u0644\u0625\u062d\u0635\u0627\u0621 \u0641\u064a \u062c\u0648\u0631\u062c\u064a\u0627"
+                },
+                "ka": {
+                    "language": "ka",
+                    "value": "\u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd\u10e1 \u10e1\u10e2\u10d0\u10e2\u10d8\u10e1\u10e2\u10d8\u10d9\u10d8\u10e1 \u10d4\u10e0\u10dd\u10d5\u10dc\u10e3\u10da\u10d8 \u10e1\u10d0\u10db\u10e1\u10d0\u10ee\u10e3\u10e0\u10d8"
+                },
+                "hy": {
+                    "language": "hy",
+                    "value": "\u054e\u0580\u0561\u057d\u057f\u0561\u0576\u056b \u0561\u0566\u0563\u0561\u0575\u056b\u0576 \u057e\u056b\u0573\u0561\u056f\u0561\u0563\u0580\u0561\u056f\u0561\u0576 \u0563\u0580\u0561\u057d\u0565\u0576\u0575\u0561\u056f"
+                },
+                "zh-hant": {
+                    "language": "zh-hant",
+                    "value": "\u55ac\u6cbb\u4e9e\u570b\u5bb6\u7d71\u8a08\u5c40"
+                },
+                "zh-hans": {
+                    "language": "zh-hans",
+                    "value": "\u683c\u9b6f\u5409\u4e9e\u570b\u5bb6\u7d71\u8a08\u5c40"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u683c\u9b6f\u5409\u4e9e\u570b\u5bb6\u7d71\u8a08\u5c40"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Georgia's principal government institution in charge of statistics and census data"
+                }
+            },
+            "aliases": {
+                "es": [
+                    {
+                        "language": "es",
+                        "value": "Departamento de Estadisticas de Georgia"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "GeoStat"
+                    }
+                ],
+                "ka": [
+                    {
+                        "language": "ka",
+                        "value": "\u10e1\u10d0\u10e5\u10e1\u10e2\u10d0\u10e2\u10d8\u10e1"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$1F1169CA-DA56-4609-961C-A17992CD8BAA",
+                        "rank": "normal"
+                    }
+                ],
+                "P154": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P154",
+                            "datavalue": {
+                                "value": "GeoStat logo.PNG",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$097AF7E7-73E7-4FC2-99A8-F6CAEE6F4E82",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.geostat.ge/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "ef9812207f96084e6bf67b0bc664b527d7e9b7fe",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 8108,
+                                            "id": "Q8108"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                },
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q5938294$6750ECD5-C31E-4427-A983-7B41BE04A887",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "92984c646a64bebd5709cb8c9d0046d8f56a0382",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-18T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3417": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3417",
+                            "datavalue": {
+                                "value": "National-Statistics-Office",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$7E7910BA-E76D-427C-9197-47C6BF9D6B46",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 51711,
+                                                    "id": "Q51711"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 230,
+                                    "id": "Q230"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$fd70a490-4d01-0e5f-f92f-900e0f8c7a88",
+                        "rank": "normal"
+                    }
+                ],
+                "P1889": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1889",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 16774975,
+                                    "id": "Q16774975"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1013": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1013",
+                                    "hash": "3ee85f87aa07bea0f614c2220e1ccdf8d25de085",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 24005632,
+                                            "id": "Q24005632"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1013"
+                        ],
+                        "id": "Q5938294$9bc41430-4c31-25cb-3040-c0397369ca1e",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1889",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 6978690,
+                                    "id": "Q6978690"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1013": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1013",
+                                    "hash": "3ee85f87aa07bea0f614c2220e1ccdf8d25de085",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 24005632,
+                                            "id": "Q24005632"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1013"
+                        ],
+                        "id": "Q5938294$13799c41-4ab2-064e-6190-2991a2af4f3c",
+                        "rank": "normal"
+                    }
+                ],
+                "P361": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P361",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 55628220,
+                                    "id": "Q55628220"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$fc48a9ac-4ccf-e4b4-952f-25e5dfa1d472",
+                        "rank": "normal"
+                    }
+                ],
+                "P463": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P463",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 139020,
+                                    "id": "Q139020"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$bd7af45a-48bc-0ce4-2d08-326639f2b37a",
+                        "rank": "normal"
+                    }
+                ],
+                "P37": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P37",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 8108,
+                                    "id": "Q8108"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$b49d5b46-427d-7c84-f973-5ae33f5d4418",
+                        "rank": "normal"
+                    }
+                ],
+                "P1813": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1813",
+                            "datavalue": {
+                                "value": {
+                                    "text": "\u10e1\u10d0\u10e5\u10e1\u10e2\u10d0\u10e2\u10d8\u10e1",
+                                    "language": "ka"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$28f3ab40-4eee-efb8-e8d8-27cd2f1235c7",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1813",
+                            "datavalue": {
+                                "value": {
+                                    "text": "GeoStat",
+                                    "language": "en"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$38072a25-4d9e-00dc-671f-b4fbe70aa037",
+                        "rank": "normal"
+                    }
+                ],
+                "P1448": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "datavalue": {
+                                "value": {
+                                    "text": "National Statistics Office of Georgia",
+                                    "language": "en"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$8c97e5fd-445f-beea-dceb-b062dc950107",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "datavalue": {
+                                "value": {
+                                    "text": "\u10e1\u10d0\u10e5\u10d0\u10e0\u10d7\u10d5\u10d4\u10da\u10dd\u10e1 \u10e1\u10e2\u10d0\u10e2\u10d8\u10e1\u10e2\u10d8\u10d9\u10d8\u10e1 \u10d4\u10e0\u10dd\u10d5\u10dc\u10e3\u10da\u10d8 \u10e1\u10d0\u10db\u10e1\u10d0\u10ee\u10e3\u10e0\u10d8",
+                                    "language": "ka"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$e1c64a23-42dd-b5d9-bede-3a99a4e89349",
+                        "rank": "normal"
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 994,
+                                    "id": "Q994"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$44b2ffe5-4608-28e7-e035-d4b8a7b54734",
+                        "rank": "normal"
+                    }
+                ],
+                "P1416": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1416",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 4288091,
+                                    "id": "Q4288091"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P582": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P582",
+                                    "hash": "e9882eac1c19480bfe801dafbda7c87f8b5a9188",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2009-08-18T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P582"
+                        ],
+                        "id": "Q5938294$ae71fd3d-435b-1db0-3519-1b1f37ef763e",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "1a21644cda99a743697e0843f3bc6b3fbbb130f7",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "http://www.cisstat.org/eng/frame_smap.htm",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-19T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+2010-00-00T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 9,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$E0C18770-0FF7-4F73-8446-1C352C2FD88B",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "32e47e1d35437e28bac92d50a56109b2c86e221f",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://en.wikipedia.org/w/index.php?title=National_Statistics_Office_of_Georgia&oldid=866266096",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/03c0qky",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q5938294$F3EBF5CF-6A1E-4347-96ED-CDFFCEF17C4B",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "bgwiki": {
+                    "site": "bgwiki",
+                    "title": "\u041d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u043d\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0430 \u0441\u043b\u0443\u0436\u0431\u0430 \u043d\u0430 \u0413\u0440\u0443\u0437\u0438\u044f",
+                    "badges": [],
+                    "url": "https://bg.wikipedia.org/wiki/%D0%9D%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BD%D0%B0_%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B0_%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D0%B0_%D0%BD%D0%B0_%D0%93%D1%80%D1%83%D0%B7%D0%B8%D1%8F"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "National Statistics Office of Georgia",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/National_Statistics_Office_of_Georgia"
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Departamento de Estad\u00edsticas de Georgia",
+                    "badges": [],
+                    "url": "https://es.wikipedia.org/wiki/Departamento_de_Estad%C3%ADsticas_de_Georgia"
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Office national des statistiques de G\u00e9orgie",
+                    "badges": [],
+                    "url": "https://fr.wikipedia.org/wiki/Office_national_des_statistiques_de_G%C3%A9orgie"
+                }
+            }
+        }
+    }
+}

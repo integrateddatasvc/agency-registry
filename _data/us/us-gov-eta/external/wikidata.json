@@ -1,0 +1,617 @@
+{
+    "entities": {
+        "Q28129963": {
+            "pageid": 29828070,
+            "ns": 0,
+            "title": "Q28129963",
+            "lastrevid": 1357400205,
+            "modified": "2021-02-09T01:12:57Z",
+            "type": "item",
+            "id": "Q28129963",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Employment and Training Administration"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u5c31\u696d\u548c\u57f9\u8a13\u5c40"
+                }
+            },
+            "descriptions": {},
+            "aliases": {
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "Department of Labor Employment and Training Administration"
+                    },
+                    {
+                        "language": "en",
+                        "value": "ETA"
+                    },
+                    {
+                        "language": "en",
+                        "value": "DOLETA"
+                    },
+                    {
+                        "language": "en",
+                        "value": "Employment & Training Administration"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$85CB06D6-4AC0-4891-9C82-C4ADE75624C8",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.dol.gov/eta",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$0BA6E055-BBD4-4FCF-BD84-10A2DE1231BC",
+                        "rank": "deprecated",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://www.doleta.gov/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$bd6a6e7c-4878-f37d-7107-724ed7fafa6a",
+                        "rank": "preferred"
+                    }
+                ],
+                "P213": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0001 0668 0527",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$2b347fe0-4150-1ba8-cc7b-deb49f8c47b8",
+                        "rank": "deprecated"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0004 0406 3076",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$68630F74-9CFF-4ADF-938A-94B540CBE2CB",
+                        "rank": "preferred"
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "143068759",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$7a23e638-452f-046d-b012-dac331f943f0",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 30,
+                                    "id": "Q30"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$a67d344d-4749-1949-1b1a-fdc63770024c",
+                        "rank": "normal"
+                    }
+                ],
+                "P244": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P244",
+                            "datavalue": {
+                                "value": "n80126206",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$e0e21438-494f-2a3d-97f1-57a7de799e1a",
+                        "rank": "normal"
+                    }
+                ],
+                "P749": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P749",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 628807,
+                                    "id": "Q628807"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$ee5ef1a5-4cec-ded0-2394-2cc203b09806",
+                        "rank": "normal"
+                    }
+                ],
+                "P1315": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1315",
+                            "datavalue": {
+                                "value": "1046587",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$97686642-B64F-4243-A94C-595F4C9010BF",
+                        "rank": "normal"
+                    }
+                ],
+                "P3417": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3417",
+                            "datavalue": {
+                                "value": "U-S-Employment-and-Training-Administration",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$C3BEEBE1-13C6-43F7-B635-73D0062190BF",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3417",
+                            "datavalue": {
+                                "value": "U-S-Department-of-Labor-Employment-and-Training-Administration",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$395D8C5F-6612-46A7-9129-8B0C855E728B",
+                        "rank": "normal"
+                    }
+                ],
+                "P271": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P271",
+                            "datavalue": {
+                                "value": "DA01121714",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$135BD92A-1D0A-4AE1-B716-E32909CC22B9",
+                        "rank": "normal"
+                    }
+                ],
+                "P227": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P227",
+                            "datavalue": {
+                                "value": "1089049757",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$ca3fd01a-4ed9-943d-960c-5ad581f6582e",
+                        "rank": "normal"
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+1975-00-00T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 9,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$4ED780EE-3303-4760-94B3-A488728E26CE",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "aa825ddd0694709186cf7dab699cdd303f3ebce2",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://en.wikipedia.org/w/index.php?title=Employment_and_Training_Administration&oldid=868566019",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 61,
+                                    "id": "Q61"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$2FB0A104-F47F-4FFF-B924-849C84216D14",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "aa825ddd0694709186cf7dab699cdd303f3ebce2",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://en.wikipedia.org/w/index.php?title=Employment_and_Training_Administration&oldid=868566019",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P269": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P269",
+                            "datavalue": {
+                                "value": "026376997",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$aff82c08-4232-0743-6ae9-31b77f481714",
+                        "rank": "normal"
+                    }
+                ],
+                "P268": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P268",
+                            "datavalue": {
+                                "value": "11863643k",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$f31dd69a-4c00-be26-51bb-3faccce8e5aa",
+                        "rank": "normal"
+                    }
+                ],
+                "P3500": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3500",
+                            "datavalue": {
+                                "value": "17263",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$A5A9FE95-5EAB-4693-8196-405A457249A5",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "5c08e322217eee807edb08451f21ad96cc0bdaad",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 64159407,
+                                                    "id": "Q64159407"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P213": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P213",
+                                            "datavalue": {
+                                                "value": "0000 0004 0406 3076",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P213"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P973": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P973",
+                            "datavalue": {
+                                "value": "https://www.federalregister.gov/agencies/employment-and-training-administration",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$a1844107-1ac1-484b-8fbf-a0a771bc0300",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "539398e7c6213d07891f14a364ce3dc64c5b52b8",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 28054658,
+                                                    "id": "Q28054658"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P2264": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2264",
+                                            "datavalue": {
+                                                "value": "3299",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P2264"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "lccn-n80126206",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$80CF70A8-4026-4867-B9F4-81C7615C84D6",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "e5c15dc5e393b60f3166779f4357c423419f3f93",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "143068759",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/05ptqx",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q28129963$ADB1DD2A-B0F9-46B5-BA9A-98DBE31EBB1D",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Employment and Training Administration",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/Employment_and_Training_Administration"
+                }
+            }
+        }
+    }
+}

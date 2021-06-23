@@ -5,6 +5,8 @@ geo:
   iso3166:
   - uk
   level: national
+ids:
+  wikidata: Q5227103
 services:
   catalogs:
   - client: html

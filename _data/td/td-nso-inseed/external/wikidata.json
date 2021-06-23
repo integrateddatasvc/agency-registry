@@ -1,0 +1,523 @@
+{
+    "entities": {
+        "Q3152404": {
+            "pageid": 3011430,
+            "ns": 0,
+            "title": "Q3152404",
+            "lastrevid": 1368177469,
+            "modified": "2021-02-23T10:48:30Z",
+            "type": "item",
+            "id": "Q3152404",
+            "labels": {
+                "fr": {
+                    "language": "fr",
+                    "value": "Institut national de la statistique, des \u00e9tudes \u00e9conomiques et d\u00e9mographiques"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "INSEED"
+                },
+                "zh-hant": {
+                    "language": "zh-hant",
+                    "value": "\u67e5\u5fb7\u570b\u5bb6\u7d71\u8a08\u3001\u7d93\u6fdf\u53ca\u4eba\u53e3\u7814\u7a76\u6240"
+                },
+                "zh-hans": {
+                    "language": "zh-hans",
+                    "value": "\u4e4d\u5f97\u570b\u5bb6\u7d71\u8a08\u3001\u7d93\u6fdf\u53ca\u4eba\u53e3\u7814\u7a76\u6240"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u4e4d\u5f97\u570b\u5bb6\u7d71\u8a08\u3001\u7d93\u6fdf\u53ca\u4eba\u53e3\u7814\u7a76\u6240"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Chad's principal government institution in charge of statistics and census data"
+                }
+            },
+            "aliases": {
+                "fr": [
+                    {
+                        "language": "fr",
+                        "value": "INSEED"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "L'Institut national de la statistique, des \u00e9tudes \u00e9conomiques et d\u00e9mographiques"
+                    }
+                ]
+            },
+            "claims": {
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.inseed-tchad.org",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q3152404$5CF6B0E3-6806-4297-BF12-B972CF530D35",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8447,
+                                                    "id": "Q8447"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://inseedtchad.com/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "d197d0a5efa4b4c23a302a829dd3ef43684fe002",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 150,
+                                            "id": "Q150"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q3152404$088599af-4f1f-6d1b-5e2e-9d4ec49eee96",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 657,
+                                    "id": "Q657"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3152404$aa0bad20-4ed5-430b-435d-3867b741fc32",
+                        "rank": "normal"
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3152404$14d5a7fc-42d2-3b8c-31ee-bc2ec6166f27",
+                        "rank": "normal"
+                    }
+                ],
+                "P1448": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "datavalue": {
+                                "value": {
+                                    "text": "Institut National de la Statistique, des \u00c9tudes \u00c9conomiques et D\u00e9mographiques",
+                                    "language": "fr"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q3152404$907052dc-47d2-6ffe-e910-9608925591d1",
+                        "rank": "normal"
+                    }
+                ],
+                "P1813": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1813",
+                            "datavalue": {
+                                "value": {
+                                    "text": "INSEED",
+                                    "language": "fr"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P805": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P805",
+                                    "hash": "b9175b71db40fcdde76a8cb6caf1375e737a5510",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 101244,
+                                            "id": "Q101244"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P805"
+                        ],
+                        "id": "Q3152404$de3c883b-4833-e5af-7561-855a0a84ad40",
+                        "rank": "normal"
+                    }
+                ],
+                "P37": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P37",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 150,
+                                    "id": "Q150"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3152404$aa8f2627-4f8a-6dc5-6f8f-c98e8c984c25",
+                        "rank": "normal"
+                    }
+                ],
+                "P361": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P361",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 55523960,
+                                    "id": "Q55523960"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3152404$cc0b1e3a-471f-12a5-2508-451631f32dce",
+                        "rank": "normal"
+                    }
+                ],
+                "P2541": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2541",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 657,
+                                    "id": "Q657"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3152404$7e46655d-4092-b0c5-f59c-a0c5a292dfde",
+                        "rank": "normal"
+                    }
+                ],
+                "P1001": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1001",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 657,
+                                    "id": "Q657"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3152404$df3baa9c-4611-700c-1460-7f13616974b0",
+                        "rank": "normal"
+                    }
+                ],
+                "P1416": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1416",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 3348506,
+                                    "id": "Q3348506"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3152404$8CD39BDD-A12E-42BF-B088-0A7B53731C5F",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "af66df50b53066188cb839ff8508e1aa7ae04fb3",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8447,
+                                                    "id": "Q8447"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-14T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1416",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 55681496,
+                                    "id": "Q55681496"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3152404$1639b036-4865-2f99-df3d-f45680eb63dc",
+                        "rank": "normal"
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 3659,
+                                    "id": "Q3659"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3152404$C5B33E55-2F7F-4CB4-B637-678C4150842B",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "af66df50b53066188cb839ff8508e1aa7ae04fb3",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8447,
+                                                    "id": "Q8447"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-14T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1889": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1889",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 3152402,
+                                    "id": "Q3152402"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1013": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1013",
+                                    "hash": "3ee85f87aa07bea0f614c2220e1ccdf8d25de085",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 24005632,
+                                            "id": "Q24005632"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1013"
+                        ],
+                        "id": "Q3152404$63263907-417f-cf9e-05b2-9111d2518819",
+                        "rank": "normal"
+                    }
+                ],
+                "P2671": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2671",
+                            "datavalue": {
+                                "value": "/g/1226m1q8",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3152404$D1F47AE1-D544-480B-B2F5-2633DC00524B",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Institut national de la statistique, des \u00e9tudes \u00e9conomiques et d\u00e9mographiques",
+                    "badges": [],
+                    "url": "https://fr.wikipedia.org/wiki/Institut_national_de_la_statistique,_des_%C3%A9tudes_%C3%A9conomiques_et_d%C3%A9mographiques"
+                }
+            }
+        }
+    }
+}

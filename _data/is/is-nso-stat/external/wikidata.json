@@ -1,0 +1,745 @@
+{
+    "entities": {
+        "Q3782407": {
+            "pageid": 3606585,
+            "ns": 0,
+            "title": "Q3782407",
+            "lastrevid": 1342884987,
+            "modified": "2021-01-17T13:31:23Z",
+            "type": "item",
+            "id": "Q3782407",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Statistics Iceland"
+                },
+                "it": {
+                    "language": "it",
+                    "value": "Hagstofa \u00cdslands"
+                },
+                "is": {
+                    "language": "is",
+                    "value": "Hagstofa \u00cdslands"
+                },
+                "es": {
+                    "language": "es",
+                    "value": "Hagstofa \u00cdslands"
+                },
+                "cs": {
+                    "language": "cs",
+                    "value": "Islandsk\u00fd statistick\u00fd \u00fa\u0159ad"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u51b0\u5cf6\u7d71\u8a08\u5c40"
+                },
+                "nl": {
+                    "language": "nl",
+                    "value": "Hagstofa \u00cdslands"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Iceland's principal government institution in charge of statistics and census data"
+                },
+                "fi": {
+                    "language": "fi",
+                    "value": "organisaatio"
+                },
+                "sq": {
+                    "language": "sq",
+                    "value": "organizat\u00eb"
+                },
+                "nl": {
+                    "language": "nl",
+                    "value": "Het IJslandse bureau voor de statistiek"
+                }
+            },
+            "aliases": {
+                "it": [
+                    {
+                        "language": "it",
+                        "value": "Statistics Iceland"
+                    }
+                ],
+                "es": [
+                    {
+                        "language": "es",
+                        "value": "Hagstofa Islands"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "National Statistical Institute of Iceland"
+                    },
+                    {
+                        "language": "en",
+                        "value": "The Statistical Bureau of Iceland"
+                    }
+                ],
+                "cs": [
+                    {
+                        "language": "cs",
+                        "value": "Hagstofa \u00cdslands"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$81048BEA-8C38-45BA-9A9A-04820B1CD69C",
+                        "rank": "normal"
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1764,
+                                    "id": "Q1764"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P669": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P669",
+                                    "hash": "26a2e9486de4e4858a9897fef4dc801547c84f34",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 4945019,
+                                            "id": "Q4945019"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P670": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P670",
+                                    "hash": "416e692ab1da5522bd945cc844f7942ba2560bb8",
+                                    "datavalue": {
+                                        "value": "21A",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ],
+                            "P281": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P281",
+                                    "hash": "6e97d0cac648e290149a86b98bbe320595ea8df6",
+                                    "datavalue": {
+                                        "value": "105",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P669",
+                            "P670",
+                            "P281"
+                        ],
+                        "id": "Q3782407$1EC55A31-DB5F-4B5F-8942-63737DDCC657",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.statice.is/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q3782407$3A6B9FD8-3C9E-4B60-B26C-EDBDBB06966A",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "33f88757905d0aaaab3bb97fe4039868ee1527e9",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-16T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://hagstofa.is/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "19dd0c43926e9610b45f4d88736d9f7baad6e044",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 294,
+                                            "id": "Q294"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q3782407$092594ea-47b8-2194-6d90-3f183597eff9",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "33f88757905d0aaaab3bb97fe4039868ee1527e9",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-16T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P213": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0001 2308 2019",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$70D6A137-B33C-48B1-AD1B-D5644F4DF98D",
+                        "rank": "normal"
+                    }
+                ],
+                "P361": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P361",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 55581979,
+                                    "id": "Q55581979"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$6762fad7-40a8-7c59-ed8d-b66d18cc0137",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P361",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 33102669,
+                                    "id": "Q33102669"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$61e2e5c0-4982-aebc-7fc7-f714dc3b41dc",
+                        "rank": "normal"
+                    }
+                ],
+                "P1448": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "datavalue": {
+                                "value": {
+                                    "text": "Hagstofa \u00cdslands",
+                                    "language": "is"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$684ede9b-45bc-e745-9191-27866deeb213",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "datavalue": {
+                                "value": {
+                                    "text": "Statistics Iceland",
+                                    "language": "en"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$46e37997-4a21-a893-2cdf-83aa4ae5ce79",
+                        "rank": "normal"
+                    }
+                ],
+                "P2013": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2013",
+                            "datavalue": {
+                                "value": "hagstofan",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$e25ee1b2-4ee0-833a-fafc-bc74d7c1ac47",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "33f88757905d0aaaab3bb97fe4039868ee1527e9",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-16T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 189,
+                                    "id": "Q189"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$492cf412-42fe-d02f-0b75-9d31791077fd",
+                        "rank": "normal"
+                    }
+                ],
+                "P2541": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2541",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 189,
+                                    "id": "Q189"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$80f17bc4-4695-ce07-0f8d-c7c338b9184d",
+                        "rank": "normal"
+                    }
+                ],
+                "P1001": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1001",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 189,
+                                    "id": "Q189"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$d9f87bcf-4c5e-b757-25d6-5d744870fbb9",
+                        "rank": "normal"
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+1914-00-00T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 9,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$70b249ff-4b50-e975-916c-eeb39e2ba65c",
+                        "rank": "normal"
+                    }
+                ],
+                "P1416": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1416",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 217659,
+                                    "id": "Q217659"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$c3db8126-4d35-4e98-96d7-e8a4cf6b93be",
+                        "rank": "normal"
+                    }
+                ],
+                "P463": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P463",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 139020,
+                                    "id": "Q139020"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$7c79a017-4607-196b-899a-ac817fb0823e",
+                        "rank": "normal"
+                    }
+                ],
+                "P244": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P244",
+                            "datavalue": {
+                                "value": "n50069120",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$B8907007-0948-44D7-ABE8-BD619F1A248B",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "14fa5898ac764e0660517aa07ea0bbba505f262b",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 54919,
+                                                    "id": "Q54919"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2019-03-06T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "125461535",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$C67A8C11-280F-4E0D-9A4E-53A09280CED3",
+                        "rank": "normal"
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "lccn-n50069120",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$65C98B15-3ADD-4CC8-A3CD-6E2D76B081CD",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "916f17b5ca5896cf486040ca77a17377790b298d",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "125461535",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/05f8pq5",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3782407$072B791B-570A-4FEA-8DF7-FC6C8D12CE5B",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Statistics Iceland",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/Statistics_Iceland"
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Hagstofa \u00cdslands (Islandia)",
+                    "badges": [],
+                    "url": "https://es.wikipedia.org/wiki/Hagstofa_%C3%8Dslands_(Islandia)"
+                },
+                "iswiki": {
+                    "site": "iswiki",
+                    "title": "Hagstofa \u00cdslands",
+                    "badges": [],
+                    "url": "https://is.wikipedia.org/wiki/Hagstofa_%C3%8Dslands"
+                },
+                "itwiki": {
+                    "site": "itwiki",
+                    "title": "Hagstofa \u00cdslands",
+                    "badges": [],
+                    "url": "https://it.wikipedia.org/wiki/Hagstofa_%C3%8Dslands"
+                }
+            }
+        }
+    }
+}

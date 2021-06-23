@@ -7,6 +7,6 @@ services:
     client: html
     endpoint: https://www.govdata.de/
     lang: de
-    name: "Datenportal f\xC3\xBCr Deutschland"
+    name: "Datenportal f\xFCr Deutschland"
     platform: ckan
 ---

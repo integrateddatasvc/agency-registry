@@ -1,0 +1,559 @@
+{
+    "entities": {
+        "Q5227103": {
+            "pageid": 4996545,
+            "ns": 0,
+            "title": "Q5227103",
+            "lastrevid": 1365574494,
+            "modified": "2021-02-20T01:16:33Z",
+            "type": "item",
+            "id": "Q5227103",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "data.gov.uk"
+                },
+                "uk": {
+                    "language": "uk",
+                    "value": "Data.gov.uk"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "data.gov.uk"
+                },
+                "de": {
+                    "language": "de",
+                    "value": "data.gov.uk"
+                },
+                "it": {
+                    "language": "it",
+                    "value": "data.gov.uk"
+                },
+                "nl": {
+                    "language": "nl",
+                    "value": "data.gov.uk"
+                }
+            },
+            "descriptions": {
+                "fr": {
+                    "language": "fr",
+                    "value": "portail open data du Royaume-Uni"
+                },
+                "nl": {
+                    "language": "nl",
+                    "value": "Open Data Portal van het Verenigd Koninkrijk"
+                },
+                "de": {
+                    "language": "de",
+                    "value": "Open Data Portal von Gro\u00dfbritanien"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "open data portal of the United Kingdom"
+                },
+                "it": {
+                    "language": "it",
+                    "value": "Portale dei dati aperti del Regno Unito"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P373": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P373",
+                            "datavalue": {
+                                "value": "Data.gov.uk",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q5227103$1985A99D-D273-4B86-A18C-3C3AE7FB5039",
+                        "rank": "normal"
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 35127,
+                                    "id": "Q35127"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5227103$8761425C-A96F-4B3B-A340-149CDD8DC848",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 27031827,
+                                    "id": "Q27031827"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5227103$8527d526-4f00-163f-457a-c11f371bcedd",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://data.gov.uk",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q5227103$0E314042-3437-4CA3-A575-0ECEA6109CD1",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P127": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P127",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 6063,
+                                    "id": "Q6063"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5227103$3E6A8033-3C02-4EB2-B4EE-B72F9BBF2475",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1661": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1661",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+72902",
+                                    "unit": "1"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "699ed774f8fc563c23d7e728ed7e2bc8ebc3b26a",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2017-11-30T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P585"
+                        ],
+                        "id": "Q5227103$01967614-4994-4F4A-B40B-4DCE08079AD3",
+                        "rank": "preferred",
+                        "references": [
+                            {
+                                "hash": "7f2a600f797d1a06738a83abaf474b2cf2332442",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.alexa.com/siteinfo/http://data.gov.uk",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 230051,
+                                                    "id": "Q230051"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P1065": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P1065",
+                                            "datavalue": {
+                                                "value": "https://web.archive.org/web/20171130212142/https://www.alexa.com/siteinfo/http://data.gov.uk",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2017-11-30T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ],
+                                    "P2960": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2960",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2017-11-30T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P248",
+                                    "P1065",
+                                    "P813",
+                                    "P2960"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P5305": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P5305",
+                            "datavalue": {
+                                "value": "http://statistics.data.gov.uk/sparql",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q5227103$92e5ec7b-4977-1ea6-8870-c01261a12b55",
+                        "rank": "normal"
+                    }
+                ],
+                "P18": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P18",
+                            "datavalue": {
+                                "value": "Data.gov.uk screenshot.png",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "0f88c05534b1d63d2007c08d5d7e58d345a23cc5",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2012-11-28T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P585"
+                        ],
+                        "id": "Q5227103$7ADE18F3-B6CD-47DF-B6A3-2894A51DE1F7",
+                        "rank": "normal"
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+2010-01-01T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 10,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q5227103$5C2D7835-E919-4B51-9083-1FE480994469",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "2ccae33a154b0b163dfe52d1bb3b7f515df8024e",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://en.wikipedia.org/w/index.php?title=Data.gov.uk&oldid=880867930",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 145,
+                                    "id": "Q145"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5227103$fa7b1bb4-4a56-9577-16c7-483bfa7bc038",
+                        "rank": "normal"
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/0b6h47p",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q5227103$2EA68EAA-16B6-4ACA-9D2E-DE05FD826F94",
+                        "rank": "normal"
+                    }
+                ],
+                "P2078": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2078",
+                            "datavalue": {
+                                "value": "https://guidance.data.gov.uk/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q5227103$95ca6297-4c2d-1e9d-4df4-b83501c481ae",
+                        "rank": "normal"
+                    }
+                ],
+                "P6269": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6269",
+                            "datavalue": {
+                                "value": "https://ckan.publishing.service.gov.uk/api/3/action/package_list",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P2700": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P2700",
+                                    "hash": "1fed101fb6a016e15f3a994e1ae8908797d549da",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 105592698,
+                                            "id": "Q105592698"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P2700"
+                        ],
+                        "id": "Q5227103$210d3785-4153-6945-0aae-533f89c58761",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:Data.gov.uk",
+                    "badges": [],
+                    "url": "https://commons.wikimedia.org/wiki/Category:Data.gov.uk"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Data.gov.uk",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/Data.gov.uk"
+                },
+                "ukwiki": {
+                    "site": "ukwiki",
+                    "title": "Data.gov.uk",
+                    "badges": [],
+                    "url": "https://uk.wikipedia.org/wiki/Data.gov.uk"
+                }
+            }
+        }
+    }
+}

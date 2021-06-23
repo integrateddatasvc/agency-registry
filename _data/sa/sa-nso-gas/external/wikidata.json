@@ -1,0 +1,1186 @@
+{
+    "entities": {
+        "Q20423308": {
+            "pageid": 22172130,
+            "ns": 0,
+            "title": "Q20423308",
+            "lastrevid": 1339375374,
+            "modified": "2021-01-12T05:33:42Z",
+            "type": "item",
+            "id": "Q20423308",
+            "labels": {
+                "ar": {
+                    "language": "ar",
+                    "value": "\u0627\u0644\u0647\u064a\u0626\u0629 \u0627\u0644\u0639\u0627\u0645\u0629 \u0644\u0644\u0625\u062d\u0635\u0627\u0621"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "General Authority for Statistics"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u6c99\u70cf\u5730\u963f\u62c9\u4f2f\u7d71\u8a08\u7e3d\u5c40"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "Autorit\u00e9 g\u00e9n\u00e9rale des statistiques"
+                }
+            },
+            "descriptions": {
+                "ar": {
+                    "language": "ar",
+                    "value": "\u0647\u064a\u0626\u0629 \u0631\u0633\u0645\u064a\u0629 \u0633\u0639\u0648\u062f\u064a\u0629"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "Saudi Arabia's principal government institution in charge of statistics and census data"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "principale institution gouvernementale d'Arabie saoudite charg\u00e9e des statistiques et des donn\u00e9es de recensement"
+                }
+            },
+            "aliases": {
+                "ar": [
+                    {
+                        "language": "ar",
+                        "value": "\u0645\u0635\u0644\u062d\u0629 \u0627\u0644\u0627\u062d\u0635\u0627\u0621\u0627\u062a \u0627\u0644\u0639\u0627\u0645\u0629 \u0648\u0627\u0644\u0645\u0639\u0644\u0648\u0645\u0627\u062a"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "GASTAT"
+                    },
+                    {
+                        "language": "en",
+                        "value": "GaStat"
+                    }
+                ],
+                "fr": [
+                    {
+                        "language": "fr",
+                        "value": "General Authority for Statistics"
+                    },
+                    {
+                        "language": "fr",
+                        "value": "GASTAT"
+                    }
+                ]
+            },
+            "claims": {
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://www.stats.gov.sa/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                },
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "1b1356fe89ad919c93fbcf2b7754a7a6ae114093",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 13955,
+                                            "id": "Q13955"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q20423308$F895B7A0-A77E-45BB-AE88-7F2E59C9DA95",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "60dfe229bd467335526b1231d27b0811d0dcc76d",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-21T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$01ed0d22-4987-1480-ef6f-707036b448b4",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 851,
+                                    "id": "Q851"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$53b4e966-45de-6201-a6eb-cf5792c37842",
+                        "rank": "normal"
+                    }
+                ],
+                "P361": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P361",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 55690986,
+                                    "id": "Q55690986"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$c1d0a3c2-4d49-27a6-d07f-30535e927376",
+                        "rank": "normal"
+                    }
+                ],
+                "P1448": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "datavalue": {
+                                "value": {
+                                    "text": "General Authority for Statistics",
+                                    "language": "en"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$9cd73d58-48c3-9840-6bb8-de4eccedeb6f",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "10ceeab6452efa61705232145f818416d7fb77a8",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.stats.gov.sa/en/node",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P1476": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P1476",
+                                            "datavalue": {
+                                                "value": {
+                                                    "text": "General Authority for Statistics |",
+                                                    "language": "en"
+                                                },
+                                                "type": "monolingualtext"
+                                            },
+                                            "datatype": "monolingualtext"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P1476"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "datavalue": {
+                                "value": {
+                                    "text": "\u0627\u0644\u0647\u064a\u0626\u0629 \u0627\u0644\u0639\u0627\u0645\u0629 \u0644\u0644\u0625\u062d\u0635\u0627\u0621",
+                                    "language": "ar"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$83b7de16-4743-34e8-7a7e-cc5bb3580abd",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "03ccd42bc376da59f78a38413a0bbd4cb11ef646",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.stats.gov.sa/ar/node",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P1476": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P1476",
+                                            "datavalue": {
+                                                "value": {
+                                                    "text": "\u0627\u0644\u0647\u064a\u0626\u0629 \u0627\u0644\u0639\u0627\u0645\u0629 \u0644\u0644\u0625\u062d\u0635\u0627\u0621 |",
+                                                    "language": "ar"
+                                                },
+                                                "type": "monolingualtext"
+                                            },
+                                            "datatype": "monolingualtext"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P1476"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2541": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2541",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 851,
+                                    "id": "Q851"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$bc18f010-4b3b-0d0d-5faa-c5abf717553d",
+                        "rank": "normal"
+                    }
+                ],
+                "P1001": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1001",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 851,
+                                    "id": "Q851"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$389bbd02-4f8a-361f-e8be-341ea9f7c8c0",
+                        "rank": "normal"
+                    }
+                ],
+                "P1813": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1813",
+                            "datavalue": {
+                                "value": {
+                                    "text": "GASTAT",
+                                    "language": "en"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P805": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P805",
+                                    "hash": "b9175b71db40fcdde76a8cb6caf1375e737a5510",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 101244,
+                                            "id": "Q101244"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P805"
+                        ],
+                        "id": "Q20423308$97dcfe18-4edc-0751-f130-a632a1ad6fd0",
+                        "rank": "normal"
+                    }
+                ],
+                "P2003": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2003",
+                            "datavalue": {
+                                "value": "stats_saudi",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$e9d61da8-447f-f797-1713-b82a309935bb",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "60dfe229bd467335526b1231d27b0811d0dcc76d",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-21T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2002": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2002",
+                            "datavalue": {
+                                "value": "Stats_Saudi",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "1b1356fe89ad919c93fbcf2b7754a7a6ae114093",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 13955,
+                                            "id": "Q13955"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P1552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1552",
+                                    "hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 28378282,
+                                            "id": "Q28378282"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "7a8e8d7957e633c1efcef55669c28d303de6ebd8",
+                                    "datavalue": {
+                                        "value": "2561029142",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "9be53ee84681638d01bf789eb072b5dda06cd01e",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2018-07-21T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "4412f2a77a4cfed4001bac61c6e899e6d4d87b8a",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2014-06-11T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407",
+                            "P1552",
+                            "P6552",
+                            "P585",
+                            "P580"
+                        ],
+                        "id": "Q20423308$773c3f38-48b7-e051-3fb0-3e8c00685ff2",
+                        "rank": "normal"
+                    }
+                ],
+                "P2013": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2013",
+                            "datavalue": {
+                                "value": "Stats.Saudi",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$bdf37f2e-4ede-82cd-d507-22e4b0c5465a",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "60dfe229bd467335526b1231d27b0811d0dcc76d",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-21T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P4264": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P4264",
+                            "datavalue": {
+                                "value": "general-authority-for-statistics-gastat",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$632d6a50-4dc9-6f01-4a97-54210857d63b",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "60dfe229bd467335526b1231d27b0811d0dcc76d",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-21T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2397": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2397",
+                            "datavalue": {
+                                "value": "UCUR0J1o6528tqFc7Qig4LLQ",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P2561": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P2561",
+                                    "hash": "ef1e997f77cf15c345086c340856478d28c47e8a",
+                                    "datavalue": {
+                                        "value": {
+                                            "text": "\u0627\u0644\u0647\u064a\u0626\u0629 \u0627\u0644\u0639\u0627\u0645\u0629 \u0644\u0644\u0625\u062d\u0635\u0627\u0621",
+                                            "language": "ar"
+                                        },
+                                        "type": "monolingualtext"
+                                    },
+                                    "datatype": "monolingualtext"
+                                }
+                            ],
+                            "P1810": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1810",
+                                    "hash": "da6a926dece16d26471cae067406a557ab72cdcf",
+                                    "datavalue": {
+                                        "value": "\u0627\u0644\u0647\u064a\u0626\u0629 \u0627\u0644\u0639\u0627\u0645\u0629 \u0644\u0644\u0625\u062d\u0635\u0627\u0621",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ],
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "50265a93e2b63b0fa250ba83cc9b24d45ac429b5",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2015-12-20T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P3744": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3744",
+                                    "hash": "af9ce5c776365ac1a81f387bb578328e8bf02d06",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+1520",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P3740": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3740",
+                                    "hash": "a905df76b484ea3d0c48126d6033ea2fcf292a7e",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+161",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P5436": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P5436",
+                                    "hash": "4bded4457094804f8e9864e871b26a4493a2d5b4",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+184472",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "6f95493d1f047ea5e0c1c6bffe08d6e93d80e55b",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2020-12-06T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P2561",
+                            "P1810",
+                            "P580",
+                            "P3744",
+                            "P3740",
+                            "P5436",
+                            "P585"
+                        ],
+                        "id": "Q20423308$59a84153-4206-4016-314b-f1658ad6eada",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "60dfe229bd467335526b1231d27b0811d0dcc76d",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-21T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1019": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1019",
+                            "datavalue": {
+                                "value": "https://www.stats.gov.sa/en/rss.xml",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q20423308$65c139fb-49f8-c681-77c1-ed69474017e9",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1019",
+                            "datavalue": {
+                                "value": "https://www.stats.gov.sa/ar/rss.xml",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "1b1356fe89ad919c93fbcf2b7754a7a6ae114093",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 13955,
+                                            "id": "Q13955"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q20423308$c2c9af9c-41b0-b2d2-0de5-24c2f280cf17",
+                        "rank": "normal"
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 3692,
+                                    "id": "Q3692"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$c57b4628-4fb6-e917-b6ec-35772ea76f7a",
+                        "rank": "normal"
+                    }
+                ],
+                "P37": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P37",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 13955,
+                                    "id": "Q13955"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$1b057876-48ee-d358-045d-c11397ba94f5",
+                        "rank": "normal"
+                    }
+                ],
+                "P154": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P154",
+                            "datavalue": {
+                                "value": "\u0634\u0639\u0627\u0631 \u0627\u0644\u0647\u064a\u0626\u0629 \u0627\u0644\u0639\u0627\u0645\u0629 \u0644\u0644\u0627\u062d\u0635\u0627\u0621 \u0627\u0644\u0635\u062d\u064a\u062d.png",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$FB73D292-37C2-47E7-9735-4AD74839CDBD",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "1e4e96da517f4b7d095379a9da9ceadf4585abeb",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 199700,
+                                                    "id": "Q199700"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-21T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1416": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1416",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 55683445,
+                                    "id": "Q55683445"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$77597773-4e43-e5ab-1516-2dd362d768af",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1416",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 55681496,
+                                    "id": "Q55681496"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$6a8b41a9-4b62-630b-30dd-f3e56bfd8ad6",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "beb47e9ca68a79aa030577166ed1570f497c71b5",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "http://www.oicstatcom.org/databases-nso-fr.php",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-21T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P968": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P968",
+                            "datavalue": {
+                                "value": "mailto:info@stats.gov.sa",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$4e68553b-4d5d-610a-68c6-8dd8ecadf738",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "cdbe500081dc5c7dc026dc064496749091ed7fd7",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-23T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P8687": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P8687",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+153762",
+                                    "unit": "1"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "7a8e8d7957e633c1efcef55669c28d303de6ebd8",
+                                    "datavalue": {
+                                        "value": "2561029142",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "1fae305dda221f606eda84f91ee0db6d70492cf1",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2021-01-04T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P6552",
+                            "P585"
+                        ],
+                        "id": "Q20423308$5ea9b2d6-e9d4-499f-be56-668e585cf38b",
+                        "rank": "normal"
+                    }
+                ],
+                "P2671": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2671",
+                            "datavalue": {
+                                "value": "/g/11clw7mdm6",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q20423308$6F9DFFD6-55B8-4BD1-B93A-0443CAA21CBC",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "arwiki": {
+                    "site": "arwiki",
+                    "title": "\u0627\u0644\u0647\u064a\u0626\u0629 \u0627\u0644\u0639\u0627\u0645\u0629 \u0644\u0644\u0625\u062d\u0635\u0627\u0621",
+                    "badges": [],
+                    "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%87%D9%8A%D8%A6%D8%A9_%D8%A7%D9%84%D8%B9%D8%A7%D9%85%D8%A9_%D9%84%D9%84%D8%A5%D8%AD%D8%B5%D8%A7%D8%A1"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "General Authority for Statistics (Saudi Arabia)",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/General_Authority_for_Statistics_(Saudi_Arabia)"
+                }
+            }
+        }
+    }
+}

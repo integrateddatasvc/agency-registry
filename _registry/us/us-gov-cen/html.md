@@ -49,6 +49,42 @@ ids:
   orgref: '57070'
   ror: 01qn7cs15
   wikidata: Q637413
+services:
+  blogs:
+  - client: html
+    endpoint: https://www.census.gov/newsroom/blogs.html
+    name: Census Blogs
+  - client: rss
+    endpoint: https://www.census.gov/content/census/en/newsroom/blogs/director.xml
+    name: Director's Blog
+  - client: rss
+    endpoint: https://www.census.gov/content/census/en/newsroom/blogs/global-reach.xml
+    name: Global Reach Blog
+  - client: rss
+    endpoint: https://www.census.gov/content/census/en/newsroom/blogs/random-samplings.xml
+    name: Random Samplings
+  - client: rss
+    endpoint: https://www.census.gov/content/census/en/newsroom/blogs/research-matters.xml
+    name: Research Matters
+  news:
+  - client: html
+    endpoint: https://www.census.gov/newsroom.html
+    name: Newsroom
+  - client: html
+    endpoint: https://www.census.gov/library/stories.html
+    name: America Counts
+  - client: html
+    endpoint: https://www.census.gov/newsroom/stories.html
+    name: Stats for Stories
+  - client: rss
+    endpoint: https://www.census.gov/economic-indicators/indicator.xml
+    name: Economic Indicators
+  - client: rss
+    endpoint: https://www.census.gov/content/census/en/newsroom/press-releases.xml
+    name: News Releases Only
+  - client: rss
+    endpoint: https://www.census.gov/newsroom/press-releases/by-year.xml
+    name: News (All News Items)
 social:
   facebook:
   - id: uscensusbureau

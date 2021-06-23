@@ -8,6 +8,6 @@ services:
   - client: html
     endpoint: https://catalogodatos.gub.uy/
     lang: es
-    name: "Cat\xC3\xA1logo de Datos Abiertos"
+    name: "Cat\xE1logo de Datos Abiertos"
     platform: ckan
 ---

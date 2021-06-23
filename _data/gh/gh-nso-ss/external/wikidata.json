@@ -1,0 +1,107 @@
+{
+    "entities": {
+        "Q98079239": {
+            "pageid": 96364644,
+            "ns": 0,
+            "title": "Q98079239",
+            "lastrevid": 1358304344,
+            "modified": "2021-02-10T11:32:39Z",
+            "type": "item",
+            "id": "Q98079239",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Ghana Statistical Service"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Government body in Ghana"
+                },
+                "ar": {
+                    "language": "ar",
+                    "value": "\u0645\u0646\u0638\u0645\u0629 \u063a\u0627\u0646\u064a\u0629"
+                },
+                "nl": {
+                    "language": "nl",
+                    "value": "organisatie uit Ghana"
+                }
+            },
+            "aliases": {
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "GSS"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 43229,
+                                    "id": "Q43229"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q98079239$cce4b019-4522-7830-2e2a-e3e92c0f3fb2",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 117,
+                                    "id": "Q117"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q98079239$2de54f26-4e34-65fb-a385-4508e1866a2e",
+                        "rank": "normal"
+                    }
+                ],
+                "P2671": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2671",
+                            "datavalue": {
+                                "value": "/g/11jprjmkdf",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q98079239$C3C4D6E3-B55D-45D7-9079-A32BFFAB533F",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Ghana Statistical Service",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/Ghana_Statistical_Service"
+                }
+            }
+        }
+    }
+}

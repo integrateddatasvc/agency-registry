@@ -5,6 +5,8 @@ geo:
   iso3166:
   - uy
   level: national
+ids:
+  wikidata: Q97096884
 services:
   catalogs:
   - client: html

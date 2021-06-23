@@ -6,10 +6,9 @@ title: Home
   <div class="auto-container" style="margin-bottom: 0px; padding-bottom: 0px;">
     <div class="content-side col-lg-12 col-md-12 col-sm-12">
 
-      <h1>Agency Registry</h1>
-      <p>This is a simple listing of the agencies in this registry -- we can add properties as desired, this is just meant to show what is possible.</p>
+      <h1>Agency Registry Directory</h1>
 
-      <h2>Directory</h2> 
+      <p>For information on this project, please see our <a href="https://github.com/integrateddatasvc/agency-registry">GitHub project</a> site.</p>
 
       {% assign data = site.data | sort%}
       
@@ -21,7 +20,23 @@ title: Home
             <td>
               {% assign agencies = group[1] | sort %}
               {% for agency in agencies %}
-                <a href="registry/{{group[0]}}/{{agency[0]}}/html">{{ agency[0] }}</a>&nbsp;
+                
+                {% assign name = nil %}
+
+                {% for entity in agency[1].external.wikidata.entities %}
+                  {% assign wikidata = entity %}
+                  {% assign name = wikidata[1].labels.en.value %}
+                  {% break %}
+                {% endfor %}
+
+                {% unless name %}
+                  {% assign name = agency[1].external.ror.name %}
+                {% endunless %}
+
+                {% unless name %}
+                  {% assign name = agency[0] %}
+                {% endunless %}
+                <a href="registry/{{group[0]}}/{{agency[0]}}/html" class="badge badge-pill badge-info">{{name}}</a>&nbsp;
               {% endfor %}
             </td>
           </tr>

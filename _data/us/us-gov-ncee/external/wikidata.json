@@ -1,0 +1,210 @@
+{
+    "entities": {
+        "Q100742530": {
+            "pageid": 98302259,
+            "ns": 0,
+            "title": "Q100742530",
+            "lastrevid": 1296036811,
+            "modified": "2020-10-23T14:46:31Z",
+            "type": "item",
+            "id": "Q100742530",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "National Center for Education Evaluation and Regional Assistance"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "A Center of the U.S. Department of Education's Institute of Education Sciences, NCEERA is responsible for rigorous program evaluation and encouraging evidence-building and use in education."
+                }
+            },
+            "aliases": {
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "NCEE"
+                    },
+                    {
+                        "language": "en",
+                        "value": "NCEERA"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 20857065,
+                                    "id": "Q20857065"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q100742530$4e4681d3-40e4-70de-4533-3c6307947a04",
+                        "rank": "normal"
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+2002-00-00T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 9,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q100742530$1f104ea6-4de0-670b-ef70-a2b08ce032fa",
+                        "rank": "normal"
+                    }
+                ],
+                "P1448": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "datavalue": {
+                                "value": {
+                                    "text": "National Center for Education Evaluation and Regional Assistance",
+                                    "language": "en"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q100742530$224f8d81-4e20-1104-164d-bb3a0f179934",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://ies.ed.gov/ncee/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q100742530$16dfb995-4ed0-9700-19de-5e154bf3db14",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 30,
+                                    "id": "Q30"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q100742530$5e67c458-4fab-493c-e17c-4c8c71e426b5",
+                        "rank": "normal"
+                    }
+                ],
+                "P749": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P749",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 6040253,
+                                    "id": "Q6040253"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q100742530$a610f185-44fd-f81f-2187-cb2313a99eb3",
+                        "rank": "normal"
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 61,
+                                    "id": "Q61"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q100742530$2cad2334-47a4-6370-9954-951da942f4cc",
+                        "rank": "normal"
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "136417835",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q100742530$1b1ebd64-4ea2-3c44-74d5-4997d36e9052",
+                        "rank": "normal"
+                    }
+                ],
+                "P213": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0000 9296 4958",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q100742530$fd6c8104-4b3a-36b8-934e-854685571cfc",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

@@ -46,6 +46,38 @@ ids:
   isni: 0000000119423343
   ror: 01h04ms65
   wikidata: Q1133499
+services:
+  calendars:
+  - client: html
+    endpoint: https://www.eia.gov/reports/upcoming.php
+    lang: en
+    name: All Reports & Publications
+  catalogs:
+  - client: html
+    endpoint: https://www.eia.gov/reports/
+    lang: en
+    name: All Reports & Publications
+  news:
+  - client: html
+    endpoint: https://www.eia.gov/about/new/
+    lang: en
+    name: What's New
+  - client: html
+    endpoint: https://www.eia.gov/pressroom/
+    lang: en
+    name: Press Room
+  - client: rss
+    endpoint: https://www.eia.gov/petroleum/gasdiesel/includes/gas_diesel_rss.xml
+    lang: en
+    name: Gasoline & Diesel Fuel Update
+  - client: rss
+    endpoint: https://www.eia.gov/rss/press_rss.xml
+    lang: en
+    name: Press Releases
+  - client: rss
+    endpoint: https://www.eia.gov/petroleum/heatingoilpropane/includes/hopu_rss.xml
+    lang: en
+    name: Heating Oil and Propane Update
 social:
   facebook:
   - id: eiagov/

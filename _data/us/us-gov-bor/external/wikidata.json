@@ -1,0 +1,1561 @@
+{
+    "entities": {
+        "Q1010548": {
+            "pageid": 959983,
+            "ns": 0,
+            "title": "Q1010548",
+            "lastrevid": 1424856752,
+            "modified": "2021-05-20T10:09:29Z",
+            "type": "item",
+            "id": "Q1010548",
+            "labels": {
+                "fr": {
+                    "language": "fr",
+                    "value": "bureau of Reclamation"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "United States Bureau of Reclamation"
+                },
+                "de": {
+                    "language": "de",
+                    "value": "Bureau of Reclamation"
+                },
+                "it": {
+                    "language": "it",
+                    "value": "United States Bureau of Reclamation"
+                },
+                "he": {
+                    "language": "he",
+                    "value": "\u05dc\u05e9\u05db\u05ea \u05d4\u05d8\u05d9\u05d5\u05d1 \u05e9\u05dc \u05d0\u05e8\u05e6\u05d5\u05ea \u05d4\u05d1\u05e8\u05d9\u05ea"
+                },
+                "nl": {
+                    "language": "nl",
+                    "value": "United States Bureau of Reclamation"
+                },
+                "nb": {
+                    "language": "nb",
+                    "value": "Bureau of Reclamation"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u7f8e\u570b\u958b\u58be\u5c40"
+                },
+                "zh-hant": {
+                    "language": "zh-hant",
+                    "value": "\u58be\u52d9\u5c40"
+                },
+                "zh-cn": {
+                    "language": "zh-cn",
+                    "value": "\u57a6\u52a1\u5c40"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u6c34\u5229\u518d\u751f\u5229\u7528\u5c40"
+                },
+                "zh-hans": {
+                    "language": "zh-hans",
+                    "value": "\u57a6\u52a1\u5c40"
+                }
+            },
+            "descriptions": {
+                "he": {
+                    "language": "he",
+                    "value": "\u05e1\u05d5\u05db\u05e0\u05d5\u05ea \u05e4\u05d3\u05e8\u05dc\u05d9\u05ea \u05d1\u05de\u05d7\u05dc\u05e7\u05ea \u05d4\u05e4\u05e0\u05d9\u05dd \u05e9\u05dc \u05d0\u05e8\u05e6\u05d5\u05ea \u05d4\u05d1\u05e8\u05d9\u05ea"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "government agency"
+                }
+            },
+            "aliases": {
+                "fr": [
+                    {
+                        "language": "fr",
+                        "value": "United States Bureau of Reclamation"
+                    }
+                ],
+                "de": [
+                    {
+                        "language": "de",
+                        "value": "USBR"
+                    },
+                    {
+                        "language": "de",
+                        "value": "United States Bureau of Reclamation"
+                    }
+                ],
+                "it": [
+                    {
+                        "language": "it",
+                        "value": "United States Reclamation Service"
+                    },
+                    {
+                        "language": "it",
+                        "value": "Bureau of Reclamation"
+                    }
+                ],
+                "zh": [
+                    {
+                        "language": "zh",
+                        "value": "\u7f8e\u570b\u58be\u52d9\u5c40"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u7f8e\u570b\u586b\u6d77\u5de5\u7a0b\u5c40"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u57a6\u52a1\u5c40"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u7f8e\u56fd\u57a6\u52a1\u5c40"
+                    }
+                ],
+                "ja": [
+                    {
+                        "language": "ja",
+                        "value": "\u571f\u5730\u6539\u826f\u5c40"
+                    },
+                    {
+                        "language": "ja",
+                        "value": "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd\u571f\u5730\u6539\u826f\u5c40"
+                    },
+                    {
+                        "language": "ja",
+                        "value": "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd\u958b\u62d3\u5c40"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "United States Reclamation Service"
+                    },
+                    {
+                        "language": "en",
+                        "value": "Bureau of Reclamation"
+                    },
+                    {
+                        "language": "en",
+                        "value": "USBR"
+                    },
+                    {
+                        "language": "en",
+                        "value": "U.S. Bureau of Reclamation"
+                    }
+                ]
+            },
+            "claims": {
+                "P373": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P373",
+                            "datavalue": {
+                                "value": "United States Bureau of Reclamation",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q1010548$3AC2F211-6DC5-498B-AC69-32554EF942E5",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P910": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P910",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 8327797,
+                                    "id": "Q8327797"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$A0BC3138-2E49-40CB-88B7-3DBE6441C247",
+                        "rank": "normal"
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/022g7l",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$6383EB07-C3E0-48EC-ADE5-3FFCA4872A9C",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 15241312,
+                                                    "id": "Q15241312"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P577": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P577",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2013-10-28T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P577"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$58E07622-31A9-437D-8A05-66DFC1A53BB9",
+                        "rank": "normal"
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "128924906",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$FA7E45B6-B933-4761-BB3A-543ABB5EEADD",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "8b703add300f239205b1a25278dcedba0df43d15",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 54919,
+                                                    "id": "Q54919"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2015-08-07T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P112": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P112",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 33866,
+                                    "id": "Q33866"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$D3FE9F55-98AB-4148-8009-39CE8C695A7D",
+                        "rank": "normal"
+                    }
+                ],
+                "P749": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P749",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 608427,
+                                    "id": "Q608427"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$80A8A4C5-0349-4394-BF4F-3350DAA2F379",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d6b49cb282a053f4f5ebbc30bdfd75824b5842b2",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.483930.5",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P648": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P648",
+                            "datavalue": {
+                                "value": "OL3373121A",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$68F4501A-3EB7-4D92-A39A-B9C63A864CAE",
+                        "rank": "normal"
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+1902-00-00T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 9,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$54ABE342-276B-4976-B292-022AB39D95F5",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183,
+                                                    "id": "Q48183"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.usbr.gov/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$5bc2c55e-4e62-5188-188f-d5183caefcb8",
+                        "rank": "deprecated"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://www.usbr.gov/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q1010548$28479829-406f-1808-66a6-6c5441ac99b9",
+                        "rank": "normal"
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 61,
+                                    "id": "Q61"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$FE3199A1-782D-428E-AED5-5871CDAE6506",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3348": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3348",
+                            "datavalue": {
+                                "value": "242396",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$75D4EFED-A89A-4EC5-B853-2F321D728A20",
+                        "rank": "normal"
+                    }
+                ],
+                "P213": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0001 2285 6529",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$B8E95D0B-46BC-4D2F-88FC-FE9A13167C43",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0004 0406 0289",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$808F52EF-EBEA-4380-A3A2-45202797BD7E",
+                        "rank": "normal"
+                    }
+                ],
+                "P3417": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3417",
+                            "datavalue": {
+                                "value": "Bureau-of-Reclamation",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$FD209702-E7A3-4FFE-9502-191FF067283F",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 51711,
+                                                    "id": "Q51711"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3417",
+                            "datavalue": {
+                                "value": "US-Bureau-of-Reclamation",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$3DAB9B16-E6D2-4383-BCE2-A36980DEB830",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3417",
+                            "datavalue": {
+                                "value": "United-States-Bureau-of-Reclamation",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$2FD3FF71-BC07-404B-9B64-BF23EF76FA40",
+                        "rank": "normal"
+                    }
+                ],
+                "P1128": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1128",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+5425",
+                                    "unit": "1"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$b12339a6-4f62-7bea-aac3-8fa3d6e319ea",
+                        "rank": "normal"
+                    }
+                ],
+                "P2427": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2427",
+                            "datavalue": {
+                                "value": "grid.483930.5",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$6B69E1CB-8BD4-4D7A-BA22-F2710456236C",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "0b6cf684d731cc4fd3b96081cdf683b07af8a53e",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 33026260,
+                                                    "id": "Q33026260"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P227": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P227",
+                            "datavalue": {
+                                "value": "117371-6",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$B5DB5AC5-6FAC-41AC-BD3E-73B6082F6B81",
+                        "rank": "preferred",
+                        "references": [
+                            {
+                                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183,
+                                                    "id": "Q48183"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P245": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P245",
+                            "datavalue": {
+                                "value": "500269183",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$D30A87AF-B2AB-4783-A743-5E13A7F57397",
+                        "rank": "normal"
+                    }
+                ],
+                "P1670": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1670",
+                            "datavalue": {
+                                "value": "0009D8236",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$F45F703A-3B64-427D-B2BD-665C773A075B",
+                        "rank": "normal"
+                    }
+                ],
+                "P244": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P244",
+                            "datavalue": {
+                                "value": "n80126148",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$1E82CE99-CB96-4476-87F7-C6575ACC9A5C",
+                        "rank": "normal"
+                    }
+                ],
+                "P409": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P409",
+                            "datavalue": {
+                                "value": "35563939",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$C35FEE4C-F065-45B6-9E38-DDB9FDBF827F",
+                        "rank": "normal"
+                    }
+                ],
+                "P1005": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1005",
+                            "datavalue": {
+                                "value": "139751",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$0EE35E04-313A-4295-918F-132D66ABCBB1",
+                        "rank": "normal"
+                    }
+                ],
+                "P1207": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1207",
+                            "datavalue": {
+                                "value": "n2015031461",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$51D3EFE6-9880-44E8-ADF3-F37BE64EE7A6",
+                        "rank": "normal"
+                    }
+                ],
+                "P949": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P949",
+                            "datavalue": {
+                                "value": "002094999",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$62B2417C-5A52-4B66-82E9-816521118C93",
+                        "rank": "normal"
+                    }
+                ],
+                "P3153": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3153",
+                            "datavalue": {
+                                "value": "100006450",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$4F18DF51-AC98-4F54-9AB8-8A7F8A7D8179",
+                        "rank": "normal"
+                    }
+                ],
+                "P4081": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P4081",
+                            "datavalue": {
+                                "value": "14005",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1810": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1810",
+                                    "hash": "ba1a99eed393fd4e522f3ae361e2189734e7b1b2",
+                                    "datavalue": {
+                                        "value": "United States. Bureau of Reclamation.",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1810"
+                        ],
+                        "id": "Q1010548$AEE3D1D9-6D70-4F02-9648-479590BAC57B",
+                        "rank": "normal"
+                    }
+                ],
+                "P268": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P268",
+                            "datavalue": {
+                                "value": "120662987",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$C9E2BABA-E016-4EFA-8989-AD58827AED8F",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "5a858a70d6ac562123c1debf25a5aed93a5c4939",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 19938912,
+                                                    "id": "Q19938912"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2015-08-26T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P269": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P269",
+                            "datavalue": {
+                                "value": "02892892X",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$5038CDF9-5CEB-4393-BDD3-E6A2F8D11647",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "5a858a70d6ac562123c1debf25a5aed93a5c4939",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 19938912,
+                                                    "id": "Q19938912"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2015-08-26T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1417": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1417",
+                            "datavalue": {
+                                "value": "topic/US-Bureau-of-Reclamation",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$7D6E0CE1-18AB-4EB6-B6CC-D27EF3C8060E",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 30,
+                                    "id": "Q30"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$59BEBA58-D7F4-4602-882D-F3CCC340568E",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "39e515ef64459085dfe4cd3367711e3f506f3aae",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 191769,
+                                                    "id": "Q191769"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://no.wikipedia.org/w/index.php?title=Bureau_of_Reclamation&oldid=18798620",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P158": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P158",
+                            "datavalue": {
+                                "value": "US-DOI-BureauOfReclamation-Seal.svg",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$1376d90b-48ce-5f4e-b460-e29ffec3cd24",
+                        "rank": "normal"
+                    }
+                ],
+                "P6366": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6366",
+                            "datavalue": {
+                                "value": "1322540875",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$615A4E98-24FA-40C1-BD44-63780B48C6C0",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "328e275d737f3f858d2eb8f3665d502ab900079c",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 60683589,
+                                                    "id": "Q60683589"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.483930.5",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2019-01-19T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P2427",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P6782": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6782",
+                            "datavalue": {
+                                "value": "00ezrrm21",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$423D9D7C-F422-4881-B785-72F9B879C36A",
+                        "rank": "normal"
+                    }
+                ],
+                "P1015": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1015",
+                            "datavalue": {
+                                "value": "90098694",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$91d7e272-4d71-7505-1a82-ac3bbae9ea82",
+                        "rank": "normal"
+                    }
+                ],
+                "P4619": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P4619",
+                            "datavalue": {
+                                "value": "000196719",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$a9615e63-4d94-2db2-8729-1e2629c71fc5",
+                        "rank": "normal"
+                    }
+                ],
+                "P1315": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1315",
+                            "datavalue": {
+                                "value": "997311",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$92DE7B1D-C7F6-4286-A25E-69B15500A03B",
+                        "rank": "normal"
+                    }
+                ],
+                "P271": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P271",
+                            "datavalue": {
+                                "value": "DA02187933",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$16CB77C5-5F85-4ADD-9846-3C7252D44515",
+                        "rank": "normal"
+                    }
+                ],
+                "P3393": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3393",
+                            "datavalue": {
+                                "value": "14675",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$5B1F3EBF-FE95-43B3-846B-BB15781001D5",
+                        "rank": "normal"
+                    }
+                ],
+                "P1938": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1938",
+                            "datavalue": {
+                                "value": "50716",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$A05BC38E-53F6-43CF-B703-933C3AD878B1",
+                        "rank": "normal"
+                    }
+                ],
+                "P7691": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7691",
+                            "datavalue": {
+                                "value": "u_s_bureau_of_reclamation",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$E1861AB9-2222-463E-86A6-A9BCE93E598A",
+                        "rank": "normal"
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "lccn-n80126148",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$B8081EFB-5662-4EDD-96CE-ADA73FB50AF8",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "bbf08ecfd7b8c9880e4b5e4e23271ac2b1c9d08e",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "128924906",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3500": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3500",
+                            "datavalue": {
+                                "value": "17244",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$60BEC4EE-860D-4E9D-BC8C-307905443B80",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "2834ac5da275724a6354a73d2d2a89ae956042a9",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 64159407,
+                                                    "id": "Q64159407"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P5508": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P5508",
+                            "datavalue": {
+                                "value": "118242",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010548$C6144450-13AE-4DD2-BA13-9B7DF26ED349",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "b68dfd8e754eae62c83c21d7a5bfd298566b0963",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.archinform.net/service/wd_aiarch.php",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 265049,
+                                                    "id": "Q265049"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2021-05-20T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sitelinks": {
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Bureau of Reclamation",
+                    "badges": [],
+                    "url": "https://de.wikipedia.org/wiki/Bureau_of_Reclamation"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "United States Bureau of Reclamation",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/United_States_Bureau_of_Reclamation"
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Bureau of Reclamation",
+                    "badges": [],
+                    "url": "https://fr.wikipedia.org/wiki/Bureau_of_Reclamation"
+                },
+                "hewiki": {
+                    "site": "hewiki",
+                    "title": "\u05dc\u05e9\u05db\u05ea \u05d4\u05d8\u05d9\u05d5\u05d1 \u05e9\u05dc \u05d0\u05e8\u05e6\u05d5\u05ea \u05d4\u05d1\u05e8\u05d9\u05ea",
+                    "badges": [],
+                    "url": "https://he.wikipedia.org/wiki/%D7%9C%D7%A9%D7%9B%D7%AA_%D7%94%D7%98%D7%99%D7%95%D7%91_%D7%A9%D7%9C_%D7%90%D7%A8%D7%A6%D7%95%D7%AA_%D7%94%D7%91%D7%A8%D7%99%D7%AA"
+                },
+                "itwiki": {
+                    "site": "itwiki",
+                    "title": "United States Bureau of Reclamation",
+                    "badges": [],
+                    "url": "https://it.wikipedia.org/wiki/United_States_Bureau_of_Reclamation"
+                },
+                "jawiki": {
+                    "site": "jawiki",
+                    "title": "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd\u958b\u62d3\u5c40",
+                    "badges": [],
+                    "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E5%90%88%E8%A1%86%E5%9B%BD%E9%96%8B%E6%8B%93%E5%B1%80"
+                },
+                "nlwiki": {
+                    "site": "nlwiki",
+                    "title": "United States Bureau of Reclamation",
+                    "badges": [],
+                    "url": "https://nl.wikipedia.org/wiki/United_States_Bureau_of_Reclamation"
+                },
+                "nowiki": {
+                    "site": "nowiki",
+                    "title": "Bureau of Reclamation",
+                    "badges": [],
+                    "url": "https://no.wikipedia.org/wiki/Bureau_of_Reclamation"
+                }
+            }
+        }
+    }
+}

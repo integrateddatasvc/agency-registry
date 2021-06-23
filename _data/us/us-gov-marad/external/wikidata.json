@@ -1,0 +1,1069 @@
+{
+    "entities": {
+        "Q679743": {
+            "pageid": 640357,
+            "ns": 0,
+            "title": "Q679743",
+            "lastrevid": 1354421477,
+            "modified": "2021-02-04T08:31:25Z",
+            "type": "item",
+            "id": "Q679743",
+            "labels": {
+                "de": {
+                    "language": "de",
+                    "value": "United States Maritime Administration"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u9023\u90a6\u6d77\u4e8b\u5c40"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "United States Maritime Administration"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "United States Maritime Administration"
+                },
+                "nb": {
+                    "language": "nb",
+                    "value": "Maritime Administration"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u7f8e\u570b\u6d77\u4e8b\u5c40"
+                },
+                "zh-cn": {
+                    "language": "zh-cn",
+                    "value": "\u7f8e\u56fd\u6d77\u4e8b\u5c40"
+                },
+                "zh-hans": {
+                    "language": "zh-hans",
+                    "value": "\u7f8e\u56fd\u6d77\u4e8b\u5c40"
+                },
+                "ru": {
+                    "language": "ru",
+                    "value": "\u041c\u043e\u0440\u0441\u043a\u0430\u044f \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u0421\u0428\u0410"
+                },
+                "be": {
+                    "language": "be",
+                    "value": "\u041c\u0430\u0440\u0441\u043a\u0430\u044f \u0430\u0434\u043c\u0456\u043d\u0456\u0441\u0442\u0440\u0430\u0446\u044b\u044f"
+                },
+                "ar": {
+                    "language": "ar",
+                    "value": "\u0627\u0644\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0628\u062d\u0631\u064a\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "agency within the U.S. Department of Transportation"
+                }
+            },
+            "aliases": {
+                "de": [
+                    {
+                        "language": "de",
+                        "value": "MARAD"
+                    }
+                ],
+                "fr": [
+                    {
+                        "language": "fr",
+                        "value": "MARAD"
+                    }
+                ],
+                "ja": [
+                    {
+                        "language": "ja",
+                        "value": "\u5408\u8846\u56fd\u6d77\u4e8b\u59d4\u54e1\u4f1a"
+                    },
+                    {
+                        "language": "ja",
+                        "value": "\u6d77\u4e8b\u5c40"
+                    }
+                ],
+                "zh": [
+                    {
+                        "language": "zh",
+                        "value": "\u806f\u90a6\u6d77\u904b\u7e3d\u7f72"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u7f8e\u56fd\u6d77\u4e8b\u5c40"
+                    }
+                ],
+                "ru": [
+                    {
+                        "language": "ru",
+                        "value": "\u041c\u043e\u0440\u0441\u043a\u0430\u044f \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u0423\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u0438\u044f \u0422\u043e\u0440\u0433\u043e\u0432\u043e\u0433\u043e \u0444\u043b\u043e\u0442\u0430 \u0421\u0428\u0410"
+                    },
+                    {
+                        "language": "ru",
+                        "value": "\u041c\u043e\u0440\u0441\u043a\u0430\u044f \u0430\u0434\u043c\u0438\u043d\u0438\u0441\u0442\u0440\u0430\u0446\u0438\u044f \u041c\u0438\u043d\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u0430 \u0442\u0440\u0430\u043d\u0441\u043f\u043e\u0440\u0442\u0430 \u0421\u0428\u0410"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "U.S. Maritime Administration"
+                    },
+                    {
+                        "language": "en",
+                        "value": "MARAD"
+                    }
+                ]
+            },
+            "claims": {
+                "P227": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P227",
+                            "datavalue": {
+                                "value": "115235-X",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$4F5BE015-6E7D-4ADD-AFF9-0E35DE8C5BB3",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183,
+                                                    "id": "Q48183"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P244": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P244",
+                            "datavalue": {
+                                "value": "n79068679",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$E7ABFDA5-0844-41DE-9446-C8D123416049",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183,
+                                                    "id": "Q48183"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "146568575",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$48A466CC-C744-494D-8B24-F0252C855722",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183,
+                                                    "id": "Q48183"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.marad.dot.gov/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q679743$D3005864-24AF-4056-A03A-72319167AA34",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+1950-00-00T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 9,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$99B702E0-D106-4330-B416-601A057815D7",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183,
+                                                    "id": "Q48183"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 30,
+                                    "id": "Q30"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$3CAEE59A-5933-4ED5-AF10-944A44F00311",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P213": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0001 2293 9746",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$08A55CCD-8D21-43DB-80D4-8F0788B77B2B",
+                        "rank": "normal"
+                    }
+                ],
+                "P3500": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3500",
+                            "datavalue": {
+                                "value": "17283",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$983D70FA-94F6-4993-A741-8F2BE23154DB",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "45e8fa2e37c421b7e5970029041dbdeac9824284",
+                                "snaks": {
+                                    "P356": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P356",
+                                            "datavalue": {
+                                                "value": "10.5281/ZENODO.758080",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P356"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$9353de7a-466a-e850-f4c2-4c67cc27c29c",
+                        "rank": "normal"
+                    }
+                ],
+                "P2427": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2427",
+                            "datavalue": {
+                                "value": "grid.484235.c",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$B27A2E0B-D09A-4E80-9A1A-627CDE7440D1",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "0b6cf684d731cc4fd3b96081cdf683b07af8a53e",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 33026260,
+                                                    "id": "Q33026260"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P749": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P749",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 852211,
+                                    "id": "Q852211"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$9EA2E3D2-1531-4F9E-890D-0C29C7C20678",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "da6956543c3adef625f2789ccce0746170ff69bb",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.484235.c",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 61,
+                                    "id": "Q61"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P625": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P625",
+                                    "hash": "5e1cdf5e7701ac80c7f718732bed0a61ffa2259f",
+                                    "datavalue": {
+                                        "value": {
+                                            "latitude": 38.875876,
+                                            "longitude": -77.00299,
+                                            "altitude": null,
+                                            "precision": 1e-05,
+                                            "globe": "http://www.wikidata.org/entity/Q2"
+                                        },
+                                        "type": "globecoordinate"
+                                    },
+                                    "datatype": "globe-coordinate"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P625"
+                        ],
+                        "id": "Q679743$CB262CF0-88F0-46DB-98DC-B8A0294FD81D",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "da6956543c3adef625f2789ccce0746170ff69bb",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.484235.c",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P4081": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P4081",
+                            "datavalue": {
+                                "value": "42245",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1810": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1810",
+                                    "hash": "e42e701083cded218129a4aa3e7cee60aee83b36",
+                                    "datavalue": {
+                                        "value": "United States. Maritime Administration.",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1810"
+                        ],
+                        "id": "Q679743$3F18531E-EF96-4E66-BD66-FEA113F3EACC",
+                        "rank": "normal"
+                    }
+                ],
+                "P269": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P269",
+                            "datavalue": {
+                                "value": "084539011",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$E9BF19C9-4ACB-4AF5-9A4B-3E1C6AAA6901",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "6d19e4259df88907fff1ad7016a6efaeb45613e2",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 54919,
+                                                    "id": "Q54919"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "146568575",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-10-07T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P214",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1830": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1830",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 56839,
+                                    "id": "Q56839"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$A438EBB2-2322-4F57-9A9F-CDB95B38C1B0",
+                        "rank": "normal"
+                    }
+                ],
+                "P158": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P158",
+                            "datavalue": {
+                                "value": "US-MaritimeAdministration-Seal.svg",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$FAB7A9A8-5502-4D0B-BEEE-986028A311B7",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "2ae834325be2a9a4bf37121bf8c10312a868b4f0",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://en.wikipedia.org/w/index.php?title=United_States_Maritime_Administration&oldid=859066349",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1128": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1128",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+754",
+                                    "unit": "1"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$6C7ECB28-7143-4C99-8786-F3EAF6A5ED33",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "5ef4c33e721008bff47f092284886608a8b98f32",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183,
+                                                    "id": "Q48183"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://de.wikipedia.org/w/index.php?title=United_States_Maritime_Administration&oldid=179671114",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P6366": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6366",
+                            "datavalue": {
+                                "value": "2800418208",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$E03F6A43-2CD1-4F7E-9D01-7106096CF795",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "09821c04cc2bf1a2e1268e0ae0756048f9439bca",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 60683589,
+                                                    "id": "Q60683589"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.484235.c",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2019-01-19T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P2427",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P6782": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6782",
+                            "datavalue": {
+                                "value": "055hae320",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$3D02D83A-9E7B-422F-B322-5E8FF2031836",
+                        "rank": "normal"
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "lccn-n79068679",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$6D0C70BE-70BD-48BC-89EF-D60AEF17F174",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fb0330c9d8efc4f01129a7ebfac0420e4f7ac8e4",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "146568575",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P373": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P373",
+                            "datavalue": {
+                                "value": "United States Maritime Administration",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$0cdb1876-4351-ac30-3331-9ec193466a6a",
+                        "rank": "normal"
+                    }
+                ],
+                "P41": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P41",
+                            "datavalue": {
+                                "value": "Flag of the United States Maritime Administration.png",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$13a3524a-4cd7-5ea5-1a9c-9efa226f7f37",
+                        "rank": "normal"
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/03tjcr",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q679743$49233874-EC33-49A8-B4C7-17B7A696A10D",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "arwiki": {
+                    "site": "arwiki",
+                    "title": "\u0627\u0644\u0625\u062f\u0627\u0631\u0629 \u0627\u0644\u0628\u062d\u0631\u064a\u0629 \u0627\u0644\u0623\u0645\u0631\u064a\u0643\u064a\u0629",
+                    "badges": [],
+                    "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9_%D8%A7%D9%84%D8%A8%D8%AD%D8%B1%D9%8A%D8%A9_%D8%A7%D9%84%D8%A3%D9%85%D8%B1%D9%8A%D9%83%D9%8A%D8%A9"
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:United States Maritime Administration",
+                    "badges": [],
+                    "url": "https://commons.wikimedia.org/wiki/Category:United_States_Maritime_Administration"
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "United States Maritime Administration",
+                    "badges": [],
+                    "url": "https://de.wikipedia.org/wiki/United_States_Maritime_Administration"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "United States Maritime Administration",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/United_States_Maritime_Administration"
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "United States Maritime Administration",
+                    "badges": [],
+                    "url": "https://fr.wikipedia.org/wiki/United_States_Maritime_Administration"
+                },
+                "jawiki": {
+                    "site": "jawiki",
+                    "title": "\u9023\u90a6\u6d77\u4e8b\u5c40",
+                    "badges": [],
+                    "url": "https://ja.wikipedia.org/wiki/%E9%80%A3%E9%82%A6%E6%B5%B7%E4%BA%8B%E5%B1%80"
+                },
+                "nowiki": {
+                    "site": "nowiki",
+                    "title": "Maritime Administration",
+                    "badges": [],
+                    "url": "https://no.wikipedia.org/wiki/Maritime_Administration"
+                }
+            }
+        }
+    }
+}

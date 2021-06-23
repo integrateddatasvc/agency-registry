@@ -75,6 +75,30 @@ ids:
   orgref: '70896'
   ror: 01na82s61
   wikidata: Q501542
+services:
+  blogs:
+  - client: html
+    endpoint: https://www.usda.gov/media/blog
+    lang: en
+    name: USDA Blog
+  catalogs:
+  - client: html
+    endpoint: https://www.usda.gov/media/agency-reports
+    lang: en
+    name: Agency Reports
+  news:
+  - client: html
+    endpoint: https://www.usda.gov/media/press-releases
+    lang: en
+    name: Press Releases
+  - client: rss
+    endpoint: https://www.usda.gov/rss/home.xml
+    lang: en
+    name: USDA Home
+  - client: rss
+    endpoint: https://www.usda.gov/rss/latest-releases.xml
+    lang: en
+    name: Latest News
 social:
   facebook:
   - id: usda/

@@ -1,0 +1,296 @@
+{
+    "entities": {
+        "Q2945928": {
+            "pageid": 2817700,
+            "ns": 0,
+            "title": "Q2945928",
+            "lastrevid": 1369602618,
+            "modified": "2021-02-25T03:56:08Z",
+            "type": "item",
+            "id": "Q2945928",
+            "labels": {
+                "fr": {
+                    "language": "fr",
+                    "value": "Centre national de la statistique et des \u00e9tudes \u00e9conomiques"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "Centre national de la statistique et des \u00e9tudes \u00e9conomiques"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u525b\u679c\u5171\u548c\u570b\u570b\u5bb6\u7d71\u8a08\u7814\u7a76\u6240"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Research institute in Congo-Brazzaville"
+                }
+            },
+            "aliases": {
+                "fr": [
+                    {
+                        "language": "fr",
+                        "value": "Centre national de la statistique et des \u00e9tudes \u00e9conomiques du Congo-Brazzaville"
+                    },
+                    {
+                        "language": "fr",
+                        "value": "Centre national de la statistique et des \u00e9tudes \u00e9conomiques (Congo-Brazzaville)"
+                    },
+                    {
+                        "language": "fr",
+                        "value": "Centre National De La Statistique Et Des \u00c9tudes \u00c9conomiques"
+                    },
+                    {
+                        "language": "fr",
+                        "value": "Centre national de la statistique et des \u00e9tudes \u00e9conomiques (congo-brazzaville)"
+                    },
+                    {
+                        "language": "fr",
+                        "value": "Centre National De La Statistique Et Des \u00c9tudes \u00c9conomiques (Congo-Brazzaville)"
+                    },
+                    {
+                        "language": "fr",
+                        "value": "Centre national de la statistique et des \u00e9tudes \u00e9conomiques du congo-brazzaville"
+                    },
+                    {
+                        "language": "fr",
+                        "value": "Centre National De La Statistique Et Des \u00c9tudes \u00c9conomiques Du Congo-Brazzaville"
+                    },
+                    {
+                        "language": "fr",
+                        "value": "Centre national de la statistique et des etudes economiques"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "Centre Nationale de la Statistique et des \u00c9tudes \u00c9conomiques"
+                    },
+                    {
+                        "language": "en",
+                        "value": "CNSEE"
+                    }
+                ]
+            },
+            "claims": {
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.cnsee.org",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "d197d0a5efa4b4c23a302a829dd3ef43684fe002",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 150,
+                                            "id": "Q150"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q2945928$DEF5F1AB-80EA-443F-8728-4F2633BDF48B",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8447,
+                                                    "id": "Q8447"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 31855,
+                                    "id": "Q31855"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q2945928$1DA41C82-0B9D-48B2-BD46-00F5C1634DBB",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "f11aba81094a602721257e1ee42f19e9dbf7ff80",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.ilo.org/wcmsp5/groups/public/@dgreports/@integration/documents/genericdocument/wcms_079493.pdf",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 971,
+                                    "id": "Q971"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q2945928$D20D9913-F76E-4B3B-88AC-2BC9EA5DFAB4",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 3844,
+                                    "id": "Q3844"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q2945928$E8C36CA0-1D7B-48D7-9ED6-3CF992E0EEB2",
+                        "rank": "normal"
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+1977-00-00T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 9,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q2945928$67756ff4-4883-9ced-4637-80c66ec27779",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8447,
+                                                    "id": "Q8447"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2671": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2671",
+                            "datavalue": {
+                                "value": "/g/122yh5cm",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q2945928$750D2E51-891C-4CAE-82E2-1BB1CCF9A6DE",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Centre national de la statistique et des \u00e9tudes \u00e9conomiques",
+                    "badges": [],
+                    "url": "https://fr.wikipedia.org/wiki/Centre_national_de_la_statistique_et_des_%C3%A9tudes_%C3%A9conomiques"
+                }
+            }
+        }
+    }
+}

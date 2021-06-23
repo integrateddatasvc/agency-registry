@@ -1,0 +1,1607 @@
+{
+    "entities": {
+        "Q4692008": {
+            "pageid": 4483245,
+            "ns": 0,
+            "title": "Q4692008",
+            "lastrevid": 1440188810,
+            "modified": "2021-06-12T18:03:17Z",
+            "type": "item",
+            "id": "Q4692008",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Agency for Healthcare Research and Quality"
+                },
+                "zh-hant": {
+                    "language": "zh-hant",
+                    "value": "\u885b\u751f\u4fdd\u5065\u7814\u7a76\u548c\u8cea\u91cf\u76e3\u7763\u5c40"
+                },
+                "zh-cn": {
+                    "language": "zh-cn",
+                    "value": "\u536b\u751f\u4fdd\u5065\u7814\u7a76\u548c\u8d28\u91cf\u76d1\u7763\u5c40"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u4fdd\u5065\u7814\u7a76\u548c\u8cea\u91cf\u5c40"
+                },
+                "de": {
+                    "language": "de",
+                    "value": "Agency for Healthcare Research and Quality"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u30a2\u30e1\u30ea\u30ab\u533b\u7642\u7814\u7a76\u54c1\u8cea\u5c40"
+                },
+                "zh-hans": {
+                    "language": "zh-hans",
+                    "value": "\u533b\u7597\u4fdd\u969c\u7814\u7a76\u548c\u8d28\u91cf\u5c40"
+                },
+                "ar": {
+                    "language": "ar",
+                    "value": "\u0648\u0643\u0627\u0644\u0629 \u0623\u0628\u062d\u0627\u062b \u0627\u0644\u0631\u0639\u0627\u064a\u0629 \u0627\u0644\u0635\u062d\u064a\u0629 \u0648\u0627\u0644\u062c\u0648\u062f\u0629"
+                },
+                "uk": {
+                    "language": "uk",
+                    "value": "\u0410\u0433\u0435\u043d\u0446\u0456\u044f \u0437 \u0434\u043e\u0441\u043b\u0456\u0434\u0436\u0435\u043d\u044c \u0442\u0430 \u044f\u043a\u043e\u0441\u0442\u0456 \u0443 \u0433\u0430\u043b\u0443\u0437\u0456 \u043e\u0445\u043e\u0440\u043e\u043d\u0456 \u0437\u0434\u043e\u0440\u043e\u0432'\u044f"
+                },
+                "he": {
+                    "language": "he",
+                    "value": "\u05d4\u05e1\u05d5\u05db\u05e0\u05d5\u05ea \u05dc\u05de\u05d7\u05e7\u05e8\u05d9 \u05d1\u05e8\u05d9\u05d0\u05d5\u05ea \u05d5\u05d0\u05d9\u05db\u05d5\u05ea"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "United States government agency"
+                }
+            },
+            "aliases": {
+                "zh": [
+                    {
+                        "language": "zh",
+                        "value": "\u7167\u8b77\u7814\u7a76\u53ca\u54c1\u8cea\u6a5f\u69cb"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u91ab\u7642\u4fdd\u5065\u7814\u7a76\u8207\u8cea\u91cf\u5c40"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u533b\u7597\u4fdd\u969c\u7814\u7a76\u548c\u8d28\u91cf\u5c40"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u536b\u751f\u4fdd\u5065\u7814\u7a76\u548c\u8d28\u91cf\u76d1\u7763\u5c40"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u7f8e\u570b\u91ab\u7642\u4fdd\u5065\u7814\u7a76\u8207\u8cea\u91cf\u5c40"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u7f8e\u570b\u91ab\u7642\u885b\u751f\u7814\u7a76\u8207\u54c1\u8cea\u5c40"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u7f8e\u570b\u91ab\u7642\u7167\u8b77\u66a8\u54c1\u8cea\u7814\u7a76\u6240"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u7f8e\u570b\u91ab\u7642\u885b\u751f\u7814\u7a76\u8207\u8cea\u91cf\u5c40"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u7f8e\u570b\u91ab\u7642\u4fdd\u5065\u7814\u7a76\u8207\u54c1\u8cea\u5c40"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u91ab\u7642\u885b\u751f\u7814\u7a76\u8207\u54c1\u8cea\u7f72"
+                    }
+                ],
+                "zh-cn": [
+                    {
+                        "language": "zh-cn",
+                        "value": "\u533b\u7597\u4fdd\u969c\u7814\u7a76\u548c\u8d28\u91cf\u5c40"
+                    }
+                ],
+                "zh-hant": [
+                    {
+                        "language": "zh-hant",
+                        "value": "\u91ab\u7642\u4fdd\u969c\u7814\u7a76\u548c\u8cea\u91cf\u5c40"
+                    }
+                ],
+                "zh-hans": [
+                    {
+                        "language": "zh-hans",
+                        "value": "\u536b\u751f\u4fdd\u5065\u7814\u7a76\u548c\u8d28\u91cf\u76d1\u7763\u5c40"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "AHRQ"
+                    },
+                    {
+                        "language": "en",
+                        "value": "United States Agency for Healthcare Research and Quality"
+                    },
+                    {
+                        "language": "en",
+                        "value": "U. S. Agency for Healthcare Research and Quality"
+                    },
+                    {
+                        "language": "en",
+                        "value": "U.S. Agency for Healthcare Research and Quality"
+                    },
+                    {
+                        "language": "en",
+                        "value": "US Agency for Healthcare Research and Quality"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$D2412149-D9E8-487F-8265-AADC6A538AF7",
+                        "rank": "normal"
+                    }
+                ],
+                "P213": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0004 0507 6696",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$04AC0AE1-9915-401D-BD2A-5821ACB52D0A",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "f20e7cc1dc95f8af90470df9ddea266baf12be00",
+                                "snaks": {
+                                    "P356": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P356",
+                                            "datavalue": {
+                                                "value": "10.6084/M9.FIGSHARE.4539889",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P356"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3500": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3500",
+                            "datavalue": {
+                                "value": "10942",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$FED2A965-3287-4D6F-B4F6-D2E0D91A7EE4",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "45e8fa2e37c421b7e5970029041dbdeac9824284",
+                                "snaks": {
+                                    "P356": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P356",
+                                            "datavalue": {
+                                                "value": "10.5281/ZENODO.758080",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P356"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3417": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3417",
+                            "datavalue": {
+                                "value": "Agency-for-Healthcare-Research-and-Quality",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$80153452-1AF3-43F4-88B1-DE94FE9229CE",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "3b0a5bb3c1f955edce73740124f7d935698092ad",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 51711,
+                                                    "id": "Q51711"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3417",
+                            "datavalue": {
+                                "value": "AHRQ",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$823E80E5-574E-4677-B31D-7C2149455025",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 30,
+                                    "id": "Q30"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$9E3EC223-7768-4A75-BC24-675D6B12B4F3",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "e9499cd5a0489cbdc4ea31acb251f7d0d427823e",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.413404.6",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327022,
+                                    "id": "Q327022"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$0E33DA85-CBAB-4EDF-94E7-0418F766D484",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "e9499cd5a0489cbdc4ea31acb251f7d0d427823e",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.413404.6",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1417": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1417",
+                            "datavalue": {
+                                "value": "topic/Agency-for-Healthcare-Research-and-Quality",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$9ED48716-2A1C-4724-8E7E-61C99D0AE2BB",
+                        "rank": "normal"
+                    }
+                ],
+                "P1662": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1662",
+                            "datavalue": {
+                                "value": "10.23970",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$27853903-748D-4980-924B-5C9B9641D952",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "266709e2ba92121b01c54192fd799adcdab324e8",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "http://api.crossref.org/members/10057",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2017-12-08T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 1,
+                                                    "after": 1,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3153": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3153",
+                            "datavalue": {
+                                "value": "100000133",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$AE97F7D4-D6F6-4A4A-AE4C-985E3AD1572F",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "e9499cd5a0489cbdc4ea31acb251f7d0d427823e",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.413404.6",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P749": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P749",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 942326,
+                                    "id": "Q942326"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$B83E21F4-2914-49CF-B0CF-44EFC328E394",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "e9499cd5a0489cbdc4ea31acb251f7d0d427823e",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.413404.6",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.ahrq.gov/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q4692008$8DE32A0E-E25C-4BBF-AC56-C6EB7201AACB",
+                        "rank": "deprecated",
+                        "references": [
+                            {
+                                "hash": "e9499cd5a0489cbdc4ea31acb251f7d0d427823e",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.413404.6",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://www.ahrq.gov/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q4692008$cc4bc939-4dd5-1ca4-0b6e-eedc263f5a78",
+                        "rank": "preferred"
+                    }
+                ],
+                "P2427": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2427",
+                            "datavalue": {
+                                "value": "grid.413404.6",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$9ED1694B-8B39-4100-A92B-033539596E0C",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "40fdc7f3ce7f6771a8f285a1267bfc3f3de154d9",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 53869345,
+                                                    "id": "Q53869345"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            },
+                            {
+                                "hash": "a1914c8952a5bc482eafeb26be4fda504fe701f9",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 53705036,
+                                                    "id": "Q53705036"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P355": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P355",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 7891198,
+                                    "id": "Q7891198"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$1f3896d4-4f49-e433-bcde-677b3591873d",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "3e6d985dbbb0289553ca6a4c81c40e8ff4a4b98a",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 55434246,
+                                                    "id": "Q55434246"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.413404.6",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P6366": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6366",
+                            "datavalue": {
+                                "value": "82994568",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$3A2452D5-CAF5-477C-BE74-4093ADD5A88E",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "3fdbb965bf11cdcd663c11c3bdc4400180548f66",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 60683589,
+                                                    "id": "Q60683589"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.413404.6",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2019-01-19T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P2427",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P6782": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6782",
+                            "datavalue": {
+                                "value": "03jmfdf59",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$77F40D69-EA8F-459A-936C-09C4BB29DDF2",
+                        "rank": "normal"
+                    }
+                ],
+                "P486": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P486",
+                            "datavalue": {
+                                "value": "D016270",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$6080A733-428D-4C9B-AB6C-29006F1BEB85",
+                        "rank": "normal"
+                    }
+                ],
+                "P101": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P101",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 265158,
+                                    "id": "Q265158"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$939cd92c-4e4f-9068-c2fd-10cef2d4f113",
+                        "rank": "normal"
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "147513525",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$09CE13EA-A06D-4315-9F6A-0CE1F147FD60",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "129508251",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$97b9e60d-4283-b353-6085-b55796aa9bfa",
+                        "rank": "normal"
+                    }
+                ],
+                "P973": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P973",
+                            "datavalue": {
+                                "value": "https://www.federalregister.gov/agencies/agency-for-healthcare-research-and-quality",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$7f34cbb8-0fb9-4aad-b57c-d43f86ea71b7",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "539398e7c6213d07891f14a364ce3dc64c5b52b8",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 28054658,
+                                                    "id": "Q28054658"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P2264": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2264",
+                                            "datavalue": {
+                                                "value": "3299",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P2264"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2002": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2002",
+                            "datavalue": {
+                                "value": "ahrqnews",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "0e67b8b2e2178fafcdd33f23ce0e151c6507890f",
+                                    "datavalue": {
+                                        "value": "44957814",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P1552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1552",
+                                    "hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 28378282,
+                                            "id": "Q28378282"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P3744": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3744",
+                                    "hash": "34fade91f86959fb994479129ccac5b5fd024c72",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+68362",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "7e926e984d98d6249becb4f2c5821a8cd1209b84",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2009-06-05T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "e25f4d576b5c50b9a269510a806c47d14d20b962",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2020-04-18T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P6552",
+                            "P1552",
+                            "P3744",
+                            "P580",
+                            "P585"
+                        ],
+                        "id": "Q4692008$45EB2CA6-4469-472C-865F-32D1FA8590D5",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "98a9d3d4f77f78f7fd61df8552bd8698208ed0ef",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 648625,
+                                                    "id": "Q648625"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2013": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2013",
+                            "datavalue": {
+                                "value": "ahrq.gov",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$A2275429-A516-491C-A3C6-3B3E3C249C28",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "98a9d3d4f77f78f7fd61df8552bd8698208ed0ef",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 648625,
+                                                    "id": "Q648625"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2397": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2397",
+                            "datavalue": {
+                                "value": "UC0S1E4dZGnpGmQJ5e0t9zUg",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1810": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1810",
+                                    "hash": "86338434b47c615548329a66a1706e8f48cb6b54",
+                                    "datavalue": {
+                                        "value": "AHRQ Health TV",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ],
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "43a50ee4612610e1a3097143778ee4b3ec118ca6",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2009-10-22T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P3744": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3744",
+                                    "hash": "d266e31a182459dadf336110c34fa6c134ea43aa",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+4310",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P3740": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3740",
+                                    "hash": "fcd97cd03cf9705776b8579ee65fce3156ad0728",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+75",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P5436": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P5436",
+                                    "hash": "684c6b798561e2834ef60276945153809678c3b7",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+373273",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "67f17c25d8846b0426899ecb1bf9effecc10c961",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2020-12-09T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1810",
+                            "P580",
+                            "P3744",
+                            "P3740",
+                            "P5436",
+                            "P585"
+                        ],
+                        "id": "Q4692008$8825E671-E477-4B3C-992A-FECEE60A1FCF",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "98a9d3d4f77f78f7fd61df8552bd8698208ed0ef",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 648625,
+                                                    "id": "Q648625"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/05pt7g",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$E69C5062-4346-4469-9863-0A48E15359DD",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "98a9d3d4f77f78f7fd61df8552bd8698208ed0ef",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 648625,
+                                                    "id": "Q648625"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P271": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P271",
+                            "datavalue": {
+                                "value": "DA1520198X",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$235099e8-4f8e-b890-9799-c8f8d7f99e68",
+                        "rank": "normal"
+                    }
+                ],
+                "P349": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P349",
+                            "datavalue": {
+                                "value": "00937067",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$fd5830b1-4b66-3c77-23b6-87409438b49c",
+                        "rank": "normal"
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "viaf-147513525",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$B532A9A4-9F39-4129-902C-0005585A4029",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "27f22b30546e05565011851a20e0b3d3920b0eda",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "147513525",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "lccn-no00015616",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$1dfc7fed-4c02-761e-1190-4492f61b9443",
+                        "rank": "normal"
+                    }
+                ],
+                "P3393": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3393",
+                            "datavalue": {
+                                "value": "342912",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$17C67F60-A903-4E9B-ABDF-351692461A32",
+                        "rank": "normal"
+                    }
+                ],
+                "P4203": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P4203",
+                            "datavalue": {
+                                "value": "507",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$60AAC974-2E5A-43DE-AD18-CE5B5F6BEB8E",
+                        "rank": "normal"
+                    }
+                ],
+                "P5785": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P5785",
+                            "datavalue": {
+                                "value": "919244654",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$BA8E92A7-B4C2-44EE-B16F-45A2CB4D6417",
+                        "rank": "normal"
+                    }
+                ],
+                "P244": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P244",
+                            "datavalue": {
+                                "value": "no00015616",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$a7c2cfe8-4621-2de2-2eda-d25a02ab6caa",
+                        "rank": "normal"
+                    }
+                ],
+                "P8687": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P8687",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+69152",
+                                    "unit": "1"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "0e67b8b2e2178fafcdd33f23ce0e151c6507890f",
+                                    "datavalue": {
+                                        "value": "44957814",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "ca6610e3015cabb3069ecb93a89c1f5245717b35",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2021-01-10T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P6552",
+                            "P585"
+                        ],
+                        "id": "Q4692008$1d72c7d4-af66-4446-8512-5851d858c0b2",
+                        "rank": "preferred"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P8687",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+68362",
+                                    "unit": "1"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "0e67b8b2e2178fafcdd33f23ce0e151c6507890f",
+                                    "datavalue": {
+                                        "value": "44957814",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "e25f4d576b5c50b9a269510a806c47d14d20b962",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2020-04-18T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P6552",
+                            "P585"
+                        ],
+                        "id": "Q4692008$e013e801-d32c-46b8-9865-0633dc77149a",
+                        "rank": "normal"
+                    }
+                ],
+                "P9272": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P9272",
+                            "datavalue": {
+                                "value": "29143",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4692008$283545D7-28AC-4A89-B91B-D4D2F15297E0",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "arwiki": {
+                    "site": "arwiki",
+                    "title": "\u0648\u0643\u0627\u0644\u0629 \u0623\u0628\u062d\u0627\u062b \u0627\u0644\u0631\u0639\u0627\u064a\u0629 \u0627\u0644\u0635\u062d\u064a\u0629 \u0648\u0627\u0644\u062c\u0648\u062f\u0629",
+                    "badges": [],
+                    "url": "https://ar.wikipedia.org/wiki/%D9%88%D9%83%D8%A7%D9%84%D8%A9_%D8%A3%D8%A8%D8%AD%D8%A7%D8%AB_%D8%A7%D9%84%D8%B1%D8%B9%D8%A7%D9%8A%D8%A9_%D8%A7%D9%84%D8%B5%D8%AD%D9%8A%D8%A9_%D9%88%D8%A7%D9%84%D8%AC%D9%88%D8%AF%D8%A9"
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Agency for Healthcare Research and Quality",
+                    "badges": [],
+                    "url": "https://de.wikipedia.org/wiki/Agency_for_Healthcare_Research_and_Quality"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Agency for Healthcare Research and Quality",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/Agency_for_Healthcare_Research_and_Quality"
+                },
+                "hewiki": {
+                    "site": "hewiki",
+                    "title": "\u05d4\u05e1\u05d5\u05db\u05e0\u05d5\u05ea \u05dc\u05de\u05d7\u05e7\u05e8\u05d9 \u05d1\u05e8\u05d9\u05d0\u05d5\u05ea \u05d5\u05d0\u05d9\u05db\u05d5\u05ea",
+                    "badges": [],
+                    "url": "https://he.wikipedia.org/wiki/%D7%94%D7%A1%D7%95%D7%9B%D7%A0%D7%95%D7%AA_%D7%9C%D7%9E%D7%97%D7%A7%D7%A8%D7%99_%D7%91%D7%A8%D7%99%D7%90%D7%95%D7%AA_%D7%95%D7%90%D7%99%D7%9B%D7%95%D7%AA"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,971 @@
+{
+    "entities": {
+        "Q3128426": {
+            "pageid": 2989024,
+            "ns": 0,
+            "title": "Q3128426",
+            "lastrevid": 1419711379,
+            "modified": "2021-05-12T23:50:19Z",
+            "type": "item",
+            "id": "Q3128426",
+            "labels": {
+                "fr": {
+                    "language": "fr",
+                    "value": "Haut-commissariat au Plan"
+                },
+                "ar": {
+                    "language": "ar",
+                    "value": "\u0627\u0644\u0645\u0646\u062f\u0648\u0628\u064a\u0629 \u0627\u0644\u0633\u0627\u0645\u064a\u0629 \u0644\u0644\u062a\u062e\u0637\u064a\u0637"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "High Commission for Planning"
+                },
+                "es": {
+                    "language": "es",
+                    "value": "Alto Comisionado de Planificaci\u00f3n"
+                },
+                "bg": {
+                    "language": "bg",
+                    "value": "\u0412\u044a\u0440\u0445\u043e\u0432\u0435\u043d \u043a\u043e\u043c\u0438\u0441\u0430\u0440\u0438\u0430\u0442 \u0437\u0430 \u043f\u043b\u0430\u043d\u0438\u0440\u0430\u043d\u0435"
+                },
+                "zh-hant": {
+                    "language": "zh-hant",
+                    "value": "\u6469\u6d1b\u54e5\u898f\u5283\u9ad8\u968e\u59d4\u54e1\u6703"
+                },
+                "zh-hans": {
+                    "language": "zh-hans",
+                    "value": "\u6469\u6d1b\u54e5\u89c4\u5212\u9ad8\u7ea7\u59d4\u5458\u4f1a"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u6469\u6d1b\u54e5\u89c4\u5212\u9ad8\u7ea7\u59d4\u5458\u4f1a"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Moroccan planning ministry equivalent"
+                }
+            },
+            "aliases": {
+                "fr": [
+                    {
+                        "language": "fr",
+                        "value": "Haut commissariat au plan"
+                    },
+                    {
+                        "language": "fr",
+                        "value": "Haut-Commissariat au Plan"
+                    },
+                    {
+                        "language": "fr",
+                        "value": "Haut-Commissariat au plan"
+                    }
+                ],
+                "es": [
+                    {
+                        "language": "es",
+                        "value": "Alto Comisionado de Planificacion"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "Haut Commissariat au Plan"
+                    }
+                ],
+                "zh-hans": [
+                    {
+                        "language": "zh-hans",
+                        "value": "\u9ad8\u7d1a\u8a08\u5283\u7f72"
+                    }
+                ],
+                "zh-hant": [
+                    {
+                        "language": "zh-hant",
+                        "value": "\u9ad8\u968e\u8a08\u5283\u7f72"
+                    },
+                    {
+                        "language": "zh-hant",
+                        "value": "\u6469\u6d1b\u54e5\u898f\u5283\u9ad8\u7d1a\u59d4\u54e1\u6703"
+                    },
+                    {
+                        "language": "zh-hant",
+                        "value": "\u9ad8\u7d1a\u8a08\u756b\u7f72"
+                    }
+                ],
+                "zh": [
+                    {
+                        "language": "zh",
+                        "value": "\u9ad8\u7d1a\u8a08\u5283\u7f72"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 2098373,
+                                    "id": "Q2098373"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$0a9cc4a2-435d-c40c-62e2-015f095c0662",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.hcp.ma/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "d197d0a5efa4b4c23a302a829dd3ef43684fe002",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 150,
+                                            "id": "Q150"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q3128426$6A93676D-B847-4A09-BA54-4C8B28C1A396",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8447,
+                                                    "id": "Q8447"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P154": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P154",
+                            "datavalue": {
+                                "value": "HCP Marruecos.png",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$963CA8B6-41A8-48FB-81D0-60C22E152897",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "908b14979a5762be3438a7a97251940f8df442f5",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-22T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P355": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P355",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 55714244,
+                                    "id": "Q55714244"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$818f4080-4393-247b-f65d-39f62dfbedfe",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1028,
+                                    "id": "Q1028"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$bc4e23be-47b6-7a73-eea2-9d3eace7cbf2",
+                        "rank": "normal"
+                    }
+                ],
+                "P1448": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "datavalue": {
+                                "value": {
+                                    "text": "Haut-commissariat au Plan",
+                                    "language": "fr"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$008e1be9-461a-0666-e8c1-cedd36a7f761",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "datavalue": {
+                                "value": {
+                                    "text": "\u0627\u0644\u0645\u0646\u062f\u0648\u0628\u064a\u0629 \u0627\u0644\u0633\u0627\u0645\u064a\u0629 \u0644\u0644\u062a\u062e\u0637\u064a\u0637",
+                                    "language": "ar"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$b324a697-4409-f8f9-c710-72b2f453de41",
+                        "rank": "normal"
+                    }
+                ],
+                "P968": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P968",
+                            "datavalue": {
+                                "value": "mailto:contact@hcp.ma",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$9e2bda2a-44a5-442b-6693-e3c77d895d71",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "36532fb6aee08913fe72b28c88af14440afc76e1",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-22T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 3128800,
+                                    "id": "Q3128800"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$963b8792-46fd-078e-c200-3310252c8853",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "983e0dd64f6d5478e0293a24eb4db5f1a32ec618",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.hcp.ma/Contacter-le-Haut-Commissariat-au-Plan_a179.html",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-22T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2002": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2002",
+                            "datavalue": {
+                                "value": "hcpmaroc",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "4c4971133b3758c62b68e866921882582c8750cb",
+                                    "datavalue": {
+                                        "value": "492274290",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P3744": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3744",
+                                    "hash": "5e3e481a8ac22a1c4a893dfb696bc1b1913969b3",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+24858",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "7bc47726089ec1eb87dfa5754fa5d6203a596506",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2012-02-14T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "1559c3e56a5d0299ec1d8f5b8fc576f2f7e7921f",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2020-04-20T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P6552",
+                            "P3744",
+                            "P580",
+                            "P585"
+                        ],
+                        "id": "Q3128426$1f929ea7-473c-4dee-47ae-67ee93410be0",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "36532fb6aee08913fe72b28c88af14440afc76e1",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-22T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P4003": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P4003",
+                            "datavalue": {
+                                "value": "HCP-Maroc-Page-officielle-/221784977916955",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$41d88073-4e35-a05e-11af-3af259dd71ca",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "36532fb6aee08913fe72b28c88af14440afc76e1",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-22T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2013": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2013",
+                            "datavalue": {
+                                "value": "HCPMaroc",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$722a2d18-497a-da2e-13ad-21815d7cb6fa",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "36532fb6aee08913fe72b28c88af14440afc76e1",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-22T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2942": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2942",
+                            "datavalue": {
+                                "value": "HCPMaroc",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$58bea3f7-4f8e-ae39-d584-5d5564610f78",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "36532fb6aee08913fe72b28c88af14440afc76e1",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-22T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P37": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P37",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 150,
+                                    "id": "Q150"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$60920504-4365-b3fb-3f7b-03b3bc690f28",
+                        "rank": "normal"
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "138825106",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$396DFD18-99C6-45B2-A12D-534EA30D3B4D",
+                        "rank": "normal"
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+2003-00-00T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 9,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$04E0A1D1-27CC-4ACB-A14A-F127A3E54233",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "178bf51aaef9debd69a8cee3ec3c795f489ef56d",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8449,
+                                                    "id": "Q8449"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://es.wikipedia.org/w/index.php?title=Alto_Comisionado_de_Planificaci\u00f3n&oldid=119165020",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "viaf-138825106",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$2DF3CEE2-29FF-4FF8-9748-583F349364E4",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d4f8ea576aab935fa1f0cdabbaf202a7be78d07c",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "138825106",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P8687": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P8687",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+29398",
+                                    "unit": "1"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "4c4971133b3758c62b68e866921882582c8750cb",
+                                    "datavalue": {
+                                        "value": "492274290",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "1fae305dda221f606eda84f91ee0db6d70492cf1",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2021-01-04T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P6552",
+                            "P585"
+                        ],
+                        "id": "Q3128426$e76590d0-cb09-48d2-8af3-1171b98968fa",
+                        "rank": "preferred"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P8687",
+                            "datavalue": {
+                                "value": {
+                                    "amount": "+24858",
+                                    "unit": "1"
+                                },
+                                "type": "quantity"
+                            },
+                            "datatype": "quantity"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "4c4971133b3758c62b68e866921882582c8750cb",
+                                    "datavalue": {
+                                        "value": "492274290",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "1559c3e56a5d0299ec1d8f5b8fc576f2f7e7921f",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2020-04-20T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P6552",
+                            "P585"
+                        ],
+                        "id": "Q3128426$fd8109a2-c2ea-4692-ac5b-ab94302f2818",
+                        "rank": "normal"
+                    }
+                ],
+                "P2671": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2671",
+                            "datavalue": {
+                                "value": "/g/112yfw32s",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q3128426$883FC726-A88C-4AA8-9C3B-13C2076DBCD0",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "arwiki": {
+                    "site": "arwiki",
+                    "title": "\u0627\u0644\u0645\u0646\u062f\u0648\u0628\u064a\u0629 \u0627\u0644\u0633\u0627\u0645\u064a\u0629 \u0644\u0644\u062a\u062e\u0637\u064a\u0637",
+                    "badges": [],
+                    "url": "https://ar.wikipedia.org/wiki/%D8%A7%D9%84%D9%85%D9%86%D8%AF%D9%88%D8%A8%D9%8A%D8%A9_%D8%A7%D9%84%D8%B3%D8%A7%D9%85%D9%8A%D8%A9_%D9%84%D9%84%D8%AA%D8%AE%D8%B7%D9%8A%D8%B7"
+                },
+                "bgwiki": {
+                    "site": "bgwiki",
+                    "title": "\u0412\u044a\u0440\u0445\u043e\u0432\u0435\u043d \u043a\u043e\u043c\u0438\u0441\u0430\u0440\u0438\u0430\u0442 \u0437\u0430 \u043f\u043b\u0430\u043d\u0438\u0440\u0430\u043d\u0435 (\u041c\u0430\u0440\u043e\u043a\u043e)",
+                    "badges": [],
+                    "url": "https://bg.wikipedia.org/wiki/%D0%92%D1%8A%D1%80%D1%85%D0%BE%D0%B2%D0%B5%D0%BD_%D0%BA%D0%BE%D0%BC%D0%B8%D1%81%D0%B0%D1%80%D0%B8%D0%B0%D1%82_%D0%B7%D0%B0_%D0%BF%D0%BB%D0%B0%D0%BD%D0%B8%D1%80%D0%B0%D0%BD%D0%B5_(%D0%9C%D0%B0%D1%80%D0%BE%D0%BA%D0%BE)"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Haut Commissariat au Plan",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/Haut_Commissariat_au_Plan"
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Alto Comisionado de Planificaci\u00f3n",
+                    "badges": [],
+                    "url": "https://es.wikipedia.org/wiki/Alto_Comisionado_de_Planificaci%C3%B3n"
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Haut-Commissariat au plan",
+                    "badges": [],
+                    "url": "https://fr.wikipedia.org/wiki/Haut-Commissariat_au_plan"
+                }
+            }
+        }
+    }
+}

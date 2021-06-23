@@ -1,0 +1,261 @@
+{
+    "entities": {
+        "Q27827421": {
+            "pageid": 29539839,
+            "ns": 0,
+            "title": "Q27827421",
+            "lastrevid": 1365213101,
+            "modified": "2021-02-19T14:23:41Z",
+            "type": "item",
+            "id": "Q27827421",
+            "labels": {
+                "de": {
+                    "language": "de",
+                    "value": "National Bureau of Statistics"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "National Bureau of Statistics"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "South Sudan's principal government institution in charge of statistics and census data"
+                },
+                "de": {
+                    "language": "de",
+                    "value": "staatliche Statistikbeh\u00f6rde im S\u00fcdsudan"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q27827421$cfddc24b-4e4d-b6cc-bef4-316801880dc7",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 958,
+                                    "id": "Q958"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q27827421$8dff3046-4119-b1a1-ced0-070312863db0",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.ssnbs.org/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q27827421$b473b2ba-498d-4707-2678-152ec98a29c4",
+                        "rank": "normal"
+                    }
+                ],
+                "P213": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0001 2183 6796",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q27827421$2745C20E-DE62-4018-B3C3-E60C343CE6EC",
+                        "rank": "normal"
+                    }
+                ],
+                "P244": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P244",
+                            "datavalue": {
+                                "value": "n50057959",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q27827421$CFA0957F-048B-4DC4-BB1E-2E48AFB13043",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "14fa5898ac764e0660517aa07ea0bbba505f262b",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 54919,
+                                                    "id": "Q54919"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2019-03-06T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "132388499",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q27827421$79505F7B-1A00-460F-A6B3-03C26890B6FF",
+                        "rank": "normal"
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "lccn-n50057959",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q27827421$D7EA79C2-2820-43CE-96C4-D8DF7761ABE1",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "da4074589b665ed29b96954d146badc7307ddda2",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "265564758",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P5909": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P5909",
+                            "datavalue": {
+                                "value": "9811105770003406",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q27827421$71623481-1AD5-47FC-8F54-D7F7096BBEFF",
+                        "rank": "normal"
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/0k0n68g",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q27827421$CE571F4B-30AE-4BA4-B8C4-334FA8EC4C89",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "National Bureau of Statistics",
+                    "badges": [],
+                    "url": "https://de.wikipedia.org/wiki/National_Bureau_of_Statistics"
+                }
+            }
+        }
+    }
+}

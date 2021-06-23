@@ -1,0 +1,560 @@
+{
+    "entities": {
+        "Q5560904": {
+            "pageid": 5321253,
+            "ns": 0,
+            "title": "Q5560904",
+            "lastrevid": 1408313032,
+            "modified": "2021-04-25T12:58:44Z",
+            "type": "item",
+            "id": "Q5560904",
+            "labels": {
+                "es": {
+                    "language": "es",
+                    "value": "Gr\u00f8nlands Statistik"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "Statistics Greenland"
+                },
+                "pt": {
+                    "language": "pt",
+                    "value": "Estat\u00edsticas da Gronel\u00e2ndia"
+                },
+                "da": {
+                    "language": "da",
+                    "value": "Gr\u00f8nlands Statistik"
+                },
+                "ar": {
+                    "language": "ar",
+                    "value": "\u0625\u062d\u0635\u0627\u0621\u0627\u062a \u062c\u0631\u064a\u0646\u0644\u0627\u0646\u062f"
+                },
+                "kl": {
+                    "language": "kl",
+                    "value": "Kalaallit Nunaanni Naatsorsueqqissaartarfik"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "Naatsorsueqqissaartarfik"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u9675\u862d\u7d71\u8a08\u5c40"
+                }
+            },
+            "descriptions": {
+                "fr": {
+                    "language": "fr",
+                    "value": "organisme gouvernemental islandais"
+                }
+            },
+            "aliases": {
+                "zh": [
+                    {
+                        "language": "zh",
+                        "value": "\u683c\u9675\u862d\u7d71\u8a08\u5c40"
+                    }
+                ]
+            },
+            "claims": {
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/0czdjym",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q5560904$BDFC685D-7A84-4A68-998B-EB60E7B1F19C",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 15241312,
+                                                    "id": "Q15241312"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P577": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P577",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2013-10-28T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P577"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.stat.gl",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q5560904$EE08DE5C-0D7D-480D-A208-1475B0C32E42",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8447,
+                                                    "id": "Q8447"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5560904$e1536f70-4643-8447-5259-d19d975c3a21",
+                        "rank": "normal"
+                    }
+                ],
+                "P244": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P244",
+                            "datavalue": {
+                                "value": "n93053711",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q5560904$124354DB-D7F9-4FA7-88A6-A94BDF36521B",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "14fa5898ac764e0660517aa07ea0bbba505f262b",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 54919,
+                                                    "id": "Q54919"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2019-03-06T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "129728655",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q5560904$BAEF6175-B5F3-4806-84DB-4A8EFA1A8AC1",
+                        "rank": "normal"
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 226,
+                                    "id": "Q226"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5560904$CFA277DC-467C-4B99-A0DF-C22BCBB56DBA",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "28b89d245657bbad28bfa4c368449ae31ace7d4a",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8449,
+                                                    "id": "Q8449"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://es.wikipedia.org/w/index.php?title=Departamento_de_Estad\u00edsticas_de_Groenlandia&oldid=118966494",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+1989-07-19T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 11,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q5560904$7BA316DE-4C76-4E6A-944A-7F8124EFA241",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "28b89d245657bbad28bfa4c368449ae31ace7d4a",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 8449,
+                                                    "id": "Q8449"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://es.wikipedia.org/w/index.php?title=Departamento_de_Estad\u00edsticas_de_Groenlandia&oldid=118966494",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "lccn-n93053711",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q5560904$C57C476B-264A-44D5-B1FD-6019B8FC755A",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "a87257dfb2947004b489afaa2ab0410875b950e2",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "129728655",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1059": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1059",
+                            "datavalue": {
+                                "value": "41587865",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q5560904$90ba26aa-4b13-c61b-3dcd-298f97160938",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 35,
+                                    "id": "Q35"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q5560904$1fc9536f-4c13-329b-b6e7-ca90180e9e45",
+                        "rank": "normal"
+                    }
+                ],
+                "P1320": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1320",
+                            "datavalue": {
+                                "value": "dk/41587865",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q5560904$76E19DB4-EA7B-46F9-9ED8-A730EB90DEF3",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "85adf82bf4de2eb6b238a8162949f363f4892531",
+                                "snaks": {
+                                    "P3452": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P3452",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 795419,
+                                                    "id": "Q795419"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P1059": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P1059",
+                                            "datavalue": {
+                                                "value": "41587865",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2021-04-25T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P3452",
+                                    "P1059",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sitelinks": {
+                "arwiki": {
+                    "site": "arwiki",
+                    "title": "\u0625\u062d\u0635\u0627\u0621\u0627\u062a \u062c\u0631\u064a\u0646\u0644\u0627\u0646\u062f",
+                    "badges": [],
+                    "url": "https://ar.wikipedia.org/wiki/%D8%A5%D8%AD%D8%B5%D8%A7%D8%A1%D8%A7%D8%AA_%D8%AC%D8%B1%D9%8A%D9%86%D9%84%D8%A7%D9%86%D8%AF"
+                },
+                "dawiki": {
+                    "site": "dawiki",
+                    "title": "Gr\u00f8nlands Statistik",
+                    "badges": [],
+                    "url": "https://da.wikipedia.org/wiki/Gr%C3%B8nlands_Statistik"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Statistics Greenland",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/Statistics_Greenland"
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Departamento de Estad\u00edsticas de Groenlandia",
+                    "badges": [],
+                    "url": "https://es.wikipedia.org/wiki/Departamento_de_Estad%C3%ADsticas_de_Groenlandia"
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Naatsorsueqqissaartarfik",
+                    "badges": [],
+                    "url": "https://fr.wikipedia.org/wiki/Naatsorsueqqissaartarfik"
+                },
+                "ptwiki": {
+                    "site": "ptwiki",
+                    "title": "Estat\u00edsticas da Gronel\u00e2ndia",
+                    "badges": [],
+                    "url": "https://pt.wikipedia.org/wiki/Estat%C3%ADsticas_da_Gronel%C3%A2ndia"
+                }
+            }
+        }
+    }
+}

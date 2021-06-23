@@ -32,4 +32,5 @@ ids:
   grid: grid.485075.b
   isni: 0000000406107482
   ror: 03w948j83
+  wikidata: Q3504917
 ---

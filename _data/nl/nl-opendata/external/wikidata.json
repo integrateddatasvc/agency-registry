@@ -1,0 +1,151 @@
+{
+    "entities": {
+        "Q97013475": {
+            "pageid": 95515541,
+            "ns": 0,
+            "title": "Q97013475",
+            "lastrevid": 1299456730,
+            "modified": "2020-10-29T16:29:07Z",
+            "type": "item",
+            "id": "Q97013475",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Open Data Portal Netherlands"
+                },
+                "ta": {
+                    "language": "ta",
+                    "value": "\u0bb0\u0bca\u0bb1\u0ba9\u0bcd\u0bb0\u0bcb \u0ba4\u0bbf\u0bb1\u0ba8\u0bcd\u0ba4 \u0ba4\u0bb0\u0bb5\u0bc1"
+                }
+            },
+            "descriptions": {},
+            "aliases": {
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "data.overheid.nl"
+                    }
+                ]
+            },
+            "claims": {
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 55,
+                                    "id": "Q55"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97013475$8B6A452C-81E8-4447-9CB5-DEF044B77379",
+                        "rank": "normal"
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 27031827,
+                                    "id": "Q27031827"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97013475$3AF196E8-E1C6-463B-B092-2E0B359FCA09",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "4c374fb0af83332c22a85d2d01acb312ecde0ff2",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2020-10-29T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ],
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 5227102,
+                                                    "id": "Q5227102"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.data.gov/open-gov/",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813",
+                                    "P248",
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P407": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P407",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1860,
+                                    "id": "Q1860"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97013475$4858EB77-27E2-4331-9A7D-E229666004C6",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

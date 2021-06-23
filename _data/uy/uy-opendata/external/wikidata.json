@@ -1,0 +1,116 @@
+{
+    "entities": {
+        "Q97096884": {
+            "pageid": 95580147,
+            "ns": 0,
+            "title": "Q97096884",
+            "lastrevid": 1441437977,
+            "modified": "2021-06-14T15:38:18Z",
+            "type": "item",
+            "id": "Q97096884",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Uruguay Open Data Portal"
+                },
+                "es": {
+                    "language": "es",
+                    "value": "Cat\u00e1logo Nacional de Datos Abiertos"
+                }
+            },
+            "descriptions": {
+                "es": {
+                    "language": "es",
+                    "value": "Sitio web sobre datos abiertos de Uruguay"
+                }
+            },
+            "aliases": {
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "catalogodatos.gub.uy"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 27031827,
+                                    "id": "Q27031827"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97096884$A955B936-B324-4F83-8077-46363AB3EC12",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 77,
+                                    "id": "Q77"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97096884$83085139-4249-4D00-9852-A75DEF6B3229",
+                        "rank": "normal"
+                    }
+                ],
+                "P407": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P407",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1321,
+                                    "id": "Q1321"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97096884$9C1B9E51-66F4-4EF6-A936-43A49BC1F9D8",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://catalogodatos.gub.uy/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q97096884$806404A6-1BC4-40AA-BF92-3CD6F056CEB1",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

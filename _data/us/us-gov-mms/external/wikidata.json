@@ -1,0 +1,778 @@
+{
+    "entities": {
+        "Q1010540": {
+            "pageid": 959975,
+            "ns": 0,
+            "title": "Q1010540",
+            "lastrevid": 1256967245,
+            "modified": "2020-08-14T20:09:32Z",
+            "type": "item",
+            "id": "Q1010540",
+            "labels": {
+                "fr": {
+                    "language": "fr",
+                    "value": "minerals Management Service"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "Minerals Management Service"
+                },
+                "de": {
+                    "language": "de",
+                    "value": "Minerals Management Service"
+                },
+                "pt": {
+                    "language": "pt",
+                    "value": "Minerals Management Service"
+                },
+                "nb": {
+                    "language": "nb",
+                    "value": "Bureau of Ocean Energy Management, Regulation and Enforcement"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u6d77\u6d0b\u80fd\u6e90\u76e3\u7ba1\u548c\u57f7\u6cd5\u5c40"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u30a2\u30e1\u30ea\u30ab\u6d77\u6d0b\u30a8\u30cd\u30eb\u30ae\u30fc\u7ba1\u7406\u30fb\u898f\u5236\u30fb\u57f7\u884c\u5c40"
+                },
+                "zh-hant": {
+                    "language": "zh-hant",
+                    "value": "\u7f8e\u570b\u7926\u7522\u7ba1\u7406\u5c40"
+                },
+                "zh-hans": {
+                    "language": "zh-hans",
+                    "value": "\u7f8e\u56fd\u77ff\u4ea7\u7ba1\u7406\u5c40"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "government agency"
+                }
+            },
+            "aliases": {
+                "de": [
+                    {
+                        "language": "de",
+                        "value": "United States Minerals Management Service"
+                    },
+                    {
+                        "language": "de",
+                        "value": "BOEMRE"
+                    }
+                ],
+                "pt": [
+                    {
+                        "language": "pt",
+                        "value": "Minerals management service"
+                    }
+                ],
+                "nb": [
+                    {
+                        "language": "nb",
+                        "value": "Minerals Management Service"
+                    },
+                    {
+                        "language": "nb",
+                        "value": "Bureau of Ocean Energy Management, Regulation, and Enforcement"
+                    },
+                    {
+                        "language": "nb",
+                        "value": "BOE"
+                    },
+                    {
+                        "language": "nb",
+                        "value": "BOEMRE"
+                    },
+                    {
+                        "language": "nb",
+                        "value": "Bureau of Ocean Energy"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "MMS"
+                    },
+                    {
+                        "language": "en",
+                        "value": "Bureau of Ocean Energy Management, Regulation and Enforcement"
+                    }
+                ],
+                "zh-hans": [
+                    {
+                        "language": "zh-hans",
+                        "value": "\u7f8e\u56fd\u6d77\u6d0b\u80fd\u6e90\u7ba1\u7406\u76d1\u7763\u6267\u6cd5\u5c40"
+                    }
+                ],
+                "zh-hant": [
+                    {
+                        "language": "zh-hant",
+                        "value": "\u7f8e\u570b\u6d77\u6d0b\u80fd\u6e90\u7ba1\u7406\u76e3\u7763\u57f7\u6cd5\u5c40"
+                    }
+                ],
+                "zh": [
+                    {
+                        "language": "zh",
+                        "value": "\u7f8e\u56fd\u77ff\u4ea7\u7ba1\u7406\u5c40"
+                    },
+                    {
+                        "language": "zh",
+                        "value": "\u7f8e\u56fd\u6d77\u6d0b\u80fd\u6e90\u7ba1\u7406\u76d1\u7763\u6267\u6cd5\u5c40"
+                    }
+                ]
+            },
+            "claims": {
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/05pvnr",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$DC1223B4-D69A-4206-AD92-E835819A07CA",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 15241312,
+                                                    "id": "Q15241312"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P577": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P577",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2013-10-28T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P577"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$D7F4235A-9118-4302-9883-85E837F74C0F",
+                        "rank": "normal"
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "144731260",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$0550B193-3E08-4364-9170-34238D0579C0",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "8b703add300f239205b1a25278dcedba0df43d15",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 54919,
+                                                    "id": "Q54919"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2015-08-07T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+1982-01-19T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 11,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$A45606DB-56A6-4D29-BB8C-6A4515C83BA5",
+                        "rank": "normal"
+                    }
+                ],
+                "P576": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P576",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+2011-00-00T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 9,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$CE16CF32-FCCE-4849-8756-0982213FB336",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183,
+                                                    "id": "Q48183"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 61,
+                                    "id": "Q61"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$5124AF31-3186-416B-8DC5-50D470402F2F",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3500": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3500",
+                            "datavalue": {
+                                "value": "2929",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$3DE3F4AA-3AE5-4D02-BF68-69B04F23612F",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "45e8fa2e37c421b7e5970029041dbdeac9824284",
+                                "snaks": {
+                                    "P356": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P356",
+                                            "datavalue": {
+                                                "value": "10.5281/ZENODO.758080",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P356"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1417": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1417",
+                            "datavalue": {
+                                "value": "topic/Bureau-of-Ocean-Energy-Management-Regulation-and-Enforcement",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$C389A762-4576-42FB-A54E-E309A165B848",
+                        "rank": "normal"
+                    }
+                ],
+                "P4081": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P4081",
+                            "datavalue": {
+                                "value": "3509",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1932": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1932",
+                                    "hash": "799c586c9cfa4806b238277278f70d94fd3eeb4b",
+                                    "datavalue": {
+                                        "value": "United States. Minerals Management Service.",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1932"
+                        ],
+                        "id": "Q1010540$4EE52B83-79D2-4E58-9586-6C9258B20AA5",
+                        "rank": "normal"
+                    }
+                ],
+                "P213": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0000 9779 1347",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$5E4B525D-CF17-4C62-873C-521213227D83",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "0ad3f221e67ce5cc89f1ba7e5f89fc4c6ecadd69",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 54919,
+                                                    "id": "Q54919"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "144731260",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-10-07T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P214",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P158": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P158",
+                            "datavalue": {
+                                "value": "Minerals management service seal.PNG",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$82A7B59F-D850-45D5-ABB1-ADFC0A5D052A",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9e30fc0c1256a7a76989e979b34175be7fa2c9d4",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://en.wikipedia.org/w/index.php?title=Minerals_Management_Service&oldid=846081842",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 30,
+                                    "id": "Q30"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$5ad45ee8-4d71-7f0f-f5a2-8271d32ea896",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.mms.gov/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$fe927a82-4e06-9615-0b8c-797d49d19362",
+                        "rank": "normal"
+                    }
+                ],
+                "P6366": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6366",
+                            "datavalue": {
+                                "value": "1320541655",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$BCD46846-BCBF-401B-88FD-AA12A9FF5FF3",
+                        "rank": "normal"
+                    }
+                ],
+                "P973": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P973",
+                            "datavalue": {
+                                "value": "https://www.federalregister.gov/agencies/minerals-management-service",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$18593519-82e1-421d-86f5-d0b9134d239c",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "539398e7c6213d07891f14a364ce3dc64c5b52b8",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 28054658,
+                                                    "id": "Q28054658"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P2264": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2264",
+                                            "datavalue": {
+                                                "value": "3299",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P2264"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "viaf-144731260",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q1010540$3460D69A-6D1D-487B-A261-BE3AB4039681",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "02978fe1d4675a74db664d57619033ca07610045",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "144731260",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sitelinks": {
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:PD BOEMRE",
+                    "badges": [],
+                    "url": "https://commons.wikimedia.org/wiki/Category:PD_BOEMRE"
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Minerals Management Service",
+                    "badges": [],
+                    "url": "https://de.wikipedia.org/wiki/Minerals_Management_Service"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Minerals Management Service",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/Minerals_Management_Service"
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Minerals Management Service",
+                    "badges": [],
+                    "url": "https://fr.wikipedia.org/wiki/Minerals_Management_Service"
+                },
+                "nowiki": {
+                    "site": "nowiki",
+                    "title": "Bureau of Ocean Energy Management, Regulation and Enforcement",
+                    "badges": [],
+                    "url": "https://no.wikipedia.org/wiki/Bureau_of_Ocean_Energy_Management,_Regulation_and_Enforcement"
+                },
+                "ptwiki": {
+                    "site": "ptwiki",
+                    "title": "Minerals Management Service",
+                    "badges": [],
+                    "url": "https://pt.wikipedia.org/wiki/Minerals_Management_Service"
+                }
+            }
+        }
+    }
+}

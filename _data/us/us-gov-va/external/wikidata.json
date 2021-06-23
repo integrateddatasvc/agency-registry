@@ -1,0 +1,2975 @@
+{
+    "entities": {
+        "Q592576": {
+            "pageid": 557631,
+            "ns": 0,
+            "title": "Q592576",
+            "lastrevid": 1440586965,
+            "modified": "2021-06-13T10:54:26Z",
+            "type": "item",
+            "id": "Q592576",
+            "labels": {
+                "fr": {
+                    "language": "fr",
+                    "value": "d\u00e9partement des Anciens combattants des \u00c9tats-Unis"
+                },
+                "bg": {
+                    "language": "bg",
+                    "value": "\u041c\u0438\u043d\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u043f\u043e \u0432\u044a\u043f\u0440\u043e\u0441\u0438\u0442\u0435 \u043d\u0430 \u0432\u0435\u0442\u0435\u0440\u0430\u043d\u0438\u0442\u0435 \u043d\u0430 \u0421\u0410\u0429"
+                },
+                "de": {
+                    "language": "de",
+                    "value": "Kriegsveteranenministerium der Vereinigten Staaten"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "United States Department of Veterans Affairs"
+                },
+                "es": {
+                    "language": "es",
+                    "value": "Departamento de Asuntos de los Veteranos de los Estados Unidos"
+                },
+                "et": {
+                    "language": "et",
+                    "value": "Ameerika \u00dchendriikide Veteranideministeerium"
+                },
+                "eu": {
+                    "language": "eu",
+                    "value": "Ameriketako Estatu Batuetako Beteranoen Arloko Saila"
+                },
+                "fa": {
+                    "language": "fa",
+                    "value": "\u0648\u0632\u0627\u0631\u062a \u0627\u0645\u0648\u0631 \u0633\u0631\u0628\u0627\u0632\u0627\u0646 \u0628\u0627\u0632\u0646\u0634\u0633\u062a\u0647 \u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627"
+                },
+                "it": {
+                    "language": "it",
+                    "value": "Dipartimento per gli affari dei veterani degli Stati Uniti d'America"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd\u9000\u5f79\u8ecd\u4eba\u7701"
+                },
+                "nl": {
+                    "language": "nl",
+                    "value": "United States Department of Veterans Affairs"
+                },
+                "ru": {
+                    "language": "ru",
+                    "value": "\u041c\u0438\u043d\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u043f\u043e \u0434\u0435\u043b\u0430\u043c \u0432\u0435\u0442\u0435\u0440\u0430\u043d\u043e\u0432 \u0421\u0428\u0410"
+                },
+                "sv": {
+                    "language": "sv",
+                    "value": "USAs krigsveterandepartement"
+                },
+                "vi": {
+                    "language": "vi",
+                    "value": "B\u1ed9 C\u1ef1u chi\u1ebfn binh Hoa K\u1ef3"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u7f8e\u570b\u9000\u4f0d\u8ecd\u4eba\u4e8b\u52d9\u90e8"
+                },
+                "id": {
+                    "language": "id",
+                    "value": "Departemen Veteran Amerika Serikat"
+                },
+                "he": {
+                    "language": "he",
+                    "value": "\u05d4\u05de\u05d7\u05dc\u05e7\u05d4 \u05dc\u05e2\u05e0\u05d9\u05d9\u05e0\u05d9 \u05d7\u05d9\u05d9\u05dc\u05d9\u05dd \u05de\u05e9\u05d5\u05d7\u05e8\u05e8\u05d9\u05dd \u05e9\u05dc \u05d0\u05e8\u05e6\u05d5\u05ea \u05d4\u05d1\u05e8\u05d9\u05ea"
+                },
+                "da": {
+                    "language": "da",
+                    "value": "Amerikanske veteranministerium"
+                },
+                "nb": {
+                    "language": "nb",
+                    "value": "Krigsveterandepartementet"
+                },
+                "uk": {
+                    "language": "uk",
+                    "value": "\u041c\u0456\u043d\u0456\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u0443 \u0441\u043f\u0440\u0430\u0432\u0430\u0445 \u0432\u0435\u0442\u0435\u0440\u0430\u043d\u0456\u0432 \u0421\u0428\u0410"
+                },
+                "ko": {
+                    "language": "ko",
+                    "value": "\ubbf8\uad6d \ubcf4\ud6c8\ubd80"
+                },
+                "eo": {
+                    "language": "eo",
+                    "value": "Usona Ministerio pri Veteranaj Aferoj"
+                },
+                "ar": {
+                    "language": "ar",
+                    "value": "\u0648\u0632\u0627\u0631\u0629 \u0634\u0624\u0648\u0646 \u0627\u0644\u0645\u062d\u0627\u0631\u0628\u064a\u0646 \u0627\u0644\u0642\u062f\u0627\u0645\u0649"
+                },
+                "tr": {
+                    "language": "tr",
+                    "value": "Amerika Birle\u015fik Devletleri Gazi \u0130\u015fleri Bakanl\u0131\u011f\u0131"
+                },
+                "th": {
+                    "language": "th",
+                    "value": "\u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e01\u0e32\u0e23\u0e17\u0e2b\u0e32\u0e23\u0e1c\u0e48\u0e32\u0e19\u0e28\u0e36\u0e01\u0e2a\u0e2b\u0e23\u0e31\u0e10"
+                },
+                "ms": {
+                    "language": "ms",
+                    "value": "Jabatan Hal Ehwal Veteran Amerika Syarikat"
+                },
+                "cs": {
+                    "language": "cs",
+                    "value": "Ministerstvo pro z\u00e1le\u017eitosti veter\u00e1n\u016f Spojen\u00fdch st\u00e1t\u016f americk\u00fdch"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "Departament d'Afers dels Veterans dels Estats Units"
+                },
+                "pt": {
+                    "language": "pt",
+                    "value": "Departamento dos Assuntos de Veteranos dos Estados Unidos"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "department of the United States government"
+                },
+                "de": {
+                    "language": "de",
+                    "value": "Ministerium der Vereinigten Staaten"
+                },
+                "nb": {
+                    "language": "nb",
+                    "value": "Department of Veterans Affairs"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u653f\u5e9c\u90e8\u9580"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "d\u00e9partement ex\u00e9cutif f\u00e9d\u00e9ral des \u00c9tats-Unis"
+                },
+                "it": {
+                    "language": "it",
+                    "value": "dipartimento esecutivo federale degli USA"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd\u306e\u9023\u90a6\u653f\u5e9c\u306e\u884c\u653f\u6a5f\u95a2\u306e\u4e00\u3064"
+                }
+            },
+            "aliases": {
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "VA"
+                    },
+                    {
+                        "language": "en",
+                        "value": "Veterans Affairs Department"
+                    },
+                    {
+                        "language": "en",
+                        "value": "Department of Veterans Affairs"
+                    },
+                    {
+                        "language": "en",
+                        "value": "DVA"
+                    },
+                    {
+                        "language": "en",
+                        "value": "US Department of Veterans Affairs"
+                    },
+                    {
+                        "language": "en",
+                        "value": "U.S. Department of Veterans Affairs"
+                    },
+                    {
+                        "language": "en",
+                        "value": "U.S. Dept. of Veterans Affairs"
+                    }
+                ],
+                "ja": [
+                    {
+                        "language": "ja",
+                        "value": "\u5408\u8846\u56fd\u9000\u5f79\u8ecd\u4eba\u5c40"
+                    }
+                ],
+                "fr": [
+                    {
+                        "language": "fr",
+                        "value": "D\u00e9partement des anciens combattants des \u00c9tats-unis"
+                    }
+                ],
+                "vi": [
+                    {
+                        "language": "vi",
+                        "value": "B\u1ed9 C\u1ef1u chi\u1ebfn binh Hoa K\u00ec"
+                    },
+                    {
+                        "language": "vi",
+                        "value": "VA"
+                    },
+                    {
+                        "language": "vi",
+                        "value": "DVA"
+                    }
+                ]
+            },
+            "claims": {
+                "P373": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P373",
+                            "datavalue": {
+                                "value": "United States Department of Veterans Affairs",
+                                "type": "string"
+                            },
+                            "datatype": "string"
+                        },
+                        "type": "statement",
+                        "id": "q592576$D4B8669C-A868-4FDC-A11B-7193A23C1754",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P910": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P910",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 6448778,
+                                    "id": "Q6448778"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$15813913-668D-4A44-9738-CA6A4825EFA0",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.va.gov/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q592576$45FF3A37-9D94-4C71-90A0-A8D3D487CC09",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/0jblf",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$45574459-28CF-48E5-8A63-6589A760100C",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "2b00cb481cddcac7623114367489b5c194901c4a",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 15241312,
+                                                    "id": "Q15241312"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P577": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P577",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2013-10-28T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P577"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1001": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1001",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 30,
+                                    "id": "Q30"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$cbf3c500-4ddd-92aa-f646-e36ad5d410bc",
+                        "rank": "normal"
+                    }
+                ],
+                "P154": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P154",
+                            "datavalue": {
+                                "value": "Logo of the United States Department of Veterans Affairs (1989-2012).png",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$E842A2FC-79B6-4BC7-82AA-9D14B8BC1408",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P154",
+                            "datavalue": {
+                                "value": "US Department of Veterans Affairs logo.svg",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$e35f175f-4a2b-4333-6578-2823f0b4e5b9",
+                        "rank": "preferred"
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+1989-03-15T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 11,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$B1219A6A-A2C5-4298-BF40-C308CDAAEB81",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 105156311,
+                                    "id": "Q105156311"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P625": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P625",
+                                    "hash": "14066895173c82d669baeb8a3a288dec3b627a63",
+                                    "datavalue": {
+                                        "value": {
+                                            "latitude": 38.900902777778,
+                                            "longitude": -77.034822222222,
+                                            "altitude": null,
+                                            "precision": 0.0001,
+                                            "globe": "http://www.wikidata.org/entity/Q2"
+                                        },
+                                        "type": "globecoordinate"
+                                    },
+                                    "datatype": "globe-coordinate"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P625"
+                        ],
+                        "id": "Q592576$47F3CDC2-E666-492D-8B58-C97DAA904373",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P488": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P488",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 373274,
+                                    "id": "Q373274"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "252b7193abaabb78585a8a87815910c79a3b4e43",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2009-01-20T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P582": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P582",
+                                    "hash": "eba123c04e92f3e29d71b0bc48d4bbea90b6b0f7",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2014-05-30T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P580",
+                            "P582"
+                        ],
+                        "id": "Q592576$13EA8FA4-0BE2-4435-8F79-D66F7CA2F7CD",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P488",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1681148,
+                                    "id": "Q1681148"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "bd04931538cb0ce2aa98803f769513a339dc8f60",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2014-07-30T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P580"
+                        ],
+                        "id": "Q592576$3b64521e-471b-10bf-966f-f738fe225474",
+                        "rank": "preferred",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 910252,
+                                    "id": "Q910252"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$D68881F6-8BA4-435E-9A53-4AE2B4FD7270",
+                        "rank": "normal"
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "133040166",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$0299170E-9B97-47D9-BFBE-24A2FA3F7180",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "e55f87380bd6fcc15e0f245b531c7817bba8d3e1",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 54919,
+                                                    "id": "Q54919"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2015-08-04T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1581": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1581",
+                            "datavalue": {
+                                "value": "http://www.blogs.va.gov/VAntage/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$671BD4CC-6B69-4CA8-A896-56E5AA3050C3",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 30,
+                                    "id": "Q30"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$64F6C431-158E-446F-8B45-69E2A8A829F8",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2388": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2388",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1658460,
+                                    "id": "Q1658460"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$3f76e6ea-4624-f537-1f96-c0fd1d12e75c",
+                        "rank": "normal"
+                    }
+                ],
+                "P227": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P227",
+                            "datavalue": {
+                                "value": "4532529-7",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$23C73A72-D6D0-4384-A57A-DBF3BC3C9E07",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183,
+                                                    "id": "Q48183"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P244": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P244",
+                            "datavalue": {
+                                "value": "n87945386",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$B065E0EE-1121-4F65-92B9-940E0472CD6A",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9a24f7c0208b05d6be97077d855671d1dfdbc0dd",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 48183,
+                                                    "id": "Q48183"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3221": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3221",
+                            "datavalue": {
+                                "value": "organization/veterans-affairs-department",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$5E07D0D8-79C5-41DB-A44E-A1E03EDA11E9",
+                        "rank": "normal"
+                    }
+                ],
+                "P2013": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2013",
+                            "datavalue": {
+                                "value": "VeteransAffairs",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$b0a358e2-4955-ca07-b8b3-e0831c0a68cb",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fbac6721d31377f0866e59a011690426bae0825c",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "http://va.gov/",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2002": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2002",
+                            "datavalue": {
+                                "value": "DeptVetAffairs",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P3744": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3744",
+                                    "hash": "7128c32abbc6e8ea28fb79a32eebba30310f2594",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+639950",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "2e19004216aff857c06e036f8ec00d147d7c009c",
+                                    "datavalue": {
+                                        "value": "78408666",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P1552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1552",
+                                    "hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 28378282,
+                                            "id": "Q28378282"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "4185eef060a77f2a962fab2283ad09c1a8b7b413",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2009-09-29T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "d23772ed2b8b4c4e31ec158c814140af0379c572",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2020-04-25T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P3744",
+                            "P6552",
+                            "P1552",
+                            "P580",
+                            "P585"
+                        ],
+                        "id": "Q592576$b3f5b301-4232-94d7-64cb-5fcb152f5333",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fbac6721d31377f0866e59a011690426bae0825c",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "http://va.gov/",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854"
+                                ]
+                            },
+                            {
+                                "hash": "830e0d3d65e6b91e769889d7d1177706b5c1e0ca",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-05-10T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2002",
+                            "datavalue": {
+                                "value": "vacareers",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "3057affbfb7966553eeab63ae6d8da99021ded86",
+                                    "datavalue": {
+                                        "value": "64808610",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P1552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1552",
+                                    "hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 28378282,
+                                            "id": "Q28378282"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P3744": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3744",
+                                    "hash": "936310c4b6b1e107c599ec4162305fbcddbbafec",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+37315",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "6de379e473f20d1c975be7a8927c230206aa15e7",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2009-08-11T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "f4da88e58bb9b446848b3eed88e75b74e12d6336",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2020-04-24T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P6552",
+                            "P1552",
+                            "P3744",
+                            "P580",
+                            "P585"
+                        ],
+                        "id": "Q592576$10d033c3-4bb5-9cf9-e8b6-5bc632699ef5",
+                        "rank": "normal"
+                    }
+                ],
+                "P2003": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2003",
+                            "datavalue": {
+                                "value": "deptvetaffairs",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$0b45193a-4a6f-e9de-679a-207f82df2461",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fbac6721d31377f0866e59a011690426bae0825c",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "http://va.gov/",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3267": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3267",
+                            "datavalue": {
+                                "value": "44636446@N04",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$ea537df6-4e1a-fd7a-6194-4a3ae50593d8",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fbac6721d31377f0866e59a011690426bae0825c",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "http://va.gov/",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2847": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2847",
+                            "datavalue": {
+                                "value": "+DeptVetAffairs",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$1e0117da-46df-df48-b830-457d36110d37",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "6878e7b1fc920fd2083ce01027878a68d531b35f",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "http://www.va.gov/opa/socialmedia.asp",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P213": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P213",
+                            "datavalue": {
+                                "value": "0000 0004 0478 7015",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$AA9227DF-8B30-41B5-A018-335F5F1F5163",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "f20e7cc1dc95f8af90470df9ddea266baf12be00",
+                                "snaks": {
+                                    "P356": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P356",
+                                            "datavalue": {
+                                                "value": "10.6084/M9.FIGSHARE.4539889",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P356"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3500": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3500",
+                            "datavalue": {
+                                "value": "8267",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$E9208C98-9C69-4DD1-A6F7-4A78F57B78D4",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "45e8fa2e37c421b7e5970029041dbdeac9824284",
+                                "snaks": {
+                                    "P356": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P356",
+                                            "datavalue": {
+                                                "value": "10.5281/ZENODO.758080",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P356"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3743": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3743",
+                            "datavalue": {
+                                "value": "1.3.6.1.4.1.3768",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$8d25e19b-4796-7f55-15ee-a34cf8b0288c",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "04ab05c5d9ef6d25980cef76d8b3c74aaa75557a",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.iana.org/assignments/enterprise-numbers/enterprise-numbers",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2017-03-07T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3417": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3417",
+                            "datavalue": {
+                                "value": "U-S-Department-of-Veterans-Affairs",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$dc30314a-49ed-3d5e-0685-10337763641a",
+                        "rank": "normal"
+                    }
+                ],
+                "P486": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P486",
+                            "datavalue": {
+                                "value": "D014493",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$8A38EEBB-F464-40AE-8BBB-20BD5109ADC3",
+                        "rank": "normal"
+                    }
+                ],
+                "P355": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P355",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 45135290,
+                                    "id": "Q45135290"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$9F8D0562-FD66-4397-BDC2-A4EC139B94DC",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "036018ac2680fd1924c7bb86a40040289547cca6",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.418356.d",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2017-12-14T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 1,
+                                                    "after": 1,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P355",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 6580225,
+                                    "id": "Q6580225"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$AD3045CE-BCEC-4992-9C44-BE82E6D88DA1",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "77e8f9ae0c7cad89d820f6cc266f14885488610c",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.239186.7",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P355",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 30264630,
+                                    "id": "Q30264630"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$3FEC11F7-35D6-473F-B05C-F391C3CC07C3",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "fccd22483e0cc54b97bd62887081edd3d496f872",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.468477.e",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P355",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 60172390,
+                                    "id": "Q60172390"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$8a98f8cd-40a4-3625-61b5-17be2d027f15",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P355",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 7906563,
+                                    "id": "Q7906563"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$a365f44e-479f-14c4-497e-461df618247c",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P355",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 7923605,
+                                    "id": "Q7923605"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$6c308b96-458b-0e07-648c-201f70dfbdde",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P355",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 2495322,
+                                    "id": "Q2495322"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$b366b4b5-40ef-4e07-c77c-f8e8feba779a",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P355",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 98404967,
+                                    "id": "Q98404967"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$360149d8-479a-5535-ce7c-5c9e89646efa",
+                        "rank": "normal"
+                    }
+                ],
+                "P3153": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3153",
+                            "datavalue": {
+                                "value": "100000738",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$C4D4607D-5FCD-4164-9F94-B6173C80DBE1",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "839b46c187d464af781280b4ae2c0221b950f1c1",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.418356.d",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P749": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P749",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 48525,
+                                    "id": "Q48525"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$B4BA1A61-08E7-4898-BE28-1DECE40D7F04",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "839b46c187d464af781280b4ae2c0221b950f1c1",
+                                "snaks": {
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.418356.d",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P2427"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P457": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P457",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 5260526,
+                                    "id": "Q5260526"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$75c7de46-431b-10aa-5195-e4d5f18778a3",
+                        "rank": "normal"
+                    }
+                ],
+                "P4527": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P4527",
+                            "datavalue": {
+                                "value": "85334",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1810": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1810",
+                                    "hash": "688e60c76255025715b739555696a33b0d2c1378",
+                                    "datavalue": {
+                                        "value": "US Department of Veterans' Affairs",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1810"
+                        ],
+                        "id": "Q592576$7ABB7B86-8738-4F06-8EE3-EB4C491AABE3",
+                        "rank": "normal"
+                    }
+                ],
+                "P2427": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2427",
+                            "datavalue": {
+                                "value": "grid.418356.d",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$499A2785-4711-45DE-B514-30FC20DA94BC",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "40fdc7f3ce7f6771a8f285a1267bfc3f3de154d9",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 53869345,
+                                                    "id": "Q53869345"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            },
+                            {
+                                "hash": "a1914c8952a5bc482eafeb26be4fda504fe701f9",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 53705036,
+                                                    "id": "Q53705036"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P158": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P158",
+                            "datavalue": {
+                                "value": "Seal of the U.S. Department of Veterans Affairs.svg",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$B2D24F19-3143-4D60-8467-FE09E20FD0E7",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "82f906bbf0125148471021e5a39358e202caee9c",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 328,
+                                                    "id": "Q328"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://en.wikipedia.org/w/index.php?title=United_States_Department_of_Veterans_Affairs&oldid=867090817",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P691": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P691",
+                            "datavalue": {
+                                "value": "nlk20050170387",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$5B72BADD-EF1E-4425-B99C-9F8A811BE91E",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "16c176cce8b110c55c6e9365d35d3737fa56d05c",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "133040166",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ],
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 54919,
+                                                    "id": "Q54919"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-12-23T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214",
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P41": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P41",
+                            "datavalue": {
+                                "value": "Flag of the United States Department of Veterans Affairs.svg",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$7858b6f6-47ff-419b-f8ce-445b38948654",
+                        "rank": "normal"
+                    }
+                ],
+                "P6366": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6366",
+                            "datavalue": {
+                                "value": "1322918889",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$A7F1F843-F992-4740-8A65-5CC3042F696D",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "7ded0af0542c64c3e6f4a28eb56a0dac00a2b27a",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 60683589,
+                                                    "id": "Q60683589"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P2427": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2427",
+                                            "datavalue": {
+                                                "value": "grid.418356.d",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2019-01-19T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P2427",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2397": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2397",
+                            "datavalue": {
+                                "value": "UCBvOzPLmbzjtpX-Htstp2vw",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1810": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1810",
+                                    "hash": "d00ae2346bd162ea388910797cbd9df53d4c6785",
+                                    "datavalue": {
+                                        "value": "U.S. Dept. of Veterans Affairs",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ],
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "399760f7ea452e131fd5e3fe2a6710d4cb11be24",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2009-10-15T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P3744": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3744",
+                                    "hash": "3022f4ce11eb35731caf63bf8429b7872321a926",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+45300",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P3740": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P3740",
+                                    "hash": "63145ace612bff46784c609c55836f7e976448d0",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+1487",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P5436": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P5436",
+                                    "hash": "4e0fac8811aa23f7e502dca957c0640c1069773d",
+                                    "datavalue": {
+                                        "value": {
+                                            "amount": "+10509972",
+                                            "unit": "1"
+                                        },
+                                        "type": "quantity"
+                                    },
+                                    "datatype": "quantity"
+                                }
+                            ],
+                            "P585": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P585",
+                                    "hash": "75320a8f63e690bf7eee35e1f9791a248e43953d",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2020-12-12T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 11,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1810",
+                            "P580",
+                            "P3744",
+                            "P3740",
+                            "P5436",
+                            "P585"
+                        ],
+                        "id": "Q592576$963c9f96-43be-9848-cc9a-9a9de51d4b62",
+                        "rank": "normal"
+                    }
+                ],
+                "P6782": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6782",
+                            "datavalue": {
+                                "value": "05rsv9s98",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$FCAAE5CB-7592-44EA-AD48-0930CBB2B60D",
+                        "rank": "normal"
+                    }
+                ],
+                "P973": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P973",
+                            "datavalue": {
+                                "value": "https://www.federalregister.gov/agencies/veterans-affairs-department",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$e590651c-7feb-47a0-aa6d-936b2bd00903",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "539398e7c6213d07891f14a364ce3dc64c5b52b8",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 28054658,
+                                                    "id": "Q28054658"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P2264": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P2264",
+                                            "datavalue": {
+                                                "value": "3299",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P2264"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "lccn-n87945386",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$5CE02031-5EB0-402A-9439-3345C47EEDA3",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "75017352d89af5cda8e5c89647065baf40d418e6",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "133040166",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P18": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P18",
+                            "datavalue": {
+                                "value": "Department of Veteran Affairs DCJPG.jpg",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$0babde6e-4fa9-cc4e-0c42-4a735b2cdda6",
+                        "rank": "normal"
+                    }
+                ],
+                "P1705": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1705",
+                            "datavalue": {
+                                "value": {
+                                    "text": "United States Department of Veterans Affairs",
+                                    "language": "en"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$2de994fd-4bbe-0edd-5fda-9f5d0f84bf73",
+                        "rank": "normal"
+                    }
+                ],
+                "P527": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P527",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 95984744,
+                                    "id": "Q95984744"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$5c5e1ab9-4d5b-0d28-ca33-c7ea623e9021",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P527",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 7883178,
+                                    "id": "Q7883178"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$4d1c899c-4fbc-618c-6525-63f9853a0249",
+                        "rank": "normal"
+                    }
+                ],
+                "P8408": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P8408",
+                            "datavalue": {
+                                "value": "USVeteransAffairsDepartment",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$8C74E91F-16FD-41D0-8EA2-3804A4F06A9E",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "9a681f9dd95c90224547c404e11295f4f7dcf54e",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 64139102,
+                                                    "id": "Q64139102"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2020-07-09T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P2390": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2390",
+                            "datavalue": {
+                                "value": "U.S._Department_of_Veterans_Affairs",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$17A3CB88-209E-44BD-AB0B-A4DBDCA55B02",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "ed5b3c1f91b6a4222c3bfca199ba814f9589b4ee",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://ballotpedia.org/U.S._Department_of_Veterans_Affairs",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P1476": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P1476",
+                                            "datavalue": {
+                                                "value": {
+                                                    "text": "U.S. Department of Veterans Affairs - Ballotpedia",
+                                                    "language": "en"
+                                                },
+                                                "type": "monolingualtext"
+                                            },
+                                            "datatype": "monolingualtext"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2020-09-30T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P1476",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1343": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1343",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 99413897,
+                                    "id": "Q99413897"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P1810": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1810",
+                                    "hash": "d75087cfff7ffee68771694a45c9221bb5333159",
+                                    "datavalue": {
+                                        "value": "Spojen\u00e9 st\u00e1ty americk\u00e9. Dept. of Veterans Affairs",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ],
+                            "P2699": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P2699",
+                                    "hash": "6bac087c8a7e765d8993d90201b35eee5cc6750e",
+                                    "datavalue": {
+                                        "value": "https://www.medvik.cz/link/nlk20050170387",
+                                        "type": "string"
+                                    },
+                                    "datatype": "url"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P1810",
+                            "P2699"
+                        ],
+                        "id": "Q592576$D2DEF645-6B6E-4749-9552-FA5E0FC30FDA",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "7e4e71a8da5c1d9a2bafe6ecfd965b97e347045b",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 99413897,
+                                                    "id": "Q99413897"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2020-10-09T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1687": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1687",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "property",
+                                    "numeric-id": 8755,
+                                    "id": "P8755"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-property"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$9c988c51-4c48-bf9d-ebb2-1a462173afc7",
+                        "rank": "normal"
+                    }
+                ],
+                "P9272": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P9272",
+                            "datavalue": {
+                                "value": "29290",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q592576$4F51A425-D414-486A-8697-435D817E607D",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "arwiki": {
+                    "site": "arwiki",
+                    "title": "\u0648\u0632\u0627\u0631\u0629 \u0634\u0624\u0648\u0646 \u0627\u0644\u0645\u062d\u0627\u0631\u0628\u064a\u0646 \u0627\u0644\u0642\u062f\u0627\u0645\u0649 (\u0627\u0644\u0648\u0644\u0627\u064a\u0627\u062a \u0627\u0644\u0645\u062a\u062d\u062f\u0629)",
+                    "badges": [],
+                    "url": "https://ar.wikipedia.org/wiki/%D9%88%D8%B2%D8%A7%D8%B1%D8%A9_%D8%B4%D8%A4%D9%88%D9%86_%D8%A7%D9%84%D9%85%D8%AD%D8%A7%D8%B1%D8%A8%D9%8A%D9%86_%D8%A7%D9%84%D9%82%D8%AF%D8%A7%D9%85%D9%89_(%D8%A7%D9%84%D9%88%D9%84%D8%A7%D9%8A%D8%A7%D8%AA_%D8%A7%D9%84%D9%85%D8%AA%D8%AD%D8%AF%D8%A9)"
+                },
+                "bgwiki": {
+                    "site": "bgwiki",
+                    "title": "\u041c\u0438\u043d\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u043f\u043e \u0432\u044a\u043f\u0440\u043e\u0441\u0438\u0442\u0435 \u043d\u0430 \u0432\u0435\u0442\u0435\u0440\u0430\u043d\u0438\u0442\u0435 \u043d\u0430 \u0421\u0410\u0429",
+                    "badges": [],
+                    "url": "https://bg.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE_%D0%B2%D1%8A%D0%BF%D1%80%D0%BE%D1%81%D0%B8%D1%82%D0%B5_%D0%BD%D0%B0_%D0%B2%D0%B5%D1%82%D0%B5%D1%80%D0%B0%D0%BD%D0%B8%D1%82%D0%B5_%D0%BD%D0%B0_%D0%A1%D0%90%D0%A9"
+                },
+                "cswiki": {
+                    "site": "cswiki",
+                    "title": "Ministerstvo pro z\u00e1le\u017eitosti veter\u00e1n\u016f Spojen\u00fdch st\u00e1t\u016f americk\u00fdch",
+                    "badges": [],
+                    "url": "https://cs.wikipedia.org/wiki/Ministerstvo_pro_z%C3%A1le%C5%BEitosti_veter%C3%A1n%C5%AF_Spojen%C3%BDch_st%C3%A1t%C5%AF_americk%C3%BDch"
+                },
+                "dawiki": {
+                    "site": "dawiki",
+                    "title": "Veteranministeriet",
+                    "badges": [],
+                    "url": "https://da.wikipedia.org/wiki/Veteranministeriet"
+                },
+                "dewiki": {
+                    "site": "dewiki",
+                    "title": "Kriegsveteranenministerium der Vereinigten Staaten",
+                    "badges": [],
+                    "url": "https://de.wikipedia.org/wiki/Kriegsveteranenministerium_der_Vereinigten_Staaten"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "United States Department of Veterans Affairs",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/United_States_Department_of_Veterans_Affairs"
+                },
+                "eowiki": {
+                    "site": "eowiki",
+                    "title": "Usona Departemento pri Veteranaj Aferoj",
+                    "badges": [],
+                    "url": "https://eo.wikipedia.org/wiki/Usona_Departemento_pri_Veteranaj_Aferoj"
+                },
+                "eswiki": {
+                    "site": "eswiki",
+                    "title": "Departamento de Asuntos de los Veteranos de los Estados Unidos",
+                    "badges": [],
+                    "url": "https://es.wikipedia.org/wiki/Departamento_de_Asuntos_de_los_Veteranos_de_los_Estados_Unidos"
+                },
+                "etwiki": {
+                    "site": "etwiki",
+                    "title": "Ameerika \u00dchendriikide Veteranideministeerium",
+                    "badges": [],
+                    "url": "https://et.wikipedia.org/wiki/Ameerika_%C3%9Chendriikide_Veteranideministeerium"
+                },
+                "euwiki": {
+                    "site": "euwiki",
+                    "title": "Ameriketako Estatu Batuetako Beteranoen Arloko Saila",
+                    "badges": [],
+                    "url": "https://eu.wikipedia.org/wiki/Ameriketako_Estatu_Batuetako_Beteranoen_Arloko_Saila"
+                },
+                "fawiki": {
+                    "site": "fawiki",
+                    "title": "\u0648\u0632\u0627\u0631\u062a \u0627\u0645\u0648\u0631 \u06a9\u0647\u0646\u0647\u200c\u0633\u0631\u0628\u0627\u0632\u0627\u0646 \u0627\u06cc\u0627\u0644\u0627\u062a \u0645\u062a\u062d\u062f\u0647 \u0622\u0645\u0631\u06cc\u06a9\u0627",
+                    "badges": [],
+                    "url": "https://fa.wikipedia.org/wiki/%D9%88%D8%B2%D8%A7%D8%B1%D8%AA_%D8%A7%D9%85%D9%88%D8%B1_%DA%A9%D9%87%D9%86%D9%87%E2%80%8C%D8%B3%D8%B1%D8%A8%D8%A7%D8%B2%D8%A7%D9%86_%D8%A7%DB%8C%D8%A7%D9%84%D8%A7%D8%AA_%D9%85%D8%AA%D8%AD%D8%AF%D9%87_%D8%A2%D9%85%D8%B1%DB%8C%DA%A9%D8%A7"
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "D\u00e9partement des Anciens combattants des \u00c9tats-Unis",
+                    "badges": [],
+                    "url": "https://fr.wikipedia.org/wiki/D%C3%A9partement_des_Anciens_combattants_des_%C3%89tats-Unis"
+                },
+                "hewiki": {
+                    "site": "hewiki",
+                    "title": "\u05d4\u05de\u05d7\u05dc\u05e7\u05d4 \u05dc\u05e2\u05e0\u05d9\u05d9\u05e0\u05d9 \u05d7\u05d9\u05d9\u05dc\u05d9\u05dd \u05de\u05e9\u05d5\u05d7\u05e8\u05e8\u05d9\u05dd \u05e9\u05dc \u05d0\u05e8\u05e6\u05d5\u05ea \u05d4\u05d1\u05e8\u05d9\u05ea",
+                    "badges": [],
+                    "url": "https://he.wikipedia.org/wiki/%D7%94%D7%9E%D7%97%D7%9C%D7%A7%D7%94_%D7%9C%D7%A2%D7%A0%D7%99%D7%99%D7%A0%D7%99_%D7%97%D7%99%D7%99%D7%9C%D7%99%D7%9D_%D7%9E%D7%A9%D7%95%D7%97%D7%A8%D7%A8%D7%99%D7%9D_%D7%A9%D7%9C_%D7%90%D7%A8%D7%A6%D7%95%D7%AA_%D7%94%D7%91%D7%A8%D7%99%D7%AA"
+                },
+                "idwiki": {
+                    "site": "idwiki",
+                    "title": "Kementerian Veteran Amerika Serikat",
+                    "badges": [],
+                    "url": "https://id.wikipedia.org/wiki/Kementerian_Veteran_Amerika_Serikat"
+                },
+                "itwiki": {
+                    "site": "itwiki",
+                    "title": "Dipartimento degli Affari dei Veterani degli Stati Uniti d'America",
+                    "badges": [],
+                    "url": "https://it.wikipedia.org/wiki/Dipartimento_degli_Affari_dei_Veterani_degli_Stati_Uniti_d%27America"
+                },
+                "jawiki": {
+                    "site": "jawiki",
+                    "title": "\u30a2\u30e1\u30ea\u30ab\u5408\u8846\u56fd\u9000\u5f79\u8ecd\u4eba\u7701",
+                    "badges": [],
+                    "url": "https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E5%90%88%E8%A1%86%E5%9B%BD%E9%80%80%E5%BD%B9%E8%BB%8D%E4%BA%BA%E7%9C%81"
+                },
+                "kowiki": {
+                    "site": "kowiki",
+                    "title": "\ubbf8\uad6d \ubcf4\ud6c8\ubd80",
+                    "badges": [],
+                    "url": "https://ko.wikipedia.org/wiki/%EB%AF%B8%EA%B5%AD_%EB%B3%B4%ED%9B%88%EB%B6%80"
+                },
+                "mswiki": {
+                    "site": "mswiki",
+                    "title": "Jabatan Hal Ehwal Veteran Amerika Syarikat",
+                    "badges": [],
+                    "url": "https://ms.wikipedia.org/wiki/Jabatan_Hal_Ehwal_Veteran_Amerika_Syarikat"
+                },
+                "nlwiki": {
+                    "site": "nlwiki",
+                    "title": "United States Department of Veterans Affairs",
+                    "badges": [],
+                    "url": "https://nl.wikipedia.org/wiki/United_States_Department_of_Veterans_Affairs"
+                },
+                "nowiki": {
+                    "site": "nowiki",
+                    "title": "Krigsveterandepartementet (USA)",
+                    "badges": [],
+                    "url": "https://no.wikipedia.org/wiki/Krigsveterandepartementet_(USA)"
+                },
+                "ptwiki": {
+                    "site": "ptwiki",
+                    "title": "Departamento dos Assuntos de Veteranos dos Estados Unidos",
+                    "badges": [],
+                    "url": "https://pt.wikipedia.org/wiki/Departamento_dos_Assuntos_de_Veteranos_dos_Estados_Unidos"
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "\u041c\u0438\u043d\u0438\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u043f\u043e \u0434\u0435\u043b\u0430\u043c \u0432\u0435\u0442\u0435\u0440\u0430\u043d\u043e\u0432 \u0421\u0428\u0410",
+                    "badges": [],
+                    "url": "https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE_%D0%BF%D0%BE_%D0%B4%D0%B5%D0%BB%D0%B0%D0%BC_%D0%B2%D0%B5%D1%82%D0%B5%D1%80%D0%B0%D0%BD%D0%BE%D0%B2_%D0%A1%D0%A8%D0%90"
+                },
+                "simplewiki": {
+                    "site": "simplewiki",
+                    "title": "United States Department of Veterans Affairs",
+                    "badges": [],
+                    "url": "https://simple.wikipedia.org/wiki/United_States_Department_of_Veterans_Affairs"
+                },
+                "svwiki": {
+                    "site": "svwiki",
+                    "title": "USA:s veterandepartement",
+                    "badges": [],
+                    "url": "https://sv.wikipedia.org/wiki/USA:s_veterandepartement"
+                },
+                "thwiki": {
+                    "site": "thwiki",
+                    "title": "\u0e01\u0e23\u0e30\u0e17\u0e23\u0e27\u0e07\u0e01\u0e32\u0e23\u0e17\u0e2b\u0e32\u0e23\u0e1c\u0e48\u0e32\u0e19\u0e28\u0e36\u0e01\u0e2a\u0e2b\u0e23\u0e31\u0e10",
+                    "badges": [],
+                    "url": "https://th.wikipedia.org/wiki/%E0%B8%81%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%A3%E0%B8%A7%E0%B8%87%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%97%E0%B8%AB%E0%B8%B2%E0%B8%A3%E0%B8%9C%E0%B9%88%E0%B8%B2%E0%B8%99%E0%B8%A8%E0%B8%B6%E0%B8%81%E0%B8%AA%E0%B8%AB%E0%B8%A3%E0%B8%B1%E0%B8%90"
+                },
+                "trwiki": {
+                    "site": "trwiki",
+                    "title": "Amerika Birle\u015fik Devletleri Gazi \u0130\u015fleri Bakanl\u0131\u011f\u0131",
+                    "badges": [],
+                    "url": "https://tr.wikipedia.org/wiki/Amerika_Birle%C5%9Fik_Devletleri_Gazi_%C4%B0%C5%9Fleri_Bakanl%C4%B1%C4%9F%C4%B1"
+                },
+                "ukwiki": {
+                    "site": "ukwiki",
+                    "title": "\u041c\u0456\u043d\u0456\u0441\u0442\u0435\u0440\u0441\u0442\u0432\u043e \u0443 \u0441\u043f\u0440\u0430\u0432\u0430\u0445 \u0432\u0435\u0442\u0435\u0440\u0430\u043d\u0456\u0432 \u0421\u0428\u0410",
+                    "badges": [],
+                    "url": "https://uk.wikipedia.org/wiki/%D0%9C%D1%96%D0%BD%D1%96%D1%81%D1%82%D0%B5%D1%80%D1%81%D1%82%D0%B2%D0%BE_%D1%83_%D1%81%D0%BF%D1%80%D0%B0%D0%B2%D0%B0%D1%85_%D0%B2%D0%B5%D1%82%D0%B5%D1%80%D0%B0%D0%BD%D1%96%D0%B2_%D0%A1%D0%A8%D0%90"
+                },
+                "viwiki": {
+                    "site": "viwiki",
+                    "title": "B\u1ed9 C\u1ef1u chi\u1ebfn binh Hoa K\u1ef3",
+                    "badges": [],
+                    "url": "https://vi.wikipedia.org/wiki/B%E1%BB%99_C%E1%BB%B1u_chi%E1%BA%BFn_binh_Hoa_K%E1%BB%B3"
+                },
+                "zhwiki": {
+                    "site": "zhwiki",
+                    "title": "\u7f8e\u570b\u9000\u4f0d\u8ecd\u4eba\u4e8b\u52d9\u90e8",
+                    "badges": [],
+                    "url": "https://zh.wikipedia.org/wiki/%E7%BE%8E%E5%9C%8B%E9%80%80%E4%BC%8D%E8%BB%8D%E4%BA%BA%E4%BA%8B%E5%8B%99%E9%83%A8"
+                }
+            }
+        }
+    }
+}

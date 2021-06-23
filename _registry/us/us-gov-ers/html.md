@@ -35,6 +35,26 @@ external:
 ids:
   isni: '0000000404063551'
   wikidata: Q5374360
+services:
+  calendars:
+  - client: html
+    endpoint: https://www.ers.usda.gov/calendar/
+    lang: en
+    name: Calendar
+  catalogs:
+  - client: html
+    endpoint: https://www.ers.usda.gov/data-products/
+    lang: en
+    name: Data Products
+  news:
+  - client: html
+    endpoint: https://www.ers.usda.gov/publications/
+    lang: en
+    name: Publications
+  - client: html
+    endpoint: https://www.ers.usda.gov/newsroom/
+    lang: en
+    name: Newsroom
 social:
   linkedin:
   - id: usda-economic-research-service/

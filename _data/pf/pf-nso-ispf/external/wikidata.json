@@ -1,0 +1,291 @@
+{
+    "entities": {
+        "Q19375721": {
+            "pageid": 20982984,
+            "ns": 0,
+            "title": "Q19375721",
+            "lastrevid": 1368905625,
+            "modified": "2021-02-24T08:04:13Z",
+            "type": "item",
+            "id": "Q19375721",
+            "labels": {
+                "nb": {
+                    "language": "nb",
+                    "value": "Institut de la statistique de la Polyn\u00e9sie fran\u00e7aise"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "Institut de la statistique de la Polyn\u00e9sie fran\u00e7aise"
+                }
+            },
+            "descriptions": {
+                "fr": {
+                    "language": "fr",
+                    "value": "Etablissement public en charge de la collecte, de la production, de l'analyse et de la diffusion des statistiques en Polyn\u00e9sie fran\u00e7aise"
+                }
+            },
+            "aliases": {
+                "fr": [
+                    {
+                        "language": "fr",
+                        "value": "ISPF"
+                    }
+                ]
+            },
+            "claims": {
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://www.ispf.pf/Home.aspx",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q19375721$2AEE6348-BBE9-44BE-9F37-305346C18536",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "8f6d2b4a0e3da23aca841c5dfe6b7ed894bd315a",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 191769,
+                                                    "id": "Q191769"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P3206": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P3206",
+                            "datavalue": {
+                                "value": "56a29970c751df2a1cade714",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q19375721$4F91DEFC-2CE0-44D7-B352-FA2F27E71620",
+                        "rank": "normal"
+                    }
+                ],
+                "P6671": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6671",
+                            "datavalue": {
+                                "value": "collectivites-d-outre-mer/polynesie-francaise/dr_insee-98735-01",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q19375721$ded92361-40fb-8e65-3bcb-a151bf8fbdbd",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 142,
+                                    "id": "Q142"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q19375721$c8dae3e4-47a5-6eaf-c44b-4feed8b8ec31",
+                        "rank": "normal"
+                    }
+                ],
+                "P1001": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1001",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 30971,
+                                    "id": "Q30971"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q19375721$d332736c-4b5c-a6c9-ee23-2cecefb9b5cd",
+                        "rank": "normal"
+                    }
+                ],
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q19375721$005c2c45-4105-df49-5e99-b8bbb9446271",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 130800,
+                                    "id": "Q130800"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q19375721$608b92e3-483f-7ece-c0ce-bffe73c30d38",
+                        "rank": "normal"
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "133930675",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q19375721$F197AA75-6021-41A0-B84E-51543D6F6C75",
+                        "rank": "normal"
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "lccn-no00061561",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q19375721$A3A3E9BC-FBC6-47AA-B81D-3811C669AF1D",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "67c89d96ea61a240dc6d2d80314a30650aea4f8f",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "133930675",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1616": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1616",
+                            "datavalue": {
+                                "value": "200021335",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q19375721$478d1055-4476-f5a6-efc7-1e869a738691",
+                        "rank": "normal"
+                    }
+                ],
+                "P2671": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2671",
+                            "datavalue": {
+                                "value": "/g/12gh3gt07",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q19375721$3559847B-3392-449E-993F-487BB847CC3E",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Institut de la statistique de la Polyn\u00e9sie fran\u00e7aise",
+                    "badges": [],
+                    "url": "https://fr.wikipedia.org/wiki/Institut_de_la_statistique_de_la_Polyn%C3%A9sie_fran%C3%A7aise"
+                },
+                "nowiki": {
+                    "site": "nowiki",
+                    "title": "Institut de la statistique de la Polyn\u00e9sie fran\u00e7aise",
+                    "badges": [],
+                    "url": "https://no.wikipedia.org/wiki/Institut_de_la_statistique_de_la_Polyn%C3%A9sie_fran%C3%A7aise"
+                }
+            }
+        }
+    }
+}

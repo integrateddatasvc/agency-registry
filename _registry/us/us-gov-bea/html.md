@@ -39,6 +39,28 @@ ids:
   isni: 0000000101060898
   ror: 03b17a012
   wikidata: Q1443033
+services:
+  blogs:
+  - client: html
+    endpoint: https://www.bea.gov/news/blog
+    name: The BEA Wire
+  calendars:
+  - client: html
+    endpoint: https://www.bea.gov/news/schedule
+    name: Release Schedule
+  news:
+  - client: html
+    endpoint: https://www.bea.gov/news/glance
+    name: U.S. Economy at a Glance
+  - client: html
+    endpoint: https://www.bea.gov/news/current-releases
+    name: News Releases
+  - client: html
+    endpoint: https://apps.bea.gov/scb/
+    name: Survey of Current Business
+  - client: html
+    endpoint: https://www.bea.gov/news/for-journalists
+    name: For Journalists
 social:
   linkedin:
   - id: bureau-of-economic-analysis/

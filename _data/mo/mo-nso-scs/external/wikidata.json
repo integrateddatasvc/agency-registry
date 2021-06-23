@@ -1,0 +1,378 @@
+{
+    "entities": {
+        "Q15931406": {
+            "pageid": 17555571,
+            "ns": 0,
+            "title": "Q15931406",
+            "lastrevid": 1367058338,
+            "modified": "2021-02-22T01:34:50Z",
+            "type": "item",
+            "id": "Q15931406",
+            "labels": {
+                "zh": {
+                    "language": "zh",
+                    "value": "\u7d71\u8a08\u66a8\u666e\u67e5\u5c40"
+                },
+                "pt": {
+                    "language": "pt",
+                    "value": "Dire\u00e7\u00e3o dos Servi\u00e7os de Estat\u00edstica e Censos"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "Statistics and Census Service"
+                }
+            },
+            "descriptions": {},
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 28008646,
+                                    "id": "Q28008646"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q15931406$54250AD1-7232-44A4-9B98-865F587A3B9F",
+                        "rank": "normal"
+                    }
+                ],
+                "P1454": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1454",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q15931406$0F72C810-F9DB-4C3D-BAE5-0196E3FBDCCF",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d11ce575cf88a3dc6d4af3246ddf3f45dfb241bc",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 11921,
+                                                    "id": "Q11921"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://pt.wikipedia.org/w/index.php?title=Dire\u00e7\u00e3o_dos_Servi\u00e7os_de_Estat\u00edstica_e_Censos&oldid=55708601",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P749": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P749",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1057992,
+                                    "id": "Q1057992"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q15931406$2EB7A07E-538C-4B4D-B9B3-1A4B9F8B267A",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d11ce575cf88a3dc6d4af3246ddf3f45dfb241bc",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 11921,
+                                                    "id": "Q11921"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://pt.wikipedia.org/w/index.php?title=Dire\u00e7\u00e3o_dos_Servi\u00e7os_de_Estat\u00edstica_e_Censos&oldid=55708601",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 14773,
+                                    "id": "Q14773"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q15931406$ECC6D750-ED57-4EEF-863D-9171130CA910",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "d11ce575cf88a3dc6d4af3246ddf3f45dfb241bc",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 11921,
+                                                    "id": "Q11921"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P4656": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P4656",
+                                            "datavalue": {
+                                                "value": "https://pt.wikipedia.org/w/index.php?title=Dire\u00e7\u00e3o_dos_Servi\u00e7os_de_Estat\u00edstica_e_Censos&oldid=55708601",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143",
+                                    "P4656"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P214": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P214",
+                            "datavalue": {
+                                "value": "265254441",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q15931406$A28B2A91-F27B-4A1B-8CF0-8CD5D4FD38AF",
+                        "rank": "normal"
+                    }
+                ],
+                "P7859": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P7859",
+                            "datavalue": {
+                                "value": "viaf-265254441",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q15931406$5178EB3A-1742-4D26-AEFF-F3290EE98430",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "23beed044ca334168872c7f3e2ed7aa64a814e7e",
+                                "snaks": {
+                                    "P214": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P214",
+                                            "datavalue": {
+                                                "value": "265254441",
+                                                "type": "string"
+                                            },
+                                            "datatype": "external-id"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P214"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "datavalue": {
+                                "value": "/m/0k0n2nl",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q15931406$367DDB12-8AF7-4AB9-81AD-927E98897704",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://www.dsec.gov.mo",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q15931406$e45c66f7-4236-78c5-9bc0-5ef47c686b56",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://dsec.ctm.net/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P953": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P953",
+                                    "hash": "80ff96e64be80e2b6adff437265307b2ddfe3e2b",
+                                    "datavalue": {
+                                        "value": "https://web.archive.org/*/http://dsec.ctm.net/",
+                                        "type": "string"
+                                    },
+                                    "datatype": "url"
+                                }
+                            ],
+                            "P582": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P582",
+                                    "hash": "589721f17742af52d011102719f2cf276ae0f6d4",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2008-00-00T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 9,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P953",
+                            "P582"
+                        ],
+                        "id": "Q15931406$b61edf37-4eb0-1d40-c378-4f568b79e5ec",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "Statistics and Census Service (Macau)",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/Statistics_and_Census_Service_(Macau)"
+                },
+                "ptwiki": {
+                    "site": "ptwiki",
+                    "title": "Dire\u00e7\u00e3o dos Servi\u00e7os de Estat\u00edstica e Censos",
+                    "badges": [],
+                    "url": "https://pt.wikipedia.org/wiki/Dire%C3%A7%C3%A3o_dos_Servi%C3%A7os_de_Estat%C3%ADstica_e_Censos"
+                },
+                "zhwiki": {
+                    "site": "zhwiki",
+                    "title": "\u7d71\u8a08\u66a8\u666e\u67e5\u5c40",
+                    "badges": [],
+                    "url": "https://zh.wikipedia.org/wiki/%E7%B5%B1%E8%A8%88%E6%9A%A8%E6%99%AE%E6%9F%A5%E5%B1%80"
+                }
+            }
+        }
+    }
+}

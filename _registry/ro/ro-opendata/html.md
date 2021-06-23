@@ -5,6 +5,8 @@ geo:
   iso3166:
   - ro
   level: national
+ids:
+  wikidata: Q97098010
 services:
   catalogs:
   - client: html

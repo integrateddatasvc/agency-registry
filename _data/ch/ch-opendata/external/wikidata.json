@@ -1,0 +1,335 @@
+{
+    "entities": {
+        "Q63430264": {
+            "pageid": 63156643,
+            "ns": 0,
+            "title": "Q63430264",
+            "lastrevid": 1365580083,
+            "modified": "2021-02-20T01:26:20Z",
+            "type": "item",
+            "id": "Q63430264",
+            "labels": {
+                "de": {
+                    "language": "de",
+                    "value": "opendata.swiss"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "opendata.swiss"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "opendata.swiss"
+                },
+                "it": {
+                    "language": "it",
+                    "value": "opendata.swiss"
+                },
+                "nl": {
+                    "language": "nl",
+                    "value": "opendata.swiss"
+                },
+                "sv": {
+                    "language": "sv",
+                    "value": "opendata.swiss"
+                }
+            },
+            "descriptions": {
+                "de": {
+                    "language": "de",
+                    "value": "Open Data Portal des Staates Schweiz"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "Open Data Portal of the State of Switzerland"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "Portail de donn\u00e9es ouvert de l'Etat suisse"
+                },
+                "it": {
+                    "language": "it",
+                    "value": "Portale dati aperti dello Stato svizzero"
+                },
+                "nl": {
+                    "language": "nl",
+                    "value": "Open Data Portal van de staat Zwitserland"
+                },
+                "sv": {
+                    "language": "sv",
+                    "value": "Swiss Open Government data"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 27031827,
+                                    "id": "Q27031827"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q63430264$6cc4d852-4f4e-673c-4f28-7643382fc395",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://opendata.swiss",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q63430264$d6a4fb89-419f-2fb6-04ca-d3862b6029fe",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://opendata.swiss/en/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q63430264$7FB7C2E1-61FB-4DB1-8543-388052314B51",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 39,
+                                    "id": "Q39"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q63430264$cb227bfb-482e-cc5a-46eb-9aecad77c46a",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 39,
+                                    "id": "Q39"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q63430264$40E15E66-9C63-41DC-BE83-03E587D5EAB5",
+                        "rank": "normal"
+                    }
+                ],
+                "P407": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P407",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1860,
+                                    "id": "Q1860"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q63430264$E148B843-4557-459C-B5B1-3D04570F2A5A",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P407",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 652,
+                                    "id": "Q652"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q63430264$1F174AC2-9FAD-4756-8573-C4CEC8CAD76D",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P407",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 150,
+                                    "id": "Q150"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q63430264$D7FBA7E3-5DC6-4740-93BE-2B0B2FCA16F3",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P407",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 188,
+                                    "id": "Q188"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q63430264$3675228B-2A6F-42AD-8AC9-4E7F7050CE25",
+                        "rank": "normal"
+                    }
+                ],
+                "P921": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P921",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 39,
+                                    "id": "Q39"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q63430264$0A9BBDAB-E14A-41E6-9803-AC1778AD1354",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "0723282bb80042897ca697416c050b4bf7fb5428",
+                                "snaks": {
+                                    "P887": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P887",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 69652283,
+                                                    "id": "Q69652283"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P887"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P6269": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P6269",
+                            "datavalue": {
+                                "value": "https://ckan.opendata.swiss/api/3/action/package_list",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P2700": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P2700",
+                                    "hash": "1fed101fb6a016e15f3a994e1ae8908797d549da",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 105592698,
+                                            "id": "Q105592698"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P2700"
+                        ],
+                        "id": "Q63430264$abe74304-4b3d-bc3e-db63-b29753472d74",
+                        "rank": "normal"
+                    }
+                ],
+                "P408": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P408",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 977484,
+                                    "id": "Q977484"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q63430264$d52df8cd-479b-8d55-0bd9-f5b6de8fffd6",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

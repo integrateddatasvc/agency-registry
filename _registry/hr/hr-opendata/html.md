@@ -1,6 +1,8 @@
 ---
 name: hr-opendata
 external: {}
+ids:
+  wikidata: Q97011945
 services:
   catalogs:
   - api_endpoint: https://data.gov.hr/ckan/api/3

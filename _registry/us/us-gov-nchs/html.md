@@ -49,6 +49,42 @@ ids:
   orgref: '1042734'
   ror: 03p15s250
   wikidata: Q3336854
+services:
+  calendars:
+  - client: html
+    endpoint: https://www.cdc.gov/nchs/events/index.htm
+    lang: en
+    name: Events and announcements
+  catalogs:
+  - client: html
+    endpoint: https://www.cdc.gov/nchs/products/index.htm
+    lang: en
+    name: Publications and Information Products
+  - client: html
+    endpoint: https://www.cdc.gov/nchs/data-visualization/
+    lang: en
+    name: Data Visualization Gallery
+  - client: html
+    endpoint: https://www.cdc.gov/nchs/data-linkage/index.htm
+    lang: en
+    name: NCHS Data Linkage
+  - client: html
+    endpoint: https://www.cdc.gov/nchs/nvss/index.htm
+    lang: en
+    name: National Vital Statistics System
+  news:
+  - client: html
+    endpoint: https://www.cdc.gov/nchs/pressroom/
+    lang: en
+    name: NCHS Pressroom
+  - client: rss
+    endpoint: http://www2c.cdc.gov/podcasts/createrss.asp?c=68
+    lang: en
+    name: NCHS Publications and Products
+  - client: rss
+    endpoint: http://www2c.cdc.gov/podcasts/createrss.asp?c=356
+    lang: en
+    name: MMWR QuickStats
 social:
   facebook:
   - id: CDCNCHS

@@ -28,4 +28,5 @@ external:
 ids:
   grid: grid.494028.3
   ror: 05vydvf11
+  wikidata: Q3152854
 ---

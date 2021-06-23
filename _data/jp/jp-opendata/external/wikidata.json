@@ -1,0 +1,201 @@
+{
+    "entities": {
+        "Q97153912": {
+            "pageid": 95596396,
+            "ns": 0,
+            "title": "Q97153912",
+            "lastrevid": 1362563672,
+            "modified": "2021-02-16T13:25:18Z",
+            "type": "item",
+            "id": "Q97153912",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "data.go.jp"
+                },
+                "ca": {
+                    "language": "ca",
+                    "value": "data.go.jp"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u30c7\u30fc\u30bf\u30ab\u30bf\u30ed\u30b0\u30b5\u30a4\u30c8"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Japan open data portal"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u65e5\u672c\u653f\u5e9c\u306e\u30aa\u30fc\u30d7\u30f3\u30c7\u30fc\u30bf\u30fb\u30dd\u30fc\u30bf\u30eb"
+                }
+            },
+            "aliases": {
+                "ja": [
+                    {
+                        "language": "ja",
+                        "value": "data.go.jp"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 27031827,
+                                    "id": "Q27031827"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97153912$8D299559-7E4C-4CF7-A839-6D26F3514B94",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "4c374fb0af83332c22a85d2d01acb312ecde0ff2",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2020-10-29T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ],
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 5227102,
+                                                    "id": "Q5227102"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "datavalue": {
+                                                "value": "https://www.data.gov/open-gov/",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813",
+                                    "P248",
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "https://www.data.go.jp/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "d858d1b9f6e6e383f38dfbe706d102f056c07312",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 5287,
+                                            "id": "Q5287"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q97153912$445C27E3-DB9B-423F-A60F-5155C5ACA14C",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 17,
+                                    "id": "Q17"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97153912$2A3F9096-2F84-48BE-B783-7F6E5F624972",
+                        "rank": "normal"
+                    }
+                ],
+                "P407": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P407",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 5287,
+                                    "id": "Q5287"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97153912$18F90AD5-A289-4584-AC96-9A19454AD21A",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

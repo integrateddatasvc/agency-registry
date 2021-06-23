@@ -39,6 +39,35 @@ ids:
   isni: 0000000122485086
   ror: 03z2d7y96
   wikidata: Q2928428
+services:
+  news:
+  - client: rss
+    endpoint: https://www.bls.gov/feed/atus.rss
+    name: Amercian Time Use Survey
+  - client: rss
+    endpoint: https://www.bls.gov/feed/hsgec.rss
+    name: College Enrollment and Work Activity of High School Graduates
+  - client: rss
+    endpoint: https://www.bls.gov/feed/cewqtr.rss
+    name: County Employment and Wages
+  - client: rss
+    endpoint: https://www.bls.gov/feed/ximpim.rss
+    name: U.S. Import and Export Price Indexes
+  - client: rss
+    endpoint: https://www.bls.gov/feed/bls_latest.rss
+    name: BLS Principal Federal Economic Indicators
+  - client: rss
+    endpoint: https://www.bls.gov/feed/bdm_latest.rss
+    name: Buisness Employment Dynamics
+  - client: rss
+    endpoint: https://www.bls.gov/feed/cpi_latest.rss
+    name: Consumer Price Index
+  - client: rss
+    endpoint: https://www.bls.gov/feed/cfoi.rss
+    name: Census of Fatal Occupational Injuries
+  - client: rss
+    endpoint: https://www.bls.gov/feed/ebs2.rss
+    name: Employee Benefits in the United States
 social:
   linkedin:
   - id: bureau-of-labor-statistics/

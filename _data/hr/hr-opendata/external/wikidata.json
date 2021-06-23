@@ -1,0 +1,119 @@
+{
+    "entities": {
+        "Q97011945": {
+            "pageid": 95513857,
+            "ns": 0,
+            "title": "Q97011945",
+            "lastrevid": 1299434255,
+            "modified": "2020-10-29T15:25:26Z",
+            "type": "item",
+            "id": "Q97011945",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Portal for publishing open data in Croatian"
+                }
+            },
+            "descriptions": {},
+            "aliases": {
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "data.gov.hr"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 27031827,
+                                    "id": "Q27031827"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97011945$ae65d647-4b95-0c68-15c8-73ce98b06c7d",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "datavalue": {
+                                "value": "http://data.gov.hr",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q97011945$04deebe1-427a-c64c-79ca-b292c8861bc2",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 224,
+                                    "id": "Q224"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97011945$2f638fc7-4a8d-a451-73f2-db9193971e00",
+                        "rank": "normal"
+                    }
+                ],
+                "P973": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P973",
+                            "datavalue": {
+                                "value": "https://vlada.gov.hr/highlights-15141/archives/croatian-government-launches-open-data-portal-data-gov-hr-16574/16574",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q97011945$8f038b00-4aaf-7d09-0b90-f0e448e02e12",
+                        "rank": "normal"
+                    }
+                ],
+                "P968": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P968",
+                            "datavalue": {
+                                "value": "mailto:pitanja@data.gov.hr",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q97011945$8a4b6c77-482c-d2af-a9d0-84fc72a39c8e",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

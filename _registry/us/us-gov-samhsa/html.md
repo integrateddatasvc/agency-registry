@@ -50,6 +50,29 @@ ids:
   orgref: '311822'
   ror: 03t3qg659
   wikidata: Q7632057
+services:
+  catalogs:
+  - client: html
+    endpoint: https://www.samhsa.gov/data/all-reports
+    lang: en
+    name: Reports and Data tables
+  news:
+  - client: html
+    endpoint: https://www.samhsa.gov/newsroom
+    lang: en
+    name: Newsroom
+  - client: html
+    endpoint: https://store.samhsa.gov/
+    lang: en
+    name: Publications
+  - client: rss
+    endpoint: https://www.samhsa.gov/grants/rss
+    lang: en
+    name: SAMHSA's Grants
+  - client: rss
+    endpoint: https://www.samhsa.gov/grants-training-materials-feed.xml
+    lang: en
+    name: SAMHSA's Grants Training Materials
 social:
   facebook:
   - id: samhsa

@@ -1,6 +1,8 @@
 ---
 name: int-eu-opendata
 external: {}
+ids:
+  wikidata: Q5412398
 services:
   catalogs:
   - client: html

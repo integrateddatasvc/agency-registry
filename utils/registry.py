@@ -97,6 +97,7 @@ def get_agency_isni_file(catalog, agency):
     file = os.path.join(get_agency_external_dir(catalog, agency),'isni.xml')
     return file
 
+
 def get_agency_ror(catalog, agency):
     file = get_agency_ror_file(catalog, agency)
     if not os.path.isfile(file):
@@ -126,6 +127,18 @@ def get_agency_social_file(catalog, agency):
     file = os.path.join(get_agency_dir(catalog, agency),'social.yaml')
     return file
 
+def get_agency_wikidata(catalog, agency, format='rdf'):
+    file = get_agency_wikidata_file(catalog, agency, format)
+    if not os.path.isfile(file):
+        harvest_agency_wikidata(catalog, agency, format)
+    if os.path.isfile(file):
+        data = etree.parse(file)
+        return data
+
+def get_agency_wikidata_file(catalog, agency, format="rdf"):
+    file = os.path.join(get_agency_external_dir(catalog, agency),f"wikidata.{format}")
+    return file
+
 def get_catalog_dir(catalog):
     return os.path.join(get_registry_dir(), catalog)
 
@@ -151,31 +164,55 @@ def get_script_dir():
 def harvest_agency_crossref(catalog, agency):
     # harvest the agency metadata from the CrossRef registry
     # returns JSON string
-    id = get_agency_ids(catalog, agency).get('crossref')
-    if id:
-        url = f"https://api.crossref.org/funders/{id}"
-        response = requests.get(url)
-        return response.json()
+    ids = get_agency_ids(catalog, agency)
+    if ids:
+        id = ids.get('crossref')
+        if id:
+            url = f"https://api.crossref.org/funders/{id}"
+            response = requests.get(url)
+            return response.json()
 
 def harvest_agency_isni(catalog, agency):
     # harvest the agency metadata from the ISNI registry
     # returns XML string
-    id = get_agency_ids(catalog, agency).get('isni')
-    if id:
-        url = f"http://isni.oclc.org/sru/?query=pica.isn+%3D+%22{id}%22&operation=searchRetrieve&recordSchema=isni-b"
-        response = requests.get(url)
-        searchRetrieveResponse = etree.fromstring(response.content)
-        isni = searchRetrieveResponse.find('.//ISNIAssigned')
-        return isni
+    ids = get_agency_ids(catalog, agency)
+    if ids:
+        id = ids.get('isni')
+        if id:
+            url = f"http://isni.oclc.org/sru/?query=pica.isn+%3D+%22{id}%22&operation=searchRetrieve&recordSchema=isni-b"
+            response = requests.get(url)
+            searchRetrieveResponse = etree.fromstring(response.content)
+            isni = searchRetrieveResponse.find('.//ISNIAssigned')
+            return isni
 
 def harvest_agency_ror(catalog, agency):
     # harvest the agency metadata from the ROR registry
     # returns JSON string
-    ror_id = get_agency_ids(catalog, agency).get('ror')
-    if ror_id:
-        url = 'http://api.ror.org/organizations/https://ror.org/'+ror_id
-        response = requests.get(url)
-        return response.json()
+    ids = get_agency_ids(catalog, agency)
+    if ids:
+        id = ids.get('ror')
+        if id:
+            url = 'http://api.ror.org/organizations/https://ror.org/'+id
+            response = requests.get(url)
+            return response.json()
+
+def harvest_agency_wikidata(catalog, agency, format='rdf'):
+    # harvest the agency metadata from Wikidata
+    # returns JSON string
+    ids = get_agency_ids(catalog, agency)
+    if ids:
+        id = ids.get('wikidata')
+        if id:
+            url = f"https://www.wikidata.org/wiki/Special:EntityData/{id}.{format}"
+            if format == 'rdf':
+                response = requests.get(url)
+                isni_rdf = etree.fromstring(response.content)
+                return isni_rdf
+            elif format == 'json':
+                response = requests.get(url)
+                return response.json()
+            else:
+                logging.error(f"Unknow Wikidata format {format}")
 
 def load_yaml(file):
     if os.path.isfile(file):
@@ -191,8 +228,8 @@ def save_agency_crossref(catalog, agency, data):
 
 def save_agency_isni(catalog, agency, xml):
     # save the ISNI metadata
-    xml = etree.tostring(xml, encoding='utf8')
-    with open(get_agency_isni_file(catalog, agency), 'wb') as f:
+    xml = etree.tostring(xml, encoding='unicode')
+    with open(get_agency_isni_file(catalog, agency), 'w') as f:
         f.write(xml) 
     return
 
@@ -200,4 +237,13 @@ def save_agency_ror(catalog, agency, data):
     # save the ROR metadata
     with open(get_agency_ror_file(catalog, agency), 'w') as f:
         json.dump(data, f, indent=4)
+
+def save_agency_wikidata(catalog, agency, data, format='rdf'):
+    # save the Wikidata metadata
+    with open(get_agency_wikidata_file(catalog, agency, format), 'w') as f:
+        if format == 'rdf':
+            xml = etree.tostring(data, encoding='unicode')
+            f.write(xml) 
+        elif format == 'json':
+            json.dump(data, f, indent=4)
 
