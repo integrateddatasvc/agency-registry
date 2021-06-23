@@ -2,46 +2,75 @@
 
 **THIS PROJECT IS IN EARLY DEVELOPMENT STAGE**
 
-This project aims at compiling information around government agencies, data archives, research centers, and other organizations producing and publishing statistical and scientific data, with a focus on documenting coverage and data access mechanisms. 
+## Overview
+
+This project aims at compiling information around government agencies, data archives, research centers, and other organizations producing and publishing statistical and scientific data. Our objective is to complement other registries, that tend to focus on agency identification and profile, by capturing additional information about the agencies services and data access mechanisms. offers. A key aspect of this project is further to ensure this information is available in machine actionable formats, to enable discovery and automation.
+
+Note that the term agency is broad and can also include in some cases initiatives or projects (such as open government data)
+
+To browse the registry, please visit [https://integrateddatasvc.github.io/agency-registry/](https://integrateddatasvc.github.io/agency-registry/)
+
+
+## How it works
+
+- The ```_data``` directory is the root of the registry. It groups agencies based on their geographic location or coverage (e.g. country, international, etc.)
+
+- Each agency has a dedicated directory that contains a collection of YAML files storing various pieces of information (metadata) about it:
+
+  - ids.yaml: holds a list of know unique identifiers for the agency (from other registries)
+  - geo.yaml: describes geographical coverage of the agency
+  - services.yaml: web sites, data catalog, data web services, newsfeed
+  - social.yaml: social networks account identifiers and information
+
+- Schemas for these files can be found in the project /schemas directory (note that the canonical version is maintained in YAML format)
+
+- The ```ids.yaml``` file is used by the ```utils\updater.py``` script to automatically harvest existing metadata from external registries and store under the ```external``` sub-directory.
+
+- Various scripts are used to generate content driving the registry minimalistic [web site](https://integrateddatasvc.github.io/agency-registry/) powered by Jekyll.
+
+## Where are we?
+*Last updated 2021-06-23*
+
+
+### Progress
+
+This project is in its very initial stage and at this time have:
+
+- Defined rough schemas for the registry files 
+- Identified the following agency registries, with Wikidata being the most comprehensive and machine actionable: Coessref, FundRef, GRID, ISNI, OrgRef, ROR, Wikidata
+- Captured initial metadata for government agencies in the U.S., national statistical offices around the globe, a few regional and international organizations, and select data.gov sites. Our initial focus has been on identifiers, social networks, and newsfeeds
+- Completed an initial scan of [CKAN](https://ckan.org/) based catalog services
+
+### Roadmap
+
+Our current objectives include:
+
+- Involving the community to help maintain and enhance the registry content
+  - Continue to compile information on CKAN powered data catalogs
+  - Compile information on Dataverse powered data catalogs around the globe
+- Leveraging the registry machine actionable catalog to globally discover existing and new data, and potentially develop unified DCAT compliant APIs
+- Leveraging the registry RSS/atom newsfeed information to drive aggregated news services and APIs
+- Investigating potential integration with Wikidata (automated contribution and extensions)
+- Investigating how to align on various recommendations of the FAIR initiative, in particular [FAIR implementation profiles (FIPS)](https://www.go-fair.org/how-to-go-fair/fair-implementation-profile/) and [FAIR Digital Objects (FDOs)](https://fairdo.org/).
+
+
+
+
+# SECTIONS BELOW TO BE REWORKED
+
 
 This includes:
 - Organization profile: web site, location, contact information
 - Geospatial coverage: what is the geographical level the organization (global, regional, national, subnational, city) and its area of operation
 - Sector: social, health, education, hard sciences
 - Role: producer, archive, research, funding, other
-- Nature: government (national/local), acadmic, non-profit, commercial, international org, joint projects,  consortium, foundation
+- Nature: government (national/local), academic, non-profit, commercial, international org, joint projects,  consortium, foundation
 - Data access policies / modalities
 - Availability of data catalogs and APIS
 
-The term agency is broad and can also include in some cases initiatives or projects (such as open government data)
-
-To browse the registry, please visit [https://integrateddatasvc.github.io/agency-registry/](https://integrateddatasvc.github.io/agency-registry/)
 
 
-## How this works?
-- Each agency has a dedicated directory that contains files storing various pieces of information (metadata) about it.
-- A metadata file has a well defined structure and content (schema) and is typically stored in a YAML, JSON, or XML.
-- The files follow specific naming conventions to indentify its origin and schema (content)
-
-The following files are maintained in this project:
-- ids.yaml: list of know unique identifiers for the agency
-- geo.yaml: level and geographical coverage of the agency
-- services.yaml: web sites, data catalog, data web services, newsfeed
-- social.yaml: social networkk account identifiers and info
-
-JSON schemas for these files can be found in the project /schemas directory. **Note that the canonical version is maintained in YAML format**.
-
-The ids.yaml file is used by scripts to automatically harvest and updated metadata from external sources.
-
-The following files are harvested and stored in the ```<agency>/external``` directory:
-- ror.json
-- isni.xml
-
-The following files are generated from the available metadata and stored in the docs directory:
-
-- (todo)
-
-### How to add an agency
+## How to contribute?
 - Create a directory in the relevant catalog under the registry
 - Create an ids.yaml file, with at least its ROR identifier
 - Run the updater script in the utils directory: `python updater.py <group>/<agency>`
@@ -66,8 +95,8 @@ The following files are generated from the available metadata and stored in the 
   - ```nso```: National statistical office or agency
   - ```opendata```: Reserved for country national level open data (data.gov)
 
-## Identifers and basic information
-Several initiaives readilly collect and maintain basic information about agencies and assign them unique identifiers. We can leverage these to harvest/aggregate what we need, and add the additional metadata elements that we want to capture.
+## Identifiers and basic information
+Several initiatives readily collect and maintain basic information about agencies and assign them unique identifiers. We can leverage these to harvest/aggregate what we need, and add the additional metadata elements that we want to capture.
 
 Below list of sources we have identified and can be used to compile basic agency profile information. Note that only a few provide public API end point, and all seem to lack OpenAPI / Postman docs. Some offer a full database download. ROR seem like a good starting point for identifiers. 
 
