@@ -132,7 +132,11 @@ def get_agency_wikidata(catalog, agency, format='rdf'):
     if not os.path.isfile(file):
         harvest_agency_wikidata(catalog, agency, format)
     if os.path.isfile(file):
-        data = etree.parse(file)
+        if format == 'rdf':
+            data = etree.parse(file)
+        elif format == 'json':
+            with open(file, 'r') as f:
+                data = json.load(f)
         return data
 
 def get_agency_wikidata_file(catalog, agency, format="rdf"):

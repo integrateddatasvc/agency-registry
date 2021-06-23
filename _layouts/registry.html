@@ -26,6 +26,17 @@ layout: default
                     {% endfor %}
                 {% endfor %}
             </h2>
+            {% if page.external.wikidata %}
+                {% for entity in page.external.wikidata.entities %}
+                    {% assign wikidata_id = entity[0] %}
+                    {% assign wikidata = entity[1] %}
+                    {% break %}
+                {% endfor %}
+            {% endif %}
+            <p>{{page.wikidata}}</p>
+            {% if wikidata.descriptions.en %}
+                <p>{{ wikidata.descriptions.en.value }}</p>
+            {% endif %}
             <h2 class="mb-3">Identifiers</h2>
             {% assign ids = page.ids %}
             {% if ids == nil %}

@@ -25,7 +25,7 @@ def generate_jekyll_markdown(catalog, agency):
         ror = get_agency_ror(catalog, agency)
         services = get_agency_services(catalog, agency)
         social = get_agency_social(catalog, agency)
-        wikidata = get_agency_wikidata(catalog, agency, format=json)
+        wikidata = get_agency_wikidata(catalog, agency, format='json')
         # generate metadata
         metadata = {}
         if ids:
