@@ -1,0 +1,57 @@
+---
+layout: none
+---
+[
+{% assign data = site.data | sort%}      
+{% assign groups = data %}
+{% for group in groups %}
+    {
+        "{{ group[0]}}":[{% assign agencies = group[1] | sort %}{% for agency in agencies %}
+        { {% assign name = nil %}{% for entity in agency[1].external.wikidata.entities %}{% assign wikidata = entity %}{% assign name = wikidata[1].labels.en.value %}{% break %}{% endfor %}{% unless name %}{% assign name = agency[1].external.ror.name %}{% endunless %}{% unless name %}{% assign name = agency[0] %}{% endunless %}
+        "name":"{{name}}",
+        "url":"https://integrateddatasvc.github.io/agency-registry/registry/{{group[0]}}/{{agency[0]}}/html",
+        "facebook":[{% for facebook in agency[1].social.facebook %}
+            {
+            "id":"{{facebook.id}}",
+            "url":"https://facebook.com/{{facebook.id}}"
+            }{% unless forloop.last %},{% endunless %}
+        {% endfor%}],
+        "twitter":[{% for twitter in agency[1].social.twitter %}
+            {
+            "id":"{{twitter.id}}",
+            "url":"https://twitter.com/{{twitter.id}}"
+            }{% unless forloop.last %},{% endunless %}
+        {% endfor%}],  
+        "linkedin":[{% for linkedin in agency[1].social.linkedin %}
+            {
+            "id":"{{linkedin.id}}",
+            "url":"https://linkedin.com/{{linkedin.id}}"
+            }{% unless forloop.last %},{% endunless %}
+        {% endfor%}],          
+        "youtube":[{% for youtube in agency[1].social.youtube %}
+            {
+            "id":"{{youtube.id}}",
+            "url":"https://youtube.com/{{youtube.id}}"
+            }{% unless forloop.last %},{% endunless %}
+        {% endfor%}],  
+        "wikipedia":[{% for wikipedia in agency[1].social.wikipedia %}
+            {
+            "id":"{{wikipedia.id}}",
+            "url":"https://wikipedia.com/{{wikipedia.id}}"
+            }{% unless forloop.last %},{% endunless %}
+        {% endfor%}],                       
+        "news":[{% for news in agency[1].services.news %}
+            {
+            "name":"{{news.name}}",
+            "endpoint":"{{news.endpoint}}"
+            }{% unless forloop.last %},{% endunless %}
+        {% endfor%}],
+        "blogs":[{% for blogs in agency[1].services.blogs %}
+            {
+            "name":"{{blogs.name}}",
+            "endpoint":"{{blogs.endpoint}}"
+            }{% unless forloop.last %},{% endunless %}{% endfor%}]        
+        }{% unless forloop.last %},{% endunless %}{% endfor%}
+        ]
+    }{% unless forloop.last %},{% endunless %}{% endfor%}
+]
