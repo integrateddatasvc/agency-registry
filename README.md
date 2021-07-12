@@ -36,7 +36,9 @@ Our current objectives include:
   - Compile information on Dataverse powered data catalogs around the globe
 - Leveraging the registry machine actionable catalog to globally discover existing and new data, and potentially develop unified DCAT compliant APIs
 - Leveraging the registry RSS/atom newsfeed information to drive aggregated news services and APIs
+- Add Wikidata pages for agencies that do not currently have an entry (and therefore no Wikidata identifier)
 - Investigating potential integration with Wikidata (automated contribution and extensions)
+- Deploy a Apache Solr server to support rich registry search
 - Investigating how to align on various recommendations of the FAIR initiative, in particular [FAIR implementation profiles (FIPS)](https://www.go-fair.org/how-to-go-fair/fair-implementation-profile/), [FAIR Digital Objects (FDOs)](https://fairdo.org/), and [FAIR Data Points](https://www.fairdatapoint.org/).
 
 ## How to contribute?
