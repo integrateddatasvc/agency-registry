@@ -1,45 +1,31 @@
-# Agency Registry
+# Data Agency Registry
 
 **THIS PROJECT IS IN EARLY DEVELOPMENT STAGE**
 
 ## Overview
 
-This project aims at compiling information around government agencies, data archives, research centers, and other organizations producing and publishing statistical and scientific data. Our objective is to complement other registries, that tend to focus on agency identification and profile, by capturing additional information about the agencies services and data access mechanisms. offers. A key aspect of this project is further to ensure this information is available in machine actionable formats, to enable discovery and automation.
+This project aims at compiling information around government agencies, data archives, research centers, and other organizations producing and publishing statistical and scientific data. Our objective is to complement existing registries, that tend to focus on agency identification and profile, by capturing additional information about the agencies services and data discovery/access mechanisms offers. 
+
+A key aspect of this project is to ensure this information is available in machine actionable formats, which in turn enables automated data and services discovery,
 
 Note that the term agency is broad and can also include in some cases initiatives or projects (such as open government data)
 
 To browse the registry, please visit [https://integrateddatasvc.github.io/agency-registry/](https://integrateddatasvc.github.io/agency-registry/)
 
 
-## How it works
-
-- The ```_data``` directory is the root of the registry. It groups agencies based on their geographic location or coverage (e.g. country, international, etc.)
-
-- Each agency has a dedicated directory that contains a collection of YAML files storing various pieces of information (metadata) about it:
-
-  - ids.yaml: holds a list of know unique identifiers for the agency (from other registries)
-  - geo.yaml: describes geographical coverage of the agency
-  - services.yaml: web sites, data catalog, data web services, newsfeed
-  - social.yaml: social networks account identifiers and information
-
-- Schemas for these files can be found in the project /schemas directory (note that the canonical version is maintained in YAML format)
-
-- The ```ids.yaml``` file is used by the ```utils\updater.py``` script to automatically harvest existing metadata from external registries and store under the ```external``` sub-directory.
-
-- Various scripts are used to generate content driving the registry minimalistic [web site](https://integrateddatasvc.github.io/agency-registry/) powered by Jekyll.
-
 ## Where are we?
-*Last updated 2021-06-23*
-
+*Last updated 2021-07-12*
 
 ### Progress
 
 This project is in its very initial stage and at this time have:
 
 - Defined rough schemas for the registry files 
-- Identified the following agency registries, with Wikidata being the most comprehensive and machine actionable: Coessref, FundRef, GRID, ISNI, OrgRef, ROR, Wikidata
+- Identified the following agency registries: Crossref, FundRef, GRID, ISNI, OrgRef, ROR, Wikidata
+- Recognized Wikidata as the most comprehensive registry
 - Captured initial metadata for government agencies in the U.S., national statistical offices around the globe, a few regional and international organizations, and select data.gov sites. Our initial focus has been on identifiers, social networks, and newsfeeds
 - Completed an initial scan of [CKAN](https://ckan.org/) based catalog services
+- Using [Jekyll](https://jekyllrb.com/), generated an HTML web site top provide basic catalog navigation 
 
 ### Roadmap
 
@@ -53,53 +39,55 @@ Our current objectives include:
 - Investigating potential integration with Wikidata (automated contribution and extensions)
 - Investigating how to align on various recommendations of the FAIR initiative, in particular [FAIR implementation profiles (FIPS)](https://www.go-fair.org/how-to-go-fair/fair-implementation-profile/), [FAIR Digital Objects (FDOs)](https://fairdo.org/), and [FAIR Data Points](https://www.fairdatapoint.org/).
 
-
-
-
-# SECTIONS BELOW TO BE REWORKED
-
-
-This includes:
-
-- Organization profile: web site, location, contact information
-- Geospatial coverage: what is the geographical level the organization (global, regional, national, subnational, city) and its area of operation
-- Sector: social, health, education, hard sciences
-- Role: producer, archive, research, funding, other
-- Nature: government (national/local), academic, non-profit, commercial, international org, joint projects,  consortium, foundation
-- Data access policies / modalities
-- Availability of data catalogs and APIS
-
-
-
 ## How to contribute?
-- Create a directory in the relevant catalog under the registry
-- Create an ids.yaml file, with at least its ROR identifier
-- Run the updater script in the utils directory: `python updater.py <group>/<agency>`
-  - This will further populate the ids and add metadata files from other registries
-- (to be continued)
 
-### naming conventions
+The registry content can be directly maintained by editing the content under the _data directory. You can do this by cloning the project and submitting pull requests using standard GitHub mechanisms. More information on this below.
 
-#### catalogs
-- agencies are organized by catalog (the first level of the registry)
-- 2-letter catalog names are reserverd for ISO 3166 alpha 2 country codes
-- ```int``` is reserved for supra national organizations (global, regional)
+We understand that not everyone is familiar with Git or YAML and knows how to do this. We welcome your feedback, comments, or suggestions, which you can submit through using the Issues(https://github.com/integrateddatasvc/agency-registry/issues)
 
-#### agencies
-- The agency directory name is an unique value withing the entire registry
-- Note that this is not a formal identifier and is subject to change
-- Its first component is always the name of the umbrella catalog
-- the following are used to further inform about the nature of the agency
+## Editing the content
+
+The registry is primarily driven by the content of the ```_data``` directory. 
+
+The first level is used to group agencies by geographical location or coverage. This is mostly using self-explanatory ISO country or geocodes. You will usually not have to create directories at this level.
+
+Each agency or initiative then lives in its own dedicated directory, whose name is composed or dash separated acronyms. It must be unique across the entire registry and is based on the following naming conventions:
+- The first component is always the name of the umbrella group
+- The following are used to further inform about the nature of the agency:
   - ```city```: City level agency
   - ```edu```: Academic institution
   - ```gov```: National government organization
   - ```nso```: National statistical office or agency
   - ```opendata```: Reserved for country national level open data (data.gov)
+- The suffix can then be the agency common acronym or abbreviation
+Note that this is not intended as a formal identifier and is subject to change.
+
+An agency directory can contains the following property files, using the [YAML](https://yaml.org/) syntax:
+  - ids.yaml: holds a list of know unique identifiers for the agency (from other registries)
+  - geo.yaml: describes geographical coverage of the agency
+  - services.yaml: web sites, data catalog, data web services, newsfeed
+  - social.yaml: social networks account identifiers and information
+
+Schemas for these files can be found in the project ```/schemas``` directory (note that the canonical version is maintained in YAML format). Note that these are under development and subject to changes.
+
+## Generated content
+
+Various Python scripts, located in the ```/utils``` directory, are used to automatically produce the following content on schedule or when a push is committed to the project:
+
+- The agency's ```external``` sub-directoryholding metadata found in other registries or sites. This is driven by the content of the ```ids.yaml``.
+- The ```/_registry``` directory used by Jekyll to generate the registry's [web site](https://integrateddatasvc.github.io/agency-registry/). This essentially holds markdown files aggregating content from the agency's metadata.
+
+The GitHub Jekyll integration populates the ```/_site``` directory and is driven by content from the following locations:
+
+- ```_includes```
+- ```_layouts```
+- ```assets```
+
 
 ## Identifiers and basic information
 Several initiatives readily collect and maintain basic information about agencies and assign them unique identifiers. We can leverage these to harvest/aggregate what we need, and add the additional metadata elements that we want to capture.
 
-Below list of sources we have identified and can be used to compile basic agency profile information. Note that only a few provide public API end point, and all seem to lack OpenAPI / Postman docs. Some offer a full database download. ROR seem like a good starting point for identifiers. 
+Below list of sources we have identified and can be used to compile basic agency profile information. Note that only a few provide public API end point, and all seem to lack OpenAPI / Postman docs. Some offer a full database download. 
 
 ### [Crossref Funder ID](https://www.crossref.org/services/funder-registry/)
 The Funder Registry and associated funding metadata allows everyone to have transparency into research funding and its outcomes. It’s an open and unique registry of persistent identifiers for grant-giving organizations around the world.
@@ -150,55 +138,6 @@ The free encyclopedia...
 | Twitter  |[uscensusbureau](https://twitter.com/uscensusbureau)|[StatCan_eng](https://twitter.com/StatCan_eng) / [StatCan_fra](https://twitter.com/StatCan_fra)|[EU_Eurostat](https://twitter.com/EU_Eurostat)|
 | Wikidata  |[Q637413](https://www.wikidata.org/wiki/Q637413)|[Q1155740](https://www.wikidata.org/wiki/Q1155740) / [json](https://www.wikidata.org/wiki/Special:EntityData/Q1155740.json)|[Q217659](https://www.wikidata.org/wiki/Q217659)|
 | Wikipedia |[United\_States_Census](https://en.wikipedia.org/wiki/United_States_Census)|[Statistics_Canada](https://en.wikipedia.org/wiki/Statistics_Canada)|[Eurostat](https://en.wikipedia.org/wiki/Eurostat)|
-
-## Geo Coverage
-The geo.yaml file captures information about the geographic area the agency operates in. 
-
-The ```level``` can be one of the following values: ```global | regional | national | subnational | city  | other
-
-The following properties hold codes for their corresponding standards. This can be a single string value, or an arrya of strings if more than one applies.
-
-- iso3166: a list of ISO 3166 alpha-2 code(s)
-- geonames: a list of Geonames codes
-- fips: a list of 2-digit FIPS 5-2 state codes, or 5-digit FIPS 6-4 county codes. Must only be used for U.S. subnational agencies
-
-## Services
-The services.yaml file documents web based services provided by the agency. 
-
-The ```name``` and ```description``` provide an overview of the service
-
-The ```type``` property informs on the nature of the service. Values can be:
-- catalog
-- calendar: data releases and publications
-- blog
-- news
-- data: data access and querying services
-- www: a web site or home page
-
-The ```client``` property indicates how the service can be accessed or consumed. Values can be:
-- html (a web site intended for end-users)
-- atom
-- rest
-- soap
-- proprietary
-
-The ```endpoint``` property hold the service URL
-
-The ```lang``` property reflects the service language 9when relevant). This must be a valid ISO 639-1 code.
-
-The ```platform``` property informs on the software powering the service. It can be one one of the following value
-- for catalog: ```dataverse```, ```ckan```, ```ihsn-nada```
-- for data: ```data.world```, ```mtna-rds```, ```socrata```, ```statista```
-- generic: ```proprietary```, ```other```
-
-
-## Social
-The social.yaml file documents social network sites the agency is leveraging.
-Valid tope level keys are: facebook, linkedin, twitter, pinterest, youtube
-
-Each network is a dictionary with the key representing the identifier. 
-The value is a dictionnary with the following properties
-- lang: the ISO 631-1 language code
 
 
 ## Sponsors
