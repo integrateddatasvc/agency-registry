@@ -161,8 +161,9 @@ def report_default(catalog, agency):
 def report_ids(catalog, agency):
     data = get_agency_ids(catalog, agency)
     ids = []
-    for key,value in data.items():
-        ids.append(f"{key}={value}")
+    if data:
+        for key,value in data.items():
+            ids.append(f"{key}={value}")
     print(f"ids({len(ids)}): "+' | '.join(ids))
     return
 
@@ -221,6 +222,15 @@ def main():
                 report_default(catalog,agency)
             if "ckan" in args.reports:
                 ckan(catalog, agency)
+            if "no-ids" in args.reports:
+                # agencies with no identifiers
+                data = get_agency_ids(catalog, agency)
+                if not data:
+                    print(f"no-ids {catalog}|{agency}")
+            if "no-wikidata" in args.reports:
+                # agencies with no wikidata entry
+                if not get_agency_id(catalog, agency, 'wikidata'):
+                    print(f"no-wikidata {catalog}|{agency}")
             if "rss" in args.reports:
                 rss(catalog, agency)
             if "validate" in args.reports:
@@ -234,7 +244,7 @@ if __name__ ==  "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("-a","--agencies", nargs="*", help="Agencies to include")
     parser.add_argument("-c","--catalogs", nargs="*", help="Catalogs to include")
-    parser.add_argument("-r","--reports", nargs="*", help="Reports to run: default | ckan | rss | validate)", default='default')
+    parser.add_argument("-r","--reports", nargs="*", help="Reports to run: default | ckan | no-ids | no-wikidata |rss | validate)", default='default')
     parser.add_argument("-ll","--loglevel", help="Python logging level", default="INFO")
     args = parser.parse_args()
 
