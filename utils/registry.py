@@ -55,6 +55,11 @@ def get_agency_geo_file(catalog, agency):
     file = os.path.join(get_agency_dir(catalog, agency),'geo.yaml')
     return file
 
+def get_agency_id(catalog, agency, id):
+    data = get_agency_ids(catalog, agency)
+    if data:
+        return data.get(id)
+
 def get_agency_ids(catalog, agency):
     data = load_yaml(get_agency_ids_file(catalog, agency))
     return data
