@@ -7,6 +7,7 @@ import os
 from xml.etree import ElementTree
 import yaml
 
+
 #
 # Markdown files for jekyll
 #
@@ -16,42 +17,11 @@ def generate_jekyll_markdown(catalog, agency):
         os.makedirs(collection_agency_dir)
     md_file_path = os.path.join(collection_agency_dir,'html.md')
     with open(md_file_path, 'wt') as md_file:
+        metadata = get_agency_json(catalog, agency)
         md_file.write("---\n")
-        # gather metadata
-        crossref = get_agency_crossref(catalog, agency)
-        geo = get_agency_geo(catalog, agency)
-        ids = get_agency_ids(catalog, agency)
-        isni = get_agency_isni(catalog, agency)
-        ror = get_agency_ror(catalog, agency)
-        services = get_agency_services(catalog, agency)
-        social = get_agency_social(catalog, agency)
-        wikidata = get_agency_wikidata(catalog, agency, format='json')
-        # generate metadata
-        metadata = {}
-        if ids:
-            metadata['ids'] = ids
-        # organization name
         name = agency
-        if ror:
-            name = ror['name']
-        # metadata
-        if geo:
-            metadata['geo'] = geo
-        if services:
-            metadata['services'] = services
-        if social:
-            metadata['social'] = social
-        # external metadata
-        external = {}
-        metadata['external'] = external
-        if crossref:
-            external['crossref'] = '@todo'
-        if isni:
-            external['isni'] = '@todo'
-        if ror:
-            external['ror'] = ror
-        if wikidata:
-            external['wikidata'] = wikidata
+        if metadata['external'].get('ror'):
+            name = metadata['external']['ror']['name']
         md_file.write(f"name: {name}\n")
         # write
         md_file.write(yaml.dump(metadata))

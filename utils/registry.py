@@ -102,6 +102,44 @@ def get_agency_isni_file(catalog, agency):
     file = os.path.join(get_agency_external_dir(catalog, agency),'isni.xml')
     return file
 
+def get_agency_json(catalog, agency):
+    "Returns all agency information in a single JSON object"
+    crossref = get_agency_crossref(catalog, agency)
+    geo = get_agency_geo(catalog, agency)
+    ids = get_agency_ids(catalog, agency)
+    isni = get_agency_isni(catalog, agency)
+    ror = get_agency_ror(catalog, agency)
+    services = get_agency_services(catalog, agency)
+    social = get_agency_social(catalog, agency)
+    wikidata = get_agency_wikidata(catalog, agency, format='json') 
+    # generate metadata
+    metadata = {}
+    if ids:
+        metadata['ids'] = ids
+    # organization name
+    name = agency
+    if ror:
+        name = ror['name']
+    # metadata
+    if geo:
+        metadata['geo'] = geo
+    if services:
+        metadata['services'] = services
+    if social:
+        metadata['social'] = social
+    # external metadata
+    external = {}
+    metadata['external'] = external
+    if crossref:
+        external['crossref'] = '@todo'
+    if isni:
+        external['isni'] = '@todo'
+    if ror:
+        external['ror'] = ror
+    if wikidata:
+        external['wikidata'] = wikidata
+    return metadata
+
 
 def get_agency_ror(catalog, agency):
     file = get_agency_ror_file(catalog, agency)
