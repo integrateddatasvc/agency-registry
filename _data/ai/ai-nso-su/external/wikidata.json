@@ -1,0 +1,88 @@
+{
+    "entities": {
+        "Q107685296": {
+            "pageid": 102968708,
+            "ns": 0,
+            "title": "Q107685296",
+            "lastrevid": 1468436159,
+            "modified": "2021-07-28T15:32:55Z",
+            "type": "item",
+            "id": "Q107685296",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Statistics Unit"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Statistics Unit of Anguilla"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "ce452f61ece373edc662f1c90cfb98e1edf66be9",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 25228,
+                                    "id": "Q25228"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107685296$73d04be4-4d95-0b52-955c-760071b1acec",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "c52b8812bca80ac6f0c54accad0e6dcd89f929c4",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 30994,
+                                    "id": "Q30994"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107685296$0654c136-4e9c-d175-1909-cf25026f1f45",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "201d41088c0261f87a9abc35546d011b64b9fc07",
+                            "datavalue": {
+                                "value": "http://www.gov.ai/statistics/index.html",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q107685296$df8aff5e-46b2-df93-604d-47cebec49182",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

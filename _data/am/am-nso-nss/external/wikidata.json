@@ -1,0 +1,109 @@
+{
+    "entities": {
+        "Q107685824": {
+            "pageid": 102969232,
+            "ns": 0,
+            "title": "Q107685824",
+            "lastrevid": 1468440455,
+            "modified": "2021-07-28T15:41:39Z",
+            "type": "item",
+            "id": "Q107685824",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Statisitcal Commitee of the Republic of Armenia"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Statistical Federal Organisation of the Republic of Armenia"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107685824$13febf3b-479c-0ad6-f051-245b0524c183",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "c93ee586af039d16c1d1baf61c379a66060c5274",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 399,
+                                    "id": "Q399"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107685824$9f11ff1a-466c-76a1-ce78-d1587d806cb2",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "4a46a53caa7143979233242464d878179a0d132c",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1953,
+                                    "id": "Q1953"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107685824$5d1163ed-4f07-4b25-1c9d-07578556b31b",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "f2631e95be0cf5405295f604eefaac9f99e8d1b7",
+                            "datavalue": {
+                                "value": "https://www.armstat.am/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q107685824$27aee54d-4732-eda0-6506-463851a42d64",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

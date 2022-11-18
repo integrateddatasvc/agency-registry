@@ -1,0 +1,129 @@
+{
+    "entities": {
+        "Q107686074": {
+            "pageid": 102969482,
+            "ns": 0,
+            "title": "Q107686074",
+            "lastrevid": 1468445827,
+            "modified": "2021-07-28T15:53:19Z",
+            "type": "item",
+            "id": "Q107686074",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Federal Bureau of Statistics"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Federal Bureau for Statistics of Bosnia and Herzegovina"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107686074$0f920af3-4044-12a2-f160-f10eb615192c",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "cb5a3b57319877aa1cc6b8016d43ad944dd1df5b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 225,
+                                    "id": "Q225"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107686074$37358106-4e9d-13df-6384-e2e96bd08298",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "d97946529532c7811df369b8a01b06278ec37844",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 11194,
+                                    "id": "Q11194"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107686074$acd5361d-4940-4ee7-0f33-c5457907d52f",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "cd685a10560f592e64d098344b55fb8b71d4fac1",
+                            "datavalue": {
+                                "value": "http://fzs.ba/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q107686074$88f5bd67-408b-90f0-71e9-f6dc58ce7719",
+                        "rank": "normal"
+                    }
+                ],
+                "P1448": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "hash": "bdf806ce5cfd5671ab2a3af512b5ca5650c34754",
+                            "datavalue": {
+                                "value": {
+                                    "text": "Federalni zavod za statistiku",
+                                    "language": "hr"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q107686074$083d6daf-4644-75be-7222-4cb5a5626efa",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

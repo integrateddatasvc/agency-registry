@@ -180,6 +180,9 @@ def get_agency_wikidata(catalog, agency, format='rdf'):
         elif format == 'json':
             with open(file, 'r') as f:
                 data = json.load(f)
+                print(json)
+                wikidata_id = list(data['entities'].keys())[0]
+                data = data['entities'][wikidata_id]
         return data
 
 def get_agency_wikidata_file(catalog, agency, format="rdf"):

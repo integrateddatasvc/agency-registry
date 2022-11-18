@@ -1,0 +1,128 @@
+{
+    "entities": {
+        "Q107688603": {
+            "pageid": 102971973,
+            "ns": 0,
+            "title": "Q107688603",
+            "lastrevid": 1468495692,
+            "modified": "2021-07-28T17:40:38Z",
+            "type": "item",
+            "id": "Q107688603",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "National Bureau of Statistics"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Seychelles National Bureau of Statistics"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107688603$16d49e25-4b69-de86-f44e-d0d00731fbbc",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "f71117d7b46495894559b65a4abe6c02fadedf3b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107688603$de571417-4b95-259b-9b2a-59f16f9380fc",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "5deaf7b3d038afcea11c4e9a3250ea72bd3b43cd",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1042,
+                                    "id": "Q1042"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107688603$704e7c38-4979-f339-87b4-7f0b833d7bd4",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "1e9d3efd69fac1b594f15b8a386caf319904be8e",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 3940,
+                                    "id": "Q3940"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107688603$325573f2-464c-739f-66f9-9df09890e96f",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "93dcf4f881a8ff83c55f8bdbed06114a8bb3a791",
+                            "datavalue": {
+                                "value": "https://www.nbs.gov.sc/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q107688603$37452913-417d-164f-f323-88fa9c74dcce",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "entities": {
+        "Q108381056": {
+            "pageid": 103642677,
+            "ns": 0,
+            "title": "Q108381056",
+            "lastrevid": 1491363527,
+            "modified": "2021-09-02T13:06:48Z",
+            "type": "item",
+            "id": "Q108381056",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Kiribati National Statistics Office"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Statistical Office of Kiribati"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "f71117d7b46495894559b65a4abe6c02fadedf3b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381056$af220b48-4849-0303-842a-afc8fc3bdd8c",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381056$9d519748-46e1-e268-8fd3-ae33fe8aa058",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "0ff3db59e825bb2bcbb5afb747cc9008289f9cf4",
+                            "datavalue": {
+                                "value": "https://nso.gov.ki/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q108381056$853da9d3-4d43-58dc-3f6f-7fc792b7acec",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "e61af0bd15a6680edcc172be649f25d83c81b5cb",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 710,
+                                    "id": "Q710"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381056$9a060be9-436e-78e4-49aa-f2d559e1c742",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "d21b9db71acfba2aab710b5dc8f496daf83173d9",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 2486,
+                                    "id": "Q2486"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381056$bd430872-4ef0-c8ec-1ecf-61d2af1ce66d",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

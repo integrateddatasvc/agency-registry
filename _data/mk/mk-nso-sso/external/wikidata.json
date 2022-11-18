@@ -1,0 +1,195 @@
+{
+    "entities": {
+        "Q12906246": {
+            "pageid": 14357351,
+            "ns": 0,
+            "title": "Q12906246",
+            "lastrevid": 1483235826,
+            "modified": "2021-08-18T11:37:16Z",
+            "type": "item",
+            "id": "Q12906246",
+            "labels": {
+                "mk": {
+                    "language": "mk",
+                    "value": "\u0414\u0440\u0436\u0430\u0432\u0435\u043d \u0437\u0430\u0432\u043e\u0434 \u0437\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430"
+                },
+                "bg": {
+                    "language": "bg",
+                    "value": "\u0414\u044a\u0440\u0436\u0430\u0432\u0435\u043d \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0437\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430"
+                },
+                "cs": {
+                    "language": "cs",
+                    "value": "St\u00e1tn\u00ed statistick\u00fd \u00fa\u0159ad Severn\u00ed Makedonie"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u5317\u99ac\u5176\u9813\u570b\u5bb6\u7d71\u8a08\u5c40"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "State Statistical Office of North Macedonia"
+                }
+            },
+            "descriptions": {
+                "mk": {
+                    "language": "mk",
+                    "value": "\u0434\u0440\u0436\u0430\u0432\u043d\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u043a\u0430 \u0441\u043b\u0443\u0436\u0431\u0430 \u043d\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "Statistical Office in North Macedonia"
+                },
+                "cs": {
+                    "language": "cs",
+                    "value": "statistick\u00fd \u00fa\u0159ad v Severn\u00ed Makedonii"
+                }
+            },
+            "aliases": {
+                "mk": [
+                    {
+                        "language": "mk",
+                        "value": "\u0414\u0440\u0436\u0430\u0432\u0435\u043d \u0437\u0430\u0432\u043e\u0434 \u0437\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430 \u043d\u0430 \u0420\u0435\u043f\u0443\u0431\u043b\u0438\u043a\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430"
+                    },
+                    {
+                        "language": "mk",
+                        "value": "\u0414\u0440\u0436\u0430\u0432\u0435\u043d \u0437\u0430\u0432\u043e\u0434 \u0437\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430 \u043d\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u0458\u0430"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q12906246$65c7dd7d-4dd6-5587-49f8-fc26934d7bad",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "f71117d7b46495894559b65a4abe6c02fadedf3b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q12906246$eb3fa5dc-429a-83cd-a907-118281a9d246",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "36bb074ac2be90629a21b5cc0f340b30ddef54ba",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1664720,
+                                    "id": "Q1664720"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q12906246$7B3D0509-460D-4AC9-A271-89A8E10D50CF",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "c5ddd5904fdd637c45d907b7633471cc4f8b41c1",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 221,
+                                    "id": "Q221"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q12906246$0335f65e-4d25-207b-a6f4-99966b823bea",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "8d143042598f384c95c184c9813b64adec556cd9",
+                            "datavalue": {
+                                "value": "http://www.stat.gov.mk/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q12906246$53436db0-4d4b-d370-1ab8-d04e11f5596b",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "b6ea51b1a4d12adbbdfcd8c12c96542ddf92e31a",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 384,
+                                    "id": "Q384"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q12906246$6a4906d0-42d7-b684-d856-589979f27bc9",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "bgwiki": {
+                    "site": "bgwiki",
+                    "title": "\u0414\u044a\u0440\u0436\u0430\u0432\u0435\u043d \u0438\u043d\u0441\u0442\u0438\u0442\u0443\u0442 \u0437\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430 (\u0421\u0435\u0432\u0435\u0440\u043d\u0430 \u041c\u0430\u043a\u0435\u0434\u043e\u043d\u0438\u044f)",
+                    "badges": [],
+                    "url": "https://bg.wikipedia.org/wiki/%D0%94%D1%8A%D1%80%D0%B6%D0%B0%D0%B2%D0%B5%D0%BD_%D0%B8%D0%BD%D1%81%D1%82%D0%B8%D1%82%D1%83%D1%82_%D0%B7%D0%B0_%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0_(%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0_%D0%9C%D0%B0%D0%BA%D0%B5%D0%B4%D0%BE%D0%BD%D0%B8%D1%8F)"
+                },
+                "mkwiki": {
+                    "site": "mkwiki",
+                    "title": "\u0414\u0440\u0436\u0430\u0432\u0435\u043d \u0437\u0430\u0432\u043e\u0434 \u0437\u0430 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0430",
+                    "badges": [],
+                    "url": "https://mk.wikipedia.org/wiki/%D0%94%D1%80%D0%B6%D0%B0%D0%B2%D0%B5%D0%BD_%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4_%D0%B7%D0%B0_%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B0"
+                }
+            }
+        }
+    }
+}

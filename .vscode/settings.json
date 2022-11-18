@@ -1,4 +1,9 @@
 {
     "python.pythonPath": "/Users/pascal/anaconda3/bin/python",
-    "python.autoComplete.extraPaths": ["./utils"]
+    "python.autoComplete.extraPaths": [
+        "./utils"
+    ],
+    "python.analysis.extraPaths": [
+        "./utils"
+    ]
 }

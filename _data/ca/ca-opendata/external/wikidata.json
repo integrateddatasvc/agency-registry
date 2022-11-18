@@ -1,0 +1,756 @@
+{
+    "entities": {
+        "Q97285880": {
+            "pageid": 95722016,
+            "ns": 0,
+            "title": "Q97285880",
+            "lastrevid": 1299459698,
+            "modified": "2020-10-29T16:37:36Z",
+            "type": "item",
+            "id": "Q97285880",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Canada Open Data portal"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "portail de donn\u00e9es ouvertes du Canada"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Government of Canada Open Data"
+                }
+            },
+            "aliases": {
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "Canada Open Data initiative"
+                    },
+                    {
+                        "language": "en",
+                        "value": "Open Data in Canada"
+                    },
+                    {
+                        "language": "en",
+                        "value": "Government of Canada Open Data Portal"
+                    },
+                    {
+                        "language": "en",
+                        "value": "GC Open Data"
+                    }
+                ],
+                "fr": [
+                    {
+                        "language": "fr",
+                        "value": "donn\u00e9es ouvertes du Canada"
+                    },
+                    {
+                        "language": "fr",
+                        "value": "donn\u00e9es ouvertes du gouvernement du Canada"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "610fcd5e02f942fd73cb68af7e8b2bfb2266374c",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 27031827,
+                                    "id": "Q27031827"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97285880$D8E27EAF-A63F-4E17-88EB-292E39F6C58F",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "4c374fb0af83332c22a85d2d01acb312ecde0ff2",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "hash": "a06e365984010e40523acaef7303246501814b09",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2020-10-29T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ],
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "hash": "b87057b85b63c9eef2f0e923c0b989cba2cf275f",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 5227102,
+                                                    "id": "Q5227102"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "hash": "1cbf003f77e2aaaa6c0c0eaffe5e7130927cf0a5",
+                                            "datavalue": {
+                                                "value": "https://www.data.gov/open-gov/",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813",
+                                    "P248",
+                                    "P854"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "933cb04633bed81e78a639e0f3c938b8c90bad6a",
+                            "datavalue": {
+                                "value": "https://open.canada.ca/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q97285880$DF0B2F5B-508A-4526-B73E-FB47D484FCF8",
+                        "rank": "deprecated"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "d4f239cb1a5136e392c4d592a60e2f50836eee1a",
+                            "datavalue": {
+                                "value": "https://open.canada.ca/en/open-data",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P1019": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1019",
+                                    "hash": "22d1f0441652d8175c94993dc2ad971d5ba5c913",
+                                    "datavalue": {
+                                        "value": "https://open.canada.ca/en/rss-feeds",
+                                        "type": "string"
+                                    },
+                                    "datatype": "url"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407",
+                            "P1019"
+                        ],
+                        "id": "Q97285880$eb252405-44c5-effe-c5e7-2f6715c738c1",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "d75f83a44f27e8db3d30bb22be95888d7fd4b105",
+                            "datavalue": {
+                                "value": "https://ouvert.canada.ca/fr/donnees-ouvertes",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "d197d0a5efa4b4c23a302a829dd3ef43684fe002",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 150,
+                                            "id": "Q150"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P1019": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1019",
+                                    "hash": "f5ad0bef0424e233e051ac065a42f9fca16cdbd5",
+                                    "datavalue": {
+                                        "value": "https://ouvert.canada.ca/fr/rss-feeds",
+                                        "type": "string"
+                                    },
+                                    "datatype": "url"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407",
+                            "P1019"
+                        ],
+                        "id": "Q97285880$ae8ebc2b-4baf-c820-d0f8-32da9e0ff05c",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "a3723c4c3601569aebcc86e0f0c5c3697821da1b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 16,
+                                    "id": "Q16"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97285880$F9395277-7F82-4ABB-B984-CC55D307477E",
+                        "rank": "normal"
+                    }
+                ],
+                "P407": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P407",
+                            "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1860,
+                                    "id": "Q1860"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97285880$62512EB9-FB08-43AC-AA90-27DDFC0B26AB",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P407",
+                            "hash": "d197d0a5efa4b4c23a302a829dd3ef43684fe002",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 150,
+                                    "id": "Q150"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q97285880$7e1d3ffc-4eda-a2d3-0f27-dcf11d6b422f",
+                        "rank": "normal"
+                    }
+                ],
+                "P1581": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1581",
+                            "hash": "5e1d2a43da93f2a1618c9a11212fdcc7c7d49a04",
+                            "datavalue": {
+                                "value": "https://open.canada.ca/en/blog",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P1476": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1476",
+                                    "hash": "cf97ab856d13c31969cdcb24e933867691fd6b34",
+                                    "datavalue": {
+                                        "value": {
+                                            "text": "Open Government Blog",
+                                            "language": "en"
+                                        },
+                                        "type": "monolingualtext"
+                                    },
+                                    "datatype": "monolingualtext"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407",
+                            "P1476"
+                        ],
+                        "id": "Q97285880$28c0bcce-499c-a7fe-383b-31afca1da80a",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1581",
+                            "hash": "b65e6f154ef31c22787354740b0e112046ce1cbc",
+                            "datavalue": {
+                                "value": "https://ouvert.canada.ca/fr/blog",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "d197d0a5efa4b4c23a302a829dd3ef43684fe002",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 150,
+                                            "id": "Q150"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P1476": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1476",
+                                    "hash": "d7dd88c60912f2bf9d3e59f47eba6493d2b641bf",
+                                    "datavalue": {
+                                        "value": {
+                                            "text": "Blogue sur le Gouvernement ouvert",
+                                            "language": "fr"
+                                        },
+                                        "type": "monolingualtext"
+                                    },
+                                    "datatype": "monolingualtext"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407",
+                            "P1476"
+                        ],
+                        "id": "Q97285880$c6dd1b6e-4836-6dc7-be83-a03b1926b3a0",
+                        "rank": "normal"
+                    }
+                ],
+                "P2002": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2002",
+                            "hash": "035541db2215626674a994fd6b8c17fd2114925a",
+                            "datavalue": {
+                                "value": "OpenGovCan",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "69edfa5ef52ac4f298e81a319c18455d2eeb271f",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2014-04-00T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 10,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "f0abc4a19f5044d8efaca4a15c8171ee68764bf0",
+                                    "datavalue": {
+                                        "value": "2463152178",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P1552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1552",
+                                    "hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 28378282,
+                                            "id": "Q28378282"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P1810": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1810",
+                                    "hash": "f0858379a2af308e464d00ebab4f4520833cde57",
+                                    "datavalue": {
+                                        "value": "Open Government CAN",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ],
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P580",
+                            "P6552",
+                            "P1552",
+                            "P1810",
+                            "P407"
+                        ],
+                        "id": "Q97285880$fc8b2552-468f-887a-7365-59d6dcd04aa1",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "c3cb083dc8b73969b27229bfeef29a1f2d14b9eb",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "hash": "6907ba2d586b11358b2dd25031aba4b505e9f63d",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 918,
+                                                    "id": "Q918"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "hash": "e8258c9476277fe87484cda97c7a3838231d32a5",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2020-09-27T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2002",
+                            "hash": "f9de5a5e0f7ea53aac13b047345c48943e62fdc1",
+                            "datavalue": {
+                                "value": "GouvOuvertCan",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P580": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P580",
+                                    "hash": "69edfa5ef52ac4f298e81a319c18455d2eeb271f",
+                                    "datavalue": {
+                                        "value": {
+                                            "time": "+2014-04-00T00:00:00Z",
+                                            "timezone": 0,
+                                            "before": 0,
+                                            "after": 0,
+                                            "precision": 10,
+                                            "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                        },
+                                        "type": "time"
+                                    },
+                                    "datatype": "time"
+                                }
+                            ],
+                            "P6552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P6552",
+                                    "hash": "0f782653940e691b86131752f13b1713503588e1",
+                                    "datavalue": {
+                                        "value": "2463163369",
+                                        "type": "string"
+                                    },
+                                    "datatype": "external-id"
+                                }
+                            ],
+                            "P1552": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1552",
+                                    "hash": "62f0039d240f7eeba6c6908a0d8807a6188324a1",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 28378282,
+                                            "id": "Q28378282"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ],
+                            "P1810": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P1810",
+                                    "hash": "ba4df7db0448753d57a06453ec2d11495c2e4df8",
+                                    "datavalue": {
+                                        "value": "Gouv. Ouvert Canada",
+                                        "type": "string"
+                                    },
+                                    "datatype": "string"
+                                }
+                            ],
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "d197d0a5efa4b4c23a302a829dd3ef43684fe002",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 150,
+                                            "id": "Q150"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P580",
+                            "P6552",
+                            "P1552",
+                            "P1810",
+                            "P407"
+                        ],
+                        "id": "Q97285880$fd407f07-408a-b289-5a47-9cb435c639b4",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "c3cb083dc8b73969b27229bfeef29a1f2d14b9eb",
+                                "snaks": {
+                                    "P248": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P248",
+                                            "hash": "6907ba2d586b11358b2dd25031aba4b505e9f63d",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 918,
+                                                    "id": "Q918"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "hash": "e8258c9476277fe87484cda97c7a3838231d32a5",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2020-09-27T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P248",
+                                    "P813"
+                                ]
+                            },
+                            {
+                                "hash": "44cc69e7d8e601fc0b73f8a2b42e184eb09126a2",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "hash": "1686a6b5e0c3c112a6193fb2edc3cb86b64798e9",
+                                            "datavalue": {
+                                                "value": "https://ouvert.canada.ca/fr/donnees-ouvertes",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "hash": "e8258c9476277fe87484cda97c7a3838231d32a5",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2020-09-27T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

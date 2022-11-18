@@ -1,0 +1,129 @@
+{
+    "entities": {
+        "Q106707822": {
+            "pageid": 101980330,
+            "ns": 0,
+            "title": "Q106707822",
+            "lastrevid": 1415235764,
+            "modified": "2021-05-05T12:59:20Z",
+            "type": "item",
+            "id": "Q106707822",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "National Statistics and Information Authority"
+                },
+                "nb": {
+                    "language": "nb",
+                    "value": "Nasjonal statistikk- og informasjonsmyndighet"
+                },
+                "sv": {
+                    "language": "sv",
+                    "value": "National Statistics and Information Authority"
+                },
+                "fa": {
+                    "language": "fa",
+                    "value": "\u0627\u062f\u0627\u0631\u06c0 \u0645\u0644\u06cc \u0627\u062d\u0635\u0627\u0626\u06cc\u0647 \u0648 \u0645\u0639\u0644\u0648\u0645\u0627\u062a"
+                },
+                "ps": {
+                    "language": "ps",
+                    "value": "\u062f \u0627\u062d\u0635\u0627\u064a\u06d0 \u0627\u0648 \u0645\u0639\u0644\u0648\u0645\u0627\u062a\u0648 \u0645\u064a\u0644 \u0627\u062f\u0627\u0631\u0647"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Statistics and Information Authority in Afghanistan"
+                },
+                "nb": {
+                    "language": "nb",
+                    "value": "Offeentlig myndighet i Afghanistan"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q106707822$ae9a53d7-4c8c-e8f1-4631-24e87d435d14",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "66077d19cdd80e08c9b636cd398bbbfa379d8820",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 889,
+                                    "id": "Q889"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q106707822$305938c6-4158-1d52-94a8-9609ef9c3a6b",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "f5d5db0cbc377625ffe52ba2720de204f4c15d23",
+                            "datavalue": {
+                                "value": "https://nsia.gov.af",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "c757ac6da9712097bc0871742564687f009a3f64",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 20923490,
+                                            "id": "Q20923490"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q106707822$902279cc-4019-32ca-6abd-505cfee3a8e7",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

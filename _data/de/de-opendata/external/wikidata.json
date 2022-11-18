@@ -1,0 +1,107 @@
+{
+    "entities": {
+        "Q108381640": {
+            "pageid": 103643291,
+            "ns": 0,
+            "title": "Q108381640",
+            "lastrevid": 1491380957,
+            "modified": "2021-09-02T14:18:09Z",
+            "type": "item",
+            "id": "Q108381640",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Germany Open Data Portal"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Open data portal of Germany"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "f71117d7b46495894559b65a4abe6c02fadedf3b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381640$067d0a05-4e79-2710-fc51-ee2f75c86bf1",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381640$8db077ff-4ba0-8b5e-883c-763e1c2e53b2",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "c26fa5e005a92d816448bcb462537d2c4336b5f5",
+                            "datavalue": {
+                                "value": "https://www.govdata.de/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q108381640$b8f637b1-4260-ef36-79f6-e790d87e3991",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "ef7247b704f4ec0a7df39e83306bb388fea17d5f",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 183,
+                                    "id": "Q183"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381640$77267c52-481d-4f59-f498-3e928430287c",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

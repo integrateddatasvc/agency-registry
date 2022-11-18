@@ -11,6 +11,7 @@ def main():
         for agency_dir in agencies:
             catalog = os.path.basename(catalog_dir)
             agency = os.path.basename(agency_dir)
+            wikidata_id = get_agency_id(catalog, agency, 'wikidata')
             logging.info(f"{catalog}/{agency}")
             metadata = get_agency_json(catalog, agency)
             all.append(metadata)

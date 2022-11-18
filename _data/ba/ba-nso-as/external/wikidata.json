@@ -1,0 +1,109 @@
+{
+    "entities": {
+        "Q107685954": {
+            "pageid": 102969361,
+            "ns": 0,
+            "title": "Q107685954",
+            "lastrevid": 1468443449,
+            "modified": "2021-07-28T15:47:35Z",
+            "type": "item",
+            "id": "Q107685954",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Agencija za Statistiku Bosne i Hercegovine"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Federal Agency for Statistics of Bosnia Herzegovina"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107685954$6738365f-491d-ea60-6d62-70211f581904",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "cb5a3b57319877aa1cc6b8016d43ad944dd1df5b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 225,
+                                    "id": "Q225"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107685954$b7977417-4fbf-abf6-8806-e46221ac8584",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "d97946529532c7811df369b8a01b06278ec37844",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 11194,
+                                    "id": "Q11194"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107685954$05875a0f-401e-5118-f8d5-48109bfe4e27",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "f9a5dd1c80852ebca59c1b2be4444e1fcf644452",
+                            "datavalue": {
+                                "value": "https://bhas.gov.ba/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q107685954$c53542b5-45a1-498c-d62b-8cc1c067c349",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

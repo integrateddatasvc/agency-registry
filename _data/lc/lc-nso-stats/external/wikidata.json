@@ -1,0 +1,128 @@
+{
+    "entities": {
+        "Q108381081": {
+            "pageid": 103642702,
+            "ns": 0,
+            "title": "Q108381081",
+            "lastrevid": 1491364454,
+            "modified": "2021-09-02T13:10:16Z",
+            "type": "item",
+            "id": "Q108381081",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "The Central Statistical Office of Saint Lucia"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Statistical Office of Saint Lucia"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381081$e4879f44-4e1e-522c-bce5-c7c60acdcc4e",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "f71117d7b46495894559b65a4abe6c02fadedf3b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381081$3ff44ea9-4e33-279d-676a-e04edd57ae04",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "7a09510669f194a1130c03dda9bcfef7fa1d89f9",
+                            "datavalue": {
+                                "value": "http://www.stats.gov.lc/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q108381081$bbc0fb0a-4c14-a5ed-63f1-abf7d5bde7d3",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "4a48c0183b608bf0b16d322c9fefbb7e4f32b5d9",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 760,
+                                    "id": "Q760"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381081$2d9f0a75-4dcd-cc17-1e0d-18fbdd553ac1",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "ca50bce65463158731909625e7395ab5feca564b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 41699,
+                                    "id": "Q41699"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381081$6763e6f0-4e6a-6bd8-5ee5-c9918fd8bda3",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

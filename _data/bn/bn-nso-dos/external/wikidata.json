@@ -1,0 +1,128 @@
+{
+    "entities": {
+        "Q108381593": {
+            "pageid": 103643259,
+            "ns": 0,
+            "title": "Q108381593",
+            "lastrevid": 1491380106,
+            "modified": "2021-09-02T14:13:25Z",
+            "type": "item",
+            "id": "Q108381593",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Department of Economic Planning and Statistics (Brunei)"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Department of economic planning and statistics of Brunei"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "f71117d7b46495894559b65a4abe6c02fadedf3b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381593$5aa285e7-494f-1583-e336-9e2bfeb1d0bb",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381593$cee39582-43eb-8c17-c1b5-6fd74f926b5c",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "36f440a38a1b594afb2d3d6567eee88eeda5a3cf",
+                            "datavalue": {
+                                "value": "http://www.deps.gov.bn/Theme/Home.aspx",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q108381593$54721a83-4649-39ba-0f9e-e7a20673bff3",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "606939f7ec0f966c6873a6797c6c6131f5676031",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 921,
+                                    "id": "Q921"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381593$9e305798-46e0-1bc1-05cc-716c87ceaefa",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "39ae9f9672bfbf4e2e3e8c9419e38d6e5bf48d0f",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 9279,
+                                    "id": "Q9279"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108381593$9ecea49c-4dd4-7553-f11c-7a19f5c9d87d",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "entities": {
+        "Q108383287": {
+            "pageid": 103644902,
+            "ns": 0,
+            "title": "Q108383287",
+            "lastrevid": 1491402953,
+            "modified": "2021-09-02T15:43:57Z",
+            "type": "item",
+            "id": "Q108383287",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Ministry of Economic Affairs, Economic Affairs Division (Pakistan)"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Economic affairs division of Pakistan"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "f71117d7b46495894559b65a4abe6c02fadedf3b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108383287$1bc57484-438d-0bdf-0327-fbc10b709978",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108383287$d8f23afd-4189-bd9a-b983-1430b01a2d56",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "daf4ebf2ffcab917c1f6ca09a2caa8e4e0326d09",
+                            "datavalue": {
+                                "value": "http://www.ead.gov.pk/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q108383287$c79bd403-42a7-ec7c-3305-000d71ff9b6e",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "4b2d0b2cfc2bd6a4806dcaccaa062251fbcf6a31",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 843,
+                                    "id": "Q843"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108383287$682c0dfa-4972-5ded-b355-c04f947775dd",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "ff47e9eb6ed4edb6f0da0a4c5946e6c1880a3f85",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 1362,
+                                    "id": "Q1362"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108383287$34538da7-42f7-b608-0c24-cc82c0cfd446",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

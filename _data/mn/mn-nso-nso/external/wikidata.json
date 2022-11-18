@@ -1,0 +1,128 @@
+{
+    "entities": {
+        "Q108382349": {
+            "pageid": 103643981,
+            "ns": 0,
+            "title": "Q108382349",
+            "lastrevid": 1491395661,
+            "modified": "2021-09-02T15:19:03Z",
+            "type": "item",
+            "id": "Q108382349",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "Mongolia National Statistical Committee"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Statistical national agency of Mongolia"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "f71117d7b46495894559b65a4abe6c02fadedf3b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108382349$6006cf2b-4dfa-01c4-b32e-77b004502495",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108382349$e2f8aa81-48c5-d019-be23-43f07f7e3dc0",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "2828cb1e95469b92e2c8185a6ba4a46b4747ccb3",
+                            "datavalue": {
+                                "value": "https://www.nso.mn/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q108382349$a6b74fc5-4e70-1131-7b58-564816f7045e",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "fc10d880e7e7e675cd8dda36750a8d40fa889222",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 711,
+                                    "id": "Q711"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108382349$0322bc26-47f0-58b5-5baf-05610f4dcc3c",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "ff2ae927a2687e8e0faa91a64f2b96b0e76f22fa",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 23430,
+                                    "id": "Q23430"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108382349$406eaba4-4928-852e-8f7e-165668a87b7c",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

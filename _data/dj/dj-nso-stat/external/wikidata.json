@@ -1,0 +1,136 @@
+{
+    "entities": {
+        "Q108380683": {
+            "pageid": 103642335,
+            "ns": 0,
+            "title": "Q108380683",
+            "lastrevid": 1491356168,
+            "modified": "2021-09-02T12:35:24Z",
+            "type": "item",
+            "id": "Q108380683",
+            "labels": {
+                "fr": {
+                    "language": "fr",
+                    "value": "Minist\u00e8re de l'Economie et des Finances (Djibouti)"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "Ministry of Economy and Finances (Djibouti)"
+                }
+            },
+            "descriptions": {
+                "fr": {
+                    "language": "fr",
+                    "value": "Minist\u00e8re de l'Economie et des Finances"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "Ministry of Economy and Finances"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108380683$79555ad8-4957-132d-34d5-b2708bd0e8f2",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "f71117d7b46495894559b65a4abe6c02fadedf3b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108380683$b562d25c-4d36-ea2b-32b3-3965cd1f12a4",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "c7f52673c27cd93e68d2fb3909b22e532907aad5",
+                            "datavalue": {
+                                "value": "http://www.ministere-finances.dj/ANNUAIRE%20STATISTIQUE.html",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q108380683$46c2665a-44fd-af3e-fc83-47342379b0aa",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "6b0b2f8129550aba3a4775ec72058d0bf7e9f81f",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 977,
+                                    "id": "Q977"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108380683$ff7cdc04-4f6f-ef6a-4b7c-ab2fa5169910",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "febf98c044f4e462db59ec9a557cd7a46125ce2b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 3604,
+                                    "id": "Q3604"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q108380683$be039c63-4251-0680-354e-81e4ea0527b0",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}

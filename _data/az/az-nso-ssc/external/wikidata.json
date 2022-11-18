@@ -1,0 +1,678 @@
+{
+    "entities": {
+        "Q4146845": {
+            "pageid": 3955112,
+            "ns": 0,
+            "title": "Q4146845",
+            "lastrevid": 1470362208,
+            "modified": "2021-07-31T13:02:53Z",
+            "type": "item",
+            "id": "Q4146845",
+            "labels": {
+                "ru": {
+                    "language": "ru",
+                    "value": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u043a\u043e\u043c\u0438\u0442\u0435\u0442 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0438 \u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d\u0430"
+                },
+                "en": {
+                    "language": "en",
+                    "value": "State Statistical Committee"
+                },
+                "az": {
+                    "language": "az",
+                    "value": "Az\u0259rbaycan Respublikas\u0131 D\u00f6vl\u0259t Statistika Komit\u0259si"
+                },
+                "sco": {
+                    "language": "sco",
+                    "value": "State Statistical Committee o the Republic o Azerbaijan"
+                },
+                "nb": {
+                    "language": "nb",
+                    "value": "Den statlige komiteen for statistikk i Republikken Aserbajdsjan"
+                },
+                "ja": {
+                    "language": "ja",
+                    "value": "\u30a2\u30bc\u30eb\u30d0\u30a4\u30b8\u30e3\u30f3\u5171\u548c\u56fd\u56fd\u5bb6\u7d71\u8a08\u59d4\u54e1\u4f1a"
+                },
+                "bg": {
+                    "language": "bg",
+                    "value": "\u0414\u044a\u0440\u0436\u0430\u0432\u0435\u043d \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043a\u043e\u043c\u0438\u0442\u0435\u0442"
+                },
+                "uk": {
+                    "language": "uk",
+                    "value": "\u0414\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u043a\u043e\u043c\u0456\u0442 \u0435\u0442 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0438 \u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d\u0443"
+                },
+                "fr": {
+                    "language": "fr",
+                    "value": "Comit\u00e9 d'\u00c9tat des Statistiques"
+                },
+                "zh-hant": {
+                    "language": "zh-hant",
+                    "value": "\u4e9e\u585e\u62dc\u7136\u570b\u5bb6\u7d71\u8a08\u59d4\u54e1\u6703"
+                },
+                "zh-hans": {
+                    "language": "zh-hans",
+                    "value": "\u963f\u585e\u62dc\u7586\u570b\u5bb6\u7d71\u8a08\u59d4\u54e1\u6703"
+                },
+                "ka": {
+                    "language": "ka",
+                    "value": "\u10d0\u10d6\u10d4\u10e0\u10d1\u10d0\u10d8\u10ef\u10d0\u10dc\u10d8\u10e1 \u10e1\u10d0\u10ee\u10d4\u10da\u10db\u10ec\u10d8\u10e4\u10dd \u10e1\u10e2\u10d0\u10e2\u10d8\u10e1\u10e2\u10d8\u10d9\u10d8\u10e1 \u10d9\u10dd\u10db\u10d8\u10e2\u10d4\u10e2\u10d8"
+                },
+                "zh": {
+                    "language": "zh",
+                    "value": "\u963f\u585e\u62dc\u7586\u570b\u5bb6\u7d71\u8a08\u59d4\u54e1\u6703"
+                },
+                "tr": {
+                    "language": "tr",
+                    "value": "Devlet \u0130statistik Komitesi (Azerbaycan)"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Azerbaijan's principal government institution in charge of statistics and census data"
+                }
+            },
+            "aliases": {
+                "uk": [
+                    {
+                        "language": "uk",
+                        "value": "\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d : \u0414\u0435\u0440\u0436\u0430\u0432\u043d\u0438\u0439 \u043a\u043e\u043c\u0456\u0442\u0435\u0442 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0438"
+                    },
+                    {
+                        "language": "uk",
+                        "value": "\u041d\u0430\u0446\u0456\u043e\u043d\u0430\u043b\u044c\u043d\u0438\u0439 \u043a\u043e\u043c\u0456\u0442\u0435\u0442 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0438 \u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d\u0443"
+                    }
+                ],
+                "en": [
+                    {
+                        "language": "en",
+                        "value": "The State Statistical Committee of the Republic of Azerbaijan"
+                    },
+                    {
+                        "language": "en",
+                        "value": "Az Stat"
+                    }
+                ]
+            },
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$37548421-4fbd-fa3a-b2a9-937a593502c0",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "e6cf1121c06c36c9307970bdc4b9ded278b3c52a",
+                            "datavalue": {
+                                "value": "http://www.stat.gov.az/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P407": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "b5605daae9248225ecd16a9adbedac15a092d7d1",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 9292,
+                                            "id": "Q9292"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                },
+                                {
+                                    "snaktype": "value",
+                                    "property": "P407",
+                                    "hash": "daf1c4fcb58181b02dff9cc89deb084004ddae4b",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 1860,
+                                            "id": "Q1860"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P407"
+                        ],
+                        "id": "Q4146845$2AD5839B-068D-4694-BB21-60B41035C74E",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "92984c646a64bebd5709cb8c9d0046d8f56a0382",
+                                "snaks": {
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "hash": "18ae09607a7a7b8496362d8413a25c2338e91b58",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-18T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "66fa72aa72281d0d7c963ceea54d21fb938cc85c",
+                            "datavalue": {
+                                "value": "http://www.azstat.org/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "qualifiers": {
+                            "P2241": [
+                                {
+                                    "snaktype": "value",
+                                    "property": "P2241",
+                                    "hash": "74bd46d0bbe97d05804856f1f73b6a7480c68cec",
+                                    "datavalue": {
+                                        "value": {
+                                            "entity-type": "item",
+                                            "numeric-id": 45403344,
+                                            "id": "Q45403344"
+                                        },
+                                        "type": "wikibase-entityid"
+                                    },
+                                    "datatype": "wikibase-item"
+                                }
+                            ]
+                        },
+                        "qualifiers-order": [
+                            "P2241"
+                        ],
+                        "id": "Q4146845$627105a5-4a93-5636-93f0-7ef0edde0a99",
+                        "rank": "deprecated"
+                    }
+                ],
+                "P571": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P571",
+                            "hash": "22092aebf8cfcc9a528746917d628de7ed3e6355",
+                            "datavalue": {
+                                "value": {
+                                    "time": "+1994-02-18T00:00:00Z",
+                                    "timezone": 0,
+                                    "before": 0,
+                                    "after": 0,
+                                    "precision": 11,
+                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                },
+                                "type": "time"
+                            },
+                            "datatype": "time"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$089E7457-DD85-406F-A863-31007C749424",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "8f6d2b4a0e3da23aca841c5dfe6b7ed894bd315a",
+                                "snaks": {
+                                    "P143": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P143",
+                                            "hash": "c4cc8cf0417b27e19c135f9b4312453d668ab641",
+                                            "datavalue": {
+                                                "value": {
+                                                    "entity-type": "item",
+                                                    "numeric-id": 191769,
+                                                    "id": "Q191769"
+                                                },
+                                                "type": "wikibase-entityid"
+                                            },
+                                            "datatype": "wikibase-item"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P143"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "6fc1db35b341b76b9e9ce06ce416c483b043cf67",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 227,
+                                    "id": "Q227"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$73dac005-495a-af23-ba90-80eb5a0bd13f",
+                        "rank": "normal"
+                    }
+                ],
+                "P361": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P361",
+                            "hash": "82a248abf001729e251beff52894f0717daa3a23",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 55630710,
+                                    "id": "Q55630710"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$fb784fa6-4fba-b9fc-c9bc-e1424a2ceb62",
+                        "rank": "normal"
+                    }
+                ],
+                "P1416": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1416",
+                            "hash": "fe88b361ecfab1b2d0c1a92071bb768e890b153f",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 4288091,
+                                    "id": "Q4288091"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$1ed88449-44e0-3dbf-02b7-1f706119d76e",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1416",
+                            "hash": "1869de3b251113c1661e3ce371d1e48a946518f3",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 55681496,
+                                    "id": "Q55681496"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$d1dd10f4-430a-44de-9d92-fa061e4bf9a0",
+                        "rank": "normal",
+                        "references": [
+                            {
+                                "hash": "beb47e9ca68a79aa030577166ed1570f497c71b5",
+                                "snaks": {
+                                    "P854": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P854",
+                                            "hash": "e51d57e60bc29998fb5cbbdbebc5928daa5b108a",
+                                            "datavalue": {
+                                                "value": "http://www.oicstatcom.org/databases-nso-fr.php",
+                                                "type": "string"
+                                            },
+                                            "datatype": "url"
+                                        }
+                                    ],
+                                    "P813": [
+                                        {
+                                            "snaktype": "value",
+                                            "property": "P813",
+                                            "hash": "c02212eb9e9a0f64725d8bcb3946c38801fff83e",
+                                            "datavalue": {
+                                                "value": {
+                                                    "time": "+2018-07-21T00:00:00Z",
+                                                    "timezone": 0,
+                                                    "before": 0,
+                                                    "after": 0,
+                                                    "precision": 11,
+                                                    "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                                                },
+                                                "type": "time"
+                                            },
+                                            "datatype": "time"
+                                        }
+                                    ]
+                                },
+                                "snaks-order": [
+                                    "P854",
+                                    "P813"
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "P1448": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "hash": "d9fbff99891b717933cd46df9ea2109108452fca",
+                            "datavalue": {
+                                "value": {
+                                    "text": "Az\u0259rbaycan Respublikas\u0131 D\u00f6vl\u0259t Statistika Komit\u0259si",
+                                    "language": "az"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$6b6462a8-4eb5-e2d1-83d3-f0dff948c565",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1448",
+                            "hash": "4c38600483ef5f9f6c8f79fb0b414b2f949908cc",
+                            "datavalue": {
+                                "value": {
+                                    "text": "The State Statistical Committee of the Republic of Azerbaijan",
+                                    "language": "en"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$11f0bbd8-42d1-515c-71ca-d4ecf7effa84",
+                        "rank": "normal"
+                    }
+                ],
+                "P159": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P159",
+                            "hash": "608d3898c666ab2000f47a9ed6d97a49347e2cd4",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 9248,
+                                    "id": "Q9248"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$656d8ae3-41e4-1bf9-723f-20070bb86394",
+                        "rank": "normal"
+                    }
+                ],
+                "P18": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P18",
+                            "hash": "c9643cf60f06fe283b8da6cde11af0ed6aaa07b9",
+                            "datavalue": {
+                                "value": "Az\u0259rbaycan Respublikas\u0131 D\u00f6vl\u0259t Statistika Komit\u0259sinin binas\u0131.jpg",
+                                "type": "string"
+                            },
+                            "datatype": "commonsMedia"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$F646C31F-67A0-4880-89B7-2D3BC5F07E1A",
+                        "rank": "normal"
+                    }
+                ],
+                "P1813": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1813",
+                            "hash": "53e9ce51230aed12b46a9a4b1b161dc736cd7477",
+                            "datavalue": {
+                                "value": {
+                                    "text": "Az Stat",
+                                    "language": "en"
+                                },
+                                "type": "monolingualtext"
+                            },
+                            "datatype": "monolingualtext"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$5149bf15-443c-27e9-fba2-9dd52ec08bf4",
+                        "rank": "normal"
+                    }
+                ],
+                "P2541": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2541",
+                            "hash": "27626219a0c769454f069162069681c607cfdd59",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 227,
+                                    "id": "Q227"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$64b0da64-4cfc-4361-175c-5925d125be3f",
+                        "rank": "normal"
+                    }
+                ],
+                "P1001": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P1001",
+                            "hash": "f5a40c0a937b96a9aa90d0ac970d999de384ca6a",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 227,
+                                    "id": "Q227"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$2569db5e-4e74-47ae-5c58-eb26cbbc8c66",
+                        "rank": "normal"
+                    }
+                ],
+                "P37": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P37",
+                            "hash": "5eafa1f9466a95c5e4ee59740cdf503aa43cc00e",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 9292,
+                                    "id": "Q9292"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$3ca3a3fb-4e02-bc88-d838-31a593c5b3d0",
+                        "rank": "normal"
+                    }
+                ],
+                "P646": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P646",
+                            "hash": "8b7f8b3f8f73279272766c66346791e5f067797f",
+                            "datavalue": {
+                                "value": "/m/0fq15pz",
+                                "type": "string"
+                            },
+                            "datatype": "external-id"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$F7216A3D-1FB0-4A5E-84F3-6C7CEFD0B967",
+                        "rank": "normal"
+                    }
+                ],
+                "P2388": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P2388",
+                            "hash": "3999cd01976499d512f515b745ecd54bf9ea7acc",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 107725238,
+                                    "id": "Q107725238"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q4146845$1A8F7326-78EB-4744-BAA0-0180EDCB91BB",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {
+                "azwiki": {
+                    "site": "azwiki",
+                    "title": "D\u00f6vl\u0259t Statistika Komit\u0259si (Az\u0259rbaycan)",
+                    "badges": [],
+                    "url": "https://az.wikipedia.org/wiki/D%C3%B6vl%C9%99t_Statistika_Komit%C9%99si_(Az%C9%99rbaycan)"
+                },
+                "bgwiki": {
+                    "site": "bgwiki",
+                    "title": "\u0414\u044a\u0440\u0436\u0430\u0432\u0435\u043d \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u0447\u0435\u0441\u043a\u0438 \u043a\u043e\u043c\u0438\u0442\u0435\u0442 (\u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d)",
+                    "badges": [],
+                    "url": "https://bg.wikipedia.org/wiki/%D0%94%D1%8A%D1%80%D0%B6%D0%B0%D0%B2%D0%B5%D0%BD_%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8_%D0%BA%D0%BE%D0%BC%D0%B8%D1%82%D0%B5%D1%82_(%D0%90%D0%B7%D0%B5%D1%80%D0%B1%D0%B0%D0%B9%D0%B4%D0%B6%D0%B0%D0%BD)"
+                },
+                "commonswiki": {
+                    "site": "commonswiki",
+                    "title": "Category:State Statistics Committee of Azerbaijan",
+                    "badges": [],
+                    "url": "https://commons.wikimedia.org/wiki/Category:State_Statistics_Committee_of_Azerbaijan"
+                },
+                "enwiki": {
+                    "site": "enwiki",
+                    "title": "State Statistics Committee",
+                    "badges": [],
+                    "url": "https://en.wikipedia.org/wiki/State_Statistics_Committee"
+                },
+                "frwiki": {
+                    "site": "frwiki",
+                    "title": "Comit\u00e9 d'\u00c9tat des Statistiques",
+                    "badges": [],
+                    "url": "https://fr.wikipedia.org/wiki/Comit%C3%A9_d%27%C3%89tat_des_Statistiques"
+                },
+                "kawiki": {
+                    "site": "kawiki",
+                    "title": "\u10d0\u10d6\u10d4\u10e0\u10d1\u10d0\u10d8\u10ef\u10d0\u10dc\u10d8\u10e1 \u10e1\u10d0\u10ee\u10d4\u10da\u10db\u10ec\u10d8\u10e4\u10dd \u10e1\u10e2\u10d0\u10e2\u10d8\u10e1\u10e2\u10d8\u10d9\u10d8\u10e1 \u10d9\u10dd\u10db\u10d8\u10e2\u10d4\u10e2\u10d8",
+                    "badges": [],
+                    "url": "https://ka.wikipedia.org/wiki/%E1%83%90%E1%83%96%E1%83%94%E1%83%A0%E1%83%91%E1%83%90%E1%83%98%E1%83%AF%E1%83%90%E1%83%9C%E1%83%98%E1%83%A1_%E1%83%A1%E1%83%90%E1%83%AE%E1%83%94%E1%83%9A%E1%83%9B%E1%83%AC%E1%83%98%E1%83%A4%E1%83%9D_%E1%83%A1%E1%83%A2%E1%83%90%E1%83%A2%E1%83%98%E1%83%A1%E1%83%A2%E1%83%98%E1%83%99%E1%83%98%E1%83%A1_%E1%83%99%E1%83%9D%E1%83%9B%E1%83%98%E1%83%A2%E1%83%94%E1%83%A2%E1%83%98"
+                },
+                "nowiki": {
+                    "site": "nowiki",
+                    "title": "Den statlige komiteen for statistikk i Republikken Aserbajdsjan",
+                    "badges": [],
+                    "url": "https://no.wikipedia.org/wiki/Den_statlige_komiteen_for_statistikk_i_Republikken_Aserbajdsjan"
+                },
+                "ruwiki": {
+                    "site": "ruwiki",
+                    "title": "\u0413\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u043a\u043e\u043c\u0438\u0442\u0435\u0442 \u0441\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043a\u0438 \u0410\u0437\u0435\u0440\u0431\u0430\u0439\u0434\u0436\u0430\u043d\u0430",
+                    "badges": [],
+                    "url": "https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D1%81%D1%83%D0%B4%D0%B0%D1%80%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BA%D0%BE%D0%BC%D0%B8%D1%82%D0%B5%D1%82_%D1%81%D1%82%D0%B0%D1%82%D0%B8%D1%81%D1%82%D0%B8%D0%BA%D0%B8_%D0%90%D0%B7%D0%B5%D1%80%D0%B1%D0%B0%D0%B9%D0%B4%D0%B6%D0%B0%D0%BD%D0%B0"
+                },
+                "scowiki": {
+                    "site": "scowiki",
+                    "title": "State Statistical Committee o the Republic o Azerbaijan",
+                    "badges": [],
+                    "url": "https://sco.wikipedia.org/wiki/State_Statistical_Committee_o_the_Republic_o_Azerbaijan"
+                },
+                "simplewiki": {
+                    "site": "simplewiki",
+                    "title": "State Statistics Committee (Azerbaijan)",
+                    "badges": [],
+                    "url": "https://simple.wikipedia.org/wiki/State_Statistics_Committee_(Azerbaijan)"
+                },
+                "trwiki": {
+                    "site": "trwiki",
+                    "title": "Azerbaycan Cumhuriyeti Devlet \u0130statistik Komitesi",
+                    "badges": [],
+                    "url": "https://tr.wikipedia.org/wiki/Azerbaycan_Cumhuriyeti_Devlet_%C4%B0statistik_Komitesi"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,128 @@
+{
+    "entities": {
+        "Q107688582": {
+            "pageid": 102971952,
+            "ns": 0,
+            "title": "Q107688582",
+            "lastrevid": 1468493974,
+            "modified": "2021-07-28T17:36:33Z",
+            "type": "item",
+            "id": "Q107688582",
+            "labels": {
+                "en": {
+                    "language": "en",
+                    "value": "National Statistics Office"
+                }
+            },
+            "descriptions": {
+                "en": {
+                    "language": "en",
+                    "value": "Solomon Islands National Statistics Office"
+                }
+            },
+            "aliases": {},
+            "claims": {
+                "P31": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "c1d804ef7d81d454d505f1e76ad5495b363ba793",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 480242,
+                                    "id": "Q480242"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107688582$1f14700d-4926-1e9d-0536-a2f6fba56d49",
+                        "rank": "normal"
+                    },
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P31",
+                            "hash": "f71117d7b46495894559b65a4abe6c02fadedf3b",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 327333,
+                                    "id": "Q327333"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107688582$1e1529ff-4481-c00f-43e7-f083068001d5",
+                        "rank": "normal"
+                    }
+                ],
+                "P17": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P17",
+                            "hash": "39584b0db29aee54245962b37dbf128edbb421cd",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 685,
+                                    "id": "Q685"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107688582$af40f37d-499e-4dbd-8ea2-b660b0b7a1cb",
+                        "rank": "normal"
+                    }
+                ],
+                "P131": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P131",
+                            "hash": "c343a2a6694c270b0a07eb131fd48d954e5e6415",
+                            "datavalue": {
+                                "value": {
+                                    "entity-type": "item",
+                                    "numeric-id": 40921,
+                                    "id": "Q40921"
+                                },
+                                "type": "wikibase-entityid"
+                            },
+                            "datatype": "wikibase-item"
+                        },
+                        "type": "statement",
+                        "id": "Q107688582$0983f1a2-4dcf-aa42-7c14-cfc11bc37858",
+                        "rank": "normal"
+                    }
+                ],
+                "P856": [
+                    {
+                        "mainsnak": {
+                            "snaktype": "value",
+                            "property": "P856",
+                            "hash": "86b5575604d8ab2e680f74d1bb4c6b0e968796bd",
+                            "datavalue": {
+                                "value": "https://www.statistics.gov.sb/",
+                                "type": "string"
+                            },
+                            "datatype": "url"
+                        },
+                        "type": "statement",
+                        "id": "Q107688582$6e94b73a-456c-aabd-f0a1-5a38ef0f709d",
+                        "rank": "normal"
+                    }
+                ]
+            },
+            "sitelinks": {}
+        }
+    }
+}
